@@ -27,10 +27,11 @@
           "speech": [
             "Are you in Belgium or abroad?",
             "What is your current location? Belgium or abroad?",
-            "Are your currently in Belgium or are your abroad?"
+            "Are you currently in Belgium or are your abroad?"
           ]
         }
-      ]
+      ],
+      "defaultResponsePlatforms": {}
     }
   ],
   "priority": 500000,

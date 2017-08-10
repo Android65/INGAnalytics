@@ -118,7 +118,7 @@
         {
           "name": "ctx_order_card",
           "parameters": {},
-          "lifespan": 5
+          "lifespan": 1
         },
         {
           "name": "ctx_oc_clarification",

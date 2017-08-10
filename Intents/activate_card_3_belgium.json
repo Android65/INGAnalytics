@@ -75,6 +75,7 @@
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [
         {
           "name": "ctx_ac_location",
@@ -121,5 +122,9 @@
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": []
+  "events": [
+    {
+      "name": "activatebelgium"
+    }
+  ]
 }

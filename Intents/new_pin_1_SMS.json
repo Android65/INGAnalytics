@@ -26,12 +26,17 @@
         {
           "name": "ctx_newpin",
           "parameters": {},
-          "lifespan": 5
+          "lifespan": 0
         },
         {
           "name": "ctx_np_init",
           "parameters": {},
           "lifespan": 0
+        },
+        {
+          "name": "ctx_pin_by_sms",
+          "parameters": {},
+          "lifespan": 1
         }
       ],
       "parameters": [],

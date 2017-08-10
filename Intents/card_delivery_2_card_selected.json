@@ -1,0 +1,74 @@
+{
+  "userSays": [
+    {
+      "id": "aa295519-1c7a-486b-bc4b-845511bef719",
+      "data": [
+        {
+          "text": "The GUID identifier of the selected card is: "
+        },
+        {
+          "text": "d16374a4-6eef-48fc-aaff-97266b80e33c",
+          "alias": "cardGuid",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "95bbe415-64c5-4c34-98fd-c4fe7ec2556b",
+  "name": "card_delivery_2_card_selected",
+  "auto": true,
+  "contexts": [
+    "ctx_card_delivery",
+    "ctx_cd_card_selection"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "carddeliverydetails",
+      "affectedContexts": [
+        {
+          "name": "ctx_cd_card_selection",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_card_delivery",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.any",
+          "name": "cardGuid",
+          "value": "$cardGuid",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Is this the correct address?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

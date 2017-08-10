@@ -1,0 +1,199 @@
+{
+  "userSays": [
+    {
+      "id": "290f6859-bfb9-4c78-9e4e-a38233068e3e",
+      "data": [
+        {
+          "text": "not listed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "997d3ac7-979c-44f7-9ffb-ccfc2f1d84bc",
+      "data": [
+        {
+          "text": "somewhere else"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e8dd6a3c-f486-4867-83d1-31e72c17bf93",
+      "data": [
+        {
+          "text": "other"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fda42d72-69e8-4e6e-a242-2c45a2649f52",
+      "data": [
+        {
+          "text": "shop"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "7b29e763-2240-4e35-8f34-bf0ac61d6111",
+      "data": [
+        {
+          "text": "bancontact"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "918732be-7e28-408d-bd86-b1f86ea31bdf",
+      "data": [
+        {
+          "text": "mister cash"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d9413c73-c42f-44f8-923f-2119bc363c04",
+      "data": [
+        {
+          "text": "mr cash",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "acf3ac07-8ef9-4233-a862-344fed25622e",
+      "data": [
+        {
+          "text": "cash machine"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d87a2dd2-ef76-40b6-bcef-ee7eed8ee9c9",
+      "data": [
+        {
+          "text": "pos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bdd73512-70a4-45e3-a618-3beee6f4547b",
+      "data": [
+        {
+          "text": "terminal"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "01bd27d0-1c6a-49a2-ae67-40a17ae8e7a5",
+      "data": [
+        {
+          "text": "mall"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "780977ce-6dc8-4313-bf85-314ea735fdd3",
+      "data": [
+        {
+          "text": "hotel"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ab261d31-9e07-47a0-9e8e-090bad38d7e2",
+      "data": [
+        {
+          "text": "ATM"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1e703b16-b628-476c-ace8-312b2d1841db",
+      "data": [
+        {
+          "text": "cash dispenser"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "b37e29b1-75c5-4d83-aee9-8938c61c2c0b",
+  "name": "unblock_card_ry_2_shop_atm",
+  "auto": true,
+  "contexts": [
+    "ctx_uc_how_blocked",
+    "ctx_unblock_card_ry"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_uc_how_blocked",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_uc_reset",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_unblock_card_ry",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "If you urgently need to use this card, I would advise you to go to the ING branch of your choice during opening hours. My colleagues there can activate your card immediately. \nHowever, if it is not too urgent, I can reset your number of remaining attempts to three. Would you like me do to this? Please keep in mind that I will need to authenticate you first"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

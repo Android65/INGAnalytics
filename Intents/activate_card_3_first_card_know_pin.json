@@ -1,0 +1,67 @@
+{
+  "userSays": [
+    {
+      "id": "da5e32c1-8cb9-48ef-a666-b391375661ad",
+      "data": [
+        {
+          "text": "I know it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "769937c7-4aab-4c1e-badf-a39862aac7c2",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7b3889b2-c5e9-4d3d-ae8e-f4e77a5528f7",
+  "name": "activate_card_3_first_card_know_pin",
+  "auto": true,
+  "contexts": [
+    "ctx_activate_card",
+    "ctx_ac_pin"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:activatebelgium",
+      "affectedContexts": [
+        {
+          "name": "ctx_activate_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ac_pin",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ac_location",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,258 @@
+{
+  "userSays": [
+    {
+      "id": "f1c7af31-fb02-424b-8349-e1fe6f72514d",
+      "data": [
+        {
+          "text": "do you know when the "
+        },
+        {
+          "text": "branch",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " is open"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5613e6ef-2c6f-404b-900d-9e687a781b2d",
+      "data": [
+        {
+          "text": "It\u0027s about product information"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "93bd4846-5f03-4291-9dfd-c20b7c962a67",
+      "data": [
+        {
+          "text": "I want to make an "
+        },
+        {
+          "text": "appointment",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " with my "
+        },
+        {
+          "text": "branch",
+          "alias": "AssistanceType1",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "30339d52-de6b-4932-a9ad-22b6a06451cc",
+      "data": [
+        {
+          "text": "Can I go to a "
+        },
+        {
+          "text": "branch",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " and speak to someone?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "13412e7e-71b2-4a48-8519-2741ddfcd182",
+      "data": [
+        {
+          "text": "Can you book me an "
+        },
+        {
+          "text": "appointment",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " at my "
+        },
+        {
+          "text": "branch",
+          "alias": "AssistanceType1",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0bfe5302-163b-4644-89ed-b89b48fc2cb7",
+      "data": [
+        {
+          "text": "I want "
+        },
+        {
+          "text": "human",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": true
+        },
+        {
+          "text": " advice, please, can I see someone?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0e75c31a-6d48-491e-ad93-e4ce61dcfc08",
+      "data": [
+        {
+          "text": "I want to see someone"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f0dd51d6-9974-4ef9-a294-54993508ca90",
+      "data": [
+        {
+          "text": "What do I need to do when I want to see you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "de41cbf9-efb1-4ade-9efb-bc928c67c7ba",
+      "data": [
+        {
+          "text": "I want to see you in person"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "061380f4-8f61-40d7-9cd8-a2222dedb4d9",
+      "data": [
+        {
+          "text": "Make an appointment"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "422869cf-d929-4d17-bffd-ae1567a6e2be",
+      "data": [
+        {
+          "text": "Can I see a banker"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bbde1371-1035-406b-9a57-5d2d17245be5",
+      "data": [
+        {
+          "text": "I want an "
+        },
+        {
+          "text": "appointment",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "34bb6c27-cb69-463e-998b-3c04f11299bd",
+      "data": [
+        {
+          "text": "Can I make an "
+        },
+        {
+          "text": "appointment",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "branch",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9a56c4f2-6aab-433f-a054-9833637001d3",
+  "name": "_Generic_Appointment_Branch",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@AssistanceType",
+          "name": "AssistanceType",
+          "value": "$AssistanceType",
+          "isList": false
+        },
+        {
+          "dataType": "@AssistanceType",
+          "name": "AssistanceType1",
+          "value": "$AssistanceType1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "You can make an appointment and check the opening hours of our branches via the page www.ing.be/contact",
+            "To make an appointment you can find our opening hours on www.ing.be/contact",
+            "You will find all the necessary info to make an appointment on www.ing.be/contact"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

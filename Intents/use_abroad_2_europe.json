@@ -1,0 +1,134 @@
+{
+  "userSays": [
+    {
+      "id": "edb05ad7-10d8-4000-9dfb-b10fc950fff5",
+      "data": [
+        {
+          "text": "the "
+        },
+        {
+          "text": "UK",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dfc130dd-f8f5-4699-a43f-18ac4a61462d",
+      "data": [
+        {
+          "text": "the "
+        },
+        {
+          "text": "U.K.",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "32842bc1-cb1a-4755-8e33-1c987ccfd51a",
+      "data": [
+        {
+          "text": "Denmark",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3f2d4e3e-7db8-4663-8c55-f23ff550ae5f",
+      "data": [
+        {
+          "text": "Germany",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eeb31588-64a9-4c13-a57b-3184e5601717",
+      "data": [
+        {
+          "text": "France",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b40edc10-7deb-440c-b371-7dc2acd347bd",
+  "name": "use_abroad_2_europe",
+  "auto": true,
+  "contexts": [
+    "ctx_use_abroad",
+    "ctx_ua_country"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ua_country",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@UA_Countries_Europe",
+          "name": "UA_Countries_Europe",
+          "value": "$UA_Countries_Europe",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "That\u0027s simple! You can withdraw money and pay in shops without any problem in $UA_Countries_Europe. If there is a problem using your card in $UA_Countries_Europe, you should contact the ING Contact Centre. Is there anything else I can do for you?",
+            "Using your debit card in European countries should work automatically. If you are experiencing any issues, please call the ING Contact Centre at +32 2 464 60 04. Can I help you with something else?",
+            "You can indeed automatically use your card there. Have a nice stay! Can I help you with something else?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "useabroadeurope"
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "userSays": [
+    {
+      "id": "105cab4b-0b9d-4b61-a0e0-2a3bf29c3ba0",
+      "data": [
+        {
+          "text": "Yes I have it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "8eea1320-f04f-4aa3-a4f5-354e9cea0d89",
+      "data": [
+        {
+          "text": "I need more info for PIN sms"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "72fba479-4874-46ba-97ff-7db36a5f5095",
+      "data": [
+        {
+          "text": "I need more info for PIN by SMS"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dfcd2129-876c-4a27-99f6-b289e4d4372a",
+      "data": [
+        {
+          "text": "I need more info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "16a2374a-fe0e-4963-a9b4-f643bc3c9210",
+      "data": [
+        {
+          "text": "How do I use the PIN by sms"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2428d0b8-fc5f-4613-ba28-aa627d068157",
+      "data": [
+        {
+          "text": "I do not understand the process to get my PIN"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bb84e350-13c7-456f-a57b-f1590892b36f",
+      "data": [
+        {
+          "text": "The PIN process is not working"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "edb3edf0-5e91-4efe-b160-97fc8bfb8472",
+      "data": [
+        {
+          "text": "Send me my pincode by sms."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "65e3fd8f-79d2-4002-aa00-c9b95abee6a8",
+      "data": [
+        {
+          "text": "I want to receive my PIN code."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "459578ed-332b-4d97-9682-88f72f9a74b3",
+      "data": [
+        {
+          "text": "Can I receive my pincode via sms?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2820b46b-915f-48e4-8d04-60564bf32bb6",
+      "data": [
+        {
+          "text": "How will I receive my pin code?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a244d6eb-ab63-4142-975e-f9780ec6a193",
+      "data": [
+        {
+          "text": "How can I receive my pin?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7fe26367-092d-45d7-93df-0859c7e0ad53",
+      "data": [
+        {
+          "text": "How does the code by sms work?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b41a1110-aef3-450d-9159-2398340d08f6",
+      "data": [
+        {
+          "text": "I don\u0027t understand it."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f8f02051-ebb9-4d1e-9abf-d9d870a81399",
+      "data": [
+        {
+          "text": "What is the process?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4c93e3bf-bb10-4027-b443-5752ce0c7597",
+      "data": [
+        {
+          "text": "What should I do?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "86195aba-76e3-4041-8fa0-f06d641e111a",
+      "data": [
+        {
+          "text": "What is the procedure?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "143e800d-aae6-427e-bd20-62443a201f92",
+      "data": [
+        {
+          "text": "Can you please explain me how it works?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7c870c69-c83c-40e7-b49c-efad81a05c2c",
+      "data": [
+        {
+          "text": "How can I do this?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b3c39656-1425-40f1-a809-d378058bec91",
+      "data": [
+        {
+          "text": "How",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " do I do this?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "452d2b2a-1645-413c-848a-e11a2eda7963",
+      "data": [
+        {
+          "text": "How does it work?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "82fc27df-4b39-4a91-874e-66ebde89ebfc",
+      "data": [
+        {
+          "text": "How can I get pin by sms?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1eb09b3f-df03-4c3b-a235-bfeda91d14dd",
+      "data": [
+        {
+          "text": "How does this procedure work",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "beec79a0-80cb-42be-b523-4ff5d803250a",
+  "name": "pin_by_sms_2_more_info_yes",
+  "auto": true,
+  "contexts": [
+    "ctx_sms_letter",
+    "ctx_pin_by_sms"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_pin_by_sms",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "ctx_sms_letter",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Text your personal 12-digit code to the number 8655. This 12-digit code consists of your 6-digit password (located in the letter accompanying your ING bank card) followed by the 6 digits of your date of birth (DDMMYY).\nFor example, your password is 123456 and your date of birth is 25/04/88? Send a text message containing the message 123456250488. Then you will receive the pin by sms within a minute. Is there something else I can do for you?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

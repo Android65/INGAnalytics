@@ -1,0 +1,197 @@
+{
+  "userSays": [
+    {
+      "id": "f87e8015-cd8c-4c0b-98fd-78c109a810ad",
+      "data": [
+        {
+          "text": "What do i do "
+        },
+        {
+          "text": "now",
+          "alias": "time",
+          "meta": "@sys.time",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "471e7468-54ff-40db-a773-a0e652712170",
+      "data": [
+        {
+          "text": "what to do ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3fcf6100-2e84-4474-9815-9d593531cf13",
+      "data": [
+        {
+          "text": "i don\u0027t know what to do"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5565b6bb-a086-4d2e-acdf-e29fd5abddc0",
+      "data": [
+        {
+          "text": "More info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "93d55fa3-3e92-4d7a-9f1d-0d031fc7c99c",
+      "data": [
+        {
+          "text": "Send me my pincode by sms."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d9323fa7-56b4-4f73-893e-1969644f303d",
+      "data": [
+        {
+          "text": "I want to receive my pin code by SMS."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "67e743ee-be2d-4ffb-a7f0-43d9986568cc",
+      "data": [
+        {
+          "text": "The PIN process is not working"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1f774a94-1987-47f8-a199-bba17f604929",
+      "data": [
+        {
+          "text": "I do not understand the process to get my PIN"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "76a07274-e40b-46e2-b9e9-e19f3a9d2cf6",
+      "data": [
+        {
+          "text": "How do I use the PIN by sms"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d976c7c8-1461-4b08-b89a-3bd1baa7b452",
+      "data": [
+        {
+          "text": "I need more info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9da11692-7c3c-4cf4-abeb-7933acc509db",
+      "data": [
+        {
+          "text": "I need more info for PIN by SMS"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1c276af6-c302-4623-b740-27f30a90c89f",
+      "data": [
+        {
+          "text": "I need more info for PIN sms"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ad178ac1-70e9-4e5a-a584-e80c739b9d25",
+  "name": "pin_by_sms_1_more_info",
+  "auto": true,
+  "contexts": [
+    "ctx_pin_by_sms",
+    "ctx_sms_init"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_pin_by_sms",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_sms_init",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_sms_letter",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes I have it",
+            "No I don\u0027t"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Do you still have the letter from ING?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "moreinfopin"
+    }
+  ]
+}

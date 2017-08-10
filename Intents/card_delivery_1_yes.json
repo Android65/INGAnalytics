@@ -1,0 +1,117 @@
+{
+  "userSays": [
+    {
+      "id": "72ec39f8-36b2-4483-b8a7-945863dda351",
+      "data": [
+        {
+          "text": "yes please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "636eaf94-429a-4f69-8443-9bf9c45d7430",
+      "data": [
+        {
+          "text": "I do"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "44649b82-cd60-45b1-aabd-bddebd5aaa3d",
+      "data": [
+        {
+          "text": "that\u0027s right"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4057b8df-1235-44df-af65-0f03c1184fbb",
+      "data": [
+        {
+          "text": "sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bc155a72-d2f5-4b2c-a9da-9c10b9944ac9",
+      "data": [
+        {
+          "text": "correct"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "02474877-9308-45f1-8580-5f84ba557a89",
+      "data": [
+        {
+          "text": "indeed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3957bebb-017a-4c45-a2e5-3b4a3b2d3633",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7eced3b5-a43d-43e8-9a48-83e3600a6e57",
+  "name": "card_delivery_1_yes",
+  "auto": true,
+  "contexts": [
+    "ctx_card_delivery",
+    "ctx_cd_confirmation_initial"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "recentlysentcardlist",
+      "affectedContexts": [
+        {
+          "name": "ctx_card_delivery",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_cd_confirmation_initial",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_cd_card_selection",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Please pick the card you are waiting for:"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,41 @@
+{
+  "userSays": [],
+  "id": "8478714c-6397-457d-bacb-75d4623ca7a1",
+  "name": "use_abroad_3_activate_Fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_use_abroad",
+    "ctx_ua_activate"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Do you want me to activate your card?",
+            "Do I need to activate your card?",
+            "Does your card needs to be activated?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

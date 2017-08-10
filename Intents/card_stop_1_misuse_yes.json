@@ -1,0 +1,95 @@
+{
+  "userSays": [
+    {
+      "id": "d107784b-3b5a-4b36-baa9-02d499c7aacb",
+      "data": [
+        {
+          "text": "indeed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "94c9528c-07cc-4aeb-9899-58650848eb25",
+      "data": [
+        {
+          "text": "yees!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e612104f-f1d5-4906-b041-4906155bfb43",
+      "data": [
+        {
+          "text": "yeah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "94b311ec-c463-427e-9323-9666856c2311",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "da0ab612-0680-48b9-9c3a-c4acfba9320e",
+  "name": "card_stop_1_misuse_yes",
+  "auto": true,
+  "contexts": [
+    "ctx_card_stop",
+    "ctx_cs_misuse"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_card_stop",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_cs_card_type",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_cs_misuse",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Debit card",
+            "Credit card",
+            "All my cards"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Is it a debit or a credit card?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

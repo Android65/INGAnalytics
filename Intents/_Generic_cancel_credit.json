@@ -1,0 +1,150 @@
+{
+  "userSays": [
+    {
+      "id": "fae5c417-cfb2-4608-a9c3-938ad8a03d02",
+      "data": [
+        {
+          "text": "I would like to disable my "
+        },
+        {
+          "text": "ing card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "3f2c1acc-089c-4408-a8d6-e1e64c689dfa",
+      "data": [
+        {
+          "text": "How can i disable my "
+        },
+        {
+          "text": "credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f900cefc-94d5-495f-b8dd-5ce09f8f8bb3",
+      "data": [
+        {
+          "text": "I no longer want a "
+        },
+        {
+          "text": "credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "841e841b-946c-4607-8962-4b46ba8a6baf",
+      "data": [
+        {
+          "text": "I would like to stop my "
+        },
+        {
+          "text": "ing card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e7e98033-5960-4277-a3a8-ec3bcc991cf3",
+      "data": [
+        {
+          "text": "cancel "
+        },
+        {
+          "text": "mastercard",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "07db6c78-75cc-4254-9ca2-7ddea5ed7368",
+      "data": [
+        {
+          "text": "I want to cancel my "
+        },
+        {
+          "text": "credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8c8de298-f0a6-4aab-9326-67e65ad2fb43",
+      "data": [
+        {
+          "text": "I want to cancel my "
+        },
+        {
+          "text": "visa",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "fd2012a2-787d-405c-a32e-a196685936b7",
+  "name": "_Generic_cancel_credit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Unfortunately, this is not something me or my colleagues at the ICC contact Centre can help you with. For this you would need to visit your local ING branch during opening hours. To find all information concerning your local branch, please visit the page at the following address: branches.ing.be/branches"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

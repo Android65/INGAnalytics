@@ -1,0 +1,274 @@
+{
+  "userSays": [
+    {
+      "id": "fb562abe-2f63-4b5b-8b46-700fe12b7f7a",
+      "data": [
+        {
+          "text": "I want to use my "
+        },
+        {
+          "text": "credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "49bb1e70-12f5-442c-886a-a64763935998",
+      "data": [
+        {
+          "text": "Can I use my "
+        },
+        {
+          "text": "creditcard",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "swaziland",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e69c5a44-cc4e-452f-a9b8-33e53c56f53a",
+      "data": [
+        {
+          "text": "Is my "
+        },
+        {
+          "text": "mastercard",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " useable in "
+        },
+        {
+          "text": "France",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9b3ad503-33a7-4efa-bfad-37379b63fd29",
+      "data": [
+        {
+          "text": "Will my "
+        },
+        {
+          "text": "mastercard",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " work abroad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3c505124-035f-478e-afab-90477870ce93",
+      "data": [
+        {
+          "text": "Can I use my "
+        },
+        {
+          "text": "credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "US",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b283a575-33e5-4daa-8416-e8072367508b",
+      "data": [
+        {
+          "text": "Will my "
+        },
+        {
+          "text": "VISA",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " work in "
+        },
+        {
+          "text": "Somalia",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a4cff0c3-1625-4eb8-a761-6f5fbcc134fb",
+      "data": [
+        {
+          "text": "where can I use my "
+        },
+        {
+          "text": "credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5646d470-ce8a-44ef-a868-99e711eac021",
+      "data": [
+        {
+          "text": "can I use my "
+        },
+        {
+          "text": "visa",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Spain",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b83316b0-62f5-4185-b88e-1d11febb7dd4",
+      "data": [
+        {
+          "text": "use my "
+        },
+        {
+          "text": "visa",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Brazil",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "407b24ac-43f7-4168-bf16-263d77b99532",
+  "name": "use_abroad_0a_credit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:useabroadcredit",
+      "affectedContexts": [
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ua_card_type",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@UA_Countries_Non_Europe",
+          "name": "UA_Countries_Non_Europe",
+          "value": "$UA_Countries_Non_Europe",
+          "isList": false
+        },
+        {
+          "dataType": "@Euro_Zone",
+          "name": "Euro_Zone",
+          "value": "$Euro_Zone",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,64 @@
+{
+  "userSays": [],
+  "id": "1a89852f-f9c0-4939-b9d9-5a8294f538d0",
+  "name": "card_delivery_3_show_delivery_branch",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ctx_card_delivery",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "ctx_cd_address_prompt",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "name": "orderDate",
+          "value": "#carddeliverydetailsbranch.orderDate"
+        },
+        {
+          "name": "sendName",
+          "value": "#carddeliverydetailsbranch.sendName"
+        },
+        {
+          "name": "sendStreet",
+          "value": "#carddeliverydetailsbranch.sendStreet"
+        },
+        {
+          "name": "sendLocation",
+          "value": "#carddeliverydetailsbranch.sendLocation"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You ordered this card on $orderDate, and it was sent to your branch with the following address:\n$sendName\n$sendStreet\n$sendLocation\nPlease go there to pick it up.\nCan I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "carddeliverydetailsbranch"
+    }
+  ]
+}

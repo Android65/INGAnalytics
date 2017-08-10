@@ -1,0 +1,106 @@
+{
+  "userSays": [
+    {
+      "id": "12006fd4-e790-4560-9031-6bfc98b35172",
+      "data": [
+        {
+          "text": "yup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2b22ebbb-bf9c-42c3-ac84-9b4ecc8cb122",
+      "data": [
+        {
+          "text": "yep"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "00a58958-c5c4-4b8c-bf7c-e8039fa6d4fa",
+      "data": [
+        {
+          "text": "sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d4f0c6a-138f-4c81-9de7-7756ae235a50",
+      "data": [
+        {
+          "text": "yes, one more thing"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d75feec0-763f-48cd-9d5e-d93639feeac7",
+      "data": [
+        {
+          "text": "yeah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "405367f9-2c33-444f-9611-c9eaab7bed98",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d213930e-548b-4507-bfc1-da4c9290c329",
+  "name": "_Generic_End_Of_Conversation_Not_Confirmed",
+  "auto": true,
+  "contexts": [
+    "ctx_end_of_conversation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Ok. Tell me how I can help $firstName! :-)",
+            "I would be glad to help you further $firstName. What can I do for you?",
+            "Just ask me $firstName ;) What can I do to help you?",
+            "Just ask me ;) What can I do to help you?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

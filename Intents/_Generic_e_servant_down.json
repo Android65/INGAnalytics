@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "f38d73b1-32de-4b40-8d77-62dcf0233ff5",
+  "name": "_Generic_e_servant_down",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hmm, it seems our database is currently not available to help you with this request. My apologies! Why don\u0027t you try calling my human colleagues?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "generic_servant_down"
+    }
+  ]
+}

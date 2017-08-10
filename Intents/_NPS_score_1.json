@@ -1,0 +1,73 @@
+{
+  "userSays": [
+    {
+      "id": "9df9b0f1-958d-4bb4-8661-7d442424eb4d",
+      "data": [
+        {
+          "text": "Neutral",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b5ee03eb-fa0f-4f19-8338-0caa270f893c",
+      "data": [
+        {
+          "text": "Dissatisfied"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9ca99c38-061e-4cb6-adcf-6b10b7d08088",
+      "data": [
+        {
+          "text": "Satisfied"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6d390dd2-f5fd-479e-b501-d50df4a8bf74",
+  "name": "_NPS_score_1",
+  "auto": true,
+  "contexts": [
+    "ctx_nps"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "endofconversationconfirmed",
+      "affectedContexts": [
+        {
+          "name": "ctx_nps",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_nps_1",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Thanks! Can you briefly explain why you have given this evaluation?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,250 @@
+{
+  "userSays": [
+    {
+      "id": "f9fa88e4-d57b-434a-ab1f-04850b59ac33",
+      "data": [
+        {
+          "text": "I want a "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "3a675676-ffed-4531-a706-7dfc61917e59",
+      "data": [
+        {
+          "text": "I want to order a "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d90c6620-c0cb-47c2-8e20-7716c6f4cf83",
+      "data": [
+        {
+          "text": "What is a "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type1",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "216835db-e346-49f5-8292-2b85d7bba18d",
+      "data": [
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "24ffd92e-6950-4882-a318-fb217e21efec",
+      "data": [
+        {
+          "text": "ING bank card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3dfa1df6-1248-4bbf-93e5-bf0957df2cdf",
+      "data": [
+        {
+          "text": "I need advice on "
+        },
+        {
+          "text": "debit cards",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "72fa46ea-fbb1-4e11-8d15-ef0f0c9cea2a",
+      "data": [
+        {
+          "text": "what type of card is my "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "ca56f0fc-7edd-4e6e-8c7e-227d2762e2e9",
+      "data": [
+        {
+          "text": "is my "
+        },
+        {
+          "text": "bancontact",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " a "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type1",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "685e66e9-5083-4084-ab12-9e3b57d52b41",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "maestro",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " a "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type1",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "810fac8f-bfe2-43ec-a5ab-15a3bb1ff138",
+      "data": [
+        {
+          "text": "Is "
+        },
+        {
+          "text": "maestro",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " a "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type1",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card or a "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " one?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "3ce7d558-2ee8-4342-be74-0d48abaf60c3",
+  "name": "info_card_types_debit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type1",
+          "value": "$Debit_Card_Type1",
+          "isList": false
+        },
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Card_Activation_Reason",
+          "name": "Card_Activation_Reason",
+          "value": "$Card_Activation_Reason",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Bancontact, Maestro and contactless cards are all debit cards. For more info, see www.ing.be \u003e Day-to-day banking (https://www.ing.be/en/retail/daily-banking/current-accounts-and-their-cards/bank-cards)."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

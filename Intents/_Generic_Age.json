@@ -1,0 +1,162 @@
+{
+  "userSays": [
+    {
+      "id": "ee9c0779-a6a3-41bc-a9c6-75c0597ab442",
+      "data": [
+        {
+          "text": "What is your birthday?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5871d88e-6fae-4cfb-a38f-901106241969",
+      "data": [
+        {
+          "text": "what\u0027s your b-date?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8d86c5c8-993e-42a0-be25-1a64f5b68a60",
+      "data": [
+        {
+          "text": "what\u0027s your birthdate?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1cd08938-cb0c-4b75-aa99-b3199bd05fc2",
+      "data": [
+        {
+          "text": "what was the date when you were born?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8cbdc546-e022-42a8-b1ed-9a3db7c9fb88",
+      "data": [
+        {
+          "text": "What is your birthdate?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aa46c134-c2d2-4ba2-b351-982e86c8347b",
+      "data": [
+        {
+          "text": "When were you born?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97de383c-59e5-4548-b82e-06991dbc40f5",
+      "data": [
+        {
+          "text": "Would you tell me your date of birth?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "51ae98e0-e444-4fdf-abd1-736ed254a1b8",
+      "data": [
+        {
+          "text": "Can you tell me your age?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "96be0019-04cb-4526-bafe-29e079d685fc",
+      "data": [
+        {
+          "text": "Are you young?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "007a0378-824e-43eb-85f7-516d641c5a6f",
+      "data": [
+        {
+          "text": "Are you old?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8125de9a-01f1-4589-8290-79489b93f9cf",
+      "data": [
+        {
+          "text": "When is your birthday?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "755cccf0-c666-4d2b-9ac2-8e717e140c98",
+      "data": [
+        {
+          "text": "What is your age?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "249a1514-5dbc-4171-bea7-b754186d26d3",
+      "data": [
+        {
+          "text": "How old are you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1a9ef79a-83ba-4368-ad0a-93455e2bbca5",
+  "name": "_Generic_Age",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I was born just a few weeks ago, but I already know a lot about cards :-) Can I help you with those?",
+            "I\u0027m pretty young, but learned a lot about cards:-) How can I help you with them?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

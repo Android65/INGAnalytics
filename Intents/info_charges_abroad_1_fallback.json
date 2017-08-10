@@ -1,0 +1,33 @@
+{
+  "userSays": [],
+  "id": "3483603f-db69-4fd0-ba3d-83b11974d342",
+  "name": "info_charges_abroad_1_fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_info_charges_abroad",
+    "ctx_ica_location"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I would like to know in which country you are because costs are different depending on your location. In which country are you?",
+            "Since the costs are different depending on your location, I would like to know in which country your currently reside. I would then be able to help your further.",
+            "The costs are different outside Europe and inside Europe. By telling me in which country you are going, I will then be able to tell you the charges related to the different card usages."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

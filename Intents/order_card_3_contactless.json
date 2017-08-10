@@ -1,0 +1,71 @@
+{
+  "userSays": [
+    {
+      "id": "bbef73c4-e5ca-485d-b694-efcabb5c9c1e",
+      "data": [
+        {
+          "text": "I want the contact less card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f3198072-93d3-4cd3-8199-a918b01b6a78",
+      "data": [
+        {
+          "text": "Contactless"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "93e26e1e-48e2-4d0e-8e73-69eb0f798b26",
+  "name": "order_card_3_contactless",
+  "auto": true,
+  "contexts": [
+    "ctx_order_card",
+    "ctx_oc_clarification"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "activecardlist",
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_oc_clarification",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_oc_card_selection",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I can help you order new card with contactless feature. Just tell me which old card I can replace with this new one:"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "ordercontactlesscard"
+    }
+  ]
+}

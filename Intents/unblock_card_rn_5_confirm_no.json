@@ -1,0 +1,87 @@
+{
+  "userSays": [
+    {
+      "id": "5db5172c-f1eb-4ebb-af71-276e676d6ada",
+      "data": [
+        {
+          "text": "You are wrong"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a7ad684e-10f6-48e0-a34a-b96a0fe8dceb",
+      "data": [
+        {
+          "text": "No, I don\u0027t want this"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7de54819-1d5b-4419-bcd9-2a20d75c69b1",
+      "data": [
+        {
+          "text": "No thats not what I want"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c2d19978-eb6d-4dc9-b7a5-07baf2fc7c82",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4df5ed96-b8e8-4f47-ad52-709886ab9510",
+  "name": "unblock_card_rn_5_confirm_no",
+  "auto": true,
+  "contexts": [
+    "ctx_uc_final_confirmation",
+    "ctx_unblock_card_rn"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "showicccontactdetails",
+      "affectedContexts": [
+        {
+          "name": "ctx_uc_final_confirmation",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_unblock_card_rn",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok no problem. Feel free to call my colleagues at the ICC contact centre at +322 464 60 04 if I messed up somehow.\n\nCan I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

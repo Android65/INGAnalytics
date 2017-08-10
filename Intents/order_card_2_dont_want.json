@@ -1,0 +1,156 @@
+{
+  "userSays": [
+    {
+      "id": "ad6edbd5-d757-460f-b678-56951029de91",
+      "data": [
+        {
+          "text": "don\u0027t"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0799b828-6488-46a3-9064-25f3b7ebd924",
+      "data": [
+        {
+          "text": "nono"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "57dbcf56-8fb1-4605-9aff-731b2741c0fe",
+      "data": [
+        {
+          "text": "nonono"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "96162d18-3a9c-4ab6-abd8-10cb0dcfbb52",
+      "data": [
+        {
+          "text": "hold on!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c84e5697-fccd-43d2-b22f-203e76d1cbf1",
+      "data": [
+        {
+          "text": "no please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bf5d0dee-2715-44d9-80de-b949ccf4b57c",
+      "data": [
+        {
+          "text": "don\u0027t do this"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e482db4c-0ab4-4d03-816c-325851b0c0f0",
+      "data": [
+        {
+          "text": "stop"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7a391c5c-ca41-4f7a-bc06-6dd7869411c0",
+      "data": [
+        {
+          "text": "this is wrong"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "99b40496-df29-4d61-8bfd-f3538d2de736",
+      "data": [
+        {
+          "text": "don\u0027t want"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4fc16c6e-8f2a-4501-80f2-7c762a1e0866",
+      "data": [
+        {
+          "text": "I don\u0027t want this"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6ce392a9-0383-42f6-a263-3f74a3a702fe",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "feb58bf8-e4ea-4929-8721-eadd178e8bb5",
+  "name": "order_card_2_dont_want",
+  "auto": true,
+  "contexts": [
+    "ctx_order_card",
+    "ctx_oc_card_selection"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_oc_send_confirmation",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_oc_card_selection",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok, I won\u0027t do anything. Can I help you with something else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

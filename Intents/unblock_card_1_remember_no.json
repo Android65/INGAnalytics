@@ -1,0 +1,119 @@
+{
+  "userSays": [
+    {
+      "id": "0bdbae10-21dd-43d5-98bf-bb3b15816a73",
+      "data": [
+        {
+          "text": "Maybe not"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ab57026f-6435-437a-abd1-08a2aa0ca5a4",
+      "data": [
+        {
+          "text": "I am afraid not"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7860302b-da5e-41ef-b112-c6d22576e2c9",
+      "data": [
+        {
+          "text": "Not at all"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "970c994a-67fd-496f-b5a1-9fec592afc01",
+      "data": [
+        {
+          "text": "Nope"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "961a2383-741d-4185-9d26-6f6f95467bdc",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d2b12965-0cad-496d-8dce-5096260b0c1f",
+  "name": "unblock_card_1_remember_no",
+  "auto": true,
+  "contexts": [
+    "ctx_unblock_card",
+    "ctx_uc_remember_pin"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_unblock_card",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_uc_remember_pin",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_uc_ask_send_pin",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_unblock_card_rn",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "I could make a request to send you a new PIN code by post. Would you like me to make this request? \nPlease keep in mind that I will need to authenticate you first.",
+            ""
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "unblockcardrememberno"
+    }
+  ]
+}

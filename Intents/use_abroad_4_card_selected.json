@@ -1,0 +1,102 @@
+{
+  "userSays": [
+    {
+      "id": "324f47c5-2f10-4bd5-ab26-91162cc7b9b1",
+      "data": [
+        {
+          "text": "The GUID identifier of the selected card is: "
+        },
+        {
+          "text": "d16374a4-6eef-48fc-aaff-97266b80e33c",
+          "alias": "cardGUID",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f8b85dbe-863a-4962-87d1-379eb39e5795",
+  "name": "use_abroad_4_card_selected",
+  "auto": true,
+  "contexts": [
+    "ctx_use_abroad",
+    "ctx_ua_card_selection"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ua_card_selection",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ua_period",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ua_final_confirmation",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "startDate",
+          "prompts": [
+            "I can activate your card outside of Europe for a period of maximum three months. What start date do you want?"
+          ]
+        },
+        {
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "endDate",
+          "prompts": [
+            "Until what date does your card need to be active?"
+          ]
+        },
+        {
+          "dataType": "@sys.any",
+          "name": "cardGUID",
+          "value": "$cardGUID",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Ok, I will activate your card from $startDate until $endDate . Is this okay with you?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

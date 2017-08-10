@@ -1,0 +1,126 @@
+{
+  "userSays": [
+    {
+      "id": "13ddc3be-9eeb-4db2-a125-9d4e74758f4e",
+      "data": [
+        {
+          "text": "But I love you!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ed832982-547c-47bd-8fe2-3ae83d12ad10",
+      "data": [
+        {
+          "text": "Marie",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ", I love you so much"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "51b00ccf-bd53-44ed-a7ee-04c0dc3f7feb",
+      "data": [
+        {
+          "text": "I really really love you Marie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1168db05-1f78-4679-8901-f0e5ffd2a66f",
+      "data": [
+        {
+          "text": "You are so lovely"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "30ff9ab0-a54c-423d-82d6-c1d609a7ee68",
+      "data": [
+        {
+          "text": "I want to know you better."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d36293ca-00de-4ee5-a5f9-5560185ecb67",
+      "data": [
+        {
+          "text": "I really want you."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1ca89371-0314-4ec2-ae81-24835108e7c7",
+      "data": [
+        {
+          "text": "I am in love with you."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ae2beea7-89a1-4885-8976-a07d4c43bdad",
+      "data": [
+        {
+          "text": "I want to be more than friends."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4b555182-9bd9-407a-97ee-a18d369b943e",
+      "data": [
+        {
+          "text": "I love you."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "3aae59a3-8df9-4fd9-813f-2a8a28c6f29f",
+  "name": "_Generic_Love",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "That is kind. But I propose we stay friends for now.",
+            "I am a machine. I don\u0027t know what love is yet. :-)",
+            "I dedicate all my love to ING and its bank cards. Do you want to ask something about that?",
+            "Sorry to disappoint you but this is not a part of my job description. :-)"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

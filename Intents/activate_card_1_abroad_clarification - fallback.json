@@ -1,0 +1,39 @@
+{
+  "userSays": [],
+  "id": "72a7c71a-4259-47fb-8a8f-b0342080b1b5",
+  "name": "activate_card_1_abroad_clarification - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_ac_abroad",
+    "ctx_activate_card"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Activate new card",
+            "Use outside Europe"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Oh, sorry, I didn\u0027t understand your reply. There are two kinds of activations I can do for you:\nSelect \"Activate new card\" if you have just received a new card, and you want to know how you can use it for the first time while abroad.\nSelect \"Use outside Europe\" if you want us to use your card for withdrawal or payment outside Europe.\nIf I\u0027m not making sense to you right now, maybe one of my colleagues will ;) Feel free to call them at +32 464 60 04"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

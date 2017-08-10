@@ -1,0 +1,32 @@
+{
+  "userSays": [],
+  "id": "c75a2140-3bad-4e99-986a-e99624f7e09f",
+  "name": "authentication_1_sms_token_Fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_sms_authentication",
+    "ctx_sa_smstoken"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "The token we expect consists of 6 digits from 0 to 9. It should arrive to your mobile within a minute.",
+            "You need to give me a token that consists of 6 digits. Normally, you got in within a minute of the request.",
+            "Please enter the token we sent to your mobile. It is a 6 digits code that will arrive within a minute."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

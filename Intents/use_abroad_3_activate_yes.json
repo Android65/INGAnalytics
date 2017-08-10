@@ -1,0 +1,119 @@
+{
+  "userSays": [
+    {
+      "id": "c9d0372e-9ca7-4fd1-81b4-6435f17c6a84",
+      "data": [
+        {
+          "text": "absolutely"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "777a7b4d-efba-4061-94c7-aa586d33a014",
+      "data": [
+        {
+          "text": "please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1d96a827-2d8b-49f8-8cb3-8f4343026132",
+      "data": [
+        {
+          "text": "go on"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "57972d3b-3789-4443-87b7-996bcae67a85",
+      "data": [
+        {
+          "text": "sure!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "233db298-8f1d-45f5-a624-fc0aac381b10",
+      "data": [
+        {
+          "text": "oh yeah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d4bfe3e5-a2bc-4cda-a986-369af36e4f27",
+      "data": [
+        {
+          "text": "yes please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bc29b90e-f276-4782-9347-acdaf23ec44f",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1c68437e-d2b8-48cc-af5b-28e388a488aa",
+  "name": "use_abroad_3_activate_yes",
+  "auto": true,
+  "contexts": [
+    "ctx_use_abroad",
+    "ctx_ua_activate"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "activedebitcardlist",
+      "affectedContexts": [
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ua_activate",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ua_card_selection",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Which debit card would you like to activate for payments abroad?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

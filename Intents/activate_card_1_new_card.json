@@ -1,0 +1,114 @@
+{
+  "userSays": [
+    {
+      "id": "33340ce8-dce7-4269-87a2-218bf3fec59a",
+      "data": [
+        {
+          "text": "I just received my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "88f66e01-aa18-488a-b258-a9d3ce71c1ca",
+      "data": [
+        {
+          "text": "I have received a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eec4ea4c-4da0-4ed4-b862-377d0e08b6cb",
+      "data": [
+        {
+          "text": "New",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4b522500-9255-4da2-b840-bd4348ecf02e",
+  "name": "activate_card_1_new_card",
+  "auto": true,
+  "contexts": [
+    "ctx_activate_card",
+    "ctx_ac_reason"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_activate_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ac_reason",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ac_renew_or_first",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Card_Status_Type",
+          "name": "Card_Status_Type",
+          "value": "$Card_Status_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "First card",
+            "Replacement",
+            "Card Stop"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Is it your first ING card you want to activate or a replacement of an existing card? Or maybe you blocked your card using Card Stop?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "newcard"
+    }
+  ]
+}

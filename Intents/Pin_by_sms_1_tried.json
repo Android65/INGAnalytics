@@ -1,0 +1,91 @@
+{
+  "userSays": [
+    {
+      "id": "8f69b1d9-9d78-457a-8b28-2483e3531a58",
+      "data": [
+        {
+          "text": "I try to have my sms but it "
+        },
+        {
+          "text": "doesn\u0027t work",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "754f6333-4277-4614-b868-0b54ccdc23b2",
+      "data": [
+        {
+          "text": "I try to have my PIN by SMS but it doens\u0027t work"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d23b1052-8ce1-4253-bfe1-a024ef9a73c0",
+      "data": [
+        {
+          "text": "Yes I tried"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "812d29e7-6acb-4a85-bf21-e86e6d6a2d53",
+  "name": "Pin_by_sms_1_tried",
+  "auto": true,
+  "contexts": [
+    "ctx_pin_by_sms",
+    "ctx_sms_init"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_pin_by_sms",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_sms_reason",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_sms_init",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "SMS erased",
+            "Wrong Number",
+            "Provider"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Let\u0027s see what we can do! Is your phone number mentioned on our letter not correct, has the SMS with your PIN code been erased or doesn\u0027t your provider allow you to communicate with the 8655 number?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

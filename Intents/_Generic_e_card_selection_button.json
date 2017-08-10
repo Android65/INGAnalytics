@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "9c7574b2-41b7-41f9-8765-bc3b949a6c51",
+  "name": "_Generic_e_card_selection_button",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "This one!"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "generic_card_selection_button"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "e2023eb1-780e-4a33-9e49-cecaa91b9f33",
+  "name": "_Generic_e_further_help_message",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Can I help you with something else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "generic_further_help_message"
+    }
+  ]
+}

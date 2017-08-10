@@ -1,0 +1,393 @@
+{
+  "userSays": [
+    {
+      "id": "007e2712-edad-4be4-bd5a-c89c34405d5a",
+      "data": [
+        {
+          "text": "I would like to order a "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " cad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8abae703-f6c0-487a-89f3-fd0e7e1d89c5",
+      "data": [
+        {
+          "text": "I would like to order "
+        },
+        {
+          "text": "a credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee63ee32-6bf9-447e-bd56-d13e5369b878",
+      "data": [
+        {
+          "text": "order card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7728462e-9737-4509-8c81-bc73b39e65ad",
+      "data": [
+        {
+          "text": "order "
+        },
+        {
+          "text": "credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8ec7ea51-54ca-4cdc-bdee-560febb1eb5a",
+      "data": [
+        {
+          "text": "I would like to ask "
+        },
+        {
+          "text": "a credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "28e8de20-a7a3-45b9-99db-3ab0db9aef0e",
+      "data": [
+        {
+          "text": "I want to order a card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "18bcf1f4-f98e-4c89-bda5-7e958bb1e0ee",
+      "data": [
+        {
+          "text": "i want another card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4615854f-b299-4517-9be1-e5c634a9b3b9",
+      "data": [
+        {
+          "text": "I need a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "df950193-e1a6-482c-b021-56672d50888f",
+      "data": [
+        {
+          "text": "I want a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bfce12c8-bace-48f8-b431-807eb54d6626",
+      "data": [
+        {
+          "text": "Can you send me a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ce4c4dd3-6071-4378-b33a-bb88626f9ab2",
+      "data": [
+        {
+          "text": "how can I receive a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7d653995-c006-40bb-92c8-1a992d0e337b",
+      "data": [
+        {
+          "text": "want a "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f3c72f93-50d9-4b67-80aa-fa75b7dc6a1c",
+      "data": [
+        {
+          "text": "so I want to book "
+        },
+        {
+          "text": "a credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4d469a5e-aa75-4e6b-8cba-6ff999ed0ced",
+      "data": [
+        {
+          "text": "I would like to order a "
+        },
+        {
+          "text": "VISA card",
+          "alias": "Card_Type",
+          "meta": "@Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": ", I\u0027m in trouble here"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4eea76ae-1a98-49ac-b828-5a41a163d1a8",
+      "data": [
+        {
+          "text": "I can\u0027t find how to ask for a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb33ac99-c988-4ff5-a06f-7b8dd9c062e9",
+      "data": [
+        {
+          "text": "Which link can I use to get a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f775da43-8b53-40cc-8e41-b632c839000e",
+      "data": [
+        {
+          "text": "Please order me a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "77130753-9ef8-4132-9362-b4457a3fc25b",
+      "data": [
+        {
+          "text": "I want a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d7379b61-c595-459b-b3d2-4af1a7a0e4fd",
+      "data": [
+        {
+          "text": "I want to order a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4cb68a64-981a-40dd-b5fa-0b34e4f3d7ae",
+  "name": "order_card_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_oc_clarification",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Card_Status_Type",
+          "name": "Card_Status_Type",
+          "value": "$Card_Status_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Card_Type",
+          "name": "Card_Type",
+          "value": "$Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "I am a customer",
+            "I\u0027m not a customer"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Ok, I understand you want to request a new card. Let me help you. Are you already an ING customer?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

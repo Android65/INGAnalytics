@@ -1,0 +1,162 @@
+{
+  "userSays": [
+    {
+      "id": "9c6038f6-30f4-402b-b29d-af7d35b8a16b",
+      "data": [
+        {
+          "text": "all of them"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4ca858db-7992-414e-8395-b21d56b2442d",
+      "data": [
+        {
+          "text": "all of my cards"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8412a7cd-e6ec-4c3a-a03a-65d4aadc3ae2",
+      "data": [
+        {
+          "text": "All my cards"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb26b360-2282-4763-aedd-7187418204f5",
+      "data": [
+        {
+          "text": "What is a "
+        },
+        {
+          "text": "credit",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9d105245-cb99-407e-a54c-7b9fb0cefb6e",
+      "data": [
+        {
+          "text": "What is a "
+        },
+        {
+          "text": "debit",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b521e4c2-673c-4c1d-93cc-24e7555cb2b1",
+      "data": [
+        {
+          "text": "No idea"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1a008f71-b8e0-40a5-b00a-5f9e3f9fd87d",
+      "data": [
+        {
+          "text": "I do not know"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef47b5b3-ae9d-4c80-a9c1-6da0a6ca2ace",
+      "data": [
+        {
+          "text": "all"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8f79cf2c-abc0-45da-b4fe-d8c1e25d1db5",
+      "data": [
+        {
+          "text": "both"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "42f944a3-d12a-415c-9012-6e945236c939",
+  "name": "card_stop_2_cardtype_both",
+  "auto": true,
+  "contexts": [
+    "ctx_card_stop",
+    "ctx_cs_card_type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ctx_card_stop",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_cs_card_type",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Debit_Card_Type",
+          "value": "debit"
+        },
+        {
+          "name": "Credit_Card_Type",
+          "value": "credit"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "After having blocked your card via Card Stop, please go to the nearest police station for an official report. Then you should go to your branch with the police report in order to open a claim.\nCan I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

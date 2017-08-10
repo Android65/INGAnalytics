@@ -1,0 +1,82 @@
+{
+  "userSays": [
+    {
+      "id": "e45d31fc-74f9-49e7-8b6e-76973dc4fbac",
+      "data": [
+        {
+          "text": "Use outside Europe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bb67bc51-2b02-499e-b4bb-c4d187bde1ae",
+      "data": [
+        {
+          "text": "I want to use my card abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "191611b8-a8bf-4e43-bf49-9727bd3511ed",
+      "data": [
+        {
+          "text": "Use abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "21a73217-a93f-4c5e-820b-87dfc974efef",
+      "data": [
+        {
+          "text": "Use"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "63781879-03bc-4183-bd4d-d20283c89477",
+  "name": "activate_card_2_abroad_use",
+  "auto": true,
+  "contexts": [
+    "ctx_activate_card",
+    "ctx_ac_abroad"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:useabroad",
+      "affectedContexts": [
+        {
+          "name": "ctx_activate_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ac_abroad",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

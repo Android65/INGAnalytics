@@ -1,0 +1,151 @@
+{
+  "userSays": [
+    {
+      "id": "bff7d986-7cb9-466e-8c11-8e78c2bfe7c7",
+      "data": [
+        {
+          "text": "What is the difference between a "
+        },
+        {
+          "text": "Visa",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "Maestro",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "0cdc2440-ac7c-4bce-ad25-09a6f7b80d4c",
+      "data": [
+        {
+          "text": "What is the difference between "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "af61a9d3-5706-4516-a1f0-769497df08fb",
+      "data": [
+        {
+          "text": "Difference between "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "99185048-7f89-4f44-891d-ac3699162bae",
+      "data": [
+        {
+          "text": "When to use a "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " or "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f8e64765-60d1-4ff4-af4b-e95076174812",
+  "name": "info_card_types_difference",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "The key difference between the two cards is where the money is drawn from when a purchase is made. When you uses a debit card, the money is directly withdrawn from your current account. When you uses a credit card, the purchase is charged to a line of credit for which you will receive a bill at the end of the month."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

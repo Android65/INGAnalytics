@@ -1,0 +1,132 @@
+{
+  "userSays": [
+    {
+      "id": "4c595a29-a821-4c74-b160-f9d1e38821de",
+      "data": [
+        {
+          "text": "can\u0027t find it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e09269b5-b2d4-4ef8-b1e5-12f365bc5558",
+      "data": [
+        {
+          "text": "can\u0027t see it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "499f119e-8e2f-4ba3-819a-5b1ec85ea694",
+      "data": [
+        {
+          "text": "I don\u0027t see it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9bf2be19-93ee-4513-a031-b1b4f6aaa864",
+      "data": [
+        {
+          "text": "but it isn\u0027t there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "09843f33-7eaf-40e6-934f-0ee7b13c23c2",
+      "data": [
+        {
+          "text": "my card is not there Marie!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da294448-e458-4f37-af44-d82efc427f8b",
+      "data": [
+        {
+          "text": "I can\u0027t find my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e33c331d-f49f-443c-beca-aaa514483abd",
+      "data": [
+        {
+          "text": "it\u0027s not there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e984e5d9-0fbf-4a86-84cb-c04b970e3b61",
+      "data": [
+        {
+          "text": "my card isn\u0027t listed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1313888b-b5d7-4d88-8a78-a5ddeb634ba5",
+      "data": [
+        {
+          "text": "it isn\u0027t there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d064226c-4936-46ea-a19f-3673e1d4353a",
+      "data": [
+        {
+          "text": "I don\u0027t see my card."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9572d895-bc59-4e51-a779-0540f929e4a0",
+  "name": "cards_overview_1_not_present",
+  "auto": true,
+  "contexts": [
+    "ctx_cards_overview"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "showicccontactdetails",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Auch! then something is quite wrong. It\u0027s best to call my human colleagues, then. They can be reached on the number +32 2 464 60 04, or by clicking the button below"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,97 @@
+{
+  "userSays": [
+    {
+      "id": "a513b197-d1fb-4fc5-85a3-9d4c7d63c4e3",
+      "data": [
+        {
+          "text": "OK"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "40937fbc-25a5-4b10-ba77-6b70b71e66c4",
+      "data": [
+        {
+          "text": "yup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "daa53bce-5ccb-4253-b88a-bc92cce28149",
+      "data": [
+        {
+          "text": "yeah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ec6502ab-5e06-4623-bd7c-e673f4b81405",
+      "data": [
+        {
+          "text": "Sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "481a55f5-71ee-4a17-ad39-fa9c64020c90",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b1cb0b5d-0116-4493-94dc-5de8f54dcb5c",
+  "name": "unblock_card_rn_2_send_pin_yes",
+  "auto": true,
+  "contexts": [
+    "ctx_uc_ask_send_pin",
+    "ctx_unblock_card_rn"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "activecardlist",
+      "affectedContexts": [
+        {
+          "name": "ctx_uc_ask_send_pin",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_uc_card_selection",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_unblock_card_rn",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "For which card do you need a new PIN code?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

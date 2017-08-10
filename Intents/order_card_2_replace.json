@@ -1,0 +1,122 @@
+{
+  "userSays": [
+    {
+      "id": "a997133e-ae7b-4240-80c6-d1c956ae5d04",
+      "data": [
+        {
+          "text": "replace card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "cf5b35e7-2f37-47c2-8d39-e4e4378ab8f1",
+      "data": [
+        {
+          "text": "I want to replace my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5662e576-c135-4220-8f4f-cb4cb36b5ea0",
+      "data": [
+        {
+          "text": "Existing"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "15ce695b-548c-4ec0-8c37-a1d9f75fe716",
+      "data": [
+        {
+          "text": "Replace existing card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "4074bf91-206b-4ce1-b1ab-5df05de57fae",
+      "data": [
+        {
+          "text": "I want to replace my old card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "889aae4a-e81d-49fd-9237-46a114752aab",
+      "data": [
+        {
+          "text": "Replace card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "cc1abb32-89ce-4c64-a20b-2abcdd0bdd73",
+  "name": "order_card_2_replace",
+  "auto": true,
+  "contexts": [
+    "ctx_order_card",
+    "ctx_oc_replace_extra"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_oc_replace_extra",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_oc_reason",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Expiring",
+            "Worn out",
+            "Contactless"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Ok perfect, let\u0027s have a look at it. I still need a few more details from you. Can you tell me why you need to replace your card? Is your card expiring? Is it worn-out or do you wish to have a new one with contactless feature?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "orderreplacementcard"
+    }
+  ]
+}

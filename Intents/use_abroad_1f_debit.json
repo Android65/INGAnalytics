@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "c1608380-a0b3-48a3-9819-9df31f5e818a",
+      "data": [
+        {
+          "text": "Debit Card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "59a218c5-bf55-4f88-878e-832fa197c6ce",
+      "data": [
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0e32d5ac-8671-4262-8b82-e5b2845dcf31",
+  "name": "use_abroad_1f_debit",
+  "auto": true,
+  "contexts": [
+    "ctx_use_abroad",
+    "ctx_ua_f"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:useabroadnoneurope",
+      "affectedContexts": [
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ua_country",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "ctx_ua_f",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

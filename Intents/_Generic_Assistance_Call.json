@@ -1,0 +1,146 @@
+{
+  "userSays": [
+    {
+      "id": "239cddba-ffa0-4093-b830-14ed9cf8bb58",
+      "data": [
+        {
+          "text": "I want to talk to someone"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f5536820-19b5-4b75-bbcf-609447898772",
+      "data": [
+        {
+          "text": "Can I "
+        },
+        {
+          "text": "call",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " someone please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d0e68ed3-2152-400c-93a9-29b5d77bfe9e",
+      "data": [
+        {
+          "text": "i want to call someone"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7bf44729-d1a7-45a1-b1f5-8a1369a576be",
+      "data": [
+        {
+          "text": "Can I call you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b48e51d3-1a2b-4bd3-a5a9-d2801d762f47",
+      "data": [
+        {
+          "text": "Get someone on the line"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d191239-ce60-4ac7-a114-81e94410883a",
+      "data": [
+        {
+          "text": "I want to phone someone"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8398a716-59dc-4da8-bf33-c6efabf20d44",
+      "data": [
+        {
+          "text": "I want to call someone"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "cd79b5c6-3a34-4609-a703-55c5253d2bf7",
+      "data": [
+        {
+          "text": "Can I get someone on the "
+        },
+        {
+          "text": "phone",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dda2feb9-dd61-44ca-be36-d69ebe7cc26e",
+      "data": [
+        {
+          "text": "What number to "
+        },
+        {
+          "text": "call",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " for further assistance?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "26117198-16f8-4f5a-9c5b-550ac88ff25c",
+  "name": "_Generic_Assistance_Call",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "You can call us at +32 2 464 60 04 from Monday to Friday from 8 a.m. till 10 p.m. and on Saturday from 9 a.m. to 5 p.m.",
+            "My human colleagues are available from Monday to Friday from 8 a.m. till 10 p.m. and on Saturday from 9 a.m. to 5 p.m. Do not hesitate to call them at +32 2 464 60 04."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

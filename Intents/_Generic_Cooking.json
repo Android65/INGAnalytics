@@ -1,0 +1,121 @@
+{
+  "userSays": [
+    {
+      "id": "3222c347-0e5c-4ef4-8d34-00a525408e56",
+      "data": [
+        {
+          "text": "I\u0027m hungry"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "7640f114-6266-45fb-92a7-ab0dcc83dcac",
+      "data": [
+        {
+          "text": "Do robots cook?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6b1e68b0-1a3f-4733-8c10-d4fa01fca0d8",
+      "data": [
+        {
+          "text": "Do you like cooking with someone?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d97f0284-858e-4852-bc29-b56564206442",
+      "data": [
+        {
+          "text": "Can you cook something?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd3e557e-3d63-4ae8-9251-d7f70c62e345",
+      "data": [
+        {
+          "text": "Can we cook something?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cf3dfd6b-92d8-4147-be57-8a97b3664af3",
+      "data": [
+        {
+          "text": "Do you cook?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2a57f6d8-17fb-4b54-9f99-1ffcd2e9ba9b",
+      "data": [
+        {
+          "text": "Can we cook together?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "903013b3-88e5-4bfa-b741-718f67a62c78",
+      "data": [
+        {
+          "text": "Do you like cooking?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dcf70aec-f7fc-4e39-b862-5bdff26de8c9",
+      "data": [
+        {
+          "text": "Can you cook?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4085de81-5051-4e21-ac72-0904190fabce",
+  "name": "_Generic_Cooking",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I would love to cook, but I\u0027m really busy with cards! Can I help you with those?",
+            "I cooked once, but ended up calling a fire department. So, I stick with cards instead. How can I help you with them?",
+            "Believe me, you do not want me to cook for you. We do not have the same digestive systems ;) But I am really good at answering questions about cards. Can I help you with something?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

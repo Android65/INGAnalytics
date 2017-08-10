@@ -1,0 +1,39 @@
+{
+  "userSays": [],
+  "id": "52216c0f-470e-4dcc-98b7-992010bf55ef",
+  "name": "order_card_3_Fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_order_card",
+    "ctx_oc_send_confirmation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No",
+            "Not my address"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Is it ok if we send your new card to $address?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

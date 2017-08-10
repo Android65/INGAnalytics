@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "e25268d2-265a-4a91-b489-e2664757ec8f",
+  "name": "_Generic_e_ICC_opening_times",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "It would be best to call my human colleagues on weekdays from 8:00 to 22:00 or on Saturday from 9:00 to 17:00. Their number is +32 2 464 60 04."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "generic_icc_opening_times"
+    }
+  ]
+}

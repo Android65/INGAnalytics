@@ -1,0 +1,89 @@
+{
+  "userSays": [
+    {
+      "id": "6a4f80b8-4e0d-4e8d-b946-44db252aadf4",
+      "data": [
+        {
+          "text": "I forgot my PIN code and blocked my card."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "10043e3e-6b14-4eaf-b8c7-33d9148d60ad",
+      "data": [
+        {
+          "text": "I forgot my pincode"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "638612d3-b001-44d4-a10b-2d6c6aff0b98",
+      "data": [
+        {
+          "text": "I\u0027m not sure what is my pin code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2854eb5e-fa84-4820-b327-20472c5bef23",
+      "data": [
+        {
+          "text": "I don\u0027t remember my pin code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "20c95542-2951-42c8-aab4-8a7b1446fe3b",
+      "data": [
+        {
+          "text": "I don\u0027t know my pin anymore"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a3c9d337-15b9-4be4-adc1-967f7008571e",
+  "name": "unblock_card_0_remember_no",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:unblockcardrememberno",
+      "affectedContexts": [
+        {
+          "name": "ctx_unblock_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_uc_remember_pin",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

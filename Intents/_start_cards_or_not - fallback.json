@@ -1,0 +1,52 @@
+{
+  "userSays": [],
+  "id": "6e76331c-a169-4792-9d7d-728e87c28ca0",
+  "parentId": "85d80da1-d1cf-424c-87fb-be5051e9db55",
+  "rootParentId": "85d80da1-d1cf-424c-87fb-be5051e9db55",
+  "name": "_start_cards_or_not - fallback",
+  "auto": false,
+  "contexts": [
+    "_start_cards_or_not-followup",
+    "ctx_get_started"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_start_cards_or_not._start_cards_or_not-fallback",
+      "affectedContexts": [
+        {
+          "name": "ctx_get_started",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "_start_cards_or_not-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "About cards indeed",
+            "Not about cards"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Hmm, not sure if I got that. Could you simply tell me, if your question is about cards?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

@@ -1,0 +1,103 @@
+{
+  "userSays": [
+    {
+      "id": "1ffc469e-0a3c-44d8-b019-f1675dcf6fa8",
+      "data": [
+        {
+          "text": "What should be the format of it?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ed90fe56-db47-415e-844f-f2cc55711a2a",
+      "data": [
+        {
+          "text": "And the format of the birthdate?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1677c2d0-30e4-43ee-b517-00d77947d462",
+      "data": [
+        {
+          "text": "What format should I use?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3c12eb90-3711-4b46-80a1-fd769af26eb6",
+      "data": [
+        {
+          "text": "In what format?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2bbf93fc-ae1b-453c-a011-aa97f3283bdb",
+      "data": [
+        {
+          "text": "What format?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "236f6192-e231-427e-ba6b-8b9c89f2b367",
+      "data": [
+        {
+          "text": "In what format I need to give this to you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7bf74caa-0d29-47d2-a353-44ea94f59964",
+  "name": "authentication_0_birthdate_what_format",
+  "auto": true,
+  "contexts": [
+    "ctx_sa_birthdate",
+    "ctx_sms_authentication"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_sa_birthdate",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_sms_authentication",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You can use any format of the birthday you\u0027d like :-) Try \"first of march 1985\" or \"01/03/1985\" for instance."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

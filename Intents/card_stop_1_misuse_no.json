@@ -1,0 +1,60 @@
+{
+  "userSays": [
+    {
+      "id": "ea760cfa-c698-43f3-9eee-a3cc1aaad2e1",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d36a1a43-93c4-41e9-b12e-4578fbf4e702",
+  "name": "card_stop_1_misuse_no",
+  "auto": true,
+  "contexts": [
+    "ctx_card_stop",
+    "ctx_cs_misuse"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_card_stop",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_cs_misuse",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "That is good. Just call Card Stop at +32 70 344 344 then and they will take care of everything."
+        },
+        {
+          "type": 0,
+          "speech": "Is there anything  else I can help you with?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

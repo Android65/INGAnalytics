@@ -1,0 +1,152 @@
+{
+  "userSays": [
+    {
+      "id": "227fa244-d6f5-441d-82aa-143fe9aa948b",
+      "data": [
+        {
+          "text": "Not via SMS"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d6112465-0e99-4e48-a4a8-252354ec5317",
+      "data": [
+        {
+          "text": "Other method"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "911a9a1e-138d-4f73-9e19-c7202400e778",
+      "data": [
+        {
+          "text": "Another method"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "0b674edf-32e7-4d24-9b9d-66b15f1ecda1",
+      "data": [
+        {
+          "text": "Give me another method to get to my pin code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "863e425d-c3c2-41fc-b788-2f0d987b165b",
+      "data": [
+        {
+          "text": "I want another way to get my pin code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a457b535-a472-4983-ae47-b05eca4950c1",
+      "data": [
+        {
+          "text": "I don\u0027t want my pin by SMS"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd5a9731-d875-4874-b1ab-5efad1e60441",
+      "data": [
+        {
+          "text": "I don\u0027t trust the SMS system."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "935a64f8-ccaa-4fd4-9fc4-dded44c48e6d",
+      "data": [
+        {
+          "text": "I don\u0027t want to use pin by sms."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dc95341d-543b-4ab8-ba25-e9747c7c2642",
+      "data": [
+        {
+          "text": "I dislike this sms procedure."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b1eda446-557c-4ff8-8611-2460a024e95d",
+      "data": [
+        {
+          "text": "I don\u0027t want to use this process."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1a9dbe0e-94ee-42aa-9af2-a38f87e671a3",
+  "name": "pin_by_sms_1_doesnt_want_by_SMS",
+  "auto": true,
+  "contexts": [
+    "ctx_pin_by_sms",
+    "ctx_sms_init"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "ctx_pin_by_sms",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_sms_init",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "In that case, don\u0027t do anything. We will send you the PIN code of your bank card by post soon. If you want to receive it more quickly, go to an ING branch of your choice. Do you have other questions?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "postorbranch"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "userSays": [
+    {
+      "id": "0438ef13-c591-463b-a57b-7b8675af2184",
+      "data": [
+        {
+          "text": "My card is worn"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e3d01a2a-af33-4f4f-b9b1-9c7f9260e25a",
+      "data": [
+        {
+          "text": "Worn out"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "de306db8-8673-4769-8e99-89041166a907",
+  "name": "order_card_3_broken_wornout_old",
+  "auto": true,
+  "contexts": [
+    "ctx_order_card",
+    "ctx_oc_reason"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "activecardlist",
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_oc_reason",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_oc_card_selection",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I can help you order new card. Please select the card you would like to replace with a new one:",
+            "Could you please indicate which card that should be replaced? I will order you a new one :) :"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "orderreplacementcard"
+    }
+  ]
+}

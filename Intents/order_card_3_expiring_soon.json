@@ -1,0 +1,116 @@
+{
+  "userSays": [
+    {
+      "id": "f35f31cb-6077-47db-bf12-b8fe86dbf501",
+      "data": [
+        {
+          "text": "expiring",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " soon"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "95fdf9b1-5b69-41de-82e2-7cb849df4085",
+      "data": [
+        {
+          "text": "My card is "
+        },
+        {
+          "text": "expiring",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "378afc11-cb20-4df2-ab40-2bb473f7c456",
+      "data": [
+        {
+          "text": "Expiring",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b440f9f7-58ef-4985-a358-bae88d374654",
+  "name": "order_card_3_expiring_soon",
+  "auto": true,
+  "contexts": [
+    "ctx_order_card",
+    "ctx_oc_reason"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "activecardlist",
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_oc_clarification",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_oc_card_selection",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_oc_reason",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Card_Activation_Reason",
+          "name": "Card_Activation_Reason",
+          "value": "$Card_Activation_Reason",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": []
+        },
+        {
+          "type": 0,
+          "speech": "When a card expires, you automatically receive a new card to your contact address a month before the expiration. If your card already expired and you did not receive your card, I can help you order a new card immediately. Just select the card you want me to replace from the list below."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "ordercardexpiring"
+    }
+  ]
+}

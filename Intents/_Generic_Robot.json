@@ -1,0 +1,162 @@
+{
+  "userSays": [
+    {
+      "id": "f8902a24-c78d-48c1-8f2c-2b164ec5eff6",
+      "data": [
+        {
+          "text": "are you real person?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "82c22d99-3098-4223-8b99-24c8625c4826",
+      "data": [
+        {
+          "text": "are you real?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9f8338e8-0fa6-4b5e-9002-4dc6ee8ccce6",
+      "data": [
+        {
+          "text": "Are you artificial intelligence?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a3db109d-6665-487a-a2d1-fb9be8a3f01b",
+      "data": [
+        {
+          "text": "what is your algorithm?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a5b01ad8-8d47-450f-bd0e-83690824c2dd",
+      "data": [
+        {
+          "text": "Is this machine learning?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "39f1f511-58c4-4ce8-9d59-868e76a1908e",
+      "data": [
+        {
+          "text": "are you some kind of artificial intelligence?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6557c598-13ff-4a52-b01e-f7837a9c1e56",
+      "data": [
+        {
+          "text": "Are you human?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b34c70d3-3063-4045-873f-a71d83fae45b",
+      "data": [
+        {
+          "text": "You are a robot?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "07cae611-2b1d-4f28-b7e6-5b4e9d844336",
+      "data": [
+        {
+          "text": "Are you some kind of a robot?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2327ccca-b419-49c2-9ac4-344d439b0b51",
+      "data": [
+        {
+          "text": "Is this robot behind?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4d61bc3e-39b0-456e-abbb-fbde6e08bca9",
+      "data": [
+        {
+          "text": "You are robot?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e6c5351e-8550-4ad3-811a-49112036fb92",
+      "data": [
+        {
+          "text": "Are you a machine?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6578b103-7138-482b-8c2a-bba01afda4ca",
+      "data": [
+        {
+          "text": "Are you a robot?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "704f1f79-888b-4ce8-b616-c679d4e2a7c8",
+  "name": "_Generic_Robot",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Good catch, I\u0027m made of bits and bytes indeed :-) My human colleagues made me to help you with ING cards. How can I help you with them?",
+            "I\u0027m programmed by my human friends indeed -- only to help you with cards. Ask away!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

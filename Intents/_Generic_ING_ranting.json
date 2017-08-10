@@ -1,0 +1,86 @@
+{
+  "userSays": [
+    {
+      "id": "eed23ef7-c52b-4cc3-963e-66dec354ca45",
+      "data": [
+        {
+          "text": "I heard ING really sucks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c6c00316-c502-425b-a3af-4356a5627172",
+      "data": [
+        {
+          "text": "But ING is the most terrible bank.."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b9e569ed-e4c7-45f9-bb44-df7a32f2235f",
+      "data": [
+        {
+          "text": "ING is shit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b584c2e6-e782-4b18-8692-ba4b96a529ab",
+      "data": [
+        {
+          "text": "ING is not OK."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "f0de0298-281d-40e9-9f8a-89f5f0d41c51",
+      "data": [
+        {
+          "text": "ING is the baddest bank I known"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0ac0f06b-52f7-4e38-ae26-b970c5434375",
+      "data": [
+        {
+          "text": "ING is shitty"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1871c3d0-cb49-4d7f-ab58-02e9a0519b89",
+  "name": "_Generic_ING_ranting",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I\u0027m sorry that you feel this way about ING and our products and services. We are more than willing to listen to your concerns and suggest a solution."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

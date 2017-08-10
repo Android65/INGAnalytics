@@ -1,0 +1,896 @@
+{
+  "userSays": [
+    {
+      "id": "add355a4-80e2-47b4-9f25-a490b5e2607f",
+      "data": [
+        {
+          "text": "what do i do if i "
+        },
+        {
+          "text": "lose",
+          "alias": "Card_Actication_Reason_Replace",
+          "meta": "@Card_Actication_Reason_Replace",
+          "userDefined": false
+        },
+        {
+          "text": " my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "745804a9-a751-4f78-b72f-0fde81cc1aba",
+      "data": [
+        {
+          "text": "need to block my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "3fd6f4e1-6937-49f6-8e45-a59f33df38b0",
+      "data": [
+        {
+          "text": "I want to block card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "21bcef4b-77cf-47d9-9ca4-356dec7d64db",
+      "data": [
+        {
+          "text": "block the card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fa0ec457-f6f2-44c1-8d64-b432db340ef5",
+      "data": [
+        {
+          "text": "block my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e8031331-db18-448d-82d4-0592ded7a51f",
+      "data": [
+        {
+          "text": "block it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1f8cd1e6-c93e-467a-873c-31515450a58b",
+      "data": [
+        {
+          "text": "i "
+        },
+        {
+          "text": "lost",
+          "alias": "Card_Actication_Reason_Replace",
+          "meta": "@Card_Actication_Reason_Replace",
+          "userDefined": false
+        },
+        {
+          "text": " my card "
+        },
+        {
+          "text": "this weekend",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1b71a887-4a6c-4115-a6ea-ac2d63ae0757",
+      "data": [
+        {
+          "text": "I lost my card, how can I do to get a new one ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "82fc94fd-5a54-4e42-8b82-50830acb968e",
+      "data": [
+        {
+          "text": "My card was stolen, what are the things to do ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "37664510-4ee5-4b55-8861-0a569cacc167",
+      "data": [
+        {
+          "text": "I forget my card in a bank"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a27e2596-b9e2-4bd1-bdac-eb30b74fa9cd",
+      "data": [
+        {
+          "text": "Please block my card, I left it in a bank"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f7da52f3-5c0e-448c-b668-ef23db4260d8",
+      "data": [
+        {
+          "text": "I don\u0027t know where my card is."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "999018b0-7ff3-4ae5-8efd-e98bbde9fd8f",
+      "data": [
+        {
+          "text": "I lost my wallet today so I would like to block my card."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "437b3088-e11f-4ac3-9d27-c55812f7a9ad",
+      "data": [
+        {
+          "text": "I "
+        },
+        {
+          "text": "lost",
+          "alias": "Card_Actication_Reason_Replace",
+          "meta": "@Card_Actication_Reason_Replace",
+          "userDefined": false
+        },
+        {
+          "text": " my wallet with all my cards, could you block them?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "76ee4351-fbbf-4a8a-90a8-d4c69a7479cb",
+      "data": [
+        {
+          "text": "I can\u0027t find my card anymore"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "39cf1def-6aad-4ab6-a9c2-f38a929429b7",
+      "data": [
+        {
+          "text": "I told someone pin of my card. Is it really bad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "3c63991d-f31c-4395-b388-157c14a173f2",
+      "data": [
+        {
+          "text": "My wallet with all cards was just "
+        },
+        {
+          "text": "stolen",
+          "alias": "Card_Actication_Reason_Replace",
+          "meta": "@Card_Actication_Reason_Replace",
+          "userDefined": false
+        },
+        {
+          "text": " by a stupid thief! Help me!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "7cf1f08d-6773-4c15-b06e-6a88513cd3f0",
+      "data": [
+        {
+          "text": "All my cards were "
+        },
+        {
+          "text": "stolen",
+          "alias": "Card_Actication_Reason_Replace",
+          "meta": "@Card_Actication_Reason_Replace",
+          "userDefined": false
+        },
+        {
+          "text": " Marie, what do I do?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b0802790-a127-4942-8169-dbf07a991a92",
+      "data": [
+        {
+          "text": "Hello "
+        },
+        {
+          "text": "Marie",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ", my wallet was "
+        },
+        {
+          "text": "stolen",
+          "alias": "Card_Actication_Reason_Replace",
+          "meta": "@Card_Actication_Reason_Replace",
+          "userDefined": false
+        },
+        {
+          "text": "!! With all my cards!!!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "20f755d4-b045-4757-8f32-df06533bedc4",
+      "data": [
+        {
+          "text": "my card was misused!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5a86be1b-84bb-41a5-9d1c-ce52171cb02c",
+      "data": [
+        {
+          "text": "my card has been "
+        },
+        {
+          "text": "stolen",
+          "alias": "Card_Actication_Reason_Replace",
+          "meta": "@Card_Actication_Reason_Replace",
+          "userDefined": false
+        },
+        {
+          "text": " and misused"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5b1a00d6-b0e8-4478-b420-b42d936e3caa",
+      "data": [
+        {
+          "text": "someone else knows my PIN!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f7b09a56-274e-4f7c-a731-d1de2b6afb58",
+      "data": [
+        {
+          "text": "someone saw mi pin code I\u0027m afraid ☹"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "74f02094-e272-4ccb-93fc-e37bc6db1ceb",
+      "data": [
+        {
+          "text": "someone was watching me when I was withdrawing money"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8313827a-bc8f-425e-b16c-6ff871eb8a98",
+      "data": [
+        {
+          "text": "Well, someone was watching me when I was entering my pin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ccdb03e5-8488-475c-94f6-d5b5cbec8159",
+      "data": [
+        {
+          "text": "How do I block my "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "75029819-093e-4bf5-a3b7-91ce5ec764ba",
+      "data": [
+        {
+          "text": "How do I block my "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "65493287-5b88-4607-b042-80a0c531f331",
+      "data": [
+        {
+          "text": "How do I block my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c84283cd-8477-4fb9-8ee7-58435dabc3a0",
+      "data": [
+        {
+          "text": "My "
+        },
+        {
+          "text": "mastercard",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": true
+        },
+        {
+          "text": " has been stolen."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "50ab401d-886f-4592-9568-9f647214212d",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card was "
+        },
+        {
+          "text": "lost",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "23716b11-6199-4fdd-a3cf-3c545c37bebf",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card was "
+        },
+        {
+          "text": "lost",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a6766df6-95ca-4106-9a3b-2244f9d2f582",
+      "data": [
+        {
+          "text": "I "
+        },
+        {
+          "text": "lost",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " my "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "181dca72-ff09-4e8e-87c1-f1918b925871",
+      "data": [
+        {
+          "text": "I "
+        },
+        {
+          "text": "lost",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " my "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "96891e8c-9ae3-4d8e-a38a-70749b910b42",
+      "data": [
+        {
+          "text": "I do not recognize a movement on my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cb9fbfa9-fa74-4e8c-81b4-a86c0b409c16",
+      "data": [
+        {
+          "text": "My card was used by someone else"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b88ea1ff-6a2c-49ff-8e42-31cdf89313c4",
+      "data": [
+        {
+          "text": "My card was stolen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "295efeda-a21d-45d9-8057-1ace0cfa4e9b",
+      "data": [
+        {
+          "text": "I have lost my bank card."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "68ac0cf9-b073-4dbf-8f31-7002b1715f9e",
+      "data": [
+        {
+          "text": "I don\u0027t know where my card is, can you block it ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bf975d0e-e4cc-442d-905e-95c867f8e9a9",
+      "data": [
+        {
+          "text": "I think my bank card is stolen."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a8eb5700-cad3-4c1f-ba8f-664bc28ec890",
+      "data": [
+        {
+          "text": "My card is lost"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0907cae7-a8dd-4005-b93c-0f40f65cfcd5",
+      "data": [
+        {
+          "text": "I want to block my card, how can I do it?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "09710b1c-8115-4a29-b207-e3ce0a96fed8",
+      "data": [
+        {
+          "text": "I wish to block my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6fe22d13-0795-4188-ab60-8c05dd88ba71",
+      "data": [
+        {
+          "text": "I would like to block my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "08283d6d-9a11-4bb0-be5f-28a548b61679",
+      "data": [
+        {
+          "text": "I want to block my card, it\u0027s urgent"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "539f95d2-5d0f-46bd-9b6b-ae62b0903e6d",
+      "data": [
+        {
+          "text": "You must stop my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2d68aca9-0a3a-42ab-88c5-1ca9f6a829e2",
+      "data": [
+        {
+          "text": "I can\u0027t find my card, can you cancel it?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "43566cbe-d646-4bc8-973e-c132ebcca383",
+      "data": [
+        {
+          "text": "I lost my card, you need to block it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5e712753-4287-4bdd-86f7-c1c0f551290c",
+      "data": [
+        {
+          "text": "My card is stolen! Can you block it?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "284a9446-4b16-4f89-aa6e-fd4787bc8cb2",
+      "data": [
+        {
+          "text": "My wallet got stolen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eb28c49c-d096-4a88-8167-15ffdd1d5ce2",
+      "data": [
+        {
+          "text": "My card got "
+        },
+        {
+          "text": "stolen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d56275c8-6d7f-4cdf-a2e5-b5792ea6ef17",
+      "data": [
+        {
+          "text": "I forgot my card on the bus"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d16e898a-11de-47ff-9403-98cb4b82bd66",
+      "data": [
+        {
+          "text": "My card has been "
+        },
+        {
+          "text": "stolen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "5e14166b-e5a4-4a94-ae63-18c2c84d9525",
+      "data": [
+        {
+          "text": "My wallet has been "
+        },
+        {
+          "text": "stolen",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "af1f4774-e265-427d-93e8-9f7c18182de8",
+      "data": [
+        {
+          "text": "I have "
+        },
+        {
+          "text": "left",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " my card somewhere"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a4778e54-b45e-43aa-a912-a61438b131c0",
+      "data": [
+        {
+          "text": "My card is stuck in the machine"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "61dc62e6-bf3a-4f59-b130-534164c7eebb",
+      "data": [
+        {
+          "text": "I "
+        },
+        {
+          "text": "lost",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "4facfe7a-950a-4a38-908b-4fd4d5d6cacf",
+      "data": [
+        {
+          "text": "I do "
+        },
+        {
+          "text": "not find",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " my card back"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c41cc7c8-e589-4dca-9f32-44bc2dcdd5b1",
+      "data": [
+        {
+          "text": "My card is stuck in the ATM"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "20241ff0-441a-40cc-a519-d5cf4cc78167",
+      "data": [
+        {
+          "text": "My wallet was "
+        },
+        {
+          "text": "stolen",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c0f12b8a-5450-4d29-bac9-8c4ba8fdd429",
+      "data": [
+        {
+          "text": "Someone "
+        },
+        {
+          "text": "stole",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "aa99b821-e2aa-4df0-b79b-92cc28b20569",
+  "name": "card_stop_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_card_stop",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_cs_misuse",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Card_Actication_Reason_Replace",
+          "name": "Card_Actication_Reason_Replace",
+          "value": "$Card_Actication_Reason_Replace",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.date-period",
+          "name": "date-period",
+          "value": "$date-period",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No",
+            "I don\u0027t know"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "You need to block your card by contacting Card Stop at +32 70 344 344. A new card will be automatically ordered and will be sent to your contact address.\nHas your card been misused?",
+            "I recommend you to block your card by contacting Card Stop at +32 70 344 344. A new card will be automatically created and sent to your contact address. Has your card been misused?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

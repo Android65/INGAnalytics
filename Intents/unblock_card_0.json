@@ -1,0 +1,462 @@
+{
+  "userSays": [
+    {
+      "id": "55d2770f-3d46-4844-b03f-f22ae3132451",
+      "data": [
+        {
+          "text": "Yes it doesnt work"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "041cf539-b4b1-485a-8b67-5f985d1fb784",
+      "data": [
+        {
+          "text": "I blocked my card in a shop, how can I unlock it ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "59a7a04c-b974-452d-abc0-1cb810df000d",
+      "data": [
+        {
+          "text": "I can\u0027t use my card anymore, it\u0027s blocked in my Home\u0027Bank."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "41bdad46-cdcd-40b1-979c-c1f9b32ad662",
+      "data": [
+        {
+          "text": "How can I unblock my card ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d5ee689d-4f4e-4e07-bccc-df91736ccf6d",
+      "data": [
+        {
+          "text": "I did 3 wrong Pin and I blocked my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fdd32086-2260-476b-a45b-448444d69e5d",
+      "data": [
+        {
+          "text": "Please unblock my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5176719e-1cc3-4639-a91a-27fdadc672eb",
+      "data": [
+        {
+          "text": "I got a message that my card was blocked, what can I do ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "115487f5-eaf1-47e0-bd01-f0ef6ddfa12d",
+      "data": [
+        {
+          "text": "I don\u0027t know why but I can\u0027t use my card, is it blocked ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c2d1bf81-0528-489c-adeb-c0a02ddb04aa",
+      "data": [
+        {
+          "text": "send me a new code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9b017724-e1e7-4614-9cc0-c895e7d85046",
+      "data": [
+        {
+          "text": "my card is blocked"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1dcce20d-ab8b-4134-b89d-c3c1f50cb6bf",
+      "data": [
+        {
+          "text": "I lent my card to my husband and he blocked my card because of a wrong code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ac44d1a2-0612-4364-818a-09dcd387d755",
+      "data": [
+        {
+          "text": "I used a wrong card and typed in a wrong pin code "
+        },
+        {
+          "text": "3",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " times in a row"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d9158f62-c653-4376-9d22-05410aad9c16",
+      "data": [
+        {
+          "text": "I can\u0027T use my card to login to "
+        },
+        {
+          "text": "homebank",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2372b1a9-9b3d-4fd3-93da-540d38d75c7d",
+      "data": [
+        {
+          "text": "I cannot use my card to connect to hb"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3f9d31d7-5203-4dd4-91ed-1046417d69fe",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "VISA",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " is blocked, what should i do"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ae89157c-4215-4a20-a5f0-3a79d901f309",
+      "data": [
+        {
+          "text": "my card is blocked what do i do"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "197b0c20-3a32-45c5-8d49-cc393e908035",
+      "data": [
+        {
+          "text": "so basically I blocked my card by accident"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ddfddc5d-1c25-49d0-91dd-38029cc1b07c",
+      "data": [
+        {
+          "text": "what should I do when my card is blocked"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3abb487a-2a52-4bca-9c4b-d68d16b950bd",
+      "data": [
+        {
+          "text": "blocked card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be50586a-a1fb-4083-bcc7-a5d978dc7268",
+      "data": [
+        {
+          "text": "my pin doesn\u0027t work."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d55bfee-15df-4c85-b5ea-c3ef6a2b141b",
+      "data": [
+        {
+          "text": "I blocked my card, what should I do now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e8d23393-bb41-47c6-b5b6-e36c0cd82474",
+      "data": [
+        {
+          "text": "my card is blocked, what do i need to do?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6043d059-c6ca-4623-b5c7-04db8ff7f942",
+      "data": [
+        {
+          "text": "Pin doesn\u0027t work"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "84379530-2929-41b5-8057-946ab0e2533a",
+      "data": [
+        {
+          "text": "My "
+        },
+        {
+          "text": "visa",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": true
+        },
+        {
+          "text": " is blocked."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5ca37076-2d97-4275-8089-5e781cdeab0f",
+      "data": [
+        {
+          "text": "Can you unblock my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "666fdab1-9452-4f4c-8209-a81257b325fa",
+      "data": [
+        {
+          "text": "I need a "
+        },
+        {
+          "text": "new",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " code for my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7a2cacdd-685f-4cec-a5a9-2c978ff26802",
+      "data": [
+        {
+          "text": "My card is blocked."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1971a762-be41-44e3-9c47-442127acae52",
+      "data": [
+        {
+          "text": "I want to unblock my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b6216140-d66c-407a-bde1-e973d95e1705",
+      "data": [
+        {
+          "text": "Entered my card and reader says blocked."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d1cd955-6c20-4207-a287-43a0bb6e5d7e",
+      "data": [
+        {
+          "text": "I entered my card and the card reader says \"card blocked\"."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "02ac0a55-78df-4f89-aa88-06072bf3227c",
+      "data": [
+        {
+          "text": "Someone has blocked my card by using "
+        },
+        {
+          "text": "three",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " times the wrong code / incorrect PIN code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb33016e-ffac-4556-9bb1-93fb47114fcf",
+      "data": [
+        {
+          "text": "I blocked my card by using the wrong code."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f6857b6b-2266-4282-93df-3db46b346fa2",
+      "data": [
+        {
+          "text": "Hello, I have entered my PIN code "
+        },
+        {
+          "text": "three",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " times incorrect."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "78ace80b-e049-469b-aeae-b66a11eac728",
+  "name": "unblock_card_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_unblock_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_uc_remember_pin",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Card_Status_Type",
+          "name": "Card_Status_Type",
+          "value": "$Card_Status_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Options",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "I\u0027ll do my best to assist you to unblock your card. Do you still know your PIN code?",
+            "We will have a look together. Do you still know you PIN code?",
+            "I\u0027ll try my best to help you find a solution. Do you still know your PIN code?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "unblockcard"
+    }
+  ]
+}

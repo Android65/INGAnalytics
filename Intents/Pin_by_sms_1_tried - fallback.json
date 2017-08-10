@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "6c9fdbde-4b39-43a4-8743-6a6c57de041a",
+  "name": "Pin_by_sms_1_tried - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_sms_reason",
+    "ctx_pin_by_sms"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Oh, I\u0027m sorry! I\u0027m afraid I didn\u0027t understand you.\nPlease select \"SMS Erased\" if the SMS containing your pin code has been automatically deleted before you could remember/change it.\nSelect \"Wrong number\" if the number on our letter does not match your phone number.\nSelect \"Provider\" if you are unable to communicate with the 8655 number."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

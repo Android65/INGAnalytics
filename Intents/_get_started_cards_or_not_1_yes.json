@@ -1,0 +1,162 @@
+{
+  "userSays": [
+    {
+      "id": "9727a03d-297e-4742-a784-1e23ef13d3ca",
+      "data": [
+        {
+          "text": "about cards indeed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "579ff623-834b-4723-9b50-53ef8c8467e3",
+      "data": [
+        {
+          "text": "right"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f4793af5-2c11-4096-a094-63311df2d551",
+      "data": [
+        {
+          "text": "fine"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d38e6e91-2698-43af-9a31-df9be3aeb668",
+      "data": [
+        {
+          "text": "ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "642537f4-aaee-41ea-aa74-7f3efed8e8cd",
+      "data": [
+        {
+          "text": "yeez"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ce177ea5-5fea-492c-89a4-42d748b4d78e",
+      "data": [
+        {
+          "text": "yeees"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eda950a1-0c45-4d9c-a5fc-7fc0043bf242",
+      "data": [
+        {
+          "text": "yup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1bf56ce5-ea5b-4d5a-b133-dd9ff1342ad5",
+      "data": [
+        {
+          "text": "indeed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4846a53c-92a2-4649-b1f2-43b2fb01a9ab",
+      "data": [
+        {
+          "text": "definitely"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4c53deca-e752-452a-a54d-15d4c2231b1a",
+      "data": [
+        {
+          "text": "sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "95fc682b-4836-4100-a410-b5f69d559ee3",
+      "data": [
+        {
+          "text": "yeah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e265767a-901d-4c2d-8627-0fca916f358c",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "770f375d-feab-4018-b1c8-92353617f1a9",
+  "name": "_get_started_cards_or_not_1_yes",
+  "auto": true,
+  "contexts": [
+    "ctx_get_started"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_get_started",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "_start_cards_or_not-followup",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Excellent! Let me try to help you right away. I can activate your cards abroad, block them, check its delivery status, order new ones, reset pin code attempts and so on. Just ask :-)"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

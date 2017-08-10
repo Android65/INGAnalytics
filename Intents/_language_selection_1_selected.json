@@ -1,0 +1,275 @@
+{
+  "userSays": [
+    {
+      "id": "d6db7032-bf36-457d-833d-4eb0c30c82ef",
+      "data": [
+        {
+          "text": "Can we speak "
+        },
+        {
+          "text": "English",
+          "alias": "language",
+          "meta": "@Marie_Language",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0246d0b8-65d2-4fc0-a5e3-f61da666ad52",
+      "data": [
+        {
+          "text": "Can you do "
+        },
+        {
+          "text": "Vlaams",
+          "alias": "language",
+          "meta": "@Marie_Language",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7ca4ceb5-7d6c-4bb0-8159-77f89d921501",
+      "data": [
+        {
+          "text": "Dutch",
+          "alias": "language",
+          "meta": "@Marie_Language",
+          "userDefined": false
+        },
+        {
+          "text": " is ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "65867643-f30b-4caa-bfd9-68feb996149c",
+      "data": [
+        {
+          "text": "English",
+          "alias": "language",
+          "meta": "@Marie_Language",
+          "userDefined": false
+        },
+        {
+          "text": " is good"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "866e480b-3221-4e3f-a4bb-5b9ca8628491",
+      "data": [
+        {
+          "text": "In het "
+        },
+        {
+          "text": "Nederlands",
+          "alias": "language",
+          "meta": "@Marie_Language",
+          "userDefined": false
+        },
+        {
+          "text": " graag"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0c85e208-da74-4ebd-ac43-13403a333c08",
+      "data": [
+        {
+          "text": "Nederlands",
+          "alias": "language",
+          "meta": "@Marie_Language",
+          "userDefined": false
+        },
+        {
+          "text": " aub"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8f411c68-cc1f-4edc-b681-483629ae7941",
+      "data": [
+        {
+          "text": "I want to talk in "
+        },
+        {
+          "text": "English",
+          "alias": "language",
+          "meta": "@Marie_Language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "411bf305-d014-4fb3-b75f-38557968dfef",
+      "data": [
+        {
+          "text": "Je voudrais parler "
+        },
+        {
+          "text": "Français",
+          "alias": "language",
+          "meta": "@Marie_Language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7d6df54c-54e7-4f48-8916-faccfab62b4e",
+      "data": [
+        {
+          "text": "French",
+          "alias": "language",
+          "meta": "@Marie_Language",
+          "userDefined": false
+        },
+        {
+          "text": " will do"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "5265998c-86e8-4dd2-aeac-7528ccc5300a",
+      "data": [
+        {
+          "text": "Whatever"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cb9c3231-f857-4dd0-a669-d55228a36e41",
+      "data": [
+        {
+          "text": "anything"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "4248a10d-c776-44fb-a008-4ce00ae691cb",
+      "data": [
+        {
+          "text": "don\u0027t care"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2857bd50-2092-4da7-9477-44a71ee9c094",
+      "data": [
+        {
+          "text": "I don\u0027t care"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb95e9a2-e4c6-4f0f-a232-e09fa2294e51",
+      "data": [
+        {
+          "text": "Français",
+          "alias": "language",
+          "meta": "@Marie_Language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5f34d83e-b4c8-4664-aa7f-e6b0a58f8213",
+      "data": [
+        {
+          "text": "Francais",
+          "alias": "language",
+          "meta": "@Marie_Language",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "114cd596-63f9-498e-804d-07ed2f00f5ea",
+      "data": [
+        {
+          "text": "English",
+          "alias": "language",
+          "meta": "@Marie_Language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f22546ae-1f31-4b45-acbd-9fbcb219f30a",
+  "name": "_language_selection_1_selected",
+  "auto": true,
+  "contexts": [
+    "ctx_languageselection"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "setuserlanguage",
+      "affectedContexts": [
+        {
+          "name": "ctx_languageselection",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Marie_Language",
+          "name": "language",
+          "value": "$language",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "** Middleman responds and triggers the event, after checking whether this language is supported. **"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

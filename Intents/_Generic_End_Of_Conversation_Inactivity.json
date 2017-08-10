@@ -1,0 +1,40 @@
+{
+  "userSays": [],
+  "id": "54aaf1f2-c71d-4db1-85ec-f6cb7be6b7ed",
+  "name": "_Generic_End_Of_Conversation_Inactivity",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "endofconversationconfirmed",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I haven\u0027t heard from you in a while $firstName, so I\u0027ll close this chat fairly soon. Just get back to me when convenient ;)",
+            "I haven\u0027t heard from you in a while, so I\u0027ll close this chat fairly soon. Just get back to me when convenient ;)",
+            "I haven\u0027t heard back from you since some time $firstName, so I\u0027ll close this chat quite soon. Feel free to get back to me when convenient ;)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "end_of_conversation_inactivity"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "userSays": [
+    {
+      "id": "5af73d8a-3677-4c97-8bf7-cbe0103e934a",
+      "data": [
+        {
+          "text": "My provider does not allow me to send the sms to "
+        },
+        {
+          "text": "8655",
+          "alias": "phone-number",
+          "meta": "@sys.phone-number",
+          "userDefined": false
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "256f35c9-ac95-43f3-aad7-fd2daf82dcc5",
+      "data": [
+        {
+          "text": "I don\u0027t get any message back when I ask for my PIN by SMS"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8e15e435-5b94-4c3f-ba38-9c451738a1a4",
+      "data": [
+        {
+          "text": "My Provider forbid SMS, how do I do for my PIN code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f7b4d727-670a-4c93-9d13-0613cf279050",
+      "data": [
+        {
+          "text": "The sms I have just received tells me that my "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " number is not correct."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "618020a6-efc3-4ca1-bf47-56a4daa5a193",
+      "data": [
+        {
+          "text": "My "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " number isn\u0027t the same anymore, I can\u0027t get the pincode for my card."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "40476041-68a4-410e-b2d4-d0da1f6dad79",
+      "data": [
+        {
+          "text": "I\u0027ve tried to receive my pin but my "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " number is wrong"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "71188ca2-9545-424e-8e1a-7ca3946d44c6",
+      "data": [
+        {
+          "text": "My "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " number is not correct, i cannot send the token for my pin code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b34fbb3c-7af4-41d4-9d7a-555fd9133e7f",
+      "data": [
+        {
+          "text": "I\u0027ve "
+        },
+        {
+          "text": "lost",
+          "alias": "Card_Actication_Reason_Replace",
+          "meta": "@Card_Actication_Reason_Replace",
+          "userDefined": false
+        },
+        {
+          "text": " the letter with the token"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "757e6b9d-cacd-4808-9eea-baefef535916",
+      "data": [
+        {
+          "text": "I don\u0027t have the letter for my pin code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "00445d7b-9aea-47ef-9415-377662d2d790",
+      "data": [
+        {
+          "text": "I don\u0027t have the letter for my pin code anymore"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1581d545-531c-445d-a743-8e1599be6018",
+      "data": [
+        {
+          "text": "I don\u0027t have the letter to get my PIN anymore"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ec9a84d1-2e42-4915-9eb2-4eebd848eb28",
+      "data": [
+        {
+          "text": "I don\u0027t want to use pin by sms."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "02e5927f-0630-41b1-9d52-32dee860a59e",
+      "data": [
+        {
+          "text": "I want another way to get my pin code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6353db7c-0fe8-4fd3-81c5-7a1c68da4797",
+      "data": [
+        {
+          "text": "I don\u0027t want my pin by SMS"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c22a44ad-e51c-480f-844a-b59c964bce50",
+      "data": [
+        {
+          "text": "The sms I just received tells me that the pin was already sent by post."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "945800c0-a9e5-4aae-b41f-f539ace610af",
+      "data": [
+        {
+          "text": "I "
+        },
+        {
+          "text": "lost",
+          "alias": "Card_Actication_Reason_Replace",
+          "meta": "@Card_Actication_Reason_Replace",
+          "userDefined": false
+        },
+        {
+          "text": " my letter with the security number, can you send me a PIN ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f2b7520d-9d41-42b2-9e41-b7938d2529af",
+      "data": [
+        {
+          "text": "I don\u0027t want to receive my pin by sms"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "62d440e9-0650-4655-b6ea-a3a39799b968",
+  "name": "pin_by_sms_0a_post_or_branch",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:postorbranch",
+      "affectedContexts": [
+        {
+          "name": "ctx_pin_by_sms",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_sms",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Card_Actication_Reason_Replace",
+          "name": "Card_Actication_Reason_Replace",
+          "value": "$Card_Actication_Reason_Replace",
+          "isList": false
+        },
+        {
+          "dataType": "@AssistanceType",
+          "name": "AssistanceType",
+          "value": "$AssistanceType",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.phone-number",
+          "name": "phone-number",
+          "value": "$phone-number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "43a22212-285c-4783-95fd-71cc72caa224",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e87a945c-9c17-4e7c-a319-91ec684cde80",
+  "name": "order_card_3_send_yes",
+  "auto": true,
+  "contexts": [
+    "ctx_order_card",
+    "ctx_oc_send_confirmation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ordercard",
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_oc_send_confirmation",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_oc_final_confirmation",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "name": "cardGUID",
+          "value": "#ctx_order_card.cardGUID"
+        },
+        {
+          "name": "address",
+          "value": "#user_context.address"
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Ok, I will create a request to send a card to $address . Can you confirm everything is correct?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

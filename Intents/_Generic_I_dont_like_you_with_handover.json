@@ -1,0 +1,393 @@
+{
+  "userSays": [
+    {
+      "id": "711087c2-8846-4258-93aa-cd2f4f07d5a7",
+      "data": [
+        {
+          "text": "😡"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a079dfcb-6623-48e9-a185-1650f3255f5c",
+      "data": [
+        {
+          "text": "😡"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b1627c82-4c19-4a05-8d08-ff23d1b33a8e",
+      "data": [
+        {
+          "text": "I\u0027m hangry"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "78422b7c-cdbe-47d8-8051-3cd6acec9588",
+      "data": [
+        {
+          "text": "fuck you "
+        },
+        {
+          "text": "Marie",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ecc54b82-a01d-4d05-b224-71641f9810d7",
+      "data": [
+        {
+          "text": "fuck this service"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "997de4cd-705c-43ed-9f1b-519a7d893f8f",
+      "data": [
+        {
+          "text": "fuck this"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6d15d856-3888-4127-afb1-7deb2a2b2156",
+      "data": [
+        {
+          "text": "stupid Marie!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "39bbb3fd-e6ca-446f-a241-580fe2edb471",
+      "data": [
+        {
+          "text": "fuck off"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "beb2196d-614e-4634-9cad-e135d1dc4fd9",
+      "data": [
+        {
+          "text": "Marie",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ", I\u0027m very mad at you!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "51ad387c-6c55-4354-bed9-fcb5ffb989c2",
+      "data": [
+        {
+          "text": "Marie, you don\u0027t understand anything"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "892ab870-616a-4835-bf46-6b4fa08b7fe5",
+      "data": [
+        {
+          "text": "retarded"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "813581d1-ea15-46e0-b812-399039285556",
+      "data": [
+        {
+          "text": "you retard"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "442e977a-9492-41e6-adc8-2e409d3010ca",
+      "data": [
+        {
+          "text": "help me or I\u0027m going to Belfius I swear to "
+        },
+        {
+          "text": "god",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "58298e07-307a-43e2-a523-24f7a4c2f53e",
+      "data": [
+        {
+          "text": "this is not useful"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0fa9abcf-9a96-49fc-aa61-1fc47f655bbd",
+      "data": [
+        {
+          "text": "this is useless"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e0d474b3-e918-4dca-8530-31cf50a93909",
+      "data": [
+        {
+          "text": "you are useless"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "12752d5c-213b-4ea5-8b6f-19ff48841ca4",
+      "data": [
+        {
+          "text": "you\u0027re stupid"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e2090df9-a900-413e-b539-6909f6076d0d",
+      "data": [
+        {
+          "text": "stupid Marie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1815e915-54fc-4dd9-ae7d-abe132cac3bf",
+      "data": [
+        {
+          "text": "why are you asking stupid questions?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d294962-82f0-4464-ab8a-c4ef886388df",
+      "data": [
+        {
+          "text": "but that\u0027s not helpful"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3166910f-e02d-40cb-939d-673f9c7b1c70",
+      "data": [
+        {
+          "text": "you really suck Marie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d942e9d5-1d5e-433a-83d7-abf0f011f453",
+      "data": [
+        {
+          "text": "this "
+        },
+        {
+          "text": "bot",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " is terrible!!!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7a13fe3c-1fb2-4c6d-a5de-273f15954c81",
+      "data": [
+        {
+          "text": "fuck you!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a4f5d878-16eb-4f5f-baed-7417924a4055",
+      "data": [
+        {
+          "text": "What a crappy shit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "37139a56-a70c-4ecb-9a4a-f83b193c894b",
+      "data": [
+        {
+          "text": "You suck"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "356b7a82-1539-47f8-95b6-6952476137a8",
+      "data": [
+        {
+          "text": "You totally suck"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "32d654f4-4daa-4119-915b-1d11f9b3d609",
+      "data": [
+        {
+          "text": "This is really big crap!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b9089db8-1cde-4039-9669-27e95c0255fa",
+      "data": [
+        {
+          "text": "I don\u0027t like the way you talk to me!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "458f6dc1-2f23-4129-9cf4-e51de0c417a7",
+      "data": [
+        {
+          "text": "This sucks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bd600347-5afe-4a19-973d-f37165d886bc",
+      "data": [
+        {
+          "text": "This is crappy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0ca9c9eb-f4e8-4c0e-b394-54ad7d3d70d8",
+      "data": [
+        {
+          "text": "This is crap"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e33b918a-7f3e-4fb6-86e8-580003c1e970",
+      "data": [
+        {
+          "text": "I hate this"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "00eb4055-9101-4ebf-bc2c-da0c89d7406d",
+      "data": [
+        {
+          "text": "I hate you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d8a4f98d-400b-40f6-9c65-1a2bc8cb5744",
+      "data": [
+        {
+          "text": "I don\u0027t like you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "25f68b9b-01fe-4dad-83bd-615eeceba802",
+  "name": "_Generic_I_dont_like_you_with_handover",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "humantakeoverrequest",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I\u0027m so sorry you feel my support is not good enough yet :-( I\u0027m still learning. Perhaps I can help with simpler questions?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

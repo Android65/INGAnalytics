@@ -1,0 +1,41 @@
+{
+  "userSays": [],
+  "id": "bc3a6fc5-6825-4067-b4c6-e52f76203f30",
+  "name": "activate_card_2_location_Fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_activate_card",
+    "ctx_ac_location"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Belgium",
+            "Abroad"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Are you in Belgium or abroad?",
+            "What is your current location? Belgium or abroad?",
+            "Are your currently in Belgium or are your abroad?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

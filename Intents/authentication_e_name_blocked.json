@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "2bfdaf09-a64d-4eb6-8b94-4e3fb071fa89",
+  "name": "authentication_e_name_blocked",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Unfortunately, I cannot authenticate you at this time to continue the conversation. Please try again a bit later. However, you can call my human colleagues immediately instead!"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "smsauth_name_blocked"
+    }
+  ]
+}

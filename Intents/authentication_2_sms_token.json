@@ -1,0 +1,138 @@
+{
+  "userSays": [
+    {
+      "id": "d052d983-b8c9-4a36-98b3-d262a585218c",
+      "data": [
+        {
+          "text": "fine, here it is "
+        },
+        {
+          "text": "123456",
+          "alias": "smsToken",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bd557390-67e3-41f8-9e4a-87aaafc8d9f1",
+      "data": [
+        {
+          "text": "mm, I got "
+        },
+        {
+          "text": "123456",
+          "alias": "smsToken",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8874ba06-8af1-4a25-877e-56d2f0d756e2",
+      "data": [
+        {
+          "text": "ok, the token is "
+        },
+        {
+          "text": "123456",
+          "alias": "smsToken",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7673ad25-1177-4821-9a87-07187afd2468",
+      "data": [
+        {
+          "text": "988760",
+          "alias": "smsToken",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4e035f9b-86a9-447a-88fc-fdfa50511ed6",
+      "data": [
+        {
+          "text": "234565",
+          "alias": "smsToken",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8a79b77f-dbd8-4174-a54d-57b78fe3a924",
+      "data": [
+        {
+          "text": "123456",
+          "alias": "smsToken",
+          "meta": "@sys.number",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "16adbac2-2032-4119-a03d-fdb0df75dcb0",
+  "name": "authentication_2_sms_token",
+  "auto": true,
+  "contexts": [
+    "ctx_sms_authentication",
+    "ctx_sa_smstoken"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "verifysmstoken",
+      "affectedContexts": [
+        {
+          "name": "ctx_sms_authentication",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_sa_smstoken",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.number",
+          "name": "smsToken",
+          "value": "$smsToken",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Middleman answers."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

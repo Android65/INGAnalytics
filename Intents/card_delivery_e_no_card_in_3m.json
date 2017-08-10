@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "7cb6785e-7da3-425d-b776-8d33e98def0c",
+  "name": "card_delivery_e_no_card_in_3m",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hmm, it seems we haven\u0027t sent you any card in the past 3 months. I guess something strange is going on! Could you check with my human colleagues instead?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "card_delivery_no_card_in_3m"
+    }
+  ]
+}

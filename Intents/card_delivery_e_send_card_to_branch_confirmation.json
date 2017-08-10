@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "9545bd40-c7d8-4d91-9f50-ddba69ec0cdf",
+  "name": "card_delivery_e_send_card_to_branch_confirmation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok, I will arrange this for you! Your card will be sent to the branch as soon as possible."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "card_delivery_send_card_to_branch_confirmation"
+    }
+  ]
+}

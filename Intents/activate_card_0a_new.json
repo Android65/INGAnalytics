@@ -1,0 +1,364 @@
+{
+  "userSays": [
+    {
+      "id": "afff2bf1-cbc2-4479-8ec6-acb7a480b3a9",
+      "data": [
+        {
+          "text": "I received a letter with my "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card. I am supposed to activate it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9fced4a1-52b5-4280-8fb9-f7ce2062fe7b",
+      "data": [
+        {
+          "text": "I received a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card. How can I start using it?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "40c77c93-0e47-481a-9a9d-4f3b94192f79",
+      "data": [
+        {
+          "text": " I received a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card, what to do now?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f19fdc80-8ca8-4f5a-908a-881f08308441",
+      "data": [
+        {
+          "text": "What do I do now I received my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1c8f9724-5573-426c-91eb-59ef153f87b0",
+      "data": [
+        {
+          "text": " What do I do now I got my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2bf1b34b-5df3-4e3a-bab7-b77b0c58079d",
+      "data": [
+        {
+          "text": " What do I do now I received my "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "db6134d4-83ef-4148-baee-7e5514b1bce2",
+      "data": [
+        {
+          "text": " What do I do now I got my "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "37097262-f5bc-4d00-a8c6-b4c3ed60cc05",
+      "data": [
+        {
+          "text": " I got "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6d5da7f2-4742-4665-a369-c5b0477d224c",
+      "data": [
+        {
+          "text": " I have "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card "
+        },
+        {
+          "text": "Marie",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "834fda95-24a0-47c5-957a-7cc09fa0026c",
+      "data": [
+        {
+          "text": " I got "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card "
+        },
+        {
+          "text": "Marie",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        },
+        {
+          "text": "!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a569890a-bb3c-4d0c-a6ec-8751214fc2a8",
+      "data": [
+        {
+          "text": " I have just received a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card, what to do to be able to use it?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fdd69043-aa65-4def-8f64-91b0b3035b6d",
+      "data": [
+        {
+          "text": " I just received "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card, what do I do to use it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "72954227-328c-44fd-b055-0041397948c5",
+      "data": [
+        {
+          "text": "I just received my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0ca7b734-6e0b-4c85-a878-178e79360fed",
+      "data": [
+        {
+          "text": "I received a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card, can I use it right away"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e7585ec9-5196-46bc-8e7a-bfdf46bd9337",
+      "data": [
+        {
+          "text": " I just got my "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "74c185f4-b354-4c4b-bc78-ceed8903d7a0",
+      "data": [
+        {
+          "text": " I got a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2cc5fe3e-fc23-4699-bd8a-af0743f3054c",
+      "data": [
+        {
+          "text": " I just received my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "222688cd-c0ee-4b44-9896-856885b84149",
+      "data": [
+        {
+          "text": "i just got my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "15c2f035-c07f-4b22-a3c8-76eda7fec3ff",
+  "name": "activate_card_0a_new",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:newcard",
+      "affectedContexts": [
+        {
+          "name": "ctx_activate_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ac_reason",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Card_Status_Type",
+          "name": "Card_Status_Type",
+          "value": "$Card_Status_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

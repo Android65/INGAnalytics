@@ -1,0 +1,129 @@
+{
+  "userSays": [
+    {
+      "id": "6962ad5e-3057-41ee-bbc2-f611d8b25000",
+      "data": [
+        {
+          "text": "When "
+        },
+        {
+          "text": "Dutch",
+          "alias": "Marie_Language",
+          "meta": "@Marie_Language",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "84e7d5ec-264a-4b4b-99b4-cebb48c95ad6",
+      "data": [
+        {
+          "text": "How much longer until you will be able to speak "
+        },
+        {
+          "text": "dutch",
+          "alias": "Marie_Language",
+          "meta": "@Marie_Language",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6e0fa106-869a-42eb-8383-21e7fb9207df",
+      "data": [
+        {
+          "text": "Wanneer ga je "
+        },
+        {
+          "text": "nederlands",
+          "alias": "Marie_Language",
+          "meta": "@Marie_Language",
+          "userDefined": false
+        },
+        {
+          "text": " kunnen spreken?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b594a39a-d851-42de-b090-fe7d135428ab",
+      "data": [
+        {
+          "text": "How long until you can speak "
+        },
+        {
+          "text": "dutch",
+          "alias": "Marie_Language",
+          "meta": "@Marie_Language",
+          "userDefined": false
+        },
+        {
+          "text": " as well"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c85162d5-2ee5-41ab-b54c-95e7ac1b9250",
+      "data": [
+        {
+          "text": "When will you be able to speak "
+        },
+        {
+          "text": "dutch",
+          "alias": "Marie_Language",
+          "meta": "@Marie_Language",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "56c4d3e4-8462-484f-85bf-c17ebe00530f",
+  "name": "_Generic_When_Dutch",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Marie_Language",
+          "name": "Marie_Language",
+          "value": "$Marie_Language",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hi, at the moment my Dutch is still \"with hair on it\" ;-)\nI am studying very hard though, and I should be able to talk to you in Dutch in a couple of months!"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

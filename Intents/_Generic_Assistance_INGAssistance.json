@@ -1,0 +1,442 @@
+{
+  "userSays": [
+    {
+      "id": "dee63f79-4867-4878-bf31-6cff8318893b",
+      "data": [
+        {
+          "text": "I had an accident abroad and I have an "
+        },
+        {
+          "text": "assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": false
+        },
+        {
+          "text": ", am I covered ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bfb47b4e-836b-4cc6-9e7d-26b357e50d2a",
+      "data": [
+        {
+          "text": "Please Help me, I had an accident and I am insured"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3944849b-8704-4db0-9186-79cf2751a9b6",
+      "data": [
+        {
+          "text": "If I travel outside of Europe, am I insured ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "817feb28-c56d-4cbd-a801-538f5c531dd1",
+      "data": [
+        {
+          "text": "I plan to travel in "
+        },
+        {
+          "text": "1 week",
+          "alias": "unit-length",
+          "meta": "@sys.unit-length",
+          "userDefined": false
+        },
+        {
+          "text": ", from what am I insured ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "62f55dad-85fd-4084-a3f9-d148291bf8c0",
+      "data": [
+        {
+          "text": "I have a problem abroad here, is there some "
+        },
+        {
+          "text": "assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "29103fca-5412-445b-8623-2672d6ebe51c",
+      "data": [
+        {
+          "text": "What if I have car accident in "
+        },
+        {
+          "text": "Spain",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "8637e576-1f64-43d9-8af0-ddf2c99336af",
+      "data": [
+        {
+          "text": "I\u0027m in a foreign country. What\u0027s the assist\u0027 line number?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b6fadb2f-56ca-403a-af3d-92f9c4cd9bfd",
+      "data": [
+        {
+          "text": "I was wondering. I\u0027m in need of help in a foreign country. What\u0027s the number of Assist\u0027 line?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "28de5e34-4de1-4b21-83cc-4e56bbbcffb2",
+      "data": [
+        {
+          "text": "I am in "
+        },
+        {
+          "text": "Spain",
+          "alias": "geo-country",
+          "meta": "@sys.geo-country",
+          "userDefined": true
+        },
+        {
+          "text": " and have problems with the car\n."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9fa1461e-6171-4af8-8c59-81ad2b370994",
+      "data": [
+        {
+          "text": "I am in "
+        },
+        {
+          "text": "Peru",
+          "alias": "geo-country",
+          "meta": "@sys.geo-country",
+          "userDefined": true
+        },
+        {
+          "text": " and have issues with my rental car."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d2341259-ee7b-4ac9-aa43-11aec3440ba7",
+      "data": [
+        {
+          "text": "I am in "
+        },
+        {
+          "text": "Peru",
+          "alias": "geo-country",
+          "meta": "@sys.geo-country",
+          "userDefined": true
+        },
+        {
+          "text": " and I have problems with my car."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2dded9ed-62b5-4ae5-99da-0d38f766998c",
+      "data": [
+        {
+          "text": "I am abroad and broke a legg"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f0272f45-5644-4dd8-be26-f4d97dd9fa67",
+      "data": [
+        {
+          "text": "I have car problems abroad."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "824e0ba3-3ddf-44b1-88d3-86c32c2a8eed",
+      "data": [
+        {
+          "text": "I need to go to the dentist abroad."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c31050e0-b0b1-46c7-920c-f5b2a985aa07",
+      "data": [
+        {
+          "text": "I need "
+        },
+        {
+          "text": "ING Assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a745449b-6a13-407b-a049-81ddafb175b4",
+      "data": [
+        {
+          "text": "I am not in Belgium and need "
+        },
+        {
+          "text": "ING Assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c2e4bf4f-ca4a-4dec-ae20-2956646474cc",
+      "data": [
+        {
+          "text": "I\u0027m having holidays and need "
+        },
+        {
+          "text": "ING Assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "121e66b4-fb50-4b9b-974c-db6134bc5878",
+      "data": [
+        {
+          "text": "I am on vacation and I need "
+        },
+        {
+          "text": "ING Assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "12deebcf-7fc0-4c9d-83a2-459e81165e3d",
+      "data": [
+        {
+          "text": "I am abroad and need "
+        },
+        {
+          "text": "ING Assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef8d561f-dea3-45a0-9823-a58914ade723",
+      "data": [
+        {
+          "text": "I am travelling and need "
+        },
+        {
+          "text": "ING Assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1aca74de-46b3-45b7-b69a-a12227f4c8e5",
+      "data": [
+        {
+          "text": "I want to use my "
+        },
+        {
+          "text": "ING assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3363e214-20ca-47a5-81c6-df00744f31e5",
+      "data": [
+        {
+          "text": "Am I covered by my "
+        },
+        {
+          "text": "ING assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "04fddeef-2c55-4ca8-a183-ed4d2dca92e5",
+      "data": [
+        {
+          "text": "I have an "
+        },
+        {
+          "text": "ING assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": true
+        },
+        {
+          "text": " and I need help."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6c8d8d31-7640-4d72-b5bf-2dbc67acdfd3",
+  "name": "_Generic_Assistance_INGAssistance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_contact_assistance",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Assistance_Product_Name",
+          "name": "Assistance_Product_Name",
+          "value": "$Assistance_Product_Name",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.geo-country",
+          "name": "geo-country",
+          "value": "$geo-country",
+          "isList": false
+        },
+        {
+          "dataType": "@Euro_Zone",
+          "name": "Euro_Zone",
+          "value": "$Euro_Zone",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.unit-length",
+          "name": "unit-length",
+          "value": "$unit-length",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Do you have ING Lion Assistance (travel) insurance and you need it now? Please call the ING Assist\u0027Line at +32 2 550 06 00. We are available for your call 24/7. Do you have other questions?",
+            ""
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

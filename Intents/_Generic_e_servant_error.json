@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "1d3f3890-2994-4169-b148-9e48aa173174",
+  "name": "_Generic_e_servant_error",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "We\u0027re sorry, something went wrong with our database. My apologies! Why don\u0027t you try calling my human colleagues?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "generic_servant_error"
+    }
+  ]
+}

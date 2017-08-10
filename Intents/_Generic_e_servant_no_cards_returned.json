@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "5064eb64-19b5-49bd-972b-829056ad7b4e",
+  "name": "_Generic_e_servant_no_cards_returned",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hmm, it seems you don\u0027t have any cards with ING yet! I\u0027m afraid I cannot help you in this case. Would you have other questions?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "generic_servant_no_cards_returned"
+    }
+  ]
+}

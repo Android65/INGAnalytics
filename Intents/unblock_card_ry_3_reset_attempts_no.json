@@ -1,0 +1,59 @@
+{
+  "userSays": [
+    {
+      "id": "96fde634-5755-4f08-8106-cffc909882e1",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8a98fe79-b868-43a9-803f-73febcd1d10d",
+  "name": "unblock_card_ry_3_reset_attempts_no",
+  "auto": true,
+  "contexts": [
+    "ctx_unblock_card_ry",
+    "ctx_uc_reset"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_unblock_card_ry",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_uc_reset",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "OK. Is there anything else I can do for you?",
+            "No problem. Would you have any other questions for me?",
+            "Can I maybe help you with something else then?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

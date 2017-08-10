@@ -1,0 +1,54 @@
+{
+  "userSays": [
+    {
+      "id": "230d823d-f0d2-4f05-961f-db78bf8471e6",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "42235c9b-c6b0-4167-bf74-b18ae80a366e",
+  "name": "unblock_card_rn_4_address_no",
+  "auto": true,
+  "contexts": [
+    "ctx_uc_address_confirmation",
+    "ctx_unblock_card_rn"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "affectedContexts": [
+        {
+          "name": "ctx_uc_address_confirmation",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_unblock_card_rn",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "OK. Is there anything else I can do?",
+            "No problem. Can I help you with something else?",
+            "The PIN code will not be sent to this address. Do you have other questions?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

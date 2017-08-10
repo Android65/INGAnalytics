@@ -1,0 +1,486 @@
+{
+  "userSays": [
+    {
+      "id": "ae0be8c7-a337-4819-83a7-f21f2846919e",
+      "data": [
+        {
+          "text": "My smartphone is back home"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c85954cd-1c31-4d3b-8679-a2d49558e4b9",
+      "data": [
+        {
+          "text": "My "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "broken",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4af859d0-fa71-466b-80f9-77af1beb1106",
+      "data": [
+        {
+          "text": "but I don\u0027t have my "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e653e567-0117-43b2-920a-4608a1c5f9f5",
+      "data": [
+        {
+          "text": "The authentication was refused"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "96b3905c-a0d3-4cfe-a6f5-afe80672a21e",
+      "data": [
+        {
+          "text": "I don\u0027t have my "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " on me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd6618c7-39c6-43fb-be63-8bbb7d285f56",
+      "data": [
+        {
+          "text": "Marie",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        },
+        {
+          "text": ", I didn\u0027t receive the token yet"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "229f01cc-d5da-4879-bcb3-9d4f9100272f",
+      "data": [
+        {
+          "text": "hi "
+        },
+        {
+          "text": "Marie",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        },
+        {
+          "text": ", I did not yet receive the sms"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dc0a8511-69c3-44bc-8742-96e87510a0f3",
+      "data": [
+        {
+          "text": "No token received on my "
+        },
+        {
+          "text": "phone",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "38cba1b6-1f90-43b5-be0c-70c81ee8588c",
+      "data": [
+        {
+          "text": "I did not get the token"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5de93fc9-def1-4d90-83cf-d39c6c108035",
+      "data": [
+        {
+          "text": "no message received"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b03cfc43-6461-4d3c-b50a-9b75ad3770d8",
+      "data": [
+        {
+          "text": "I didn\u0027t receive a message"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e8a3e45a-40db-47cf-8c80-84d28a676b5c",
+      "data": [
+        {
+          "text": "still nothing received"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "14deda87-f7fc-4cc1-b49c-7a44c28d46a4",
+      "data": [
+        {
+          "text": "no code yet"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c9ffd90f-eb88-4a63-bca9-8d8b9e460fac",
+      "data": [
+        {
+          "text": "I\u0027m waiting already "
+        },
+        {
+          "text": "2 minutes",
+          "alias": "duration",
+          "meta": "@sys.duration",
+          "userDefined": false
+        },
+        {
+          "text": " and didn\u0027t get an SMS"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f2086642-debe-4f49-8a62-f0fda076e2b0",
+      "data": [
+        {
+          "text": "No token received "
+        },
+        {
+          "text": "after 5 minutes",
+          "alias": "time",
+          "meta": "@sys.time",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ab776b3c-abf7-49b6-b1a1-d401fffa5960",
+      "data": [
+        {
+          "text": "This takes too much time!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9f3c12ee-3bc5-4faf-821b-0c7bcd17d1a9",
+      "data": [
+        {
+          "text": "It takes too much time to receive the token"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ba0179d6-95c4-4c56-83fd-fa70b905321d",
+      "data": [
+        {
+          "text": "I don\u0027t have any token"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "5002a51c-c0b1-44e7-8fdb-fb999a360580",
+      "data": [
+        {
+          "text": "I got nothing"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7ef81ff7-6ae9-4dec-9c14-56104a98bf27",
+      "data": [
+        {
+          "text": "I won\u0027t give you any token!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4234432a-4287-4fe3-9975-72037d737184",
+      "data": [
+        {
+          "text": "sms is not there on my "
+        },
+        {
+          "text": "phone",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "193f5c45-3fa9-4486-9d4b-131158e6659f",
+      "data": [
+        {
+          "text": "I didn\u0027t get the SMS"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "954ea72d-6272-4eaa-bdb6-dfc5b4087577",
+      "data": [
+        {
+          "text": "No SMS arrived"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "82c640f2-f5e6-4611-8ec6-bf3de8f39911",
+      "data": [
+        {
+          "text": "The SMS was not received"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8a0bb248-5e00-4303-9c25-b629c0c18c96",
+      "data": [
+        {
+          "text": "My "
+        },
+        {
+          "text": "phone",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "doesn´t work",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b9e67c3-2a85-49ef-8c0d-bd65985c931d",
+      "data": [
+        {
+          "text": "I don\u0027t have it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7d8c3bf1-7ad2-4a5e-82ca-2c289b9768c3",
+      "data": [
+        {
+          "text": "i didn\u0027t receive a code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c68e141f-3546-4a29-bf3f-5f9ba235fc80",
+      "data": [
+        {
+          "text": "I don\u0027t receive any token"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "70400b32-419f-4d4e-a047-b8371b26e022",
+      "data": [
+        {
+          "text": "I didn\u0027t get it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "28ef93ef-5662-43f8-93be-03404014a2a9",
+      "data": [
+        {
+          "text": "Which code?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "8db3268b-eeca-4a9b-85e8-cb6dec90e0ba",
+      "data": [
+        {
+          "text": "No",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " code received yet."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef389a7f-59a3-4564-b815-4c12feccf787",
+      "data": [
+        {
+          "text": "I did not receive any code."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7891bd65-ff38-452c-a031-d1c0670f68be",
+  "name": "authentication_1_sms_token_not_received",
+  "auto": true,
+  "contexts": [
+    "ctx_sms_authentication",
+    "ctx_sa_smstoken"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "resetsmscontexts",
+      "affectedContexts": [
+        {
+          "name": "ctx_sms_authentication",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_sa_smstoken",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.duration",
+          "name": "duration",
+          "value": "$duration",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        },
+        {
+          "dataType": "@AssistanceType",
+          "name": "AssistanceType",
+          "value": "$AssistanceType",
+          "isList": false
+        },
+        {
+          "dataType": "@Card_Activation_Reason",
+          "name": "Card_Activation_Reason",
+          "value": "$Card_Activation_Reason",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Unfortunately I cannot help you then. I invite you to contact the ING Contact Centre via +32 2 464 60 04. My colleagues will be happy to help you."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

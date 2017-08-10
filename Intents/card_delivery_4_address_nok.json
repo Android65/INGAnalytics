@@ -1,0 +1,131 @@
+{
+  "userSays": [
+    {
+      "id": "e77299a5-0f17-4a2b-b0c5-d53e17a497f8",
+      "data": [
+        {
+          "text": "no that is not my address"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "788a216f-1b00-4595-872d-18bd32b6d4e6",
+      "data": [
+        {
+          "text": "that is the wrong address"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4e917289-2c78-4104-acdd-77d38b4518fb",
+      "data": [
+        {
+          "text": "that\u0027s wrong"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d0c1bda-6edc-476d-9d40-599a6cdd2100",
+      "data": [
+        {
+          "text": "doesn\u0027t seem right"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1483b887-8318-4c64-869f-028d45f6ede1",
+      "data": [
+        {
+          "text": "nope"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c134ce73-c2cb-4567-85df-97c15fd04292",
+      "data": [
+        {
+          "text": "no that is not correct"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e12eb314-d99c-40d6-8958-942e9b70f5b5",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c66b27b6-a61a-45f9-941c-f54ca48fdb8b",
+  "name": "card_delivery_4_address_nok",
+  "auto": true,
+  "contexts": [
+    "ctx_card_delivery",
+    "ctx_cd_address_prompt"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ctx_card_delivery",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_cd_address_prompt",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_cd_address_nok",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_cd_wait_branch_icc",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Send to branch",
+            "Call ING"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Oh, apparently our information is not correct. Would you like me to resend your card to your managing ING branch? Or would you prefer to contact the ING Contact Centre in order to check your current details?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

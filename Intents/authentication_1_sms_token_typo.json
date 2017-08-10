@@ -1,0 +1,236 @@
+{
+  "userSays": [
+    {
+      "id": "83b113e6-3c9a-447e-abed-0f1ef26672a2",
+      "data": [
+        {
+          "text": "typo, sorry, it\u0027s "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "68147e7d-f506-4518-a248-c019a5115da5",
+      "data": [
+        {
+          "text": "actually, "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da405eac-ec9a-4af7-8266-ea4b8d5231f0",
+      "data": [
+        {
+          "text": "made an error, it was "
+        },
+        {
+          "text": "first of march 1945",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bc6c64ef-9f28-4b1d-a369-791fccd82aeb",
+      "data": [
+        {
+          "text": "made a typo, correct birthdate is "
+        },
+        {
+          "text": "yesterday",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "711efe67-5430-464b-badd-0a9e43b389e6",
+      "data": [
+        {
+          "text": "sorry, the correct date is "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6971c38d-d354-4ca5-a0cb-9d81c68a40c8",
+      "data": [
+        {
+          "text": "typo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "07af01a8-99d6-43ad-810a-54bf347525a0",
+      "data": [
+        {
+          "text": "oops, I made a typo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a7fd2579-5ca1-4117-b154-3ea70b4e6574",
+      "data": [
+        {
+          "text": "sorry, misclick"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1233183f-ebd7-463e-b95f-df59b8cf7d8d",
+      "data": [
+        {
+          "text": "Oops, typo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f4c4fda0-33f5-4292-986d-3b582e133a2f",
+      "data": [
+        {
+          "text": "Can I try again, I made an error"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "16774717-0b41-4bb9-998c-f2568792d158",
+      "data": [
+        {
+          "text": "I made an error, put a wrong birthday"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e0339541-120d-4508-8fc3-f13ac555703e",
+      "data": [
+        {
+          "text": "I just made a mistake"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0d5bcb4d-56a7-4c24-ba0a-cc823cae7aef",
+      "data": [
+        {
+          "text": "I put wrong birthday, let me retry"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e30c789f-4de9-44e0-acbc-d8da35066cf7",
+      "data": [
+        {
+          "text": "I made mistake, sorry"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c0b6d0d5-ca31-4e4a-a587-626813e2e1d2",
+      "data": [
+        {
+          "text": "I made a typo!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a71cd4d2-e2e8-48a4-abea-eb0babd971a9",
+  "name": "authentication_1_sms_token_typo",
+  "auto": true,
+  "contexts": [
+    "ctx_sms_authentication",
+    "ctx_sa_smstoken"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "resetsmscontexts",
+      "affectedContexts": [
+        {
+          "name": "ctx_sa_birthdate",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_sms_authentication",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_sa_smstoken",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "No worries if you made a typo. You can try again, but please help me remember what did you want?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

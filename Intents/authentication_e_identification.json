@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "c272d599-110b-4290-a1f5-492df0d8960a",
+  "name": "authentication_e_identification",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "In order to continue, I\u0027ll need to verify your identity. Could you tell me your birthdate, please?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "smsauth_identification"
+    }
+  ]
+}

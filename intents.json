@@ -1,0 +1,51 @@
+{"Use Card Abroad":{
+    "Entry":["use_abroad_0","use_abroad_0a_credit","use_abroad_0b_debit","use_abroad_0c_debit_europe","use_abroad_0d_debit_non_europe","use_abroad_0f_non_europe"],
+    "Intermediate":["use_abroad_1f_credit","use_abroad_1f_debit","use_abroad_1_debit","use_abroad_1_unknown","use_abroad_2_non_europe","use_abroad_3_activate_yes"],
+    "Exit":["use_abroad_1_credit","use_abroad_2_europe","use_abroad_3_activate_no","use_abroad_4_card_selected"],
+    "Fallback":["use_abroad_1_cardtype_FallBack","use_abroad_2_country_Fallback","use_abroad_3_activate_Fallback"]},
+"Activate Card":{
+    "Entry":["activate_card_0","activate_card_0a_new"],
+    "Intermediate":["activate_card_1_abroad_clarification","activate_card_1_new_card","activate_card_2_abroad_activate","activate_card_2_first_card","activate_card_2_renewed_card","activate_card_3_abroad","activate_card_3_first_card_know_pin"],
+    "Exit":["activate_card_1_inactive","activate_card_2_abroad_use","activate_card_4_abroad_activate"],
+    "Fallback":["activate_card_0 - fallback","activate_card_1_abroad_clarification - fallback","activate_card_1_new_card_Fallback","activate_card_2_first_card - fallback","activate_card_2_location_Fallback","activate_card_3_abroad - fallback"]},
+"SMS Authentication":{
+    "Entry":["authentication_0_birthdate"],
+    "Intermediate":["authentication_0_birthdate_refusal","authentication_0_birthdate_what_format","authentication_0_birthdate_why_birthdate_security","authentication_1_sms_token_how_is_it_possible","authentication_1_sms_token_not_ING_client","authentication_1_sms_token_refusal","authentication_1_sms_token_typo","authentication_2_sms_token"],
+    "Exit":[],
+    "Fallback":[]},
+"Card Delivery Status":{
+    "Entry":["card_delivery_0"],
+    "Intermediate":["card_delivery_1_yes","card_delivery_2_card_selected","card_delivery_2_other","card_delivery_3_show_delivery_post","card_delivery_4_address_nok","card_delivery_4_address_ok","card_delivery_5_branch_TODO_Timing_indication","card_delivery_5_icc","card_delivery_5_wait"],
+    "Exit":[],
+    "Fallback":[]},
+"Card Stop":{
+    "Entry":["card_stop_0"],
+    "Intermediate":["card_stop_1_misuse_yes"],
+    "Exit":[],
+    "Fallback":[]},
+"Info Charges Abroad":{
+    "Entry":["info_charges_abroad_0"],
+    "Intermediate":["info_charges_abroad_1_debit","info_charges_abroad_1_unknown","info_charges_abroad_2_non_eurozone"],
+    "Exit":[],
+    "Fallback":[]},
+"New PIN":{
+    "Entry":["new_pin_0"],
+    "Intermediate":["new_pin_1_reset","new_pin_2_resetno","new_pin_2_resetyes"],
+    "Exit":[],
+    "Fallback":[]},
+"Order Card":{
+    "Entry":["order_card_0","order_card_0a_broken_wornout_old","order_card_0b_expiring_soon","order_card_0c_contactless","order_card_0d_extra","order_card_0e_replacement"],
+    "Intermediate":["order_card_1_customer","order_card_2_card_selected","order_card_2_dont_want","order_card_2_replace","order_card_3_broken_wornout_old","order_card_3_contactless","order_card_3_expiring_soon"],
+    "Exit":[],
+    "Fallback":[]},
+"PIN by SMS":{
+    "Entry":["pin_by_sms_0","pin_by_sms_0a_post_or_branch","pin_by_sms_0b_more_info","pin_by_sms_0c_sms_erased"],
+    "Intermediate":["pin_by_sms_1_more_info","Pin_by_sms_1_tried"],
+    "Exit":[],
+    "Fallback":[]},
+"Unblock Card":{
+    "Entry":["unblock_card_0", "unblock_card_0_remember_no"],
+    "Intermediate":["unblock_card_1_remember_no","unblock_card_1_remember_yes","unblock_card_rn_2_send_pin_no","unblock_card_rn_2_send_pin_yes","unblock_card_rn_3_card_selected","unblock_card_rn_4_address_no","unblock_card_rn_4_address_yes","unblock_card_ry_2_shop_atm","unblock_card_ry_3_reset_attempts_yes"],
+    "Exit":[],
+    "Fallback":[]}
+}

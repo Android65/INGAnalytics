@@ -1,0 +1,87 @@
+{
+  "userSays": [
+    {
+      "id": "5b5a5c8c-d6d9-42ed-be15-3f891cbcf205",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "866b7d54-0419-488e-aa28-6ca3353b10da",
+      "data": [
+        {
+          "text": "Yes I am"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2ff67988-0b31-488c-ad00-248da60d7d4b",
+      "data": [
+        {
+          "text": "I am a customer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1a1122da-062f-40c8-a6aa-1aba273fab65",
+  "name": "order_card_1_customer",
+  "auto": true,
+  "contexts": [
+    "ctx_order_card",
+    "ctx_oc_clarification"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_oc_clarification",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_oc_replace_extra",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Extra card",
+            "Replace card"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Great! Do you want to order an extra card or to replace an existing one?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

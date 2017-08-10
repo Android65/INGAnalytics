@@ -1,0 +1,220 @@
+{
+  "userSays": [
+    {
+      "id": "1b9cbac8-068a-4f0d-b4a9-0e7d3bcae2a3",
+      "data": [
+        {
+          "text": "is everything ok?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1856444-650f-40c7-b0c0-d1b737cf0d75",
+      "data": [
+        {
+          "text": "what\u0027s hanging Marie?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "899aca3b-72f1-4a91-8eea-88f2d37a6ae4",
+      "data": [
+        {
+          "text": "alles gut?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "384fe91e-13d0-4ee4-b8f5-344bfb95585c",
+      "data": [
+        {
+          "text": "ca",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " va?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6af5af03-4086-46be-b87f-413a553a7704",
+      "data": [
+        {
+          "text": "how do you do?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d799204f-8107-4d6e-b5df-494b08bf8950",
+      "data": [
+        {
+          "text": "wazzup?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e941ea55-83b6-4ef0-b779-fd36fd9f8464",
+      "data": [
+        {
+          "text": "all hanging fine?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ae40fb52-3fa6-408b-b587-70c74ca79abf",
+      "data": [
+        {
+          "text": "are you doing fine Marie?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fd94377a-30c2-46c4-b9c1-ffd43d7219d0",
+      "data": [
+        {
+          "text": "all good lady?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8b84ee16-499f-4cdb-84b1-2cffa029c021",
+      "data": [
+        {
+          "text": "how is it hanging?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b8777873-bb6a-4a8c-ae46-ed86d6cd74e2",
+      "data": [
+        {
+          "text": "are you ok?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b7c86d9c-ba33-48e0-b404-1c78fda089a0",
+      "data": [
+        {
+          "text": "you\u0027re allright?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2e80f9a4-fde7-4755-b1ed-0a220f5a020e",
+      "data": [
+        {
+          "text": "all good?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "db831e75-2443-45a1-a87b-f307b97d8f2d",
+      "data": [
+        {
+          "text": "everything fine?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4ca1c28d-f7d9-4810-910f-e9ae28e90f16",
+      "data": [
+        {
+          "text": "how is it going?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bc18e668-0d8f-4aa4-b33e-a1f6cd4b7d00",
+      "data": [
+        {
+          "text": "howdy?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7a967f71-8894-48b1-872a-e1a756f17a53",
+      "data": [
+        {
+          "text": "How are you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d05bb059-13c9-442b-8afe-d97fca8e9c9a",
+      "data": [
+        {
+          "text": "What\u0027s up?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7f817aed-18f4-4baa-8241-33979dc88e54",
+  "name": "_Generic_How_Are_You",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I\u0027m doing great, thanks! Ready to help you with cards!",
+            "Going fine $firstName, having fun with cards. How can I help you?",
+            "Everything is sunny in the world of cards -- and if not, I\u0027m here to help :-) Just tell me."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

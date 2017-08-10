@@ -1,0 +1,120 @@
+{
+  "userSays": [
+    {
+      "id": "a40bbee9-8f67-4487-bea4-abf70969fa7d",
+      "data": [
+        {
+          "text": "Seems like it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4ebaca42-f86a-4873-b013-6078649a640b",
+      "data": [
+        {
+          "text": "yup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "61709e57-9fb6-43da-b582-8d58a42e333e",
+      "data": [
+        {
+          "text": "correct"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cf594e97-1e9d-4e0b-b542-cc107919aa76",
+      "data": [
+        {
+          "text": "indeed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4320339c-cb83-42c7-bc33-3aacdfa88099",
+      "data": [
+        {
+          "text": "that is correct"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2b08ee57-46a3-4283-a1d7-b3f4d9a85868",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "bd8e5db7-599b-466f-893f-cb40b3c5599c",
+  "name": "card_delivery_4_address_ok",
+  "auto": true,
+  "contexts": [
+    "ctx_cd_address_prompt",
+    "ctx_card_delivery"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_cd_address_prompt",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_card_delivery",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_cd_wait_branch_icc",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_cd_address_ok",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Wait",
+            "Send to branch"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Would you like to wait a little longer or do you want us to send your card to your branch instead?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

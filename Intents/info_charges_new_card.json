@@ -1,0 +1,380 @@
+{
+  "userSays": [
+    {
+      "id": "ef534c5c-2032-4d1a-b1eb-43e78543a53a",
+      "data": [
+        {
+          "text": "Can you send me a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card for free?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "63cafb35-45c5-4873-a454-463cb98421a8",
+      "data": [
+        {
+          "text": "What is the cost of a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f12f89de-8c4e-43b0-871e-ff43c762f9e2",
+      "data": [
+        {
+          "text": "How much is my "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "26a71fb1-35f0-465d-b722-bd8c384415d5",
+      "data": [
+        {
+          "text": "How much is it for a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1cfff2e1-9e63-4237-9e99-eed5d541cf1e",
+      "data": [
+        {
+          "text": "Is my "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card going to cost me money ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "001db9a8-f969-4784-aae7-26b2ab770a7b",
+      "data": [
+        {
+          "text": "Is it expensive to order a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6f8a2c57-4e02-4c08-9c0c-92c31dcaff6e",
+      "data": [
+        {
+          "text": "Will my "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card be expensive?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bd422fc0-33fe-46fd-80d8-cca1f43b3c73",
+      "data": [
+        {
+          "text": "Are you going to take some money when I get my "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ce7f858d-f582-406b-8afc-a2f9975ad9a2",
+      "data": [
+        {
+          "text": "What are the fees to have a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f2eb72de-1571-4722-82a2-c16e98698673",
+      "data": [
+        {
+          "text": "What are the charges for ordering a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b214256-abf1-44bf-bce1-511d12431ef0",
+      "data": [
+        {
+          "text": "Is a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card free ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "247d2d60-8421-4bfc-8ecb-7a9e5cc976bd",
+      "data": [
+        {
+          "text": "How much is a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "55ade1d3-aa63-4b1f-a975-be87016248e0",
+      "data": [
+        {
+          "text": "I called card stop and they said a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card had been ordered, how much will it cost ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "abd5c8b6-7fb3-4483-9ec4-5dff5db85eb7",
+      "data": [
+        {
+          "text": "Do I need to pay for a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4f67f93d-0a46-4baf-844d-c379cb24192b",
+      "data": [
+        {
+          "text": "I need a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card, it is free ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6fea4e1f-7058-4c3f-92a6-4810e98c52d5",
+      "data": [
+        {
+          "text": "How much does it cost to order a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e9a20a31-35f2-42a8-928e-cd51581d864c",
+      "data": [
+        {
+          "text": "Do I need to pay something for a new card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7422a3c2-3497-413c-a484-8b13cce15530",
+      "data": [
+        {
+          "text": "What are the charges to ask a new card ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d4c63290-9929-4333-8be0-e316890a9ca3",
+      "data": [
+        {
+          "text": "How much do I need to pay for a new card ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c199c9cf-e86e-4955-a669-f878769f2f72",
+      "data": [
+        {
+          "text": "Is it possible to get a new card free of charges ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c0cac02c-0fbb-42a8-809b-037512ce3497",
+  "name": "info_charges_new_card",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Card_Status_Type",
+          "name": "Card_Status_Type",
+          "value": "$Card_Status_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

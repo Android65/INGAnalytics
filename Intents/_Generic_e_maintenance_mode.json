@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "b574d476-d99a-4a19-8f2b-39d72a3413e4",
+  "name": "_Generic_e_maintenance_mode",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hi, I\u0027m currently being tweaked by my masters and cannot help you. My apologies! Why don\u0027t you try calling my human colleagues instead?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "generic_maintenance_mode"
+    }
+  ]
+}

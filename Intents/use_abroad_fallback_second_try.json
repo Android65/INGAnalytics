@@ -1,0 +1,45 @@
+{
+  "userSays": [],
+  "id": "32e35a69-186a-4ae5-aca1-569298423f83",
+  "name": "use_abroad_fallback_second_try",
+  "auto": false,
+  "contexts": [
+    "ctx_ua_second_time_callback",
+    "ctx_use_abroad",
+    "ctx_ua_card_type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_ua_second_time_callback",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ua_card_type",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "This is a test for second attempt"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

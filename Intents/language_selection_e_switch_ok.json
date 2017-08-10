@@ -1,0 +1,39 @@
+{
+  "userSays": [],
+  "id": "756e2158-6020-4303-9cc6-d33c6e0fb0de",
+  "name": "language_selection_e_switch_ok",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "language",
+          "value": "#language_selection_switch_ok.language"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Very well, I\u0027ll remember to speak in $language with you. How can I help you?",
+            ""
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "language_selection_switch_ok"
+    }
+  ]
+}

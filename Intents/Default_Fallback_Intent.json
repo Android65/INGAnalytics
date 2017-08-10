@@ -1,0 +1,34 @@
+{
+  "userSays": [],
+  "id": "ca712b33-ddf3-431c-8891-e54b3dc55e63",
+  "name": "Default_Fallback_Intent",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "defaultfallbackintent",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Sorry if I do not yet fully understand you. I still have a lot to learn. I can help you with questions related to your bank cards.",
+            "Sorry, I didn\u0027t understand that. I will tell my trainers so they can make me better. Feel free to ask another question related to your ING bank cards.",
+            "I\u0027m afraid I don\u0027t have an answer to this. Please try rephrasing your question in a different way. I can answer questions related to bank cards.",
+            "I am a bit lost, I am afraid. My coaches will need to improve me, I\u0027ll tell them. If you have other questions related to your bank cards, give it a try."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

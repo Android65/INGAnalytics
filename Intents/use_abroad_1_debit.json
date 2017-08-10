@@ -1,0 +1,229 @@
+{
+  "userSays": [
+    {
+      "id": "ae5e8466-0915-4d65-a149-665fcf5acbbe",
+      "data": [
+        {
+          "text": "I think the "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "one",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c7060396-4bf2-4ac2-a333-cc12606f098a",
+      "data": [
+        {
+          "text": "it\u0027s the "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card of ING"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2dfcfec0-fa45-4cdb-897c-afb9b7a31625",
+      "data": [
+        {
+          "text": "it\u0027s the "
+        },
+        {
+          "text": "orange",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " one"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "47308dd6-176c-4a10-92df-9e70e353e922",
+      "data": [
+        {
+          "text": "it\u0027s my "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "85c4df06-081d-4710-96e7-02666a0ca987",
+      "data": [
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "973fc6c7-b911-4df4-ac13-ef7cc806ddcf",
+      "data": [
+        {
+          "text": "debitcard"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a4711fcf-a041-475c-8ceb-c2de19af7a35",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "maestro",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "36170e9c-4079-4046-aa41-aad337e84b40",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": true
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "82383905-2233-4b00-af71-d45ef26bfd5a",
+      "data": [
+        {
+          "text": "maestro",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e7750d4d-82b2-4126-a16e-ce169587d087",
+      "data": [
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2e9f8c6d-3f0f-44f7-88e5-abbaed2e693c",
+  "name": "use_abroad_1_debit",
+  "auto": true,
+  "contexts": [
+    "ctx_use_abroad",
+    "ctx_ua_card_type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ua_country",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_ua_card_type",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "So you are using a debit card? And where are you travelling?",
+            "I have understood that you are talking about a debit card. To which country are you travelling?",
+            "In which country will you be taking your debit card with you?",
+            "Could you tell me in which country you will be travelling with your debit card?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "useabroaddebit"
+    }
+  ]
+}

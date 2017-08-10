@@ -1,0 +1,41 @@
+{
+  "userSays": [],
+  "id": "dba9ea7b-9a77-4690-98d9-2d0c32787ff9",
+  "parentId": "4a26a8f8-8efd-46dc-9cd3-63e0891b56c6",
+  "rootParentId": "4a26a8f8-8efd-46dc-9cd3-63e0891b56c6",
+  "name": "card_delivery_5_nok_branch_TODO_addAction - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_card_delivery",
+    "ctx_cd_incorrect_iccorbranch"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "ICC",
+            "Branch"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Please select either the ICC or Branch option:"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

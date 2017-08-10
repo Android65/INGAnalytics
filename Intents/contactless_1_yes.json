@@ -1,0 +1,146 @@
+{
+  "userSays": [
+    {
+      "id": "1cc0a5b5-e47a-4878-9976-de3ffd28d778",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97f99f27-1bd2-4f95-bc34-71414dd5826b",
+      "data": [
+        {
+          "text": "do it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "942ca518-c590-4ac8-9b80-90cd2bc46423",
+      "data": [
+        {
+          "text": "sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "4bc65ccc-ae5b-461e-beb0-ce2ee60c81a5",
+      "data": [
+        {
+          "text": "exactly"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fc469439-b6e9-4c7b-87cd-a53d3c492f01",
+      "data": [
+        {
+          "text": "confirm"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "3615624d-6b6c-4b73-aaf4-c8b9a95485c9",
+      "data": [
+        {
+          "text": "of course"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ff59a156-54ce-4fac-bfd8-4cd84dec7e8b",
+      "data": [
+        {
+          "text": "sounds good"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c35a2ea1-c4c3-4098-98b6-2d1352411ed8",
+      "data": [
+        {
+          "text": "that\u0027s correct"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7ee444c5-27ae-44a4-b073-7086d54e55bb",
+      "data": [
+        {
+          "text": "I don\u0027t mind"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "505c4163-58c9-413a-9925-7223e290d754",
+      "data": [
+        {
+          "text": "I agree"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "904d21e6-772c-498b-b3c8-ecdb767d09a2",
+  "parentId": "c467eb85-9bc3-4445-b521-3e5f4e35977d",
+  "rootParentId": "c467eb85-9bc3-4445-b521-3e5f4e35977d",
+  "name": "contactless_1_yes",
+  "auto": true,
+  "contexts": [
+    "contactless_0-followup",
+    "ctx_contactless"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:ordercontactlesscard",
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_oc_clarification",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

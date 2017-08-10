@@ -1,0 +1,104 @@
+{
+  "userSays": [
+    {
+      "id": "4fecd7ae-f07f-45ea-ae4a-e639ba3d8516",
+      "data": [
+        {
+          "text": "Card Stop"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b8684df6-f547-4198-85c6-05fc8e273e3f",
+      "data": [
+        {
+          "text": "first",
+          "alias": "ordinal",
+          "meta": "@sys.ordinal",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b1ca316b-fbd1-442f-ab56-8fefb753d711",
+      "data": [
+        {
+          "text": "first",
+          "alias": "ordinal",
+          "meta": "@sys.ordinal",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "47433aa2-56a5-437e-b594-e552c7943072",
+  "name": "activate_card_2_first_card",
+  "auto": true,
+  "contexts": [
+    "ctx_activate_card",
+    "ctx_ac_renew_or_first"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ctx_activate_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ac_renew_or_first",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ac_pin",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.ordinal",
+          "name": "ordinal",
+          "value": "$ordinal",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "I know it",
+            "Help me retrieve it"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Do you already know your pin code, or do you want me to assist you to retrieve it?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

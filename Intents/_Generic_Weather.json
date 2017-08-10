@@ -1,0 +1,88 @@
+{
+  "userSays": [
+    {
+      "id": "69e4f94d-f9bb-440f-a339-1d8eae021b2a",
+      "data": [
+        {
+          "text": "Will it rain "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d48befd0-ca41-4475-873b-5335d1a71a25",
+      "data": [
+        {
+          "text": "How is the weather "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "39a4ac6e-bfbd-404e-9b5e-3c296503731c",
+      "data": [
+        {
+          "text": "What is the weather forecast?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "23f5f261-6a0a-40a1-b4bd-92dacf7860f4",
+  "name": "_Generic_Weather",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "This is not really my expertise. But I am sure you can find some answers here: http://www.meteo.be/meteo/view/en/65239-Home.html. Is there anything about cards I can help you with?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

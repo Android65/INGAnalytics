@@ -1,0 +1,343 @@
+{
+  "userSays": [
+    {
+      "id": "d8a733b8-399e-4c5f-ac68-88396501485c",
+      "data": [
+        {
+          "text": "How can I take more money with my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7521b3aa-e1cd-4842-b6d8-3e8ab1582c16",
+      "data": [
+        {
+          "text": "Please tell me how to use more money on my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1f566e13-f8a7-42be-a16a-7c7a7a212441",
+      "data": [
+        {
+          "text": "I need to increase my limit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "713365b7-efb7-4a11-b3d6-ff0206e94075",
+      "data": [
+        {
+          "text": "I can\u0027t use my card, my limit have been reached"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9a1cf8a8-ab67-4a57-9277-9233d9ac654b",
+      "data": [
+        {
+          "text": "Is it possible to raise my daily limit ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "83ba108c-82d2-48ca-81c1-763d3bb52067",
+      "data": [
+        {
+          "text": "I have been told that I can raise my card limit. Is this true ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1f32a7fb-181b-4deb-baf7-19bfb5951c6c",
+      "data": [
+        {
+          "text": "Can I take more cash in a cash machine for only "
+        },
+        {
+          "text": "a couple of days",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3c3fbc8d-3084-44fc-9ca8-929abc85af22",
+      "data": [
+        {
+          "text": "Would it be possible to raise my card\u0027s limit?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6395d742-8f41-4d85-b8ee-5cabba109623",
+      "data": [
+        {
+          "text": "Can I use a bigger amount with my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bab316a3-10b2-404a-b98a-a7a5c850cb64",
+      "data": [
+        {
+          "text": "I am over my limit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e315f7ed-23df-47e9-a110-c823382a75d8",
+      "data": [
+        {
+          "text": "My card limit is insufficient"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1f0d5146-5408-4b54-a13f-08a2080c5181",
+      "data": [
+        {
+          "text": "My card limit is too high"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e7648a82-430e-4d35-8cd8-26039690f23b",
+      "data": [
+        {
+          "text": "My card limit is too low"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3eb77503-bc25-410f-91ce-9ab04658fa5c",
+      "data": [
+        {
+          "text": "I need to withdraw more money"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3655af87-473a-4aeb-bdb5-4b95358cf2ef",
+      "data": [
+        {
+          "text": "Can I withdraw more money"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "acb659e6-add6-4ef6-97bb-23723faa303f",
+      "data": [
+        {
+          "text": "Can I raise the limit of my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b3eef389-e76e-4015-ade4-cb46febbe346",
+      "data": [
+        {
+          "text": "I want to lower my "
+        },
+        {
+          "text": "credit",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card limit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0a6a2f9b-ae98-413a-8ca9-19788802783d",
+      "data": [
+        {
+          "text": "I want to lower the limit on my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a85214b0-1ba5-409d-83d2-350f20f46366",
+      "data": [
+        {
+          "text": "I need a higher limit on my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3a8fc596-d61b-4535-8944-7068493a6c11",
+      "data": [
+        {
+          "text": "Tomorrow I need to withdraw "
+        },
+        {
+          "text": "2.000",
+          "alias": "unit-currency",
+          "meta": "@sys.unit-currency",
+          "userDefined": true
+        },
+        {
+          "text": " EUR to pay a car. \n I think the daily limit is 650 EUR."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "146d91de-6a78-48db-906a-c48abf57e247",
+      "data": [
+        {
+          "text": "can I adapt the limit of my card ,"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1f814212-409a-49ba-84c0-ccc219fb0dd6",
+      "data": [
+        {
+          "text": "can i adapt the limit of my card temporary ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "318e6442-f0ec-478d-9036-a44a7163edf1",
+      "data": [
+        {
+          "text": "I have an insufficient limit on my credit card!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6ec48778-4784-4cfa-ad6a-51cf1927664c",
+      "data": [
+        {
+          "text": "I need a limit increase!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "564d3a75-575c-49ca-bd0f-1e5d1e081eea",
+      "data": [
+        {
+          "text": "I want to modify the limit of my card."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "df05a44d-49db-43ba-b46c-ff21317c3d78",
+      "data": [
+        {
+          "text": "I want to increase my card limit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c205df9e-06cd-4596-9f88-ed6889bcfa89",
+  "name": "modify_limit_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "showicccontactdetails",
+      "affectedContexts": [
+        {
+          "name": "ctx_modify_limit",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ml_card_selection",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.unit-currency",
+          "name": "unit-currency",
+          "value": "$unit-currency",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I\u0027m still learning how to modify your limits via Messenger. You can call my human colleagues to do that instead. You can reach them at +32 2 464 60 04 or by pressing the button below.\nCan I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

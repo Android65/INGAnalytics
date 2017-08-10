@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "209a9bfa-360e-4f29-aa70-f61b1469af61",
+  "name": "_Generic_e_card_selection_button_other",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "My card isn\u0027t there!"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "generic_card_selection_button_other"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "userSays": [
+    {
+      "id": "fe2d2bb4-4d1e-4323-900c-cc3350430ce4",
+      "data": [
+        {
+          "text": "When will be the expiration date of my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ff324e7c-235a-45d2-8d8a-cc02bde162f3",
+      "data": [
+        {
+          "text": "At what date will my cards "
+        },
+        {
+          "text": "expire",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7a72789c-14cf-4ced-a89a-83a6c707ac77",
+      "data": [
+        {
+          "text": "When will my cards "
+        },
+        {
+          "text": "expire",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fdce5564-f3b5-4829-aec7-422e3a3ec192",
+      "data": [
+        {
+          "text": "What is the expiration date of my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c9db4798-10f9-4930-9370-2cd1d42d453e",
+      "data": [
+        {
+          "text": "When does my card "
+        },
+        {
+          "text": "expire",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "3e94ac94-495c-42cc-93c5-8013228d3f74",
+  "name": "card_expiration_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "That\u0027s easy! Just look at your card and you find the dates there :-)\nCan I help you with anything else?",
+            "Finding expiration date of your card is easy. Just look at your card, it\u0027s written there :-)\nCan i help you with anything else?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,205 @@
+{
+  "userSays": [
+    {
+      "id": "e691c3a0-381b-4b14-905f-72993c0fb9ee",
+      "data": [
+        {
+          "text": "not sure, perhaps "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9e0a0fa3-36d6-4f05-9ec5-4538ecc1e332",
+      "data": [
+        {
+          "text": "I think it\u0027s "
+        },
+        {
+          "text": "VISA",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "56700028-d483-4f17-b786-7e14db746eb2",
+      "data": [
+        {
+          "text": "it\u0027s "
+        },
+        {
+          "text": "VISA",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6f1aeac5-d9a2-46c0-8659-5a237b58285b",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1aa29cad-0a2b-4187-91ba-c2049ae09fa7",
+      "data": [
+        {
+          "text": "it\u0027s a "
+        },
+        {
+          "text": "Mastercard",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d24b1974-779e-44e8-a283-3b19895b7051",
+      "data": [
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3fa00118-b115-4c36-8b31-06ae23eee2a3",
+      "data": [
+        {
+          "text": "creditcard"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cccca297-522f-4ee4-b423-7dbbfa51ef84",
+      "data": [
+        {
+          "text": "mastercard",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6a9dd3a2-5655-4293-91c2-0c1907061829",
+      "data": [
+        {
+          "text": "VISA",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "af35a322-7f6b-4e11-baf3-2ea2055b326c",
+      "data": [
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "deff33a2-9d00-45cf-b83c-a945ed5c58ec",
+  "name": "use_abroad_1_credit",
+  "auto": true,
+  "contexts": [
+    "ctx_use_abroad",
+    "ctx_ua_card_type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ua_card_type",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "An ING credit card should always work globally. If you are experiencing issues using your credit card abroad, please call the ING Contact Centre at +32 2 464 60 04. Have a good trip abroad. Can I help you with something else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "useabroadcredit"
+    }
+  ]
+}

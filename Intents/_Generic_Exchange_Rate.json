@@ -1,0 +1,246 @@
+{
+  "userSays": [
+    {
+      "id": "14aa311c-de6b-4653-adf3-e007adb7e886",
+      "data": [
+        {
+          "text": "What is the exchange rate if I pay/withdraw cash in an other currency ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c6f9fb3b-d924-45a0-a13e-a0d0ce200624",
+      "data": [
+        {
+          "text": "what\u0027s the exchange rate "
+        },
+        {
+          "text": "today",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0f62a941-44d5-465f-bab5-5a6331e4ec82",
+      "data": [
+        {
+          "text": "What\u0027s the rate for "
+        },
+        {
+          "text": "USD",
+          "alias": "currency-name",
+          "meta": "@sys.currency-name",
+          "userDefined": false
+        },
+        {
+          "text": " today?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "08393ba2-36b8-46b4-927f-dcf602beb5ac",
+      "data": [
+        {
+          "text": "What\u0027s the rate for "
+        },
+        {
+          "text": "dollars",
+          "alias": "currency-name",
+          "meta": "@sys.currency-name",
+          "userDefined": false
+        },
+        {
+          "text": " now?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0dc47f78-8927-4989-8b61-06aaa43f00c0",
+      "data": [
+        {
+          "text": "Can you convert "
+        },
+        {
+          "text": "20 dollars",
+          "alias": "unit-currency",
+          "meta": "@sys.unit-currency",
+          "userDefined": false
+        },
+        {
+          "text": " to my local currency?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0d926c95-73bf-4e70-aaf7-098b4f22d8fc",
+      "data": [
+        {
+          "text": "How many "
+        },
+        {
+          "text": "Euros",
+          "alias": "currency-name",
+          "meta": "@sys.currency-name",
+          "userDefined": false
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "5 Dollars",
+          "alias": "unit-currency",
+          "meta": "@sys.unit-currency",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1c1d408-edad-475d-9317-e55d0ae4999b",
+      "data": [
+        {
+          "text": "What is the latest exchange rate or "
+        },
+        {
+          "text": "EUR",
+          "alias": "currency-name1",
+          "meta": "@sys.currency-name",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e8370f53-6b70-4c6d-95df-ecb56d5a21eb",
+      "data": [
+        {
+          "text": "What is exchange rate of "
+        },
+        {
+          "text": "GBP",
+          "alias": "currency-name",
+          "meta": "@sys.currency-name",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "CZK",
+          "alias": "currency-name",
+          "meta": "@sys.currency-name",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "17125fa0-af9e-4ab3-bb8e-6bdcf51818a8",
+      "data": [
+        {
+          "text": "Can you convert currencies?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8c52d96c-5c0a-4bd7-a0f7-0b8f987ace0f",
+      "data": [
+        {
+          "text": "Can you convert "
+        },
+        {
+          "text": "EUR",
+          "alias": "currency-name",
+          "meta": "@sys.currency-name",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "USD",
+          "alias": "currency-name1",
+          "meta": "@sys.currency-name",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d7bb0b14-504f-44a5-ba82-2271e9a7c03b",
+  "name": "_Generic_Exchange_Rate",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.currency-name",
+          "name": "currency-name",
+          "value": "$currency-name",
+          "isList": true
+        },
+        {
+          "dataType": "@sys.currency-name",
+          "name": "currency-name1",
+          "value": "$currency-name1",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.unit-currency",
+          "name": "unit-currency",
+          "value": "$unit-currency",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I\u0027m still learning how to calculate exchange rates. I\u0027ll ask my trainers for a math lesson soon! In the meanwhile, can I help you with card related questions?",
+            "I cannot calculate exchange rates yet, that lesson is still coming up for me. Can I help you with cards in the meanwhile?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

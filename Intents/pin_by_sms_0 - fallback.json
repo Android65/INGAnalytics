@@ -1,0 +1,42 @@
+{
+  "userSays": [],
+  "id": "d580a310-e656-4859-9e74-3ef561e3ba24",
+  "name": "pin_by_sms_0 - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_sms_init",
+    "ctx_pin_by_sms"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes I tried",
+            "More info",
+            "Not via SMS"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "I\u0027m afraid I didn\u0027t really understand this. \nPlease select \"Yes I tried\" If you tried to get you pin via SMS and something went wrong.\nSelect \"More info\" if the process to acquire your pin via SMS is unclear, and you want me to guide you through it.\nSelect \"Not via SMS\" if you do not want to receive your code via SMS and you would like an alternative method."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

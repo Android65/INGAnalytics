@@ -1,0 +1,310 @@
+{
+  "userSays": [
+    {
+      "id": "a007f124-d2a9-46b1-b4a8-726b72679297",
+      "data": [
+        {
+          "text": "Where can I find an ATM"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d88e0610-b64f-4c00-80e4-3d88a630f600",
+      "data": [
+        {
+          "text": "where can I find a "
+        },
+        {
+          "text": "branch",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d2efd769-ebf4-42aa-83c7-e4e727e06d51",
+      "data": [
+        {
+          "text": "ATM Location"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "176b6ec9-8590-44cd-a50c-4067f146cf8e",
+      "data": [
+        {
+          "text": "nearest "
+        },
+        {
+          "text": "branch",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d116a48e-f1bc-492e-8a05-7f587ba2ee95",
+      "data": [
+        {
+          "text": "closest "
+        },
+        {
+          "text": "branch",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ec53fc4b-74a4-46b7-b0b9-97e47f62cd17",
+      "data": [
+        {
+          "text": "nearest ING office"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "56584b88-fe23-4cc5-807c-ef2cd49662ce",
+      "data": [
+        {
+          "text": "closest atm"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0ae2d7c6-1115-4d95-9160-1c933d739675",
+      "data": [
+        {
+          "text": "nearest atm"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ff376306-0180-4c27-a98b-d1871aa5072d",
+      "data": [
+        {
+          "text": "The most close ATM is where?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9decdc60-5402-4823-82d0-8a8663159b4f",
+      "data": [
+        {
+          "text": "Can you help me find the nearest ATM, please?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dcf59f6f-69c6-4ab6-bc31-52dc59da0b1a",
+      "data": [
+        {
+          "text": "Can you let me know where is my closest "
+        },
+        {
+          "text": "branch",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " to disable my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a363f87b-afa4-4752-8abe-4c57514e92ab",
+      "data": [
+        {
+          "text": "Show me closest ATMs around"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cf5f6348-da4c-412c-8617-176316dd56f8",
+      "data": [
+        {
+          "text": "Show me where is closes cash dispenser"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "35f27c5b-b5fd-472c-8947-d44024512440",
+      "data": [
+        {
+          "text": "Show me where is closest ING "
+        },
+        {
+          "text": "branch",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4efd4ff2-568d-4b5c-9c76-bb29fcfff666",
+      "data": [
+        {
+          "text": "Closest ATM, please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "52eb90b4-dc47-47ec-b1e4-bc0f03d9cdf3",
+      "data": [
+        {
+          "text": "Where is the closes ING office?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "27cf6211-a333-448d-950d-a4d289853104",
+      "data": [
+        {
+          "text": "Where is the geldautomaat, please?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2ea37866-5fca-4623-a139-302bc1c3f556",
+      "data": [
+        {
+          "text": "What is the closest ATM?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a01a9d03-3b96-4f24-b0d5-f7e5e95e96b0",
+      "data": [
+        {
+          "text": "Where can I find nearest "
+        },
+        {
+          "text": "branch",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " of ING?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "891b5347-c47b-47cc-8ea3-aef271b02557",
+      "data": [
+        {
+          "text": "Nearest ATM pls"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7dd12cf3-8b59-469d-9674-4017393155ad",
+      "data": [
+        {
+          "text": "Nearest cash withdrawal?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "48a0789b-3ceb-49fc-afe7-169a15b402b5",
+      "data": [
+        {
+          "text": "Where\u0027s nearest cash withdrawal of ING?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a6f72f19-405e-471b-8094-30ae28959ad4",
+      "data": [
+        {
+          "text": "Where is the nearest ATM here?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "196f9bc8-bf6b-47d3-9a91-3b197ae707a8",
+  "name": "_Generic_Nearest_ATM_or_Branch",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@AssistanceType",
+          "name": "AssistanceType",
+          "value": "$AssistanceType",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "That\u0027s easy! You can simply go to this link and find nearest branch or ATM here: https://branches.ing.be/branches.",
+            "Nearest ATMs and branches are really easily found here: https://branches.ing.be/branches."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

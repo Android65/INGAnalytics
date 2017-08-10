@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "9ea959e5-b77d-4654-8061-344772c82a46",
+  "name": "card_delivery_e_no_card_in_3m_ICC_closed",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hmm, it seems we haven\u0027t sent you any card in the past 3 months. You can call my human colleagues on weekdays from 8:00 to 22:00 or on Saturday from 9:00 to 17:00 to check this out. Their number is +32 2 464 60 04."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "card_delivery_no_card_in_3m_ICC_closed"
+    }
+  ]
+}

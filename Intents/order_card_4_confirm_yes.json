@@ -1,0 +1,67 @@
+{
+  "userSays": [
+    {
+      "id": "8fc46fb2-7863-432d-833f-c255dd778c73",
+      "data": [
+        {
+          "text": "Indeed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c383215c-c032-41b5-9744-69ac7f62b5d8",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "42968955-ef29-4828-a771-ca96309ff9a7",
+  "name": "order_card_4_confirm_yes",
+  "auto": true,
+  "contexts": [
+    "ctx_order_card",
+    "ctx_oc_final_confirmation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ordercard",
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_oc_final_confirmation",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Great! I have created the request to order your card. It should arrive in a few days.\n\nCan I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

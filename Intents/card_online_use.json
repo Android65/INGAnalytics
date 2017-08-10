@@ -1,0 +1,101 @@
+{
+  "userSays": [
+    {
+      "id": "517c2ec4-d8e6-444c-9a1b-89faf0722ee5",
+      "data": [
+        {
+          "text": "Is it possible to use my card "
+        },
+        {
+          "text": "online",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c033c30c-6dec-40e9-ac4b-84078a8a8db3",
+      "data": [
+        {
+          "text": "Can I pay with my card "
+        },
+        {
+          "text": "online",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0bfbe6d6-f3a7-4453-9656-e5c31c7edee7",
+      "data": [
+        {
+          "text": "Can I pay on the internet with my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2bd30ef0-2a42-4b81-8380-35cf5bf8bcce",
+      "data": [
+        {
+          "text": "Can I use my card "
+        },
+        {
+          "text": "online",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b3de328a-4b23-4407-a513-b9c76f9f8512",
+      "data": [
+        {
+          "text": "Can I use my card for transactions on the internet?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b2e3c5db-1238-4def-b2f2-5d0eca3aea69",
+  "name": "card_online_use",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Yes, you can pay with your card online. Is there anything else I can help you with?",
+            "Of course you can pay with your card online. Is there anything else I can help you with?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

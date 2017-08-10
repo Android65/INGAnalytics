@@ -1,0 +1,76 @@
+{
+  "userSays": [
+    {
+      "id": "5d454682-3d38-4258-a07e-533d014c8fda",
+      "data": [
+        {
+          "text": "no thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "780e3564-889c-42ed-b365-92b65fb02d2d",
+      "data": [
+        {
+          "text": "please no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c004f21a-8449-403c-9f77-c5f82c04cdfe",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5f7f24a4-315e-471f-81b0-bf6e8987f334",
+  "name": "activate_card_4_abroad_noactivate",
+  "auto": true,
+  "contexts": [
+    "ctx_activate_card",
+    "ctx_ac_maestro"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_activate_card",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ac_maestro",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok, no problem! Can I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

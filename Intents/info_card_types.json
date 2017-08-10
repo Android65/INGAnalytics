@@ -1,0 +1,180 @@
+{
+  "userSays": [
+    {
+      "id": "0a7f5913-41c2-4c65-8578-cfc4649a09f7",
+      "data": [
+        {
+          "text": "What type of cards do you propose?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1c8c6e7c-50da-4f4c-954c-c4a4acd5d96c",
+      "data": [
+        {
+          "text": "do you have info on cards?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "59d908c5-4845-4080-932c-517b4f2068f0",
+      "data": [
+        {
+          "text": "What are bank cards?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "32799833-3f9e-41af-b17e-50c0c1d81b09",
+      "data": [
+        {
+          "text": "What is a bank card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f2e6bc70-c0a7-44ab-894d-f29a2c29ebfb",
+      "data": [
+        {
+          "text": "What is a "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dba8014d-5716-4fa4-ba5d-bba2c8cc9c9c",
+      "data": [
+        {
+          "text": "What is a "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f644c393-7c6b-40a5-8a05-b443e29e6b15",
+      "data": [
+        {
+          "text": "What card do I have?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "9f787626-deba-4fb9-96b0-6b531f6397ab",
+      "data": [
+        {
+          "text": "Which type of card do I have?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "23d34308-cd10-4928-ba5f-9bcb0277b204",
+      "data": [
+        {
+          "text": "what card type do I have?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f024bd09-d3a2-47a8-9a7e-306080bd962d",
+      "data": [
+        {
+          "text": "is my bank card a "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " or a "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e6c4fc63-d214-4dec-a2ed-07549b30aa14",
+  "name": "info_card_types",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Bancontact, Maestro and contactless payments are debit cards. ING Visa Classic, ING MasterCard Gold and ING Card are our three credit cards.",
+            "ING offers Bancontact, Maestro and contactless payments as debit cards. ING Visa Classic, ING MasterCard Gold and ING Card are our three credit cards.",
+            "If you want a bank card you can choose amongst our debit cards (which have the function Bancontact, Maestro and contactless payments) and our credit cards (ING Visa Classic, MasterCard Gold and ING Card)."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

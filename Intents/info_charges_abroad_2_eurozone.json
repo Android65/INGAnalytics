@@ -1,0 +1,384 @@
+{
+  "userSays": [
+    {
+      "id": "ce0f00c3-b6f3-44ae-9e4f-fd54f6b5acff",
+      "data": [
+        {
+          "text": "Spain",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6f60bd0d-e3f6-48a5-9c89-a6c716917522",
+      "data": [
+        {
+          "text": "Slovenia",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "85e06286-d12f-4abd-9569-8952fd64a712",
+      "data": [
+        {
+          "text": "Slovakia",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a2a5ec1b-e22d-4616-9321-c6b1d51fecc6",
+      "data": [
+        {
+          "text": "Portugal",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1156c4f-744c-4c49-88ae-442698346a3b",
+      "data": [
+        {
+          "text": "Malta",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4fc52c64-f29f-427b-9fd5-89d756f14a7d",
+      "data": [
+        {
+          "text": "Luxembourg",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e06d0b13-cc24-46c1-b43e-214dec59daee",
+      "data": [
+        {
+          "text": "Lithuania",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1888e2bc-0b66-4cb9-9dc5-3ccfada0ece6",
+      "data": [
+        {
+          "text": "Latvia",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "49441cc2-9f73-48e9-a923-29b9c49c9d20",
+      "data": [
+        {
+          "text": "Ireland",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a107fd46-8511-47da-87b3-1bce69258765",
+      "data": [
+        {
+          "text": "Greece",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "86e5fbea-7694-462c-827c-1fe5a701f76c",
+      "data": [
+        {
+          "text": "Finland",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "53d7760b-93ea-4d57-bfde-6821d8d7b7af",
+      "data": [
+        {
+          "text": "Estonia",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a3955a41-16c6-4131-ad27-d708b203f267",
+      "data": [
+        {
+          "text": "Cyprus",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a4cc8128-d813-4204-957a-954cd66ea57e",
+      "data": [
+        {
+          "text": "Austria",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1f65aee0-0eff-4678-86ef-15724dac6392",
+      "data": [
+        {
+          "text": "Netherlands",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d613fd16-d278-48ab-a1ac-baeb25552faa",
+      "data": [
+        {
+          "text": "Germany",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "dd672e4d-8e26-40d5-b086-995e50ac583b",
+      "data": [
+        {
+          "text": "Italy",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fc31f6cd-468e-47c8-9295-204d7c671bf6",
+      "data": [
+        {
+          "text": "France",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7de969d0-a487-4923-8315-c45e3963dffb",
+      "data": [
+        {
+          "text": "and in "
+        },
+        {
+          "text": "Belgium",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "17b0c859-ad5e-4785-a5de-e670992bb128",
+      "data": [
+        {
+          "text": "I will travel to "
+        },
+        {
+          "text": "Belgium",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d69fec4-52d7-437a-a7ae-f8a465440c45",
+      "data": [
+        {
+          "text": "I am currently in "
+        },
+        {
+          "text": "Belgium",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cd610c80-7361-4507-bac4-e56bd3ad5054",
+      "data": [
+        {
+          "text": "in "
+        },
+        {
+          "text": "Belgium",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d9067509-e6a1-4535-be87-a5377913c67f",
+      "data": [
+        {
+          "text": "Belgium",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ab7f98e9-3bfe-49b2-a386-f1d0fb189401",
+  "name": "info_charges_abroad_2_eurozone",
+  "auto": true,
+  "contexts": [
+    "ctx_info_charges_abroad",
+    "ctx_ica_location"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_info_charges_abroad",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ica_location",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ica_card_type",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Euro_Zone",
+          "name": "Euro_Zone",
+          "value": "$Euro_Zone",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Usage of your card in $Euro_Zone as part of the Euro-zone is free. \nDo you have other questions?",
+            "There a no charges to use your card in $Euro_Zone :). Can I help you with something else?",
+            "You will have no fees if you use your card in $Euro_Zone . Do you have other questions?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

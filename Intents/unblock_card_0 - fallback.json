@@ -1,0 +1,39 @@
+{
+  "userSays": [],
+  "id": "c100ea4b-73ef-4f5d-a476-24e8769dea74",
+  "name": "unblock_card_0 - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_unblock_card",
+    "ctx_uc_remember_pin"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Please select either \"Yes\" if you remember your pin number, or \"No\" if you don\u0027t."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

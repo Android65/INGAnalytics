@@ -1,0 +1,109 @@
+{
+  "userSays": [
+    {
+      "id": "35428384-39a7-41de-9261-d19c322b29ec",
+      "data": [
+        {
+          "text": "I don\u0027t know"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0123a633-3634-4ab8-a08f-c845cb164dde",
+      "data": [
+        {
+          "text": "Probably not"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bc951373-43cf-4c71-88e6-e6544067d149",
+      "data": [
+        {
+          "text": "Probably"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d474889-8abe-48fa-afb0-0e5de27bdcd3",
+      "data": [
+        {
+          "text": "Could be"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d76c0183-1ecb-461c-8049-c78c2bc0e260",
+      "data": [
+        {
+          "text": "I do not know"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a66033f6-d550-4223-b601-2ff9e16f318d",
+      "data": [
+        {
+          "text": "Maybe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b80d4026-a982-4fd4-986a-5b6c5821ed1e",
+  "name": "card_stop_1_misuse_maybe",
+  "auto": true,
+  "contexts": [
+    "ctx_card_stop",
+    "ctx_cs_misuse"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "showicccontactdetails",
+      "affectedContexts": [
+        {
+          "name": "ctx_card_stop",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_cs_misuse",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "In this case I cannot help you but my human colleagues can find out whether your card has been misused. Please contact the ING Contact Centre at +32 2 464 60 04.\nDo you have other questions?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

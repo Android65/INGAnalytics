@@ -1,0 +1,41 @@
+{
+  "userSays": [],
+  "id": "b20533e6-07cf-4356-8678-c284117e529b",
+  "name": "order_card_1_customer - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_oc_replace_extra",
+    "ctx_order_card"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Extra card",
+            "Replace card"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "I\u0027m afraid I didn\u0027t really understand you. \nPlease select \"Extra card\" if you want an additional card for one of your accounts.\nSelect \"Replace card\" if you want to replace one of your cards."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

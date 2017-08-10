@@ -1,0 +1,173 @@
+{
+  "userSays": [
+    {
+      "id": "e507849a-5260-47f0-8a29-de0cbf9f58a0",
+      "data": [
+        {
+          "text": "What is "
+        },
+        {
+          "text": "debit",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "15b4806d-59b4-490f-a16a-c3ceb4a6b38c",
+      "data": [
+        {
+          "text": "What is a "
+        },
+        {
+          "text": "credit",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "22ac6b27-3007-4ce7-8db6-a89f4685ce07",
+      "data": [
+        {
+          "text": "Why?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2a8eb9bf-bfa9-4d11-9310-c49fa5d42fde",
+      "data": [
+        {
+          "text": "No idea."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "36fc46da-e3a6-4260-b50a-518b59f0fe87",
+      "data": [
+        {
+          "text": "I don\u0027t know"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "36156f80-7334-43d7-aa29-b9bab4284df3",
+  "name": "info_charges_abroad_1_unknown",
+  "auto": true,
+  "contexts": [
+    "ctx_info_charges_abroad",
+    "ctx_ica_card_type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ctx_info_charges_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ica_card_type",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Debit card",
+          "subtitle": "",
+          "imageUrl": "https://www.ing.be/static/marie/debit_card/debit_card_default.jpg",
+          "buttons": [
+            {
+              "text": "This one!",
+              "postback": "Debit card"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "ING card",
+          "subtitle": "",
+          "imageUrl": "https://www.ing.be/static/marie/ing_card/ing_card_default.jpg",
+          "buttons": [
+            {
+              "text": "This one!",
+              "postback": "ING card"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "VISA Classic",
+          "subtitle": "",
+          "imageUrl": "https://www.ing.be/static/marie/visa_classic/visa_classic_default.jpg",
+          "buttons": [
+            {
+              "text": "This one!",
+              "postback": "VISA Classic"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "VISA Gold",
+          "subtitle": "",
+          "imageUrl": "https://www.ing.be/static/marie/visa_gold/visa_gold_default.jpg",
+          "buttons": [
+            {
+              "text": "This one!",
+              "postback": "VISA Gold"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "MasterCard Gold",
+          "subtitle": "",
+          "imageUrl": "https://www.ing.be/static/marie/mastercard_gold/mastercard_gold_default.jpg",
+          "buttons": [
+            {
+              "text": "This one!",
+              "postback": "MasterCard Gold"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Just select your type of card from the list below:"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,81 @@
+{
+  "userSays": [],
+  "id": "c6d043eb-e2d0-4b17-a4ca-cb2c2f450b77",
+  "name": "card_delivery_3_show_delivery_post",
+  "auto": true,
+  "contexts": [
+    "ctx_card_delivery"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_card_delivery",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_cd_address_prompt",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "",
+          "name": "orderDate",
+          "value": "#carddeliverydetailspost.orderDate"
+        },
+        {
+          "dataType": "",
+          "name": "sendDate",
+          "value": "#carddeliverydetailspost.sendDate"
+        },
+        {
+          "dataType": "",
+          "name": "sendName",
+          "value": "#carddeliverydetailspost.sendName"
+        },
+        {
+          "dataType": "",
+          "name": "sendStreet",
+          "value": "#carddeliverydetailspost.sendStreet"
+        },
+        {
+          "dataType": "",
+          "name": "sendLocation",
+          "value": "#carddeliverydetailspost.sendLocation"
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "You ordered this card on $orderDate, and we have sent it to you on $sendDate to the following address:\n$sendName\n$sendStreet\n$sendLocation\nIs this the correct address?",
+            ""
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "carddeliverydetailspost"
+    }
+  ]
+}

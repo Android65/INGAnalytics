@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "4223a44e-5bcb-41d4-803b-278b7e8a7381",
+  "name": "authentication_e_sending_sms_token",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Thanks! If you are an ING client, I will send an SMS token to your mobile within a minute. Please enter this token in messenger in order to authenticate."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "smsauth_sending_sms_token"
+    }
+  ]
+}

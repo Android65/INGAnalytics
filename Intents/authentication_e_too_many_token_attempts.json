@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "a19f3cb5-d6cb-41aa-88ae-38d9c882eee4",
+  "name": "authentication_e_too_many_token_attempts",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Unfortunately, you have reached the limit for verification attempts. You can try again in 1h. Why don\u0027t you try calling my human colleagues instead?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "smsauth_too_many_token_attempts"
+    }
+  ]
+}

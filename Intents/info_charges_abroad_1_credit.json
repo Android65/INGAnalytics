@@ -1,0 +1,160 @@
+{
+  "userSays": [
+    {
+      "id": "32c4315d-e572-4143-9e2c-040acb0f878e",
+      "data": [
+        {
+          "text": "for my "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": true
+        },
+        {
+          "text": " card."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a7f14311-dab5-4b59-91fd-b00700774bdb",
+      "data": [
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "296401f3-6a5e-4a45-a6ab-1860d3820364",
+      "data": [
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": true
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "28d9eb30-9343-41ad-aff4-db664c1490fb",
+      "data": [
+        {
+          "text": "I use a "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": true
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e875e6bc-197f-41f3-9e42-9058d1e06c0a",
+      "data": [
+        {
+          "text": "I have a "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": true
+        },
+        {
+          "text": " card."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "66545208-3ca8-4ac9-8541-9228d0692a24",
+      "data": [
+        {
+          "text": "It is about a "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": true
+        },
+        {
+          "text": " card."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "78788a11-898f-4f57-b5bb-c36719613c1f",
+  "name": "info_charges_abroad_1_credit",
+  "auto": true,
+  "contexts": [
+    "ctx_info_charges_abroad",
+    "ctx_ica_card_type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_info_charges_abroad",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ica_card_type",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "For $Credit_Card_Type, please check the paragraph related to cards in our charges and regulations brochure https://www.ing.be/static/legacy/SiteCollectionDocuments/TarievenNatuurlijkePersonenNewEN.pdf. \nDo you have other questions?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

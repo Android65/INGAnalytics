@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "d4b75a5b-fff7-4997-955d-3a67dbc028cc",
+  "name": "_Generic_e_call_ICC_button_title",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Call Contact Centre"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "generic_call_ICC_button_title"
+    }
+  ]
+}

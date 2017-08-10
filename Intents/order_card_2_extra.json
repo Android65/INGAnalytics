@@ -1,0 +1,84 @@
+{
+  "userSays": [
+    {
+      "id": "b4e0e8c3-385f-4fbc-8844-904f1f9deb14",
+      "data": [
+        {
+          "text": "I need an extra card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "71f7c92b-49b4-4083-a3b8-6363f790d8ba",
+      "data": [
+        {
+          "text": "I want to order a second card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "648e1c48-69ed-4ff1-91bb-6bf28a60fd3f",
+      "data": [
+        {
+          "text": "Extra card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "383ac916-7156-4e77-afef-cd2a0b1c8566",
+  "name": "order_card_2_extra",
+  "auto": true,
+  "contexts": [
+    "ctx_order_card",
+    "ctx_oc_replace_extra"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "showicccontactdetails",
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_oc_replace_extra",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "To order extra credit cards, you can visit our credit card web page at www.ing.be/fr/retail/daily-banking/credit-cards or contact the ING Contact Centre. You can reach them at +32 2 464 60 04 or by pressing the button below. Can I help you with anything else?",
+            "In the near future I will be able to help you with this. For now contact us at +322 464 60 04 or visit our credit card web page at www.ing.be/fr/retail/daily-banking/credit-cards.\nCan I help you with anything else?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "orderextracard"
+    }
+  ]
+}

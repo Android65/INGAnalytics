@@ -1,0 +1,90 @@
+{
+  "userSays": [
+    {
+      "id": "c8d194db-1043-4f69-b012-b6110f840ac0",
+      "data": [
+        {
+          "text": "Why do you need to know?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "63994ac1-5730-4a7a-b5a1-4070c0e44396",
+      "data": [
+        {
+          "text": "This is an indescrete question!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e52ad8f6-0d7e-40ba-bb8c-e02d34d5c793",
+      "data": [
+        {
+          "text": "Is this relevant?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dfddc422-6796-45d0-b010-0965e5eb6307",
+      "data": [
+        {
+          "text": "why are you so curious?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f19788e7-9001-4994-8882-f674a34748fb",
+      "data": [
+        {
+          "text": "Why do you want to know?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "24cb1f9d-cd0a-4327-86bb-8edc8c7b3d5c",
+  "name": "info_charges_abroad_2_fallback_bis",
+  "auto": true,
+  "contexts": [
+    "ctx_info_charges_abroad",
+    "ctx_ica_location"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_info_charges_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ica_location",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Charges for your debit card might differ depending on the country you are in. So, can you please tell me which country you are in?"
+        }
+      ]
+    }
+  ],
+  "priority": 0,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

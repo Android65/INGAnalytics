@@ -1,0 +1,173 @@
+{
+  "userSays": [
+    {
+      "id": "246b9015-8feb-466d-b22c-b783da60746a",
+      "data": [
+        {
+          "text": "it",
+          "alias": "any",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "was",
+          "alias": "any",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "great",
+          "alias": "any",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b3cb3cba-f064-44d7-9bff-ce2d18b7cd84",
+      "data": [
+        {
+          "text": "it "
+        },
+        {
+          "text": "sucked",
+          "alias": "any",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3d569f46-2c6a-4085-a24c-ddf4c37e7973",
+      "data": [
+        {
+          "text": "whatever",
+          "alias": "any",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1fcbf95a-3be5-40c2-bdc1-c598bd4fe2d2",
+      "data": [
+        {
+          "text": "no",
+          "alias": "any",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "68dde39c-2cbf-4b54-ac0e-ee8ef44cd14d",
+      "data": [
+        {
+          "text": "anything",
+          "alias": "any",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ea8c35be-3277-4504-835f-7e3bd6add548",
+      "data": [
+        {
+          "text": "asdf",
+          "alias": "any",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "a722d573-34d6-473c-a9e1-09d9012290f0",
+  "name": "_NPS_score_2",
+  "auto": true,
+  "contexts": [
+    "ctx_nps",
+    "ctx_nps_1"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "endofconversationconfirmed",
+      "affectedContexts": [
+        {
+          "name": "ctx_nps",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_nps_1",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_nps_2",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "_NPS_score_2-followup",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.any",
+          "name": "any",
+          "value": "$any",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Strongly disagree",
+            "Disagree",
+            "I don\u0027t know",
+            "Agree",
+            "Strongly agree"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Last question! What do you think about the following statement: \"It\u0027s safe to ask a digital assistant on Facebook Messenger questions about financial products or services.\"?",
+            ""
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

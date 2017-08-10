@@ -1,0 +1,142 @@
+{
+  "userSays": [
+    {
+      "id": "c57a223e-ee4b-4db8-8570-0292b35525a3",
+      "data": [
+        {
+          "text": "I don\u0027t have the letter to get my PIN anymore"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a25a3478-cfaa-4505-82e4-d7eb1637c4c0",
+      "data": [
+        {
+          "text": "I don\u0027t have the letter for my pin code anymore"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b802cae7-86cc-4860-aee8-5a7eb3ad0e5c",
+      "data": [
+        {
+          "text": "I don\u0027t have the letter for my pin code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1838e8b4-d6f1-4544-bd92-7b7e0a7541ac",
+      "data": [
+        {
+          "text": "I\u0027ve "
+        },
+        {
+          "text": "lost",
+          "alias": "Card_Actication_Reason_Replace",
+          "meta": "@Card_Actication_Reason_Replace",
+          "userDefined": false
+        },
+        {
+          "text": " the letter with the token"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e37bdfa1-3b85-4112-bc55-0656a22e5585",
+      "data": [
+        {
+          "text": "I don\u0027t have the letter anymore"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da08045f-8d2a-4e39-a2c9-5cb343f5f75e",
+      "data": [
+        {
+          "text": "I have thrown the letter away"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3a0f5e54-4612-47b5-8e58-8f1ed9ed96fb",
+      "data": [
+        {
+          "text": "No I don\u0027t"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "994bf5cf-c46c-4607-957a-2469d9fa6dbc",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "18c074b2-aa1c-47a9-881d-59010f48edb6",
+  "name": "pin_by_sms_2_more_info_no",
+  "auto": true,
+  "contexts": [
+    "ctx_sms_letter",
+    "ctx_pin_by_sms"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_sms_letter",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "ctx_pin_by_sms",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Card_Actication_Reason_Replace",
+          "name": "Card_Actication_Reason_Replace",
+          "value": "$Card_Actication_Reason_Replace",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "In that case, don\u0027t do anything. We will send you the PIN code of your bank card by post soon. If you want to receive it more quickly, go to an ING branch of your choice. Do you have other questions?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

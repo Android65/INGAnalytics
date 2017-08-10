@@ -1,0 +1,82 @@
+{
+  "userSays": [
+    {
+      "id": "f0b1c0df-9ed3-4c98-be29-10a2231fed88",
+      "data": [
+        {
+          "text": "inactive"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8f721b21-19d9-4c2e-b465-78b065fa4267",
+      "data": [
+        {
+          "text": "Card inactive"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fe3d2908-0940-4661-b0d4-e7404c21cc5f",
+      "data": [
+        {
+          "text": "My card is inactive"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d0e2dc69-f113-41fe-9d90-904694841d5d",
+      "data": [
+        {
+          "text": "Inactive card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "39251a10-7ac2-4804-a894-f5025b60ecbb",
+  "name": "activate_card_1_inactive",
+  "auto": true,
+  "contexts": [
+    "ctx_activate_card",
+    "ctx_ac_reason"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:inactivecard",
+      "affectedContexts": [
+        {
+          "name": "ctx_activate_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ac_reason",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

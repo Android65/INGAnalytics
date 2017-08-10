@@ -1,0 +1,57 @@
+{
+  "userSays": [
+    {
+      "id": "197083cf-2bc1-4e77-b231-d858ec345e87",
+      "data": [
+        {
+          "text": "Not my address"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "05f94b00-90bc-49fd-814f-5829864e6faa",
+  "name": "unblock_card_rn_4_unknown_address",
+  "auto": true,
+  "contexts": [
+    "ctx_uc_address_confirmation",
+    "ctx_unblock_card_rn"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "showicccontactdetails",
+      "affectedContexts": [
+        {
+          "name": "ctx_uc_address_confirmation",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_unblock_card_rn",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Oh, it seems that my data is out of date. It would be best to call my colleagues from the ICC Contact Centre, they will be happy to help you further! You can reach them at +32 2 464 60 04 or by pressing the button below.\n\nCan I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

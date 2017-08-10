@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "bdfb7a9b-7ff7-4640-a913-8839b30991bb",
+      "data": [
+        {
+          "text": "Oh yes please do"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f6c8b8ae-825e-4fc4-b1c8-2768876bfae5",
+      "data": [
+        {
+          "text": "yes please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "51c1e8bb-7343-4362-ae7f-3e2adee97514",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "af46f40a-31ab-4d2c-9c38-01846fe6e2b8",
+  "name": "activate_card_4_abroad_activate",
+  "auto": true,
+  "contexts": [
+    "ctx_activate_card",
+    "ctx_ac_maestro"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:useabroad",
+      "affectedContexts": [
+        {
+          "name": "ctx_activate_card",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ac_maestro",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

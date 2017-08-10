@@ -1,0 +1,104 @@
+{
+  "userSays": [
+    {
+      "id": "f289fb3b-6110-414e-813f-61e4ec55007c",
+      "data": [
+        {
+          "text": "how is traffic jam"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b95bf69a-bbfe-41f1-b3b9-24f7ff5ab0e9",
+      "data": [
+        {
+          "text": "are you in traffic jam?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e68e0031-779c-454e-9cf4-10c641819a02",
+      "data": [
+        {
+          "text": "how it the traffic jam going "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a9a60d0c-ee4b-4549-8038-5e720e39eeb2",
+      "data": [
+        {
+          "text": "how about traffic "
+        },
+        {
+          "text": "today",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d12002ae-a842-455a-9a34-db05bf99018e",
+      "data": [
+        {
+          "text": "How\u0027s traffic?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0bb851df-ed05-49af-a27a-b91721f2c42d",
+  "name": "_Generic_Traffic",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Ah, traffic is as \"great\" as usual. Fortunately, I can entertain myself with cards. How can I help you with them?",
+            "Traffic is suspiciously good today, but don\u0027t go over the ring. Fortunately, I can talk to you about your cards to entertain myself :-) How can I help you?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

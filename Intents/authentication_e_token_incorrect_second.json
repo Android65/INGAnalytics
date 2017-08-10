@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "f437dc87-a132-4924-8b87-2115a43b9550",
+  "name": "authentication_e_token_incorrect_second",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "That\u0027s not a good token I\u0027m afraid. Please try again. I\u0027ll give you 1 more attempt."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "smsauth_token_incorrect_second"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "userSays": [],
+  "id": "75b5436c-8647-4ff7-8dbf-75fe9ecafdab",
+  "parentId": "a722d573-34d6-473c-a9e1-09d9012290f0",
+  "rootParentId": "a722d573-34d6-473c-a9e1-09d9012290f0",
+  "name": "_NPS_score_2 - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_nps_2",
+    "ctx_nps",
+    "_NPS_score_2-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "_NPS_score_2._NPS_score_2-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Strongly disagree",
+            "Disagree",
+            "I don\u0027t know",
+            "Agree",
+            "Strongly agree"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Hm, I didn\u0027t quite grasp that. Could you choose one of the options below?",
+            "Hmm, not sure what you mean by this. Could you choose one of the options below?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

@@ -1,0 +1,39 @@
+{
+  "userSays": [],
+  "id": "edad05e3-881b-4837-b236-7899ba17b53a",
+  "name": "use_abroad_0_cardtype_FallBack",
+  "auto": false,
+  "contexts": [
+    "ctx_use_abroad",
+    "ctx_ua_card_type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_ua_second_time_callback",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Is it your debit or credit card that you want to use abroad? You can tell if it is a credit card if it has a \"Visa\" or \"Mastercard\" logo on it",
+            "Do you want to use your debit card or your credit card abroad?",
+            "During your trip abroad, are you going to use your credit card or your debit card?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

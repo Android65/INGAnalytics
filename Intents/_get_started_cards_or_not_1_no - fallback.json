@@ -1,0 +1,33 @@
+{
+  "userSays": [],
+  "id": "87821632-3761-4139-8faa-17cbbb76a016",
+  "parentId": "c02c2ffc-a375-417c-a899-2176e3fa7e84",
+  "rootParentId": "c02c2ffc-a375-417c-a899-2176e3fa7e84",
+  "name": "_get_started_cards_or_not_1_no - fallback",
+  "auto": false,
+  "contexts": [
+    "_get_started_cards_or_not_1_no-followup",
+    "ctx_get_started",
+    "_start_cards_or_not-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I\u0027m still trying to connect you to the right human colleague. They are available from Monday to Friday between 8 am and 10 pm and on Saturday between 9 am and 5 pm and will always get back to you. Please hold on a bit more."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

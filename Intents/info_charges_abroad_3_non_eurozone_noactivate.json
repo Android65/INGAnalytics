@@ -1,0 +1,76 @@
+{
+  "userSays": [
+    {
+      "id": "d63e0c61-1103-4af1-bc28-cffb4330f4b2",
+      "data": [
+        {
+          "text": "I already did that"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4ec164e1-7677-484c-86dc-dad18a0e328e",
+      "data": [
+        {
+          "text": "no thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d2ce5ddc-435e-47c7-bff6-611dd501e8a6",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8c072673-5fdb-4606-ba77-6f4c40dbd118",
+  "name": "info_charges_abroad_3_non_eurozone_noactivate",
+  "auto": true,
+  "contexts": [
+    "ctx_info_charges_abroad",
+    "ctx_ica_activate"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_info_charges_abroad",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ica_activate",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok, no problem! Can I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

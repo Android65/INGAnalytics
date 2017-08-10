@@ -1,0 +1,66 @@
+{
+  "userSays": [
+    {
+      "id": "10a3e067-a283-44f5-af5f-278be0618bd2",
+      "data": [
+        {
+          "text": "I remember my PIN but would like to change it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "45740d82-e036-47d5-9c11-f0b029ad3317",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "70b203a7-66a1-4220-8210-fe939a1866b7",
+  "name": "new_pin_2_resetyes",
+  "auto": true,
+  "contexts": [
+    "ctx_newpin",
+    "ctx_np_pinknown"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_newpin",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_np_pinknown",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "It\u0027s easy, you just need to go to an ATM and choose the option “change pin” . Can I help you with something else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

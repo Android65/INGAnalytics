@@ -1,0 +1,368 @@
+{
+  "userSays": [
+    {
+      "id": "e8fb840f-ca52-4b7e-900e-7389461371f6",
+      "data": [
+        {
+          "text": "I need to activate my pin code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "6363a8cf-4771-47db-a95e-c786429e88d7",
+      "data": [
+        {
+          "text": "I want to activate my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2f45c51a-7be8-4c79-8d9f-c3e1567ba919",
+      "data": [
+        {
+          "text": "I cannot activate my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2802a97b-93c5-4897-b473-72e1fbd4ecd3",
+      "data": [
+        {
+          "text": "Please activate my card for me, it\u0027s not working"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "69844306-f843-40d5-a58f-18a88288e0b1",
+      "data": [
+        {
+          "text": "I do not understand how to activate my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "62f23110-82b8-4ef1-8e2b-f47cd5d92a2b",
+      "data": [
+        {
+          "text": "Help me activate my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4aa51b31-d6cb-4649-9117-662549b0b00e",
+      "data": [
+        {
+          "text": "Why is your activation process not working ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e9ea26ca-2fea-4e34-889b-28be658c6751",
+      "data": [
+        {
+          "text": "I need your help to activate my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bb69cace-1aaf-4124-887a-d92e0fb7dc7f",
+      "data": [
+        {
+          "text": "I got an error message while activating my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "525bddfa-4301-4223-ada2-fd5f75334d76",
+      "data": [
+        {
+          "text": "I got an empty message as an answer to activate my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c00bf861-98c6-44b1-b50a-fbb5cb3c23d0",
+      "data": [
+        {
+          "text": "Do I have to do something before I can use my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "7b5a6fc7-e6be-430e-b1c5-3ba66e7029a9",
+      "data": [
+        {
+          "text": "How can I get my card activated?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6809895c-1dfe-4950-a776-368e01851969",
+      "data": [
+        {
+          "text": "Do I have to do anything before I can use my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "64a6d95e-ed03-4f10-8f2a-32575a4bef00",
+      "data": [
+        {
+          "text": "My card needs to be activated"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "097cbd55-a5b0-48ce-a9a9-8107b779715e",
+      "data": [
+        {
+          "text": "How can I activate my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6da61e3d-7421-4478-9208-21ddb2966339",
+      "data": [
+        {
+          "text": "How does the activation of my "
+        },
+        {
+          "text": "credit",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card work?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a8d4c471-434f-480a-900c-82c45f071b5c",
+      "data": [
+        {
+          "text": "I need to activate my "
+        },
+        {
+          "text": "debit",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee970c59-ff21-45e1-9dd1-2ca058360cd2",
+      "data": [
+        {
+          "text": "My bank card is not active"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8f8ba7ba-b702-4b27-a166-656f0553f0c0",
+      "data": [
+        {
+          "text": "My "
+        },
+        {
+          "text": "new",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "debit",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " card does not work"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e48c1088-2b55-4e8a-b1bf-fba6d428f84d",
+      "data": [
+        {
+          "text": "My "
+        },
+        {
+          "text": "new",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "credit card",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " does not work"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e6585a17-b387-42dc-91a3-dcf29cfb926a",
+      "data": [
+        {
+          "text": "How can I start using my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cbc264ea-c40f-400e-abb8-25ccf2ca4efe",
+      "data": [
+        {
+          "text": "I don\u0027t know how to activate my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "20dae771-a3ff-482c-8ed1-d37d306ece96",
+      "data": [
+        {
+          "text": "I want to activate my "
+        },
+        {
+          "text": "debit",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "card",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8b72b34e-7501-4698-943f-7b4398575f0e",
+      "data": [
+        {
+          "text": "I want to activate my "
+        },
+        {
+          "text": "credit",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "8a817cac-fc9b-42f7-a82f-b980beae942e",
+  "name": "activate_card_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_activate_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ac_reason",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Abroad",
+            "New Card",
+            "Inactive"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Ok, I understood that you want to activate your card. But I will need a bit more information to help you correctly: Do you need to activate your card abroad, Do you want to activate your newly received card or is your current card inactive?",
+            "Ok $firstName, I understood that you want to activate your card. But I will need a bit more information to help you correctly: Do you need to activate your card abroad, Do you want to activate your newly received card or is your current card inactive?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

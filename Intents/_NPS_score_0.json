@@ -1,0 +1,76 @@
+{
+  "userSays": [
+    {
+      "id": "ac6297a0-99e4-44d7-be8d-90bd99e9d1e7",
+      "data": [
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c6028093-515e-4cd0-a43f-cce2c7f7fe54",
+  "name": "_NPS_score_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "endofconversationconfirmed",
+      "affectedContexts": [
+        {
+          "name": "ctx_nps",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "_NPS_score_0-followup",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Dissatisfied",
+            "Neutral",
+            "Satisfied"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Thanks $firstName! Let me ask you 3 short questions, so I can get smarter :-) To what degree are you satisfied with the conversation we just had?",
+            "Thanks!  Let me ask you 3 short questions, so I can get smarter :-) To what degree are you satisfied with the conversation we just had?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "nps_score"
+    }
+  ]
+}

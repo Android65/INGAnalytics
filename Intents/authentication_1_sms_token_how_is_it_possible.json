@@ -1,0 +1,109 @@
+{
+  "userSays": [
+    {
+      "id": "a7a978fb-db54-4778-bad5-fec400024f0b",
+      "data": [
+        {
+          "text": "how is it possible you have my "
+        },
+        {
+          "text": "phone",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " number?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "7ef10878-81be-4d33-a7bf-9b8f28752df3",
+      "data": [
+        {
+          "text": "why do you have my number?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e630c60d-4c29-4a16-be9f-feb2b6d41f0a",
+      "data": [
+        {
+          "text": "where did you find my number?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "795f146d-2cc7-49fe-a2db-2c83e77cd934",
+      "data": [
+        {
+          "text": "How come you have my "
+        },
+        {
+          "text": "phone",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "41ca3370-926e-4bb3-9e86-5275c7fc201f",
+      "data": [
+        {
+          "text": "Where did you get my number?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f2ee6665-f67e-4079-b5a4-4d88cec8f54e",
+  "name": "authentication_1_sms_token_how_is_it_possible",
+  "auto": true,
+  "contexts": [
+    "ctx_sa_smstoken",
+    "ctx_sms_authentication"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_sa_smstoken",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_sms_authentication",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Good question! I got your number from our ING systems. I\u0027m using the combination of Facebook name + birthday to try to identify you. Could you share the 6-digit token with me, if you received it?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

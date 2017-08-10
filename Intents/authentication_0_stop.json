@@ -1,0 +1,129 @@
+{
+  "userSays": [
+    {
+      "id": "3baa11a0-cd3c-42fe-afb9-12a687451bdf",
+      "data": [
+        {
+          "text": "reset"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "57a3068b-1f80-4c59-854f-ec29a0edfdb6",
+      "data": [
+        {
+          "text": "no authentication please!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "864a9802-b1e0-41df-8fae-8bdfe7cabc51",
+      "data": [
+        {
+          "text": "restart"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c5b95286-3058-4027-b70f-d1ba22e21331",
+      "data": [
+        {
+          "text": "cancel"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "21595471-3982-4ff7-a9ad-b7ab87996298",
+      "data": [
+        {
+          "text": "STOP!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "8a291a8b-7e48-4cef-91b0-2610709dec16",
+      "data": [
+        {
+          "text": "cancel my demand"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e9b6a151-22df-45ce-9c10-64e6ec5ca483",
+      "data": [
+        {
+          "text": "stop this"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "80d2af11-05c6-4a5d-80ab-2481b75ca3ca",
+      "data": [
+        {
+          "text": "I don\u0027t want to authenticate"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4a8e1db0-92e4-4ae4-9697-5647e4616103",
+      "data": [
+        {
+          "text": "stop"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "dd275e79-dbc2-4ae2-8489-c722e7cc278b",
+  "name": "authentication_0_stop",
+  "auto": true,
+  "contexts": [
+    "ctx_sa_birthdate",
+    "ctx_sms_authentication"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "resetsmscontexts",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Very well $firstName, I´ll stop authenticating you right away. Can I help you with something else?",
+            "Very well, I´ll stop authenticating you right away. Can I help you with something else?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

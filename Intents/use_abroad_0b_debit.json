@@ -1,0 +1,260 @@
+{
+  "userSays": [
+    {
+      "id": "a03ca38f-7f84-4f45-a29d-68629ed80eef",
+      "data": [
+        {
+          "text": "Can I use my "
+        },
+        {
+          "text": "maestro",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " in oostvlaanderen?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "17a5eb13-1b39-40c2-af3a-1cf5447ea9bd",
+      "data": [
+        {
+          "text": "Can my "
+        },
+        {
+          "text": "maestro",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " be used in karalia"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "89e3395f-1d0a-45da-9823-4b9092861508",
+      "data": [
+        {
+          "text": "Can I use my "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " in ptoror"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b8f61cc9-9750-40b6-af93-48d6f6c56746",
+      "data": [
+        {
+          "text": "I want to use my "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " in potato"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f08a1cb9-7217-40e9-9398-d557bf42fe81",
+      "data": [
+        {
+          "text": "I am going on a business trip "
+        },
+        {
+          "text": "next week",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": false
+        },
+        {
+          "text": ", can I use my "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " there?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "0439e7e9-a7e3-4138-bc12-7e1ad4d91297",
+      "data": [
+        {
+          "text": "Can I use my "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "outside of Europe",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c24d0435-3719-46ca-b405-09eaaa3c87f0",
+      "data": [
+        {
+          "text": "Can I use my "
+        },
+        {
+          "text": "Maestro",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " overseas?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ce95a63e-2605-4ec9-bcb7-f0879a279aea",
+      "data": [
+        {
+          "text": "Can I use my "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " abroad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da70d14c-6309-4914-9188-75b68bd522c8",
+      "data": [
+        {
+          "text": "I am going on a holiday, can I use my "
+        },
+        {
+          "text": "Maestro",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " there?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b25df020-f97c-4f2a-9112-b036d035ba9d",
+      "data": [
+        {
+          "text": "Where can I use my "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "b898435f-045d-48e6-ba3d-a6eca2359e82",
+  "name": "use_abroad_0b_debit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:useabroaddebit",
+      "affectedContexts": [
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ua_card_type",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.date-period",
+          "name": "date-period",
+          "value": "$date-period",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "useabroaddebitentry"
+    }
+  ]
+}

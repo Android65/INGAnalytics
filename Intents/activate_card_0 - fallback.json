@@ -1,0 +1,40 @@
+{
+  "userSays": [],
+  "id": "c9e8dc1a-4381-4070-a453-a062c0cea6d8",
+  "name": "activate_card_0 - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_activate_card",
+    "ctx_ac_reason"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Abroad",
+            "New Card",
+            "Inactive"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "I\u0027m sorry, I did not understand your answer. Please select one of the following options:\nSelect \"use abroad\" if you are currently abroad and want to activate your card\nSelect \"new card\" if you have just received a new card from us (either your first card or a replacement card)\nSelect \"inactive\" if the HomeBank application told you that your debit card is inactive.\n\nIf none of these options correspond to your question, please call my colleagues at the ICC contact centre at the following number +322 464 60 04. They will be happy to help you further :)"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

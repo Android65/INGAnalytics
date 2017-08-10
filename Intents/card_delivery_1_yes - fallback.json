@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "29455971-429b-458e-9105-3ba5b4b94866",
+  "name": "card_delivery_1_yes - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_card_delivery",
+    "ctx_cd_card_selection"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "recentlysentcardlist",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Please select one of the cards in the list:"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

@@ -1,0 +1,320 @@
+{
+  "userSays": [
+    {
+      "id": "7eaf9cd3-5830-4a71-9427-7348476141ce",
+      "data": [
+        {
+          "text": "List of services"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a466f151-7678-40be-8373-f85381f4e2fb",
+      "data": [
+        {
+          "text": "help"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "330b16fd-e67d-4546-ae5b-ce2a3a07f6cd",
+      "data": [
+        {
+          "text": "commands"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "711d7a51-01b4-44b5-b13a-f34b679b8e2d",
+      "data": [
+        {
+          "text": "What kind of information can i ask"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "822c067a-c01d-484e-8050-5ab2298e8c9a",
+      "data": [
+        {
+          "text": "what else can you do?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0856eecd-e3bc-40d4-9c57-2f224ae489e1",
+      "data": [
+        {
+          "text": "what can I ask you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "706e8da6-4b7a-4a45-b667-63c7d6c7c656",
+      "data": [
+        {
+          "text": "What can you do for me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4dbbab41-d1c8-4796-8939-e256ec6ed6c9",
+      "data": [
+        {
+          "text": "What can I ask?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "07c621fa-4792-4200-ac17-b24184dcae6b",
+      "data": [
+        {
+          "text": "what can I ask"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b39d8314-93ea-43dd-802c-bda51d4ce2ab",
+      "data": [
+        {
+          "text": "How can you help?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ffbd0620-ec9e-4d9c-be40-f31a6783b2cd",
+      "data": [
+        {
+          "text": "What can you do?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3d1199cc-cf2d-4724-a293-a09f8762689d",
+      "data": [
+        {
+          "text": "What do you do?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "606b3d7c-e3b6-414d-8bd5-4ba336ea7ee8",
+      "data": [
+        {
+          "text": "Can you give me an overview of what can you do?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b2cb984-0239-4d64-8bab-f011074ee2f7",
+      "data": [
+        {
+          "text": "Overview"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bf1245b4-d6e7-428a-80f8-18696cdb3ff5",
+      "data": [
+        {
+          "text": "Which type of questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eacd2b14-b71e-408f-9ad3-ce0ee91b21e1",
+      "data": [
+        {
+          "text": "Which questions can you answer for me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "90c0705b-389e-4dd8-b062-e5182db28c39",
+      "data": [
+        {
+          "text": "What type of questions do you solve for me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2fdd1d18-ffcd-4dcf-8419-10c40a7a9330",
+      "data": [
+        {
+          "text": "What other things can you help me with?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c8f740af-f37a-41c8-9790-eb78a9cf736f",
+      "data": [
+        {
+          "text": "I have another question."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bd08257d-a129-4912-bf53-7c1c7f27e681",
+      "data": [
+        {
+          "text": "Can you give an overview of your services?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a125cbe1-5720-4d90-8834-d117a03a1981",
+      "data": [
+        {
+          "text": "What requests do you handle?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c31572e9-2830-4fcc-8a80-e1fee464961c",
+      "data": [
+        {
+          "text": "what can you help me with ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ebb6adba-1c8d-4a41-bc68-2db242923197",
+      "data": [
+        {
+          "text": "I hope you can help me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e437f218-5d0a-493a-ad01-c6013816da10",
+      "data": [
+        {
+          "text": "help me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0fba5000-bd62-481c-ac27-dbfbdcca2eb6",
+      "data": [
+        {
+          "text": "What help do you offer?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cfd70e1a-85af-40cd-b221-785937389073",
+      "data": [
+        {
+          "text": "What services do you offer?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "49806710-c6b9-4a5a-86ee-f078e1b80df4",
+      "data": [
+        {
+          "text": "With what can you help me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "074774db-2a22-4b5f-8862-a2e8f8c23191",
+      "data": [
+        {
+          "text": "What are the topics you can help me with?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5512c75a-2f54-4369-9c13-449841ff7074",
+      "data": [
+        {
+          "text": "Where can I find the type of questions I can ask?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9c3915e6-cb7e-44c4-8e7f-1dec9fb15235",
+  "name": "_Generic_List_Of_Services",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I can help you to block your card, to activate it, to check its delivery status, to order a new card and so on. I hope you enjoy my assistance and look forward to your feedback to improve further. Type restart if I got lost.",
+            "If you have questions related to cards, I will be able to help you. I can activate your card, order a new card for you or even check it\u0027s delivery status. I hope you will be happy with my services. If not, please let me know. My human workers will help me to improve myself. Type \u0027restart\u0027 if I got lost."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

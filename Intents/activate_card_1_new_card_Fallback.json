@@ -1,0 +1,38 @@
+{
+  "userSays": [],
+  "id": "92553d15-ef6f-44e9-afb6-ee27c1e4d760",
+  "name": "activate_card_1_new_card_Fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_ac_renew_or_first",
+    "ctx_activate_card"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "First card",
+            "Replacement"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Oops, this answer is not what I expected. If you want to activate a card you just received you are in the right place! \nFor a first card I will be able to help you to receive your PIN code if you don\u0027t have it already.\nIf it is a renewal, I will help you to activate it.\nPlease select one of the options, or if you feel that this is not helping you, please call one of my human colleagues at +322 464 60 04"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

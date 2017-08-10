@@ -1,0 +1,41 @@
+{
+  "userSays": [],
+  "id": "caddf95b-1d77-4f21-85be-79da8da1ea1a",
+  "parentId": "d2b12965-0cad-496d-8dce-5096260b0c1f",
+  "rootParentId": "d2b12965-0cad-496d-8dce-5096260b0c1f",
+  "name": "unblock_card_1_remember_no - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_unblock_card_rn",
+    "ctx_uc_ask_send_pin"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Please select either \"Yes\" or \"No\""
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

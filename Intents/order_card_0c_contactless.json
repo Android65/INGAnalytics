@@ -1,0 +1,463 @@
+{
+  "userSays": [
+    {
+      "id": "2cc81cbc-4e6b-4e93-8b53-8abe29bdb3bf",
+      "data": [
+        {
+          "text": "I don\u0027t have yet contact less debit card but I would like to have one. What should I do?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a3032343-8ed6-49f8-9c93-8bbbbbda061d",
+      "data": [
+        {
+          "text": "I would like the "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " function to pay without putting the pin code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "9642ec9a-dcb1-411c-963a-a9855faad689",
+      "data": [
+        {
+          "text": "What about my cards to be "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "24dfdb13-6c16-48c5-a2e3-f6eecf5702e8",
+      "data": [
+        {
+          "text": "my bankcard needs to be "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e0d33c78-7753-4cd3-aab6-df6d5699a423",
+      "data": [
+        {
+          "text": "the "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " stuff i want"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "234fbee0-0711-4346-a4bf-9a5244bd4a68",
+      "data": [
+        {
+          "text": "card where you do not need to put pin code and works over the air please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2cc4b529-2e5b-4ecd-8a1e-c2c0b7dfcf8f",
+      "data": [
+        {
+          "text": "I want the card to pay without touch automatically"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8cc5eb53-d771-42cd-abd7-1c74419b565c",
+      "data": [
+        {
+          "text": "I want the card where you pay without contact"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c90e5794-b3e8-4514-924d-7b63ccea8528",
+      "data": [
+        {
+          "text": "without touch"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a7aaa293-89c2-4b06-9564-1f40c8349916",
+      "data": [
+        {
+          "text": "touchless card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fc5b020a-d194-4e26-b919-391514b416fb",
+      "data": [
+        {
+          "text": "i want the card where you can pay touchless"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "191a2670-74e9-4148-b012-27100eefb72f",
+      "data": [
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " card please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "68ef2360-14f5-4105-9cc1-cf78d5a8d283",
+      "data": [
+        {
+          "text": "Can I have a new contactless card, please?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5ee2a5b2-6b64-4d88-957f-6700f0bb70f8",
+      "data": [
+        {
+          "text": "I want a "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " card, please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "197b48c4-3a16-43f0-903f-2fae106860fb",
+      "data": [
+        {
+          "text": "I want to change my card to "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "one",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "92fce050-0355-4222-b103-85b7dca7ca61",
+      "data": [
+        {
+          "text": "I want to replace my "
+        },
+        {
+          "text": "ING card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " with the "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "one",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "71939425-599e-4d25-a218-7b02923b6102",
+      "data": [
+        {
+          "text": "I want card with the "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " feature"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "65910233-7db1-4ee8-b5d3-50fe1ce896fa",
+      "data": [
+        {
+          "text": "Order "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " card for me please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "adae737c-9b24-4a62-8dec-9b99bd78e6d6",
+      "data": [
+        {
+          "text": "I want the "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "50580579-0d83-4d73-8c15-04f56d69d081",
+      "data": [
+        {
+          "text": "I have the "
+        },
+        {
+          "text": "ING card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " and I would like to activate the "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cfbf6153-f145-4ea9-a5e9-f10347825187",
+      "data": [
+        {
+          "text": "I want to use the "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " option"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f36ae9b8-9abb-4275-8abb-879bd2fdc2b8",
+      "data": [
+        {
+          "text": "I want the "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "abe01358-8132-439f-b990-8f1bd32034da",
+  "name": "order_card_0c_contactless",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:ordercontactlesscard",
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_oc_clarification",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Card_Activation_Reason",
+          "name": "Card_Activation_Reason",
+          "value": "$Card_Activation_Reason",
+          "isList": false
+        },
+        {
+          "dataType": "@Card_Status_Type",
+          "name": "Card_Status_Type",
+          "value": "$Card_Status_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I can help you order new card with contactless feature. Just tell me which old card I can replace with this new one:"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

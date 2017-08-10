@@ -1,0 +1,81 @@
+{
+  "userSays": [
+    {
+      "id": "05717b2a-65ea-4184-9e91-e0002451c470",
+      "data": [
+        {
+          "text": "China",
+          "alias": "geo-country",
+          "meta": "@sys.geo-country",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e518a2da-c089-4038-b1e4-da65aff4d39c",
+  "name": "info_charges_abroad_2_non_eurozone",
+  "auto": true,
+  "contexts": [
+    "ctx_info_charges_abroad",
+    "ctx_ica_location"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_info_charges_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ica_location",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ica_card_type",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ica_activate",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.geo-country",
+          "name": "geo-country",
+          "value": "$geo-country"
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Please check the paragraph related to cards in our charges and regulations brochure https://www.ing.be/static/legacy/SiteCollectionDocuments/TarievenNatuurlijkePersonenNewEN.pdf. \n\nPlease keep in mind that in order to use your debit card outside of the eurozone, you will need to activate it. Would you like me to do this for you?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

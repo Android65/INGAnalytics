@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "9bb474b8-b5ac-40d1-8a98-38fb736c7427",
+  "name": "order_card_e_ordering_confirmation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Great! We will send a new card to your address! It should arrive in a few days."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "order_card_ordering_confirmation"
+    }
+  ]
+}

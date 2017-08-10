@@ -1,0 +1,99 @@
+{
+  "userSays": [
+    {
+      "id": "64f632dc-8362-480b-8892-3542c098b1e5",
+      "data": [
+        {
+          "text": "I\u0027m not giving you the token"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e2e96b6f-70d1-424b-86dd-c426aa1fe123",
+      "data": [
+        {
+          "text": "I\u0027m not going to share this!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "98af12aa-1aa2-4261-98e5-b6c9c2737a5c",
+      "data": [
+        {
+          "text": "Why should I send this?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5b56f180-c497-412e-bdca-8b833973557f",
+      "data": [
+        {
+          "text": "I don\u0027t want to share this"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "77b51852-286a-4d27-949d-f31863e5cb22",
+      "data": [
+        {
+          "text": "I don\u0027t want to send it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "89641bdc-3454-4765-b7f1-9f6738b486e8",
+      "data": [
+        {
+          "text": "I prefer not to send that to you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d96815e0-9dc2-4b64-98b9-d31b63ed1d77",
+  "name": "authentication_1_sms_token_refusal",
+  "auto": true,
+  "contexts": [
+    "ctx_sms_authentication",
+    "ctx_sa_smstoken"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "resetsmscontexts",
+      "affectedContexts": [
+        {
+          "name": "ctx_sms_authentication",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I fully understand that you do not wish to share this information. Unfortunately I cannot identify you without this token. I invite you to contact the ING Contact Centre via 02 464 60 04. My colleagues will be happy to help you. :-)"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

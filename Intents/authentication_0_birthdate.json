@@ -1,0 +1,156 @@
+{
+  "userSays": [
+    {
+      "id": "bfa1fc29-97a0-4064-bf13-29bee1bc9add",
+      "data": [
+        {
+          "text": "ok, fine, it was just "
+        },
+        {
+          "text": "10 days ago",
+          "alias": "birthDate",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "573edc6c-8eb7-4a4f-80ff-5d3e8ce78065",
+      "data": [
+        {
+          "text": "second of march last year",
+          "alias": "birthDate",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9731b6b2-7ddf-49c3-ab53-81dcf2221102",
+      "data": [
+        {
+          "text": "first of feb 1956",
+          "alias": "birthDate",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2d4aaca9-733b-4a9c-b9be-d35e702d2677",
+      "data": [
+        {
+          "text": "tomorrow",
+          "alias": "birthDate",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3b6597a1-7dec-4158-93f3-c3e9739b3fb8",
+      "data": [
+        {
+          "text": "fine, it was "
+        },
+        {
+          "text": "yesterday",
+          "alias": "birthDate",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "45666d7f-a2f4-4655-98dc-c7da535074b1",
+      "data": [
+        {
+          "text": "ok, it\u0027s "
+        },
+        {
+          "text": "today",
+          "alias": "birthDate",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "70504966-3435-4846-8270-1ee4d5a0f257",
+      "data": [
+        {
+          "text": "01/01/1986",
+          "alias": "birthDate",
+          "meta": "@sys.date",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f63ec9a3-8d45-4a04-8990-1c8909800c1b",
+  "name": "authentication_0_birthdate",
+  "auto": true,
+  "contexts": [
+    "ctx_sms_authentication",
+    "ctx_sa_birthdate"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sendsmstoken",
+      "affectedContexts": [
+        {
+          "name": "ctx_sms_authentication",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_sa_birthdate",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_sa_smstoken",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.date",
+          "name": "birthDate",
+          "value": "$birthDate",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Middleman answers"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

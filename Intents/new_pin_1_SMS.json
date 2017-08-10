@@ -1,0 +1,52 @@
+{
+  "userSays": [
+    {
+      "id": "b6e5f125-376e-4af8-adff-5722b46b5f24",
+      "data": [
+        {
+          "text": "PIN SMS"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c609122a-abaf-429c-b766-0151c9bc9e38",
+  "name": "new_pin_1_SMS",
+  "auto": true,
+  "contexts": [
+    "ctx_newpin",
+    "ctx_np_init"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:pinbysms",
+      "affectedContexts": [
+        {
+          "name": "ctx_newpin",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_np_init",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

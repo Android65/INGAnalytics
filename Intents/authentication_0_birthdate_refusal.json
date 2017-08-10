@@ -1,0 +1,194 @@
+{
+  "userSays": [
+    {
+      "id": "9b0c6993-2504-4393-947d-ff8b475b4dac",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "05478896-1a3e-45d4-a9d5-53c8c61f0772",
+      "data": [
+        {
+          "text": "no way"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d8a8de8b-2d96-40dc-8adf-41624f8e6c6a",
+      "data": [
+        {
+          "text": "not really"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "abddbb95-f96a-403d-8243-8e045543ca48",
+      "data": [
+        {
+          "text": "nope I can\u0027t"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da2fb108-fdae-464f-9f4b-eca863e074a3",
+      "data": [
+        {
+          "text": "This is a private information."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e925e05f-c463-4446-b0d9-5354eec3724b",
+      "data": [
+        {
+          "text": "I won\u0027t tell your this private information."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a4a25e61-26bf-431e-9829-ca6788c72c7d",
+      "data": [
+        {
+          "text": "nope I won\u0027t"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f0ffdad1-7129-4bf4-8ffc-4be144cb95ec",
+      "data": [
+        {
+          "text": "noo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f0d1e9de-9863-49b4-a509-ded59f6dfe1b",
+      "data": [
+        {
+          "text": "forget about that!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8af6261f-e9be-4fb8-8ddc-9b26fd4054db",
+      "data": [
+        {
+          "text": "forget that"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0d3e2aba-4663-416b-b9cf-a8eede0af650",
+      "data": [
+        {
+          "text": "nevermind"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9ae8ce20-e186-48d7-9ba4-f58f03b3a168",
+      "data": [
+        {
+          "text": "nono"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1a3508e3-829b-4318-a193-fe5bc7259097",
+      "data": [
+        {
+          "text": "nope"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5e91093d-dd7b-48e6-ad4a-3143c826e4be",
+      "data": [
+        {
+          "text": "absolutely not"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "84aa3fe5-e347-422d-a7ae-3c20039cf9d8",
+      "data": [
+        {
+          "text": "I prefer not to send that to you."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ea312221-774f-4434-8b51-2c6764a6d8ba",
+  "name": "authentication_0_birthdate_refusal",
+  "auto": true,
+  "contexts": [
+    "ctx_sms_authentication",
+    "ctx_sa_birthdate"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "resetsmscontexts",
+      "affectedContexts": [
+        {
+          "name": "ctx_sms_authentication",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_sa_birthdate",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I fully understand that you do not wish to share this information. Unfortunately I cannot identify you without your date of birth. I invite you to contact the ING Contact Centre via +32 2 464 60 04. My colleagues will be happy to help you."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

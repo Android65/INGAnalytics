@@ -1,0 +1,409 @@
+{
+  "userSays": [
+    {
+      "id": "a4a41e52-b3b9-4ed2-90b9-7014c848c106",
+      "data": [
+        {
+          "text": "I want to replace a worn out card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e443d773-6716-4dee-b4fe-f95ca59d2ae9",
+      "data": [
+        {
+          "text": "I want to replace my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e7a132d1-8daa-47b7-8548-d15ca798d7ba",
+      "data": [
+        {
+          "text": "Please order me a new card, I lost mine"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4765dd98-8d23-4657-9fcb-e0d8a76a51c5",
+      "data": [
+        {
+          "text": "I can\u0027t read the numbers on my card, can I get a new one ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "632d710e-01b3-4d96-b489-db7298c3b893",
+      "data": [
+        {
+          "text": "The numbers of my card cannot be read. Give me a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " one!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c5702c91-d49d-48c0-8d17-14a4d34cf227",
+      "data": [
+        {
+          "text": "I want "
+        },
+        {
+          "text": "new",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card, as my old one has "
+        },
+        {
+          "text": "unreadable",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " numbers on it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f15f6e5b-40aa-4ed3-8ab8-3ed57db2f252",
+      "data": [
+        {
+          "text": "I can\u0027t read numbers on my card, please give me a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " one"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3b73923f-e2c8-43f7-83f7-da278ba99e15",
+      "data": [
+        {
+          "text": "I can\u0027t read numbers on my card and need a "
+        },
+        {
+          "text": "replacement",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3e1f840f-e6ad-4c03-8017-b6e9822458da",
+      "data": [
+        {
+          "text": "I want to replace my card, please."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e14d476c-fa1c-4f63-a829-311b1bfc80fa",
+      "data": [
+        {
+          "text": "I have to replace my card because numbers are not visible anymore. What should I do?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "481199df-06d0-4549-bbb8-3a0e5ea617a8",
+      "data": [
+        {
+          "text": "I can\u0027t read the numbers on my card anymore"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f91b5ea2-f2c6-4b8d-aa7e-31b932474392",
+      "data": [
+        {
+          "text": "I can "
+        },
+        {
+          "text": "no",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " longer read the numbers on my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e201d469-1ebd-450e-98fe-33d0a43250ad",
+      "data": [
+        {
+          "text": "I can "
+        },
+        {
+          "text": "no",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " longer read the digits on my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1534f067-6edd-43b7-8aeb-7b302aca1540",
+      "data": [
+        {
+          "text": "I can "
+        },
+        {
+          "text": "no",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " longer read my bank card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7113d751-32f4-41a2-9b9d-e2a34366b871",
+      "data": [
+        {
+          "text": "My card is "
+        },
+        {
+          "text": "unreadable",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3f4a31a4-2ff1-4ced-a2e5-1a55b6be4292",
+      "data": [
+        {
+          "text": "I want to renew my card early"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3adbe6cb-a6ea-4466-a2b2-deb0dd35cbcc",
+      "data": [
+        {
+          "text": "My card is worn out"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3969477a-d7a9-4cab-9cf0-aa1937e70d24",
+      "data": [
+        {
+          "text": "Numbers on my card are not readable, can I get a "
+        },
+        {
+          "text": "new",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " one?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "46010a60-a937-4366-a4f0-53a0980ab3ab",
+      "data": [
+        {
+          "text": "Replace my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1a2557c6-81b2-4929-9454-da05427362e4",
+      "data": [
+        {
+          "text": "My bank card is worn out"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dfab45ee-0b26-4e86-9154-5d684df45e66",
+      "data": [
+        {
+          "text": "My card is not responding anymore"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ce4010c5-aa2f-4780-ab38-5930f551c273",
+      "data": [
+        {
+          "text": "I receive the message \"card is not responding\" on my card reader"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1c274891-98ed-48be-a3b9-89f6d4c8dece",
+      "data": [
+        {
+          "text": "The chip of my card is broken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "306aedd1-62eb-46be-9cf8-3d8bac4bf784",
+      "data": [
+        {
+          "text": "The digits on my card are not readable anymore"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e99a5237-1998-4725-a613-1f5d348c295a",
+      "data": [
+        {
+          "text": "The digits on my card are "
+        },
+        {
+          "text": "unreadable",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a6284627-5f1d-4c68-b9c3-00c54e9937b8",
+      "data": [
+        {
+          "text": "I would like to order a "
+        },
+        {
+          "text": "new",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card because mine is "
+        },
+        {
+          "text": "unreadable",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c11c0eb3-7de9-4a00-b6ed-28d659ae94fc",
+  "name": "order_card_0a_broken_wornout_old",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:orderreplacementcard",
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_oc_reason",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Card_Status_Type",
+          "name": "Card_Status_Type",
+          "value": "$Card_Status_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I can help you order new card. Please select the card you would like to replace with a new one:",
+            "Could you please indicate which card that should be replaced? I will order you a new one :) :"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

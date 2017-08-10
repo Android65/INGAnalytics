@@ -1,0 +1,189 @@
+{
+  "userSays": [
+    {
+      "id": "d2578e96-abb3-44c6-9a2e-7740488193ec",
+      "data": [
+        {
+          "text": "Renewed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7d9f0383-d975-42be-b2b0-df5fa1fcc8b7",
+      "data": [
+        {
+          "text": "Renewal"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "015775cd-b5e5-40d3-afbf-f60a10ec4957",
+      "data": [
+        {
+          "text": "Replacement",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b9d505b0-c326-4e7c-9a8f-ef131b1751fc",
+      "data": [
+        {
+          "text": "My card just expired, how can I ask for a new one ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a9f094ce-7fb5-4db1-923c-089e9d50318b",
+      "data": [
+        {
+          "text": "expired",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1f03b79f-316d-4807-8f01-5986c7733c60",
+      "data": [
+        {
+          "text": "It is "
+        },
+        {
+          "text": "expiring",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a7c95360-0142-47e4-8a4e-5cc17a6d2e02",
+      "data": [
+        {
+          "text": "My old card is "
+        },
+        {
+          "text": "broken",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "30bb23f7-2ebf-4e89-b209-9eab0ee4e6e1",
+      "data": [
+        {
+          "text": "My card does "
+        },
+        {
+          "text": "not work",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "14316405-1d6e-4317-9421-3eeb46958f7d",
+      "data": [
+        {
+          "text": "My current card "
+        },
+        {
+          "text": "expires",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": ";"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "91edbbe3-6408-4aa6-b03a-dd17e6dc2a04",
+  "name": "activate_card_2_renewed_card",
+  "auto": true,
+  "contexts": [
+    "ctx_activate_card",
+    "ctx_ac_renew_or_first"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_activate_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ac_location",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_ac_renew_or_first",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "name": "pin_code_status",
+          "value": "old"
+        },
+        {
+          "dataType": "@Card_Status_Type",
+          "name": "Card_Status_Type",
+          "value": "$Card_Status_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Belgium",
+            "Abroad"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "You can use the same PIN code as for your old card.\nAre you in Belgium or abroad?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

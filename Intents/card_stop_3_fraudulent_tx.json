@@ -1,0 +1,83 @@
+{
+  "userSays": [
+    {
+      "id": "3720fc0d-cd26-4ccb-9e28-184960d22d0a",
+      "data": [
+        {
+          "text": "Can I get my money back?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "01986629-9899-448b-8365-185b645f95f4",
+      "data": [
+        {
+          "text": "Will I be refunded?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3279f6cd-6abb-4494-bee2-1c87edfd7963",
+      "data": [
+        {
+          "text": "What happens with the fraudulent transactions?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8c3a12df-1aec-4628-87bd-1f0385f7e439",
+  "name": "card_stop_3_fraudulent_tx",
+  "auto": true,
+  "contexts": [
+    "ctx_card_stop"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_card_stop",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "name": "Credit_Card_Type",
+          "value": "#ctx_card_stop.Credit_Card_Type"
+        },
+        {
+          "name": "Debit_Card_Type",
+          "value": "#ctx_card_stop.Debit_Card_Type"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Every attempted fraud is analysed by one of our fraud specialists. At this moment I cannot see whether your transaction will be reimbursed. For more info I advise you to contact ATOS via 02 205 85 85 for your $Credit_Card_Type card and the ING Contact Centre via 02 464 60 04 for your $Debit_Card_Type card.\nCan I help you with anything else?",
+            "Every attempted fraud is analysed by one of our fraud specialists. At this moment I cannot see whether your transaction will be reimbursed. For more info I advise you to contact ATOS via 02 205 85 85 for your $Credit_Card_Type card.\nCan I help you with anything else?",
+            "Every attempted fraud is analysed by one of our fraud specialists. At this moment I cannot see whether your transaction will be reimbursed. For more info I advise you to contact the ING Contact Centre via 02 464 60 04 for your $Debit_Card_Type card.\nCan I help you with anything else?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

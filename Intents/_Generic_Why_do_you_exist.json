@@ -1,0 +1,89 @@
+{
+  "userSays": [
+    {
+      "id": "3c00f15f-61c6-4465-a06c-6620188ad423",
+      "data": [
+        {
+          "text": "why are you doing this?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1d4623ad-09d4-465a-8193-1f1bad9ad5d5",
+      "data": [
+        {
+          "text": "why did they made you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9909dc3f-1e86-4714-8b23-f26d88659a1e",
+      "data": [
+        {
+          "text": "why are you here?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eff0aa59-be8f-4260-a27d-acc462f40f6d",
+      "data": [
+        {
+          "text": "What is your purpose in life?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "52c79838-ab8a-4254-90ae-dff14f14c5bd",
+      "data": [
+        {
+          "text": "Why do you exist?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da8f554c-0db9-4450-ad46-345595f1e407",
+      "data": [
+        {
+          "text": "Why did ING make you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5f0cd4b6-adab-4fb1-be19-78968634191d",
+  "name": "_Generic_Why_do_you_exist",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I have been made by my human colleagues of ING to help you with cards. What would you like to know about them?",
+            "I only exist to help you with cards. Makes life easy :-) How can I help you with them?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

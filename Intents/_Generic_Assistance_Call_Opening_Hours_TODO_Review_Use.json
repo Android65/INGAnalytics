@@ -1,0 +1,166 @@
+{
+  "userSays": [
+    {
+      "id": "1fe133a4-6c02-4f8d-ba44-ea3ae6729b4b",
+      "data": [
+        {
+          "text": "What is the "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " number"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "427e0c9d-0885-4892-b6c8-c3d2770e400b",
+      "data": [
+        {
+          "text": "What is the number of ING"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "940c3e53-743d-45bd-a924-37d7cc75aa20",
+      "data": [
+        {
+          "text": "At what number can I call ING"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9a03241e-df08-49e7-9632-8f52fd9b306e",
+      "data": [
+        {
+          "text": "How can I reach the contact centre"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a560fc92-cbf7-46c0-a6e2-bdb374e78428",
+      "data": [
+        {
+          "text": "What time is contact center open?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eebd4323-b985-49a0-8954-26a26be9558c",
+      "data": [
+        {
+          "text": "When can I "
+        },
+        {
+          "text": "call",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "24513f1d-ce01-4fe3-9376-938cd20f49b7",
+      "data": [
+        {
+          "text": "I could not join contact centre"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "361eed73-cdf8-49f7-8057-a6b148e3e34b",
+      "data": [
+        {
+          "text": "I couldn\u0027t join icc"
+        }
+      ],
+      "isTemplate": false,
+      "count": 3
+    },
+    {
+      "id": "bd34d54f-6393-46d9-88c0-a1294cb99764",
+      "data": [
+        {
+          "text": "when can I join the ing contact centre?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "9be55a2e-473a-45be-9cbf-8448dd2b75ce",
+      "data": [
+        {
+          "text": "Opening hours of contact centre"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2dd320ff-f6da-442b-9fb4-256437427e3f",
+      "data": [
+        {
+          "text": "When is contact centre open?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "dce31cd6-1083-4f64-872a-a7a5006e3903",
+  "name": "_Generic_Assistance_Call_Opening_Hours_TODO_Review_Use",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@AssistanceType",
+          "name": "AssistanceType",
+          "value": "$AssistanceType",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "You can call the ING Contact Centre at the +32 2 464 60 04 02 on Monday till Friday from 8 a.m. till 10 p.m. and on Saturday from 9 a.m. till 5 p.m.",
+            "Check out how to contact us at the ING website https://www.ing.be/en/retail/contact",
+            "My human colleagues are available Monday till Friday from 8 a.m till 10 p.m. and on Saturday from 9 a.m. till 5 p.m. Do not hesitate to call them at +32 2 464 60 04 :)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

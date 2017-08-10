@@ -1,0 +1,218 @@
+{
+  "userSays": [
+    {
+      "id": "e731ecdd-62d2-4dda-9471-691b446b20c9",
+      "data": [
+        {
+          "text": "I don\u0027t know how to install the app"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ea96b5bb-f81c-402a-a7ae-28476bd54329",
+      "data": [
+        {
+          "text": "Can you help me install smart banking?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "40c69061-0870-4688-92eb-99fea2b2a190",
+      "data": [
+        {
+          "text": "Do you have a mobile app?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eccb6de8-c219-477b-ac8a-befaae54e268",
+      "data": [
+        {
+          "text": "What\u0027s the application?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c562ba88-ca11-4674-be16-59adb1cfe7ac",
+      "data": [
+        {
+          "text": "What\u0027s the name of "
+        },
+        {
+          "text": "ING",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        },
+        {
+          "text": " application?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "488e71f8-c2c5-4c5f-8607-2435d92ffa61",
+      "data": [
+        {
+          "text": "Do you have an application I can download?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3fb019ee-1fdd-4473-89cc-e664c31065af",
+      "data": [
+        {
+          "text": "I need to know how to download the mobile app"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "50525ac4-d67c-41ec-8bcf-bf9e437bc502",
+      "data": [
+        {
+          "text": "I need to know how to download the mobile app, can you help?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "915811b5-f036-4eba-ba67-bf3f326799a3",
+      "data": [
+        {
+          "text": "I would like to download the ING app"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c0c2102f-4dae-42a4-96f1-92eac71484ef",
+      "data": [
+        {
+          "text": "I\u0027d like to get the mobile app"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3b24e6ee-b349-4063-be26-c262cdfe4d12",
+      "data": [
+        {
+          "text": "How do I unstall the application?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "98e188e4-9edd-40a1-bb22-5ff6f28a5469",
+      "data": [
+        {
+          "text": "how can I get the app?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dff1bfb7-16db-4425-ba2e-2995d8189807",
+      "data": [
+        {
+          "text": "I need to knwo how to download the mobile app"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "282b5de5-4da2-4268-a17c-bc1d65e01c08",
+      "data": [
+        {
+          "text": "How do I get the smart app?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e1fd8620-934d-4e54-a195-2d1bacd826d6",
+      "data": [
+        {
+          "text": "How do I get the mobile app of ING?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "85513493-16c3-409d-9b73-eab56fa55bcd",
+      "data": [
+        {
+          "text": "How can I install smartbanking?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0d8ac3ee-1d8e-4ba8-8f4b-62b06e60138a",
+  "name": "smart_app_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        },
+        {
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "You can download the ING smart banking app on https://promo.ing.be/SmartBanking. Can I help you with something else $firstName?",
+            "Our application is available for IOS and Android devices. Just search for ING Smart\u0027Banking. The installation will take you two minutes. Did you have any other questions?",
+            "The application ING Smart\u0027Banking is available in the App Store and the Google Play Store. You can find all information regarding our app on https://promo.ing.be/SmartBanking. Can I do anything else for you?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

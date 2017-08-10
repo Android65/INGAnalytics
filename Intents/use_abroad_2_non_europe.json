@@ -1,0 +1,221 @@
+{
+  "userSays": [
+    {
+      "id": "1ce4f0ef-6c0a-4a13-88a0-08cf05c7861e",
+      "data": [
+        {
+          "text": "the safari in "
+        },
+        {
+          "text": "Kenya",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fa831584-b751-4a78-a145-27c4fcc6fc2c",
+      "data": [
+        {
+          "text": "the beautiful mountains of "
+        },
+        {
+          "text": "Canada",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "66e14a74-af6b-45c4-ac8a-62c2acab0c93",
+      "data": [
+        {
+          "text": "Bolivia",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "2a08870b-5384-43f0-9009-51e68d4c972b",
+      "data": [
+        {
+          "text": "Uganda",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3fd6bb99-05c1-471b-b8ca-a4b1f50a7365",
+      "data": [
+        {
+          "text": "America",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "36952379-89b3-4227-8b42-46bbe814c203",
+      "data": [
+        {
+          "text": "the "
+        },
+        {
+          "text": "States",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "463bd71d-6dab-4c17-b8e8-d5848e5e91f3",
+      "data": [
+        {
+          "text": "the "
+        },
+        {
+          "text": "United States",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b4c93503-7b44-4842-a590-cf5c7a83326c",
+      "data": [
+        {
+          "text": "the "
+        },
+        {
+          "text": "U.S",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b28ec53c-c2da-4cf2-bf10-c720042d4060",
+      "data": [
+        {
+          "text": "Brazil",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "29d11095-ae4b-4cdc-a43d-75eec768c341",
+      "data": [
+        {
+          "text": "Japan",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6682c9ee-5e57-4842-84d7-11b6f88916ff",
+  "name": "use_abroad_2_non_europe",
+  "auto": true,
+  "contexts": [
+    "ctx_use_abroad",
+    "ctx_ua_country"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ua_country",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ua_activate",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@UA_Countries_Non_Europe",
+          "name": "UA_Countries_Non_Europe",
+          "value": "$UA_Countries_Non_Europe",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Typically, you need to activate your debit card first before using it in $UA_Countries_Non_Europe. I can request this activation for you, but keep in mind that I will need to authenticate you to do this. Do you want to proceed?",
+            "Debit cards in $UA_Countries_Non_Europe need to be activated before they can be used. I can request this activation for you, but keep in mind that I will need to authenticate you to do this. Do you want to proceed?",
+            "The Maestro function on your card needs to be activated in $UA_Countries_Non_Europe in order to use it. I can request this activation for you, but keep in mind that I will need to authenticate you to do this. Do you want to proceed?",
+            "The Maestro function on your card needs to be activated in in order to use it outside Europe. I can request this activation for you, but keep in mind that I will need to authenticate you to do this. Do you want to proceed?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "useabroadnoneurope"
+    }
+  ]
+}

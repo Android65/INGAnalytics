@@ -1,0 +1,39 @@
+{
+  "userSays": [],
+  "id": "76f76a88-1e9d-46f5-afb7-4c1b7ff63192",
+  "name": "info_charges_abroad_0 - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_info_charges_abroad",
+    "ctx_ica_card_type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Credit",
+            "Debit"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Please pick either \"Credit\" or \"Debit\". Your card is a credit card if it has either the \"VISA\" or \"Mastercard\" logo on the card."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

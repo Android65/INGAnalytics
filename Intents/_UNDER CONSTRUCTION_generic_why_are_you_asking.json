@@ -1,0 +1,51 @@
+{
+  "userSays": [
+    {
+      "id": "2910a214-859a-4560-9ae5-9f3c785299ea",
+      "data": [
+        {
+          "text": "Why are you asking"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "8b627127-338b-4779-9d82-15c62122ff6d",
+  "name": "_UNDER CONSTRUCTION_generic_why_are_you_asking",
+  "auto": true,
+  "contexts": [
+    "ctx_general"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ctx_general",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "last_question",
+          "value": "#ctx_general.last_question"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "To help you better or for security considerations. $last_question"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

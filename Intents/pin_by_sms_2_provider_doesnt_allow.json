@@ -1,0 +1,203 @@
+{
+  "userSays": [
+    {
+      "id": "f7568af1-f15e-49fe-8669-efedda5035b2",
+      "data": [
+        {
+          "text": "Why does my message for my pin not leave my "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c603c3c9-e21e-4c8d-a79b-28c9ca0eaf1e",
+      "data": [
+        {
+          "text": "Provider"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "ad45ff45-537c-4f0b-9e7f-5e7feafc437e",
+      "data": [
+        {
+          "text": "My phone cannot send sms."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f2890466-8923-48de-b378-4870c52a0b9d",
+      "data": [
+        {
+          "text": "My Provider forbid SMS, how do I do for my PIN code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "9a19c809-b2a4-444f-9124-5168a5f26a61",
+      "data": [
+        {
+          "text": "I don\u0027t get any message back when I ask for my PIN by SMS"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "747c00cd-1906-412f-8c5b-44b94e5be6b4",
+      "data": [
+        {
+          "text": "My provider forbids me to send a text message"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5628d235-878f-42ee-8399-43216ffb659b",
+      "data": [
+        {
+          "text": "I am not able to send a message to this number"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4394544b-c5c9-41a1-a8b8-3b7954ab6c06",
+      "data": [
+        {
+          "text": "I can\u0027t send a text message to this number."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "478cabfd-4896-4731-934a-4949940b907b",
+      "data": [
+        {
+          "text": "It\u0027s forbidden to text to "
+        },
+        {
+          "text": "8655",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "372d823f-0398-403e-8eef-51e61cdbc73b",
+      "data": [
+        {
+          "text": "I am not allowed to send an sms to that number."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5a1bc420-1826-47c3-8785-cdab861240f6",
+      "data": [
+        {
+          "text": "My provider does "
+        },
+        {
+          "text": "not allow me to send",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "the",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " sms to 8655."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6852645f-bb64-4e3f-bcb1-3ad3c6a50d3b",
+  "name": "pin_by_sms_2_provider_doesnt_allow",
+  "auto": true,
+  "contexts": [
+    "ctx_pin_by_sms",
+    "ctx_sms_reason"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_pin_by_sms",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "ctx_sms_reason",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        },
+        {
+          "dataType": "@AssistanceType",
+          "name": "AssistanceType",
+          "value": "$AssistanceType",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I understand your provider does not allow to send a text message to 8655. In that case, your pin will be sent automatically by post soon. If you want to receive it more quickly, you can go to your branch. Do you have other questions?",
+            "It is possible that your provider forbids you to send the text message to the indicated number. Your  PIN code will be sent by post automatically within a couple of days. I advise you to go to a branch if you need the pin urgently. In the branch you can choose the PIN code. Do you have any other questions $firstName?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

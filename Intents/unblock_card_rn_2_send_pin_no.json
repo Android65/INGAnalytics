@@ -1,0 +1,84 @@
+{
+  "userSays": [
+    {
+      "id": "befe8e80-5077-44c1-b7c5-31de45ab182b",
+      "data": [
+        {
+          "text": "No, tell me now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4a658e47-358b-4526-9714-e4495bfd2baa",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b620c468-3bb1-465c-9aac-76dc263f61c5",
+      "data": [
+        {
+          "text": "no way"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "31e65b1a-85ff-42c9-b727-56c907b6414d",
+      "data": [
+        {
+          "text": "nope"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "8828b75b-8ba3-41f8-938e-fa341c44ade9",
+  "name": "unblock_card_rn_2_send_pin_no",
+  "auto": true,
+  "contexts": [
+    "ctx_uc_ask_send_pin",
+    "ctx_unblock_card_rn"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "affectedContexts": [
+        {
+          "name": "ctx_uc_ask_send_pin",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_unblock_card_rn",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I\u0027m afraid I cannot help you in this case. Would you have other questions?",
+            "I am not able to help you then. Do you have another request or question?",
+            "There is nothing more I can do at this level. Can I do anything else for you?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

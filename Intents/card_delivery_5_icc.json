@@ -1,0 +1,87 @@
+{
+  "userSays": [
+    {
+      "id": "0e624dc8-db65-4523-a54d-31d9da6a3ae6",
+      "data": [
+        {
+          "text": "ing support"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "efccc728-279e-4f4c-99e0-84829747a9f0",
+      "data": [
+        {
+          "text": "contact centre"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bed819d8-013f-4a9a-b083-209cea4973dc",
+      "data": [
+        {
+          "text": "I want to contact the ing contact centre"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "61da58a2-328b-4f83-8e71-35b7b9e42f48",
+      "data": [
+        {
+          "text": "Contact "
+        },
+        {
+          "text": "ING",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7922082d-f147-40fe-8fe5-36abaae34013",
+  "name": "card_delivery_5_icc",
+  "auto": true,
+  "contexts": [
+    "ctx_card_delivery",
+    "ctx_cd_wait_branch_icc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "showicccontactdetails",
+      "affectedContexts": [
+        {
+          "name": "ctx_card_delivery",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_cd_wait_branch_icc",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok, you can reach the ING contact centre at the following number +32 2 464 60 04."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

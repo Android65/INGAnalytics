@@ -1,0 +1,296 @@
+{
+  "userSays": [
+    {
+      "id": "a19787a5-0063-47b6-92f0-b7560137eafa",
+      "data": [
+        {
+          "text": "I want to talk to your manager"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b0f759a3-cc57-4b5c-8cb6-93dc5ad438e5",
+      "data": [
+        {
+          "text": "Can I talk to your manager"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "35dd6728-a6f6-4a91-a5bb-1b699979b2d1",
+      "data": [
+        {
+          "text": "let me speak to live agent, please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3abfee36-3228-4471-b8ab-53df25ee7f4b",
+      "data": [
+        {
+          "text": "Marie",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        },
+        {
+          "text": ", I need real human please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "558cbfe7-60cc-4ec6-ae3b-e32773d7b971",
+      "data": [
+        {
+          "text": "i want real person!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fbd77c52-6b5c-4a27-8894-aa64d31e00cc",
+      "data": [
+        {
+          "text": "talk to someone alive"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a28c28d4-35c0-4a68-bde1-150286037a6e",
+      "data": [
+        {
+          "text": "talk to live person"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8793a4c3-9154-4fc5-8466-3fdf3ce32766",
+      "data": [
+        {
+          "text": "live agent"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e81f9e0d-1804-475a-9b66-8613a13d7929",
+      "data": [
+        {
+          "text": "live agent please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "157d5161-84ff-4cbc-912f-46ca5dd142b7",
+      "data": [
+        {
+          "text": "I would prefer to talk to human instead"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2f12e257-1ed9-4fdf-b662-64f2f3f76272",
+      "data": [
+        {
+          "text": "I want to talk to your boss"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5e60fdfa-506d-42a9-a209-6e6d6b476e7c",
+      "data": [
+        {
+          "text": "speak to a real person"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "998939c2-fc0b-4aef-a57c-a35031e48be9",
+      "data": [
+        {
+          "text": "Speak to human please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a2fe6218-a115-41c1-9cea-d6fbca032e33",
+      "data": [
+        {
+          "text": "I don\u0027t want to talk to a robot, give me a real person"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0c7c1bbd-2708-48f7-9861-32c8ad189f41",
+      "data": [
+        {
+          "text": "I want human support"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "07a241e9-b79c-4486-b8fd-c717bce768a8",
+      "data": [
+        {
+          "text": "A human please instead of a chatbot"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7dff7218-54ff-4854-ac06-e76fe0f9ba96",
+      "data": [
+        {
+          "text": "Please give me a human"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1205e481-7a1d-4f7a-a707-2ec045d4b05a",
+      "data": [
+        {
+          "text": "talk to human instead of you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4b1de351-9acd-4b17-9ba5-b81e21a3e4be",
+      "data": [
+        {
+          "text": "Marie",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        },
+        {
+          "text": ", I want to talk to your human colleagues"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0a444b0d-09b0-4af1-b5d6-e62350192cd0",
+      "data": [
+        {
+          "text": "Give me your human colleagues"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1b982cfb-27b5-405b-b42c-9edaded7086e",
+      "data": [
+        {
+          "text": "Chat with actual human"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "55c3fb97-76ee-4e14-89df-98579837e704",
+      "data": [
+        {
+          "text": "Chat with real person please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1592905c-82ab-4552-92bb-35bcc923cf5e",
+      "data": [
+        {
+          "text": "I don\u0027t want automated bot, I want to talk to real person"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "56f14bdc-b975-4e25-b641-67f4c782f718",
+      "data": [
+        {
+          "text": "Give me human, please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "725c7e32-82ee-413e-ad98-c6b69270c0a1",
+      "data": [
+        {
+          "text": "I want to talk to human"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b6de35ec-8395-4d4e-8de3-c3a187ffd18b",
+  "name": "_Generic_Human_Takeover",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "humantakeoverrequest",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I\u0027m so sorry you feel my support is not good enough yet. I\u0027m still learning. Perhaps I can help with other card questions?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

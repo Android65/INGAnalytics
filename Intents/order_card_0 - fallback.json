@@ -1,0 +1,39 @@
+{
+  "userSays": [],
+  "id": "43715dc1-6818-444e-89d3-64dfea74b7f6",
+  "name": "order_card_0 - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_oc_clarification",
+    "ctx_order_card"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "I am a customer",
+            "I\u0027m not a customer"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "I order to help you further I first need to know if you\u0027re an ING client or not. Select \"I am a customer\" if you want to order a card coupled to an existing account.\nSelect \"I\u0027m not a customer\" if you are not an ING customer yet, and you are feeling left out. I will then guide you through the process of ordering a card and becoming a glorious ING customer :D"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

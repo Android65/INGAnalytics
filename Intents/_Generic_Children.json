@@ -1,0 +1,59 @@
+{
+  "userSays": [
+    {
+      "id": "c0029c5a-d7ad-4c67-bc57-3b9dd385cdc9",
+      "data": [
+        {
+          "text": "How many children do you have?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0b3e07f6-9d06-46c1-8d64-e265af3a54b8",
+      "data": [
+        {
+          "text": "Do you have kids?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "77224b57-facc-4c6a-b2ad-ecc0e27dfadd",
+      "data": [
+        {
+          "text": "Do you have children?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5dfb2c02-856a-4004-8900-1c19e8304c58",
+  "name": "_Generic_Children",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I don\u0027t have any kids yet, too busy with cards :-) Can I help you with them?",
+            "No kids, I amuse myself with cards only :-) Can I help you with them?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,44 @@
+{
+  "userSays": [],
+  "id": "f32d4735-4641-476c-8db1-8d5062d59417",
+  "parentId": "cc1abb32-89ce-4c64-a20b-2abcdd0bdd73",
+  "rootParentId": "cc1abb32-89ce-4c64-a20b-2abcdd0bdd73",
+  "name": "order_card_2_replace - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_oc_reason",
+    "ctx_order_card"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Expiring",
+            "Worn out",
+            "Contactless"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Please select one of the options:\nSelect \"Expiring\" if your card is close to - or past its expiration date.\nSelect \"Worn out\" if your card is worn out or defected.\nSelect \"Contactless\" if you want to replace your card with one with the contactless payment feature.\n\nAlternatively you can always call my colleages at the ICC contact centre, at the number +322 464 60 04"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

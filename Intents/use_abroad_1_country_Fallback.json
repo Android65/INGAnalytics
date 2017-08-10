@@ -1,0 +1,33 @@
+{
+  "userSays": [],
+  "id": "66385741-2d5a-460e-a037-889ee523f4b3",
+  "name": "use_abroad_1_country_Fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_use_abroad",
+    "ctx_ua_country"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "To which country are you travelling?",
+            "What is the country you want to use your card in?",
+            "In which country do you wish to be able to use your card?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

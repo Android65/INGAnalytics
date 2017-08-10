@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "405f9319-5b51-4c8a-8620-95f94295dd6f",
+  "name": "pin_by_sms_1_more_info - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_sms_letter",
+    "ctx_pin_by_sms"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I\u0027m sorry, I didn\u0027t really understand that. Please select \"Yes\" if you still have your letter. In that case I will be able to guide you through the process of acquiring your pin code via SMS.\nSelect \"No\" if you no longer have your letter, and are unsure what to do now."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

@@ -1,0 +1,90 @@
+{
+  "userSays": [
+    {
+      "id": "0b59de5c-018f-4a4b-9ec2-739f6a14e7ae",
+      "data": [
+        {
+          "text": "are you dressed nicely?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7720957f-b7d8-46e5-a637-4388c02fc2bc",
+      "data": [
+        {
+          "text": "what\u0027s your outfit?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8a002c67-4f33-4514-b0f5-03886f53a048",
+      "data": [
+        {
+          "text": "what are your clothes?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3509f35c-f2ad-4ea7-bc9b-9036886c6f10",
+      "data": [
+        {
+          "text": "what do you wear?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "80526fc1-c761-487e-bce6-7bacebb0b4f7",
+      "data": [
+        {
+          "text": "What are you wearing?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ede7f144-144c-4316-be12-572ee09952e6",
+      "data": [
+        {
+          "text": "how are you dressed?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "46933d64-38bb-4a21-bdea-5712d4409bcb",
+  "name": "_Generic_Wearing",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I have my superhero outfit! :-)",
+            "I am a piece of software on a server, so not that much :-)",
+            "Nothing, I am a machine and machines don\u0027t have money for clothes :-)"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

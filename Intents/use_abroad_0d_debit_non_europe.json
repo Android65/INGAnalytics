@@ -1,0 +1,245 @@
+{
+  "userSays": [
+    {
+      "id": "ba821b44-cff8-4e89-aa0f-199c9d01d3a0",
+      "data": [
+        {
+          "text": "I want to use my "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "peru",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3196c107-2407-45b5-8fc3-08e518061eb0",
+      "data": [
+        {
+          "text": "Can I use my "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "US",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b5494dd8-7f42-4c03-9a14-8d87dbd8c364",
+      "data": [
+        {
+          "text": "Please activate my "
+        },
+        {
+          "text": "Maestro",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " for usage in "
+        },
+        {
+          "text": "Guatemala",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8d817bb0-e748-4b29-be21-d43314785873",
+      "data": [
+        {
+          "text": "Can i use my "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "US",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e2f74690-cd1d-4d3d-8fee-919660a4d6e1",
+      "data": [
+        {
+          "text": "Can I use my "
+        },
+        {
+          "text": "Maestro",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Nigeria",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "30cadeae-392b-42b4-8016-33529a45f560",
+      "data": [
+        {
+          "text": "Can I use my "
+        },
+        {
+          "text": "Maestro",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Sri Lanka",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "778d0f81-7daa-44d1-9c46-d5f9d31a13e8",
+      "data": [
+        {
+          "text": "I want to use my "
+        },
+        {
+          "text": "Maestro",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Brazil",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9679e683-35e7-40c9-acd4-12c6636ac6f7",
+  "name": "use_abroad_0d_debit_non_europe",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:useabroadnoneurope",
+      "affectedContexts": [
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ua_country",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "prompts": [],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@UA_Countries_Non_Europe",
+          "name": "UA_Countries_Non_Europe",
+          "value": "$UA_Countries_Non_Europe",
+          "prompts": [
+            "PHILIP TEST"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

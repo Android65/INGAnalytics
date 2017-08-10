@@ -1,0 +1,272 @@
+{
+  "userSays": [
+    {
+      "id": "bc48129c-165d-457c-9c90-bc71ccfa5170",
+      "data": [
+        {
+          "text": "Show me my cards"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be82eb78-fcb8-482e-9eed-15e33c5ebab4",
+      "data": [
+        {
+          "text": "can I see my cards"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bb779ead-ba2b-47d7-8db4-c8cb82ab5628",
+      "data": [
+        {
+          "text": "I want to see my cards"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2c8c6f0f-0ad9-4a93-bec3-51cc90e388cf",
+      "data": [
+        {
+          "text": "My cards overview"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "362863a5-829f-4ca8-ab53-faf83aa0e4c3",
+      "data": [
+        {
+          "text": "Overview of my cards"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3b837623-0bb7-4dff-b93f-ea9faf98ae6d",
+      "data": [
+        {
+          "text": "What card do I have ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "966d0373-5f9c-43aa-aeed-e47dd01632f9",
+      "data": [
+        {
+          "text": "Do I have a "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card or a "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "65ae6f54-f689-4697-b686-0d7d6fcc9bfc",
+      "data": [
+        {
+          "text": "I\u0027m lazy and don\u0027t remember my card numbers, can you show me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "727a29fb-86be-47c6-9a83-08f2f0714f2f",
+      "data": [
+        {
+          "text": "I forgot my card number, can you show me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7415f291-f4fa-4c07-99f2-ae29420822d5",
+      "data": [
+        {
+          "text": "What are my card numbers?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "73dea3c0-f1a5-4404-b4a1-d460431e7d60",
+      "data": [
+        {
+          "text": "Which types of cards do I have?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "13b4f1b3-ebd4-4b28-bc84-f42ea7fe8c50",
+      "data": [
+        {
+          "text": "Do I have a "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card or "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card? Or both?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e15f0a0b-ba06-4a96-94bb-4f5b2dbc9d58",
+      "data": [
+        {
+          "text": "What cards do I have"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "898d2a5d-7429-4733-9653-bb3015dbc633",
+      "data": [
+        {
+          "text": "Can you show me my cards"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "87e125c4-7bac-4a11-b8f9-bdddb9fadf4d",
+      "data": [
+        {
+          "text": "What are my cards"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ec620094-1038-421f-a4a6-d946fade33fe",
+      "data": [
+        {
+          "text": "What is my card number"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "81e8f64b-4645-49b3-9747-bb38cb926f8a",
+      "data": [
+        {
+          "text": "How many cards do I have"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "147f3e85-139b-49a5-bc6b-3b7fe6d9aac1",
+      "data": [
+        {
+          "text": "show me my cards"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ed52f015-956f-4b20-9b31-9ed93b4ff560",
+  "name": "cards_overview_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "activecardlist",
+      "affectedContexts": [
+        {
+          "name": "ctx_cards_overview",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "isList": false
+        },
+        {
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Here are all your cards $firstName :",
+            "Here are all your cards:"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

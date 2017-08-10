@@ -1,0 +1,83 @@
+{
+  "userSays": [
+    {
+      "id": "f62f6c78-cc1a-4413-b138-484271d06775",
+      "data": [
+        {
+          "text": "The GUID identifier of the selected card is: "
+        },
+        {
+          "text": "d16374a4-6eef-48fc-aaff-97266b80e33c",
+          "alias": "cardGUID",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9825da3e-15e3-44d5-93ac-661b54cf203e",
+  "name": "unblock_card_rn_3_card_selected",
+  "auto": true,
+  "contexts": [
+    "ctx_uc_card_selection",
+    "ctx_unblock_card_rn"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_uc_card_selection",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_uc_address_confirmation",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_unblock_card_rn",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "address",
+          "value": "#user_context.address"
+        },
+        {
+          "dataType": "@sys.any",
+          "name": "cardGUID",
+          "value": "$cardGUID",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No",
+            "Not my address"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "My system tells me that this is your delivery address: $address .\nIs this correct?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

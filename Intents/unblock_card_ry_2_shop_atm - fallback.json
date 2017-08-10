@@ -1,0 +1,39 @@
+{
+  "userSays": [],
+  "id": "265513ab-674c-4faf-ae7c-d4b99a35745e",
+  "name": "unblock_card_ry_2_shop_atm - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_uc_reset",
+    "ctx_unblock_card_ry"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Please answer \"Yes\" if you want me to reset your amount of remaining attempts, or \"No\" if you prefer I don\u0027t"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

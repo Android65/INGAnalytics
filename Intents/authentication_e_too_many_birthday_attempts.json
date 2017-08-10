@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "2437fe4a-116c-47c7-856a-a7e8c3ba4b2b",
+  "name": "authentication_e_too_many_birthday_attempts",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hmm, seems you have some trouble remembering your birthday! That\u0027s pretty strange. I\u0027ll block you from trying once again for the next 1h. You can try then."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "smsauth_too_many_birthday_attempts"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "userSays": [
+    {
+      "id": "a70180e6-d78f-4950-8e4c-4b14474ce9c4",
+      "data": [
+        {
+          "text": "I don\u0027t know",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef8d6e88-3298-4f65-ae7d-b498c6f6847a",
+      "data": [
+        {
+          "text": "I don\u0027t know!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6fe88767-aff6-4ae5-a2e0-68582287920c",
+      "data": [
+        {
+          "text": "I don\u0027t understand."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "15440b97-5ea0-4be1-bcdf-0e540d933205",
+      "data": [
+        {
+          "text": "what is a "
+        },
+        {
+          "text": "credit",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "40d909df-f0f9-4c50-87f2-39fcec5eee41",
+      "data": [
+        {
+          "text": "What is a "
+        },
+        {
+          "text": "debit",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a4a756d1-ab6b-4820-8162-9bfb0dadbd6c",
+      "data": [
+        {
+          "text": "Euh"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d55196a5-8ef7-4638-8e14-1a7491af0f9b",
+      "data": [
+        {
+          "text": "No clue"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "23496a3c-a219-4506-a619-554bfc425572",
+      "data": [
+        {
+          "text": "I do not know"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1712160a-21cf-4451-9ed8-d4fcbb4e1da3",
+  "name": "use_abroad_1_unknown",
+  "auto": true,
+  "contexts": [
+    "ctx_use_abroad",
+    "ctx_ua_card_type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Debit card",
+          "imageUrl": "https://www.ing.be/static/marie/debit_card/debit_card_default.jpg",
+          "buttons": [
+            {
+              "text": "This one!",
+              "postback": "Debit card"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "ING card",
+          "imageUrl": "https://www.ing.be/static/marie/ing_card/ing_card_default.jpg",
+          "buttons": [
+            {
+              "text": "This one!",
+              "postback": "ING card"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Visa Classic",
+          "imageUrl": "https://www.ing.be/static/marie/visa_classic/visa_classic_default.jpg",
+          "buttons": [
+            {
+              "text": "This one!",
+              "postback": "VISA Classic"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "VISA Gold",
+          "imageUrl": "https://www.ing.be/static/marie/visa_gold/visa_gold_default.jpg",
+          "buttons": [
+            {
+              "text": "This one!",
+              "postback": "VISA Gold"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "MasterCard Gold",
+          "imageUrl": "https://www.ing.be/static/marie/mastercard_gold/mastercard_gold_default.jpg",
+          "buttons": [
+            {
+              "text": "This one!",
+              "postback": "MasterCard Gold"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "No problem, just select your type of card."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

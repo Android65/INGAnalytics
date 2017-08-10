@@ -1,0 +1,104 @@
+{
+  "userSays": [
+    {
+      "id": "c29aabbc-8330-46fc-8a43-d37d23dec14c",
+      "data": [
+        {
+          "text": "I am trying to log in to "
+        },
+        {
+          "text": "h\u0027b",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " but my card is not active"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c0ad9d3c-ab8e-49ba-90b1-d35f73949bcf",
+      "data": [
+        {
+          "text": "I have an inactive card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4c17ef8c-91ef-4c92-b4bc-c991d36c4c74",
+      "data": [
+        {
+          "text": "My card is not active"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2c9e4104-11ce-4609-be9f-ad0db38aeada",
+      "data": [
+        {
+          "text": "My card is inactive"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c3243379-e3c9-4a6c-b8da-68a5d5cbb325",
+      "data": [
+        {
+          "text": "I am trying to log in to "
+        },
+        {
+          "text": "home\u0027bank",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " but my card is inactive"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "cef50be3-e9c0-48b1-8a8d-f067683dcdcf",
+  "name": "inactive_card_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "showicccontactdetails",
+      "affectedContexts": [
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "In the near future I will be able to help you with this. For now contact us at +322 464 60 04.\nCan I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "inactivecard"
+    }
+  ]
+}

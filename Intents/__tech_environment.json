@@ -1,0 +1,39 @@
+{
+  "userSays": [
+    {
+      "id": "667ab4ac-864d-47d5-8660-3adadccf7d82",
+      "data": [
+        {
+          "text": "__tech_environment"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a02ede61-56de-4300-a469-5a52e750347b",
+  "name": "__tech_environment",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You are having a conversation with agent \"Marie_EN_Staging\""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

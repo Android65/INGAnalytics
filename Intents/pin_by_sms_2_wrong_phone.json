@@ -1,0 +1,293 @@
+{
+  "userSays": [
+    {
+      "id": "8e6576b6-8328-4cc6-936b-8ab615546114",
+      "data": [
+        {
+          "text": "My "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " number is not correct, i cannot send the token for my pin code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ec3a527e-c870-4c87-9e51-8a76324849fc",
+      "data": [
+        {
+          "text": "I\u0027ve tried to receive my pin but my "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " number is wrong"
+        }
+      ],
+      "isTemplate": false,
+      "count": 3
+    },
+    {
+      "id": "fc7afd59-7d3e-4477-b9f7-7e9b00ce49d0",
+      "data": [
+        {
+          "text": "My current "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " number ends with another number."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6dc1086b-9bbb-490a-aed1-e83ea89e5cda",
+      "data": [
+        {
+          "text": "My number is not the one that you have"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9bf3f36d-0e7a-44be-b395-5716b94cc54e",
+      "data": [
+        {
+          "text": "This is not my current "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " number."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4811619d-40ec-4164-b8d6-27647e5575d1",
+      "data": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " number that you have is an old one."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ebb4c1c2-1009-41e1-8a30-333737dfd748",
+      "data": [
+        {
+          "text": "I have a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " number."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8aa7305d-a3a2-4643-beb5-5ea75b6dca9f",
+      "data": [
+        {
+          "text": "I used a different "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " to send the SMS."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "318739af-09d6-4855-8115-aa6bfead3ea0",
+      "data": [
+        {
+          "text": "I am using another "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "40b19a89-db62-42a1-8216-d2fcfd18dac0",
+      "data": [
+        {
+          "text": "My "
+        },
+        {
+          "text": "phone",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " number isn\u0027t the same anymore, I can\u0027t get the pincode for my card."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b2461d16-27d8-415e-8ae5-df8e72f64a09",
+      "data": [
+        {
+          "text": "You have a false phone number of me."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "533aa2c2-e34b-4ea8-ae83-1b7b9fddd103",
+      "data": [
+        {
+          "text": "My number seems to be wrong."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bf3c5c6c-3684-454a-a729-8dc2e7642da0",
+      "data": [
+        {
+          "text": "The text message states my number is incorrect."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6b451f53-1dee-472b-b45e-b9847c5f5684",
+      "data": [
+        {
+          "text": "The sms I have just received tells me that my phone number is not correct."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "74f225e6-ea1d-4f34-aeb6-1c1bfaa72e40",
+  "name": "pin_by_sms_2_wrong_phone",
+  "auto": true,
+  "contexts": [
+    "ctx_sms_reason",
+    "ctx_pin_by_sms"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "ctx_pin_by_sms",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_sms_reason",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@AssistanceType",
+          "name": "AssistanceType",
+          "value": "$AssistanceType",
+          "isList": false
+        },
+        {
+          "dataType": "@Card_Status_Type",
+          "name": "Card_Status_Type",
+          "value": "$Card_Status_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "In that case, your pin will be sent automatically by post soon. If you want to receive it more quickly, go to a branch. In the branch you will be able to chose a new pincode yourself. Do you have other questions?",
+            "The mobile number that is registered in our system is the only one that can receive the PIN code for security reasons. Your PIN code will be sent by post automatically within a couple of days. If you need the pin urgently, it is possible to choose it in a branch. Can I help you with something else?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

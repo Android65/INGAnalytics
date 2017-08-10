@@ -1,0 +1,305 @@
+{
+  "userSays": [
+    {
+      "id": "cd3de033-47f4-42aa-9ba0-3dd9ac84a3b6",
+      "data": [
+        {
+          "text": "My card reader is broken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c1fddd3d-7875-4334-bbc0-f4f9fee061fd",
+      "data": [
+        {
+          "text": "my card reader is down"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e5d0fcc9-9fd3-4aa8-ad0c-7342cd02ab93",
+      "data": [
+        {
+          "text": "My card reader is down"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7a4b812d-193a-4094-a521-7410ee2c3bda",
+      "data": [
+        {
+          "text": "How can I order a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " reader?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "500d4cf9-1de3-4f3d-8a33-073e0f04fbb6",
+      "data": [
+        {
+          "text": "How can I get a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card reader"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9ba1148a-c81f-4f6e-a92f-a77affc512d4",
+      "data": [
+        {
+          "text": "Could you order a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card reader"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4c17f51c-0c4b-471a-815c-6edf87cc9907",
+      "data": [
+        {
+          "text": "I want a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card reader"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "69e4789e-9245-4681-97dc-acf7f84b85bb",
+      "data": [
+        {
+          "text": "My reader is defective"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a56dea75-0a88-4b47-bff8-af9508706e85",
+      "data": [
+        {
+          "text": "My card reader has crashed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1120331c-017f-4403-9b40-08b76080145b",
+      "data": [
+        {
+          "text": "The buttons of my reader are "
+        },
+        {
+          "text": "broken",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b957f7e2-dacc-4999-b4fa-a576c55a68a7",
+      "data": [
+        {
+          "text": "My reader does not function"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fd993e13-02f3-42c3-96d6-88591ad148ca",
+      "data": [
+        {
+          "text": "My reader is damaged"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "536298ad-78fc-491f-9bcc-e2b9210eb9c7",
+      "data": [
+        {
+          "text": "My card reader is not readable"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "773dc33f-5985-46f5-b5e0-e4c4010e62fc",
+      "data": [
+        {
+          "text": "My card reader does not answer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "191b044c-1514-49d1-99b7-832096d86b2e",
+      "data": [
+        {
+          "text": "My card reader is damaged"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d6b5f02a-79f1-4774-9f97-6a9a80e099dd",
+      "data": [
+        {
+          "text": "My card reader does not function"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "956261f5-6763-4931-a3a6-497f086f1363",
+      "data": [
+        {
+          "text": "My card reader is "
+        },
+        {
+          "text": "broken",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "de2c5304-3dbe-4abb-ac6f-6e1e615cf00e",
+      "data": [
+        {
+          "text": "low battery"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "62b73dbd-be98-43ea-b918-6b911ceea23c",
+      "data": [
+        {
+          "text": "I received the message low battery"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4bf74550-bf57-4839-87ae-1a177de3f400",
+      "data": [
+        {
+          "text": "My card reader says low battery"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4f9aecab-a0ad-49e3-b53a-8ca149a83f3b",
+      "data": [
+        {
+          "text": "The battery of my card reader is empty"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eeab0c77-bc42-4725-9f13-1aebeced05f6",
+      "data": [
+        {
+          "text": "The battery of my card reader is low"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2c207978-9cb2-457c-b628-a81e38c103f1",
+  "name": "new_card_reader_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Card_Status_Type",
+          "name": "Card_Status_Type",
+          "value": "$Card_Status_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "You can order a new card reader on www.ing.be/cardreader. Do you have further questions?",
+            "It is possible to order a new card reader via www.ing.be/cardreader. It will be sent to you contact address within a couple of working days. Can I help you with something else?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

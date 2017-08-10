@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "52d50969-3f2f-4732-8cda-70c5f6766cc8",
+  "name": "authentication_e_sms_text",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Please provide this token to Marie:"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "smsauth_sms_text"
+    }
+  ]
+}

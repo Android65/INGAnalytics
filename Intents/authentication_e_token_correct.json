@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "cdb05018-1559-4f1d-ab99-ac71530f22b9",
+  "name": "authentication_e_token_correct",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Awesome, token correct! I\u0027ll trust you for the next 10 min. One sec."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "smsauth_token_correct"
+    }
+  ]
+}

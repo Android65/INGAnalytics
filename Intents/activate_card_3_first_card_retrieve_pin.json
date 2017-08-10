@@ -1,0 +1,82 @@
+{
+  "userSays": [
+    {
+      "id": "733ab780-a3a1-48b8-83c7-e20272593efc",
+      "data": [
+        {
+          "text": "I want to get my pin please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6660ff79-bb5b-41f0-bf6f-bfe74258f515",
+      "data": [
+        {
+          "text": "I want to retrieve my pin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be21455a-f1de-4052-b617-e8def248b624",
+      "data": [
+        {
+          "text": "I don\u0027t have my pin yet"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "bb5a6fc9-2323-4bc5-9eb5-3f20e0fbb243",
+      "data": [
+        {
+          "text": "Help me retrieve it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "fb438f41-493c-40a0-a6ca-b6c54a580fe5",
+  "name": "activate_card_3_first_card_retrieve_pin",
+  "auto": true,
+  "contexts": [
+    "ctx_activate_card",
+    "ctx_ac_pin"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:pinbysms",
+      "affectedContexts": [
+        {
+          "name": "ctx_activate_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ac_pin",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

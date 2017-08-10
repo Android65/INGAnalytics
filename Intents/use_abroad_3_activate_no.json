@@ -1,0 +1,65 @@
+{
+  "userSays": [
+    {
+      "id": "b3ad8f1c-5ca6-4d09-894a-ed831da36925",
+      "data": [
+        {
+          "text": "No thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e4f4509f-7652-4e29-8a7f-f0135a893013",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f9fa68ea-59e9-4fed-9a1f-d58a7a775b07",
+  "name": "use_abroad_3_activate_no",
+  "auto": true,
+  "contexts": [
+    "ctx_use_abroad",
+    "ctx_ua_activate"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ua_activate",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok, I won\u0027t. Is there anything else I can do for you?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

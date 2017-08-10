@@ -1,0 +1,89 @@
+{
+  "userSays": [
+    {
+      "id": "022d5f7f-948f-44da-b19e-f1d3ace58191",
+      "data": [
+        {
+          "text": "How does the code by sms work?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1fe10318-b40b-48d2-b7fd-472f2d973dbd",
+      "data": [
+        {
+          "text": "I do not understand the process to get my PIN"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e1dd2e0a-581e-431d-acd9-f33796cd5719",
+      "data": [
+        {
+          "text": "I need more info for PIN sms"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9b3d2b75-0bb1-4ce2-a1a1-c636c12590ff",
+      "data": [
+        {
+          "text": "I need more info for PIN by SMS"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f66b43c6-d768-4718-b5f0-09774e04627a",
+      "data": [
+        {
+          "text": "How do I use the PIN by sms"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1472ea80-c42f-4d0f-a18b-3d39820fcbcc",
+  "name": "pin_by_sms_0b_more_info",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:moreinfopin",
+      "affectedContexts": [
+        {
+          "name": "ctx_pin_by_sms",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_sms_letter",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

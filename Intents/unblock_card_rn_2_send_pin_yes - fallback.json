@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "d81463dc-492b-4a30-80ef-7ebdbfe2e6f7",
+  "name": "unblock_card_rn_2_send_pin_yes - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_unblock_card_rn",
+    "ctx_uc_card_selection"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "activecardlist",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Please pick one of your cards below"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

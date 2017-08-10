@@ -1,0 +1,44 @@
+{
+  "userSays": [],
+  "id": "88fe6d52-95ec-49da-ae57-4b93cf044300",
+  "parentId": "e32c6ff3-ad46-4e75-ac67-382080565b27",
+  "rootParentId": "e32c6ff3-ad46-4e75-ac67-382080565b27",
+  "name": "new_pin_0 - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_np_init",
+    "ctx_newpin"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Reset",
+            "Blocked",
+            "Pin by SMS"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Sorry, I\u0027m afraid I don\u0027t understand you. In order to help you I need to know why you want to have a new PIN code.\nSelect RESET if you want a new PIN code for a card you possess,\nSelect BLOCKED if you blocked your card using your current PIN code,\nSelect PIN by SMS if you want assistance to receive your PIN by SMS for a new card."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

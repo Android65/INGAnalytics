@@ -1,0 +1,173 @@
+{
+  "userSays": [
+    {
+      "id": "8a884190-039c-4820-8b20-f174505c99ff",
+      "data": [
+        {
+          "text": "Marie",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "002c5c75-d46d-4054-8d24-8654edf5e023",
+      "data": [
+        {
+          "text": "how should I "
+        },
+        {
+          "text": "call",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d4baa817-b828-41dc-b9e4-f52193d5727f",
+      "data": [
+        {
+          "text": "how can I "
+        },
+        {
+          "text": "call",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "724da7a1-cbb7-47ea-8992-6da882e62143",
+      "data": [
+        {
+          "text": "what is this?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8f36da2a-2097-4e7d-b108-3a292a1cf60d",
+      "data": [
+        {
+          "text": "who are you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fd6cd07a-ead4-42df-9c09-cdfccf206a14",
+      "data": [
+        {
+          "text": "Can you tell me your name?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f33c7e5c-b254-4eb6-8c5d-df4ee74a543e",
+      "data": [
+        {
+          "text": "What\u0027s your name?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "50582489-62b6-4d17-b483-a1105afaa484",
+      "data": [
+        {
+          "text": "What is your naam?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f634f09b-7e36-4288-91c8-5040b748d32b",
+      "data": [
+        {
+          "text": "what is your name ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9b23340c-0604-4a8b-b653-696241aec174",
+      "data": [
+        {
+          "text": "how do I need to "
+        },
+        {
+          "text": "call",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " you."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8d4aca9a-0941-454f-8134-884860fabb2f",
+      "data": [
+        {
+          "text": "What is your name ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e715a4f4-b866-47fb-899a-0d7d178cc15d",
+  "name": "_Generic_My_Name",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "My name is Marie, your digital assistant. I am available 24/7 to answer your questions about ING bank cards.",
+            "I\u0027m Marie, your virtual assistant. I can help you 24/7 with questions about ING cards. Just ask me."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,347 @@
+{
+  "userSays": [
+    {
+      "id": "204b26be-6df6-4673-8432-168949474434",
+      "data": [
+        {
+          "text": "I want to have a "
+        },
+        {
+          "text": "visa",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " for my daughter"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f1351992-6dee-4a02-ab1a-aac8d889fe90",
+      "data": [
+        {
+          "text": "Can I have "
+        },
+        {
+          "text": "a credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " alongside my lion account?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "5dc6452a-e2f0-45ca-9c6e-2d2748de006d",
+      "data": [
+        {
+          "text": "What is "
+        },
+        {
+          "text": "a credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ecab7107-9dbb-4e4c-b522-ac97c16fe1fc",
+      "data": [
+        {
+          "text": "credit cards",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7df6626e-7daa-443c-aff0-6047bc3490be",
+      "data": [
+        {
+          "text": "I need advice on "
+        },
+        {
+          "text": "credit cards",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "925eada7-3d3a-4604-b878-282e01d9650d",
+      "data": [
+        {
+          "text": "yes on "
+        },
+        {
+          "text": "credit cards",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "78c5bec2-0d9e-4117-bbbb-b1311218be34",
+      "data": [
+        {
+          "text": "Give me info about "
+        },
+        {
+          "text": "credit cards",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1dc86792-574b-438a-ad1b-a727fbb7aee8",
+      "data": [
+        {
+          "text": "And what about "
+        },
+        {
+          "text": "credit cards",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "fad18242-4c3d-4e98-b47d-566f3b35dd25",
+      "data": [
+        {
+          "text": "What is a "
+        },
+        {
+          "text": "Visa card",
+          "alias": "Card_Type",
+          "meta": "@Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "08fa7b36-bb39-4ca8-808c-c37411eb1896",
+      "data": [
+        {
+          "text": "is a "
+        },
+        {
+          "text": "Visa card",
+          "alias": "Card_Type",
+          "meta": "@Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " a "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " or a "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c4b29b33-455f-4a48-a688-5f46af96bc3d",
+      "data": [
+        {
+          "text": "What does "
+        },
+        {
+          "text": "VISA",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " mean?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "23c264ac-007d-48b9-bfed-2f6168a74402",
+      "data": [
+        {
+          "text": "is "
+        },
+        {
+          "text": "visa",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " a "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "5504ff15-21aa-4f21-9f94-9bddd25a8ffb",
+      "data": [
+        {
+          "text": "Is "
+        },
+        {
+          "text": "visa",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " a "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type1",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3a9fe854-bee5-441b-9c63-321e48a7d684",
+      "data": [
+        {
+          "text": "Is "
+        },
+        {
+          "text": "MasterCard",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " a "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type1",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ef39dff2-adab-46a0-9fb6-bf9e1705e5a8",
+  "name": "info_card_types_credit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type1",
+          "value": "$Credit_Card_Type1",
+          "isList": false
+        },
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Card_Type",
+          "name": "Card_Type",
+          "value": "$Card_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "ING Visa Classic, ING MasterCard Gold and ING Card are our three credit cards. \nFor more info see our ING website \u003e Day-to-day banking: https://www.ing.be/en/retail/daily-banking/credit-cards",
+            "For more information regarding our credit cards, please check out our website www.ing.be/creditcards"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

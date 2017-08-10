@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "ff990910-112c-4b03-a9c0-6fd0ceb603f0",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0fdd46ad-10fd-4b3a-8170-5d6866635cfb",
+  "name": "unblock_card_rn_4_address_yes",
+  "auto": true,
+  "contexts": [
+    "ctx_uc_address_confirmation",
+    "ctx_unblock_card_rn"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ctx_uc_address_confirmation",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_unblock_card_rn",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_uc_final_confirmation",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "cardGUID",
+          "value": "#ctx_unblock_card_rn.cardGUID"
+        },
+        {
+          "name": "address",
+          "value": "#ctx_unblock_card_rn.address"
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Ok great. Just one final confirmation: I will create a request to send your new PIN code to the following address: $address . Can you confirm that this is what you want to do?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

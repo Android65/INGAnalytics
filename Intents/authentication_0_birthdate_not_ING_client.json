@@ -1,0 +1,123 @@
+{
+  "userSays": [
+    {
+      "id": "dc4d94d2-968f-4d7c-bd9c-71d0fd3aa4c5",
+      "data": [
+        {
+          "text": "but I don\u0027t have an account with your bank!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "cd1df74e-aa2e-49d2-b1c7-c14c2723ae12",
+      "data": [
+        {
+          "text": "but I am not your client!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a7c4a4e7-70d7-4810-a0f5-9abfd6b37c83",
+      "data": [
+        {
+          "text": "no client of ing"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9540bb5f-b241-45c0-9bbb-e1bd78d02226",
+      "data": [
+        {
+          "text": "Non ING client"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0db9942e-6cea-4883-b4bc-fbecb99bad82",
+      "data": [
+        {
+          "text": "Not an client of ING here!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b1f4856-2fa5-45ac-b59a-2ba522badc4d",
+      "data": [
+        {
+          "text": "I don\u0027t have an ING account, though"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "35161353-b68f-4b25-8def-37a036a1ad87",
+      "data": [
+        {
+          "text": "I\u0027m not client of ING!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e467c5d5-8316-4184-bc90-fcf2595550f5",
+      "data": [
+        {
+          "text": "But I\u0027m not ING client"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b5a94d98-a136-43e5-9350-73de5f0316d2",
+      "data": [
+        {
+          "text": "Yeah, but I\u0027m not an ING client"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0cd1aeae-4955-4fdc-830f-17a85a81ec11",
+  "name": "authentication_0_birthdate_not_ING_client",
+  "auto": true,
+  "contexts": [
+    "ctx_sa_birthdate",
+    "ctx_sms_authentication"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "resetsmscontexts",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Oh, what a shame you\u0027re not an ING client yet :-) Unfortunately, I cannot help you, then. Feel free to visit www.ing.be to find out what great products we have to offer! Can I help you with something else?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,92 @@
+{
+  "userSays": [
+    {
+      "id": "80ce89b3-07e6-4c51-ae4e-a81ebc1260c7",
+      "data": [
+        {
+          "text": "I forgot my pin code, can you give me a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " one"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ed23656c-0ead-4671-8bd8-bfb1959832da",
+      "data": [
+        {
+          "text": "I don\u0027t remember my pin but I need a new one"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0f8dd269-fdb7-4786-b60b-b70036432bdc",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "203e8576-f21d-42e9-821d-4fe7ed8c2f10",
+  "name": "new_pin_2_resetno",
+  "auto": true,
+  "contexts": [
+    "ctx_newpin",
+    "ctx_np_pinknown"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_newpin",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_np_pinknown",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Card_Status_Type",
+          "name": "Card_Status_Type",
+          "value": "$Card_Status_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Then you will need to go to an ING branch, my human colleague will help you to generate a new PIN code. Can I help you with something else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

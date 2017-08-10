@@ -1,0 +1,63 @@
+{
+  "userSays": [
+    {
+      "id": "d967b41c-5c3a-48cd-899b-261010fd36ac",
+      "data": [
+        {
+          "text": "__language_selection__"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "212a06a6-f35b-4ffa-ae8c-70153d37d5b3",
+  "name": "_language_selection_0",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ctx_languageselection",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "Language:",
+          "replies": [
+            "English"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Hi $firstName! I can help with your questions about cards! In which language would you like to chat? You can always switch later by asking me ;)",
+            "Hi! I can help with your questions about cards! In which language would you like to chat? You can always switch later by asking me ;)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

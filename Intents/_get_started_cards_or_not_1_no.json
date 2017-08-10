@@ -1,0 +1,116 @@
+{
+  "userSays": [
+    {
+      "id": "e83b11da-4a77-46fb-9a4e-212966a1c936",
+      "data": [
+        {
+          "text": "not about cards"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "732fd4eb-5eb4-4dc0-9516-3cfa9194d1fd",
+      "data": [
+        {
+          "text": "meh"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1908cc49-b9eb-4784-8c7a-a5b124d6a0b2",
+      "data": [
+        {
+          "text": "nah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0c436d57-5e5d-4d95-aeff-c81611749a6d",
+      "data": [
+        {
+          "text": "no way"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c87bc2d8-4ebf-4e2e-998f-6052db29893d",
+      "data": [
+        {
+          "text": "not really"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c0947507-844f-4009-96af-6bebe63c7ecc",
+      "data": [
+        {
+          "text": "nope"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "17cac7fa-6bfb-453c-beef-73ee555608dd",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c02c2ffc-a375-417c-a899-2176e3fa7e84",
+  "name": "_get_started_cards_or_not_1_no",
+  "auto": true,
+  "contexts": [
+    "ctx_get_started"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "humantakeoverrequest",
+      "affectedContexts": [
+        {
+          "name": "ctx_get_started",
+          "parameters": {},
+          "lifespan": 999
+        },
+        {
+          "name": "_start_cards_or_not-followup",
+          "parameters": {},
+          "lifespan": 999
+        },
+        {
+          "name": "_get_started_cards_or_not_1_no-followup",
+          "parameters": {},
+          "lifespan": 999
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok! In that case, I\u0027ll ask some of my human colleagues to get back to you. They are available from Monday to Friday between 8 am and 10 pm and on Saturday between 9 am and 5 pm. Please hold on a bit."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

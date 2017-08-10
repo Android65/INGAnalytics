@@ -1,0 +1,485 @@
+{
+  "userSays": [
+    {
+      "id": "b5eddf8f-bda9-427c-962b-f9fd2af2cc74",
+      "data": [
+        {
+          "text": "is my card going to work abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a09a4727-a9b7-4b38-bed1-1865a3d1748b",
+      "data": [
+        {
+          "text": "will my card work there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c31fae78-ea3f-445d-ac1d-fb58128e4180",
+      "data": [
+        {
+          "text": "activate my card abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a84200a5-f9d1-4946-80f6-4f95fb8bbb59",
+      "data": [
+        {
+          "text": "I am on holiday in "
+        },
+        {
+          "text": "three weeks",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": ", do I need to activate my card in order to use it?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b74cf25a-cd87-4455-b56d-4f2a6d612434",
+      "data": [
+        {
+          "text": "I am on vacation "
+        },
+        {
+          "text": "next week",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": false
+        },
+        {
+          "text": ". Do I need to activate my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "715c0850-127d-4662-a352-0ed223f48db8",
+      "data": [
+        {
+          "text": "I am going on vacation "
+        },
+        {
+          "text": "next week",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": false
+        },
+        {
+          "text": ". Do I need to activate my card to use it abroad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f666acbd-6cd3-4b3d-86f0-6dd25b5a6f32",
+      "data": [
+        {
+          "text": "Can you activate my card for the usage abroad ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2e417f3b-e081-4a7c-922a-6a5207b18009",
+      "data": [
+        {
+          "text": "Can you activate my card ? The process written on your paper does not work"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "590382cb-8d54-49c6-957d-48264b980029",
+      "data": [
+        {
+          "text": "how can i activate my card abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bb47101c-1896-4a10-9c50-e94d9b2cf31f",
+      "data": [
+        {
+          "text": "Is this an international card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7a2fdda0-c8d9-4a34-9ad9-f347275fa943",
+      "data": [
+        {
+          "text": "Is it possible to take some cash with my card outside "
+        },
+        {
+          "text": "Belgium",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8bc54884-b4f3-4fe6-a0c7-0a1e4cdfc26c",
+      "data": [
+        {
+          "text": "Does my card work in other countries?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "25382a63-dd98-486d-94ec-3ae1b10fc7be",
+      "data": [
+        {
+          "text": "can I withdraw money in foreign countries?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "5ca50370-8ea0-4cd9-b65a-6a467d05014c",
+      "data": [
+        {
+          "text": "Marie",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ", I need money. I\u0027m blocked in a foreign country is my card is not working."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "abc17505-fe04-4565-a22d-3121c70599a1",
+      "data": [
+        {
+          "text": "My card is not working abroad!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d259a590-8ca8-4a57-b86b-bb1ccab6de89",
+      "data": [
+        {
+          "text": "My card "
+        },
+        {
+          "text": "doesn\u0027t work",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " internationally!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d1f3fb38-4c40-48dc-95ed-31a2123f823c",
+      "data": [
+        {
+          "text": "My card was not activated for usage abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cf067058-7d35-4f1c-9c44-c2db47a6c182",
+      "data": [
+        {
+          "text": "OK, but my card was never activated for abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1251df78-96b2-4782-885c-21dc700470de",
+      "data": [
+        {
+          "text": "my card isn\u0027t working abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd75c457-712e-4c51-9110-e9fdb1012443",
+      "data": [
+        {
+          "text": "Can I use my card outside of "
+        },
+        {
+          "text": "Belgium?",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0978be5f-ea91-45a6-ab5c-f294a087d534",
+      "data": [
+        {
+          "text": "Can I pay with my card abroad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5c0652c4-9062-4193-b7e3-251fcf44297c",
+      "data": [
+        {
+          "text": "I go on holiday, how can I use my card there?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a791ab7b-db47-421a-b880-7fc32dc02a26",
+      "data": [
+        {
+          "text": "I\u0027m leaving for holiday. Can you open my card for there?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "84594391-882a-4fc4-90b6-cc2a7901645d",
+      "data": [
+        {
+          "text": "I need you to activate my card tot use it abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bc9bb406-9d08-4a73-81de-cb657e206a72",
+      "data": [
+        {
+          "text": "I am abroad and my card does "
+        },
+        {
+          "text": "not work",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0b4f66b0-a3f8-4122-a59a-e390380cc3fa",
+      "data": [
+        {
+          "text": "I am abroad and I cannot withdraw money"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2bd0a519-4f24-4453-a3d6-a66d7f99d174",
+      "data": [
+        {
+          "text": "Can I pay in shops abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9907da32-ffc3-4519-ad17-223e31f9baf9",
+      "data": [
+        {
+          "text": "Can I pay abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "343ce1f4-0eea-4299-9946-513e1dc75fff",
+      "data": [
+        {
+          "text": "Am I able to withdraw money abroad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1b0ae2c6-6fe2-4e3a-963e-38b163d0713b",
+      "data": [
+        {
+          "text": "Could you enable my card abroad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6a5911c2-5bf1-4244-8c73-e91aa019f5ff",
+      "data": [
+        {
+          "text": "I want to  use my bank card abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d7cd5f44-bfcb-4e78-94dc-b6fecb9dc094",
+      "data": [
+        {
+          "text": "Activate my card abroad, please."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d524ca8c-87f9-4c12-aab6-d0fc1a325416",
+      "data": [
+        {
+          "text": "I am abroad and want to use my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "57f61dfb-9652-477d-b4ea-e2e7fd0e8456",
+      "data": [
+        {
+          "text": "I want to use my card abroad."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5eb4d417-863d-4231-95b3-9f2b89ffb847",
+  "name": "use_abroad_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ua_card_type",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_general",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@UA_Countries_Europe",
+          "name": "UA_Countries_Europe",
+          "value": "$UA_Countries_Europe",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        },
+        {
+          "name": "last_question",
+          "value": "Is it a debit or a credit card?"
+        },
+        {
+          "dataType": "@sys.date-period",
+          "name": "date-period",
+          "value": "$date-period",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Debit",
+            "Credit",
+            "I don\u0027t know"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "We will have a look together at using your card abroad :) Is it a debit card or a credit card?\n\nIf you do not know what kind of card you have, let me know and I will show you a list of your cards. Please keep in mind that I would need to authenticate you first",
+            "I will check using your card abroad for you! :) Is it a debit card or credit card?\n\nIf you do not know what kind of card you have, let me know and I will show you a list of your cards. Please keep in mind that I would need to authenticate you first",
+            "Let\u0027s have a closer look at using your card abroad, then. Is it a debit card or a credit card?\n\nIf you do not know what kind of card you have, let me know and I will show you a list of your cards. Please keep in mind that I would need to authenticate you first"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "useabroad"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "userSays": [],
+  "id": "cf917a2f-1d9a-40f3-84f2-c69b1f610a01",
+  "name": "card_stop_2_cardtype_FallBack",
+  "auto": false,
+  "contexts": [
+    "ctx_card_stop",
+    "ctx_cs_card_type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Is it a debit or a credit card?",
+            "Is your card a debit or a credit card?",
+            "Please choose the type of card you are talking about : debit or credit?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

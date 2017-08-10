@@ -1,0 +1,80 @@
+{
+  "userSays": [
+    {
+      "id": "10be2d46-b200-4a0a-8759-ce6b78e2f5b3",
+      "data": [
+        {
+          "text": "I don\u0027t find back my card number?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e81baf8c-3b8c-4bf1-b48a-fb2b9e3fde6d",
+      "data": [
+        {
+          "text": "card number: what?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "30671291-38ed-4bda-90ee-43a7e644f49b",
+      "data": [
+        {
+          "text": "Where do I find my card number"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cac1453c-a927-470e-9fb3-ae5fbf4d0bc3",
+      "data": [
+        {
+          "text": "What\u0027s my card number?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "18a0efcc-10e3-4626-aea3-417ce4292553",
+      "data": [
+        {
+          "text": "What is my card number?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "657a5bb1-ebd0-4fbc-809a-23d6731ea7fb",
+  "name": "_Generic_Card_Number",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "On the front of your debit card you will find the card number after the word \"Card\". This number consists of 17 digits. Or for your credit card, you will find the card number which consists of 16 digits.",
+            "On the front of your debit card you will find the card number, the number consists of 17 digits. Or for your credit card, the number consists of 16 digits."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

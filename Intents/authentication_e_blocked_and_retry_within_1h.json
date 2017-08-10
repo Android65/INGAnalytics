@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "ff27667b-a240-45cd-972a-c53bfb29c7b7",
+  "name": "authentication_e_blocked_and_retry_within_1h",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Unfortunately, I can\u0027t retry authenticating you again so quickly. You can try again in 1h. Meanwhile, you can call my human colleagues."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "smsauth_blocked_and_retry_within_1h"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "userSays": [],
+  "id": "53bd0d7b-2d53-4932-9029-08686736b2ed",
+  "name": "card_delivery_4_address_ok - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_card_delivery",
+    "ctx_cd_wait_branch_icc",
+    "ctx_cd_address_ok"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Wait",
+            "Branch"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Please pick one of the two options:"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

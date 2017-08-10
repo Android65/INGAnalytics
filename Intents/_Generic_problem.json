@@ -1,0 +1,331 @@
+{
+  "userSays": [
+    {
+      "id": "c67285b1-423e-4c66-9957-ce072022624c",
+      "data": [
+        {
+          "text": "My card does not work anymore"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "6c8b6254-b04f-46d0-819b-57e2da61a40d",
+      "data": [
+        {
+          "text": "My card starts to malfunction"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7be733e7-452e-4516-bc00-08687997dd89",
+      "data": [
+        {
+          "text": "My card is malfunctioning"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b94a1748-7d9e-4815-864b-b61debe27e82",
+      "data": [
+        {
+          "text": "My card "
+        },
+        {
+          "text": "doesn\u0027t work",
+          "alias": "Card_Activation_Reason_Renewal",
+          "meta": "@Card_Activation_Reason_Renewal",
+          "userDefined": false
+        },
+        {
+          "text": " anymore"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "40481870-3eaf-43bc-aab8-c5a593aa08bd",
+      "data": [
+        {
+          "text": "I have a "
+        },
+        {
+          "text": "broken",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "644602c2-eef1-49cc-9e94-42f3a72df08a",
+      "data": [
+        {
+          "text": "I was out last night and my card was in jeans and I "
+        },
+        {
+          "text": "broke",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " it. What do I do now?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c1660392-893f-4808-8b75-085aabd9a12c",
+      "data": [
+        {
+          "text": "my card is broken"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d0df898f-2d1f-42ee-9dfa-ed50cb11d89f",
+      "data": [
+        {
+          "text": "my card is  not working"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a01805ce-f24e-49dd-86be-3975eda1ca90",
+      "data": [
+        {
+          "text": "My card doesn\u0027t work"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d0e76a6f-99e4-413c-bbdd-3458dc288110",
+      "data": [
+        {
+          "text": "something is wrong with my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "85b8d6d9-d0f1-4091-9872-3cf8d59880ba",
+      "data": [
+        {
+          "text": "My card is not working"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "48fc1a81-96d3-48b2-94a7-0c1a4402c808",
+      "data": [
+        {
+          "text": "My card is "
+        },
+        {
+          "text": "broken",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e7c0143b-23b9-4904-a8cb-741c80b08030",
+      "data": [
+        {
+          "text": "I have a concern regarding my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f43a762b-4608-4a4f-a262-3a567deb76ac",
+      "data": [
+        {
+          "text": "My card is messed up"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b989e146-af98-44be-b29a-5b0b7276df73",
+      "data": [
+        {
+          "text": "My card gives me headaches"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9f9bd890-5df7-44f1-8c24-46150a67b159",
+      "data": [
+        {
+          "text": "There is a complication"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "508e4cdc-76aa-4d5e-93b1-df23bd15863e",
+      "data": [
+        {
+          "text": "I\u0027m having trouble with my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "2d306d46-324c-4a42-b38a-5e499a5a2db0",
+      "data": [
+        {
+          "text": "I\u0027m having trouble"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b8d1a4b6-bab9-4565-8a1a-4f13a8d23ba2",
+      "data": [
+        {
+          "text": "I don\u0027t know what is wrong with my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9e9cb079-f579-4124-abcf-5f8bd6293d86",
+      "data": [
+        {
+          "text": "I need help with my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e296bc2c-8833-499a-a36d-ea82cbfb5d21",
+      "data": [
+        {
+          "text": "Something strange is going on with my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "5294f427-57cd-40a9-bb8f-c13f8f8ed7de",
+      "data": [
+        {
+          "text": "something is wrong"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4e604ec7-8d87-4c8a-9177-e6accd57166d",
+      "data": [
+        {
+          "text": "I have a problem with my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c190c889-4e50-442d-8a45-3238bc2caf68",
+      "data": [
+        {
+          "text": "I have an issue"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e1e3ad88-7108-4a9d-a6b4-8c597ac28e1d",
+      "data": [
+        {
+          "text": "I have a problem"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "31588c97-901c-43d1-9c90-20ce8202995c",
+  "name": "_Generic_problem",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        },
+        {
+          "dataType": "@Card_Activation_Reason",
+          "name": "Card_Activation_Reason",
+          "value": "$Card_Activation_Reason",
+          "isList": false
+        },
+        {
+          "dataType": "@Card_Activation_Reason_Renewal",
+          "name": "Card_Activation_Reason_Renewal",
+          "value": "$Card_Activation_Reason_Renewal",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Ok, I will try to help you $firstName. Could you be more specific please? I can help you activate your card, blocking it, checking the delivery status of a new card, replacing an existing card, activiting a card for usage abroad, etc. Tell me what you need !",
+            "No worries $firstName, let me help. Could you just be a bit more specific? I can help you activate your card, blocking it, checking the delivery status of a new card, replacing an existing card, activiting a card for usage abroad, etc. Just let me know :-)",
+            "Ok, I will try to help! Could you be more specific please? I can help you activate your card, blocking it, checking the delivery status of a new card, replacing an existing card, activiting a card for usage abroad, etc."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,40 @@
+{
+  "userSays": [],
+  "id": "502db3d9-c7a7-4569-864d-349cd37e16c4",
+  "name": "unblock_card_rn_3_card_selected - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_unblock_card_rn",
+    "ctx_uc_address_confirmation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No",
+            "Not my address"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Please pick either \"Yes\" or \"No\". If this is not your address, please tell me!"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

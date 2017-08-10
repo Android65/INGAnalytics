@@ -1,0 +1,57 @@
+{
+  "userSays": [
+    {
+      "id": "ad093502-3973-4e3e-86a2-9fb63d5f10a7",
+      "data": [
+        {
+          "text": "__unknown_card__"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "42c2c9de-9c42-4a0b-a104-25c78bcc5520",
+  "name": "card_delivery_2_other",
+  "auto": true,
+  "contexts": [
+    "ctx_card_delivery",
+    "ctx_cd_card_selection"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "showicccontactdetails",
+      "affectedContexts": [
+        {
+          "name": "ctx_card_delivery",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_cd_card_selection",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Oh, if the card you are looking for is not in the list, you should probably call my colleagues at the ING Contact Centre. They should be able to help you. You can reach them at the number +32 2 464 60 04 or by pressing the button below.\nCan I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

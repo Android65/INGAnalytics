@@ -1,0 +1,137 @@
+{
+  "userSays": [
+    {
+      "id": "59f614ac-99ee-4d15-9d6f-443a46620f69",
+      "data": [
+        {
+          "text": "Correct"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "722061a3-e241-4ae8-8ef5-978014197a6f",
+      "data": [
+        {
+          "text": "Of course"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "68937abc-801b-48e0-88d0-a7fa73e3b6ba",
+      "data": [
+        {
+          "text": "Yep"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "db7266c9-9bb8-42d7-962b-2688aeae467b",
+      "data": [
+        {
+          "text": "Certainly"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1c200838-f057-4615-a2d8-d1b5c78153d3",
+      "data": [
+        {
+          "text": "Indeed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "644824c8-10cb-4ae0-8a0e-952da91a71bd",
+      "data": [
+        {
+          "text": "For sure"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97cdd710-565f-4e78-873d-3e5ae3b2164d",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d67ae0c1-ad29-4617-a805-8cfd6f916a9f",
+  "name": "unblock_card_1_remember_yes",
+  "auto": true,
+  "contexts": [
+    "ctx_unblock_card",
+    "ctx_uc_remember_pin"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_unblock_card",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_uc_remember_pin",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_uc_how_blocked",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_unblock_card_ry",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "ING card reader",
+            "Cash dispenser",
+            "Shop"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "How or where did you block your card?",
+            "In which device did you block your card?",
+            "Was your card blocked in the ING Card Reader, a cash dispenser or a shop?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

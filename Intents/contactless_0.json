@@ -1,0 +1,372 @@
+{
+  "userSays": [
+    {
+      "id": "68ea4cfb-5288-4f16-b646-3957154306e2",
+      "data": [
+        {
+          "text": "Do I have the "
+        },
+        {
+          "text": "NFC",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " feature?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "09b26645-7d5a-45cd-936d-a5d0ea5675d3",
+      "data": [
+        {
+          "text": "Does my card have the "
+        },
+        {
+          "text": "NFC",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " function?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b8955c9-4359-4f32-ad7a-7696788fd6bf",
+      "data": [
+        {
+          "text": "Do I have a "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cdda2251-e04f-4b40-914d-5a4849f12de9",
+      "data": [
+        {
+          "text": "is my card "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cf5047ce-f832-453d-a765-87983d723197",
+      "data": [
+        {
+          "text": "is my card contactles"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8245be30-d7ec-48f2-bdbc-75bb992e8cf8",
+      "data": [
+        {
+          "text": "is my card "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "74b5f376-b3e3-43a0-b3d7-99de30b7a6bf",
+      "data": [
+        {
+          "text": "does my card work "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "feb5cbec-54fb-439d-ab0c-5f8e707aee4f",
+      "data": [
+        {
+          "text": "can I use the "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " feature on my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "88a5c07f-1beb-45b7-bc87-d16c73093756",
+      "data": [
+        {
+          "text": "can I pay with "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "70192479-b391-47ab-8b4c-247252ee2cbe",
+      "data": [
+        {
+          "text": "is is possible i pay "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " with my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a0b7a9a4-aaa9-4420-80ca-2870681af583",
+      "data": [
+        {
+          "text": "can i pay "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "64eaf690-97c1-47c9-a488-6b11e6f51999",
+      "data": [
+        {
+          "text": "I\u0027m not sure if my "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " card is enabled."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fba88b40-9026-4d5b-8522-b18c2895a25c",
+      "data": [
+        {
+          "text": "Can I pay "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " with my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1f2c7389-810b-4bb4-875d-79a5821b8b38",
+      "data": [
+        {
+          "text": "Is "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " enabled for my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1b0eb331-5375-46c9-97b8-b448df4b7b0b",
+      "data": [
+        {
+          "text": "I want to pay with "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " feature, but I\u0027m not sure if it is enabled"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "db216570-eaf1-42c9-938f-39f2ca058621",
+      "data": [
+        {
+          "text": "Can you check if I can pay using "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " with my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "8834cfa7-e24f-4827-b1bc-daa2ddca0114",
+      "data": [
+        {
+          "text": "Can you explain what is the "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " thing on my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c467eb85-9bc3-4445-b521-3e5f4e35977d",
+  "name": "contactless_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_contactless",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "contactless_0-followup",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Card_Activation_Reason",
+          "name": "Card_Activation_Reason",
+          "value": "$Card_Activation_Reason",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 3,
+          "platform": "facebook",
+          "imageUrl": "https://www.ing.be/static/marie/other_items/Contactless_Payment_120px.jpg"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "You can easily check if your card has the contactless feature. Just look for the contactless symbol on your card. It looks like the image below. If you don\u0027t see it, I can help you replace your old card with a new one with this feature, shall I? Please keep in mind that I would have to authenticate you for this."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

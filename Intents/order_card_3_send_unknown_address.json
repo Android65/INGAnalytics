@@ -1,0 +1,79 @@
+{
+  "userSays": [
+    {
+      "id": "e6942b2d-e3e2-4a06-a57d-f961a5d13af9",
+      "data": [
+        {
+          "text": "I just moved, this is not my address"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "aa99cbbe-9b47-429f-b523-54cfeed819df",
+      "data": [
+        {
+          "text": "I do not recognize this address"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c76c2579-15dc-419b-a9a2-a5e9518effa5",
+      "data": [
+        {
+          "text": "Not my address"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "192793d1-5291-4af1-9ac5-b88961ea096b",
+  "name": "order_card_3_send_unknown_address",
+  "auto": true,
+  "contexts": [
+    "ctx_order_card",
+    "ctx_oc_send_confirmation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "showicccontactdetails",
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_oc_send_confirmation",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Oh then our data is not up to date. It would be best to call our Contact Centre, and they will be happy to assist you further. You can reach them at +32 2 464 60 04 or by pressing the button below.\nCan I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

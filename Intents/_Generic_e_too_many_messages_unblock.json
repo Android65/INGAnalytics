@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "1b504493-f2df-427e-99db-65c2d5cab545",
+  "name": "_Generic_e_too_many_messages_unblock",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Alright, you can talk me again. Take it slowly this time :-)"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "generic_too_many_messages_unblock"
+    }
+  ]
+}

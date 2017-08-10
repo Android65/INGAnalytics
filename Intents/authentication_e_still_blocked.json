@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "5ef4899a-e2d7-442a-9524-dd9bdb0363de",
+  "name": "authentication_e_still_blocked",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Unfortunately, you are still blocked from trying to authenticate via SMS. Please try a bit later."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "smsauth_still_blocked"
+    }
+  ]
+}

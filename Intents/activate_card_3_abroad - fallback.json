@@ -1,0 +1,43 @@
+{
+  "userSays": [],
+  "id": "20a78fa5-4bd5-4ef0-a03c-f9178aac5811",
+  "parentId": "973c36c0-b384-4f7c-8c28-d5194709d5ac",
+  "rootParentId": "973c36c0-b384-4f7c-8c28-d5194709d5ac",
+  "name": "activate_card_3_abroad - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_activate_card",
+    "ctx_ac_maestro"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Oh sorry, I didn\u0027t understand your response. If you are travelling outside of Europe, and you want to use your debit card, please select \"Yes\". If not, just press no."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

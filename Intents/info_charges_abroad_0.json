@@ -1,0 +1,692 @@
+{
+  "userSays": [
+    {
+      "id": "cd80fc04-353b-45d0-b892-e6e2777e9868",
+      "data": [
+        {
+          "text": "Which card should I use in the "
+        },
+        {
+          "text": "United States",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be48e5aa-d81c-472a-927b-c4fa164cffd4",
+      "data": [
+        {
+          "text": "I want to travel in "
+        },
+        {
+          "text": "Europe",
+          "alias": "geo-country",
+          "meta": "@sys.geo-country",
+          "userDefined": true
+        },
+        {
+          "text": ", which kind of card would you advise ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1f8f753-847c-470c-b32b-975d5db678af",
+      "data": [
+        {
+          "text": "If I use my cards outside of Eurozone, what are the fees ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "03c5cc75-815d-4fa2-b4c4-d93c163b564b",
+      "data": [
+        {
+          "text": "Where can I find the costs of my cards for the usage abroad ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3b7ff6a0-ae4d-4dcd-bd46-8049be62d892",
+      "data": [
+        {
+          "text": "I activated my card for abroad, what are the fees related to the usage there ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2ff37351-6386-4084-932f-6207b15a3ef9",
+      "data": [
+        {
+          "text": "Are the fees related to the usage abroad a % of the amount or a fixed amount ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "85646e65-f814-4143-b410-1dc55033d7a3",
+      "data": [
+        {
+          "text": "I saw XX euros as charges because I used it in YYY, is this normal ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a90621c8-1c7f-4af6-910f-ae4b83a80fb1",
+      "data": [
+        {
+          "text": "Is it cheaper to use my "
+        },
+        {
+          "text": "credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " or "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " abroad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4d7fc5c1-0c59-4b03-b2ba-d4b2d9b82ab9",
+      "data": [
+        {
+          "text": "What are the fees if I use my card outside of Belgium/Europe ? Do I need to activate it ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d3a163c3-b1d9-44db-b3fb-4616e0a88f45",
+      "data": [
+        {
+          "text": "Is it better to use my "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " or "
+        },
+        {
+          "text": "credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " abroad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b61c0b0e-a5d3-42d8-a2d9-43a1a88bec1f",
+      "data": [
+        {
+          "text": "can I withdraw without fees in "
+        },
+        {
+          "text": "Bolivia",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 3
+    },
+    {
+      "id": "93d44419-e23e-4524-85c8-44b6461c8064",
+      "data": [
+        {
+          "text": "what are the fees when using cards abroad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f0190fcc-2b49-4314-b6d9-c31afcc3a04f",
+      "data": [
+        {
+          "text": "do I have any fee if I take money with my card abroad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "0320dd95-93c4-4677-ab71-7e1bad7930ff",
+      "data": [
+        {
+          "text": "explain me the costs of withdrawing abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "da308c16-8f40-4e60-9fe8-0214e2f8368b",
+      "data": [
+        {
+          "text": "how much does it cost to withdraw abroad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9ac3fa45-539e-4356-bb53-0ed533bfb9a1",
+      "data": [
+        {
+          "text": "How much is withdrawal for "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " cards in "
+        },
+        {
+          "text": "Belgium",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0ce6b26d-c3de-4da6-9974-17884db070f2",
+      "data": [
+        {
+          "text": "What are the charges for taking money out of ATM?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e95d0e40-58ce-4178-84e3-f7208d1966ea",
+      "data": [
+        {
+          "text": "How much withdrawing money cost?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "81215b95-ec2b-4229-aa26-87d557f86a0c",
+      "data": [
+        {
+          "text": "What about withdrawing money?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "03e8876c-63fb-46ab-b19f-8007cc2bdc63",
+      "data": [
+        {
+          "text": "Will I pay a fee if I withdraw money with my "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e8f40d58-a528-43c2-93cb-5c421c0370c4",
+      "data": [
+        {
+          "text": "How much will I pay if I retrieve cash with my "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "10cb1ff1-4cc4-422f-80cb-5a1f568b9e87",
+      "data": [
+        {
+          "text": "Is withdrawing money in "
+        },
+        {
+          "text": "China",
+          "alias": "geo-country",
+          "meta": "@sys.geo-country",
+          "userDefined": true
+        },
+        {
+          "text": " expensive with my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ff33b2fa-3a19-4940-b65e-1d2a0b4e4db3",
+      "data": [
+        {
+          "text": "How much does it cost to withdraw money in "
+        },
+        {
+          "text": "France",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": true
+        },
+        {
+          "text": " with my credit card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "758b493c-d78f-483f-81a7-1d67871473af",
+      "data": [
+        {
+          "text": "How much does it cost to withdraw money in "
+        },
+        {
+          "text": "China",
+          "alias": "geo-country",
+          "meta": "@sys.geo-country",
+          "userDefined": false
+        },
+        {
+          "text": " with my "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "839ea59e-88d9-4486-8b5a-18d9a5226b1a",
+      "data": [
+        {
+          "text": "Are there charges to use my card outside of Europe?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2281202c-3281-4f42-b9f7-3137b7596ed9",
+      "data": [
+        {
+          "text": "Are there charges to use my card outside of "
+        },
+        {
+          "text": "Belgium",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "9111ea38-8dd0-4bff-b6f2-edb58300ca76",
+      "data": [
+        {
+          "text": "Is it free to withdraw money outside of Europe?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "11a4a2a4-11e9-4b18-becc-411d3d486ba5",
+      "data": [
+        {
+          "text": "Is it free to withdraw money outside of "
+        },
+        {
+          "text": "Belgium",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a4cff7f0-cb4a-4bba-bc99-291f0d7728e6",
+      "data": [
+        {
+          "text": "I much do I have to pay for my card abroad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "0d7ee5e4-0720-415e-b5ff-3a2365122d6a",
+      "data": [
+        {
+          "text": "What are the fees to withdraw money abroad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f977287-63cd-40ff-8b65-d79db2392e38",
+      "data": [
+        {
+          "text": "I want to withdraw money abroad. is there a cost?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f40c54ea-4bdc-4ded-8970-79d51d279fd0",
+      "data": [
+        {
+          "text": "I want to use my card abroad and I would like to know the cost"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "666054d2-4d3f-4b2b-8bd8-c46c3c358897",
+      "data": [
+        {
+          "text": "What do I pay when I use my "
+        },
+        {
+          "text": "card",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "11cdc9a8-3606-4303-a0ff-d1f310d83290",
+      "data": [
+        {
+          "text": "What does it cost to use my card during travelling?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "358f4d8a-9ad9-4d85-a545-9ea22b262226",
+      "data": [
+        {
+          "text": "Where can I find the charges for using my card outside of Europe?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "f7b5ab4c-0fbe-4226-8590-ef7c9f02310e",
+      "data": [
+        {
+          "text": "Where can I find the charges for using my card outside of "
+        },
+        {
+          "text": "Belgium",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d0f970cd-403e-4e8c-acc6-7061ed7c3610",
+      "data": [
+        {
+          "text": "Where can I find the charges for using my card abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cae605a9-438d-49b2-8bc0-9df22d43df64",
+      "data": [
+        {
+          "text": "What does it cost to use my card abroad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f2c02b92-12cc-46ce-ac72-feaca7d9b206",
+      "data": [
+        {
+          "text": "What are the charges for my "
+        },
+        {
+          "text": "debit",
+          "alias": "Card_Type",
+          "meta": "@Card_Type",
+          "userDefined": true
+        },
+        {
+          "text": " card abroad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "66c79bed-cd79-41c8-a847-7b41b7d95350",
+      "data": [
+        {
+          "text": "What are the charges for my "
+        },
+        {
+          "text": "credit",
+          "alias": "Card_Type",
+          "meta": "@Card_Type",
+          "userDefined": true
+        },
+        {
+          "text": " card abroad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "44baf479-577a-48ae-88e5-885e8d5fcbc6",
+      "data": [
+        {
+          "text": "What are the charges for my card abroad?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f8f909a4-f088-44a3-8fc1-0f31d18e8c4d",
+      "data": [
+        {
+          "text": "I need information about the charges to use my card abroad."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "55b4ce7c-efaf-42f6-a418-3e5d9a65f3ba",
+  "name": "info_charges_abroad_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_info_charges_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ica_card_type",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Card_Type",
+          "name": "Card_Type",
+          "value": "$Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.geo-country",
+          "name": "geo-country",
+          "value": "$geo-country",
+          "isList": false
+        },
+        {
+          "dataType": "@Euro_Zone",
+          "name": "Euro_Zone",
+          "value": "$Euro_Zone",
+          "isList": false
+        },
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@UA_Countries_Non_Europe",
+          "name": "UA_Countries_Non_Europe",
+          "value": "$UA_Countries_Non_Europe",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Debit",
+            "Credit"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Let\u0027s have a look into the card charges, then. Is it a debit or a credit card?",
+            "I\u0027ll fetch the info regarding the card charges. Is your card a debit card or a credit card?",
+            "We\u0027ll look together at the card charges, okay ? Are you talking about a credit or debit card ?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

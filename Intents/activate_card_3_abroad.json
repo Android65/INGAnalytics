@@ -1,0 +1,162 @@
+{
+  "userSays": [
+    {
+      "id": "dd7297ef-7dfd-40f0-955e-7edbc53129bc",
+      "data": [
+        {
+          "text": "in "
+        },
+        {
+          "text": "Kenya",
+          "alias": "geo-country",
+          "meta": "@sys.geo-country",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9323a2ce-5179-4ab1-89cf-c2fbcdbb2e9a",
+      "data": [
+        {
+          "text": "abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "416df0c9-1483-4c59-b9e3-c66298bb1390",
+      "data": [
+        {
+          "text": "I am in the "
+        },
+        {
+          "text": "US",
+          "alias": "geo-country",
+          "meta": "@sys.geo-country",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0f88d28b-29e4-4a3f-b76d-c3b6ac23afe5",
+      "data": [
+        {
+          "text": "I am not in "
+        },
+        {
+          "text": "Belgium",
+          "alias": "geo-country",
+          "meta": "@sys.geo-country",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd5181de-c8ea-4cb4-b689-d16e5be57ccc",
+      "data": [
+        {
+          "text": "I am abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7d57849e-6c9b-4172-b4c8-e0c48488028a",
+      "data": [
+        {
+          "text": "I am in "
+        },
+        {
+          "text": "France",
+          "alias": "geo-country",
+          "meta": "@sys.geo-country",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "973c36c0-b384-4f7c-8c28-d5194709d5ac",
+  "name": "activate_card_3_abroad",
+  "auto": true,
+  "contexts": [
+    "ctx_activate_card",
+    "ctx_ac_location"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ctx_ac_location",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_activate_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ac_maestro",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.geo-country",
+          "name": "geo-country",
+          "value": "$geo-country",
+          "isList": false
+        },
+        {
+          "name": "pin_code_status",
+          "value": "#ctx_activate_card.pin_code_status"
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No",
+            "I don\u0027t have my PIN"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "In $geo-country, you can activate your card in a cash dispenser by entering your $pin_code_status PIN code. Please make sure that the cash dispenser displays the Maestro, Visa or MasterCard-logo of your card before proceeding.\nWould you also like me to activate your Maestro for usage outside of Europe?",
+            "You can activate your card in a cash dispenser by entering your $pin_code_status PIN code. Please make sure that the cash dispenser displays the Maestro, Visa or MasterCard-logo of your card before proceeding.\nWould you also like me to activate your Maestro for usage outside of Europe?",
+            "You can activate your card in a cash dispenser by entering your PIN code. Please make sure that the cash dispenser displays the Maestro, Visa or MasterCard-logo of your card before proceeding.\nWould you also like me to activate your Maestro for usage outside of Europe?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "activateabroad"
+    }
+  ]
+}

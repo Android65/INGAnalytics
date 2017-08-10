@@ -1,0 +1,86 @@
+{
+  "userSays": [
+    {
+      "id": "200219c4-e291-48d8-902a-cd9adf2eb589",
+      "data": [
+        {
+          "text": "The GUID identifier of the selected card is: "
+        },
+        {
+          "text": "d16374a4-6eef-48fc-aaff-97266b80e33c",
+          "alias": "cardGUID",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a4181c60-547a-4090-be4e-1c0943f03330",
+  "name": "order_card_2_card_selected",
+  "auto": true,
+  "contexts": [
+    "ctx_order_card",
+    "ctx_oc_card_selection"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_oc_card_selection",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_oc_send_confirmation",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "name": "address",
+          "value": "#user_context.address"
+        },
+        {
+          "dataType": "@sys.any",
+          "name": "cardGUID",
+          "value": "$cardGUID",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No",
+            "Not my address"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Is it ok if we send your new card to $address?",
+            "This message indicates hat the address is not available: ERROR"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

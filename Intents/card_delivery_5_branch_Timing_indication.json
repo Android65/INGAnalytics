@@ -1,0 +1,101 @@
+{
+  "userSays": [
+    {
+      "id": "e436ef5c-2874-46c5-af7b-67d893360a11",
+      "data": [
+        {
+          "text": "I prefer to send it to my "
+        },
+        {
+          "text": "branch",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e8b75f59-72d2-4de6-97d2-9539d77c0474",
+      "data": [
+        {
+          "text": "Send card to "
+        },
+        {
+          "text": "branch",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "efa7cd25-711a-4fd7-9452-df41d1dec8fe",
+      "data": [
+        {
+          "text": "Send to "
+        },
+        {
+          "text": "branch",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4a26a8f8-8efd-46dc-9cd3-63e0891b56c6",
+  "name": "card_delivery_5_branch_Timing_indication",
+  "auto": true,
+  "contexts": [
+    "ctx_card_delivery",
+    "ctx_cd_wait_branch_icc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sendcardtobranch",
+      "affectedContexts": [
+        {
+          "name": "ctx_card_delivery",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_cd_wait_branch_icc",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Ok $firstName, I will arrange this for you.  Your card should be available within the 5 workdays. Don\u0027t hesitate to contact your branch and check with them if your card has already arrived.",
+            "Ok, I will arrange this for you.  Your card should be available within the 5 workdays. Don\u0027t hesitate to contact your branch and check with them if your card has already arrived."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

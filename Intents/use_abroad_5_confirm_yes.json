@@ -1,0 +1,65 @@
+{
+  "userSays": [
+    {
+      "id": "a0a87f1a-9ded-40c8-917c-8f602212ba6f",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "6bb84bfb-a7f3-4139-a778-4da1091b46ea",
+  "name": "use_abroad_5_confirm_yes",
+  "auto": true,
+  "contexts": [
+    "ctx_use_abroad",
+    "ctx_ua_final_confirmation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "activatecardabroad",
+      "affectedContexts": [
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ua_final_confirmation",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "name": "startDate",
+          "value": "#ctx_use_abroad.startDate"
+        },
+        {
+          "name": "endDate",
+          "value": "#ctx_use_abroad.endDate"
+        },
+        {
+          "name": "cardGUID",
+          "value": "#ctx_use_abroad.cardGUID"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

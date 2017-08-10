@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "c6a8d02f-e996-41d9-aae0-2d2ef3567bc1",
+      "data": [
+        {
+          "text": "Modify PIN"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c385f442-e03f-4319-90cd-42ea0ce3988c",
+      "data": [
+        {
+          "text": "Reset"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9083ae1d-0615-4d82-a84f-913075942175",
+  "name": "new_pin_1_reset",
+  "auto": true,
+  "contexts": [
+    "ctx_newpin",
+    "ctx_np_init"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_newpin",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_np_init",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_np_pinknown",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "I will do my best to help you. Do you still remember your PIN code?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

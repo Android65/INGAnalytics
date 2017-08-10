@@ -1,0 +1,125 @@
+{
+  "userSays": [
+    {
+      "id": "1946960e-79fa-48d7-a010-5eccb5784ba1",
+      "data": [
+        {
+          "text": "And what about "
+        },
+        {
+          "text": "belgium",
+          "alias": "Euro_Zone",
+          "meta": "@Euro_Zone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "9da6e8cb-dd81-4137-a5af-4b57fbf81e74",
+      "data": [
+        {
+          "text": "at home in "
+        },
+        {
+          "text": "Belgium",
+          "alias": "geo-country",
+          "meta": "@sys.geo-country",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8ccb5d0c-2ca1-4793-8570-29f480692f25",
+      "data": [
+        {
+          "text": "Belgium",
+          "alias": "geo-country",
+          "meta": "@sys.geo-country",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be2fff12-20b5-424f-9de4-495600792c41",
+      "data": [
+        {
+          "text": "I am in "
+        },
+        {
+          "text": "Belgium",
+          "alias": "geo-country",
+          "meta": "@sys.geo-country",
+          "userDefined": true
+        },
+        {
+          "text": "."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "11eac0f9-3d60-43a9-944d-3423acf29568",
+  "name": "activate_card_3_belgium",
+  "auto": true,
+  "contexts": [
+    "ctx_activate_card",
+    "ctx_ac_location"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_ac_location",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.geo-country",
+          "name": "geo-country",
+          "value": "$geo-country",
+          "isList": false
+        },
+        {
+          "name": "pin_code_status",
+          "value": "#ctx_activate_card.pin_code_status"
+        },
+        {
+          "dataType": "@Euro_Zone",
+          "name": "Euro_Zone",
+          "value": "$Euro_Zone",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "You need to activate your card by using it in a cash dispenser, in a shop or on the internet and entering your $pin_code_status PIN code.\nDo you have other questions?",
+            "You need to activate your card by using it in a cash dispenser, in a shop or on the internet and entering your PIN code.\nDo you have other questions?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

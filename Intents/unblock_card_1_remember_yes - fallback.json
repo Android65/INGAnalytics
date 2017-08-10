@@ -1,0 +1,42 @@
+{
+  "userSays": [],
+  "id": "726b7517-c0ae-4308-876d-022adc8549c4",
+  "parentId": "d67ae0c1-ad29-4617-a805-8cfd6f916a9f",
+  "rootParentId": "d67ae0c1-ad29-4617-a805-8cfd6f916a9f",
+  "name": "unblock_card_1_remember_yes - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_uc_how_blocked",
+    "ctx_unblock_card_ry"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "ING Card Reader",
+            "Cash Dispenser",
+            "Shop"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Please select one of the three options. \nSelect \"ING Card Reader\" if your card was blocked by a card reader used for internet banking.\nSelect \"Cash dispenser\" if your card was blocked by an ATM.\nSelect \"Shop\" if your card was blocked by any card reader in a commercial location."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

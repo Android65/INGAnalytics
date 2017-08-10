@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "1d9cb77b-5163-4ebe-b61a-a1796e90706f",
+  "name": "_Generic_e_card",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "card"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "generic_card"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "4ab2b131-c366-4c87-b743-1f6e0935479a",
+  "name": "authentication_e_session_expired",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Your authenticated session has expired, so I need to re-check your identity. I have just sent another verification token to your mobile."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "smsauth_session_expired"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "userSays": [
+    {
+      "id": "fc2d6fff-37b0-45ed-b81f-61f90a0efc42",
+      "data": [
+        {
+          "text": "ING Card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9b1938ec-3302-4cdd-a508-ad03948c6d87",
+      "data": [
+        {
+          "text": "Visa Classic",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "6f6e89cc-8c13-44ed-8e84-b17099c215ae",
+      "data": [
+        {
+          "text": "Visa Gold",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8059beda-ca3c-41cc-b037-7aa6c172c097",
+      "data": [
+        {
+          "text": "Mastercard Gold",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6cd526bb-e51a-48c5-a9c0-e48499d28521",
+      "data": [
+        {
+          "text": "credit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "bd70795b-8a64-4e1b-8d3f-b514bd030ef9",
+  "name": "use_abroad_1f_credit",
+  "auto": true,
+  "contexts": [
+    "ctx_use_abroad",
+    "ctx_ua_f"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:useabroadcredit",
+      "affectedContexts": [
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ua_card_type",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "ctx_ua_f",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

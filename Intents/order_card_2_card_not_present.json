@@ -1,0 +1,152 @@
+{
+  "userSays": [
+    {
+      "id": "d4ed126a-c879-4fee-a63c-968ebec98ca2",
+      "data": [
+        {
+          "text": "I can\u0027t find my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5b47e360-c00a-4b11-bb85-154c78384c5e",
+      "data": [
+        {
+          "text": "but it isn\u0027t there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0aeac3d1-3aa6-4910-a09b-31b4cc8759c2",
+      "data": [
+        {
+          "text": "it isn\u0027t there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "30c4bd6a-6a4d-4b08-a247-656f6f46a953",
+      "data": [
+        {
+          "text": "it is not in the list"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "69eecb91-39f8-4f2a-874f-f4a657d727ff",
+      "data": [
+        {
+          "text": "my card is not there Marie!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "37f65378-f044-4f7d-b259-a4332d11176b",
+      "data": [
+        {
+          "text": "i don\u0027t see my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "93c6a22e-f86d-4653-b8b4-e53a50706d57",
+      "data": [
+        {
+          "text": "My card is not shown"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef2f4b65-40f8-46fb-82a9-d06a2792bcdf",
+      "data": [
+        {
+          "text": "My card is not in the list"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "267fefb4-e766-45b6-9ab5-ba28cd1f9529",
+      "data": [
+        {
+          "text": "My card is not there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "4ca09b48-f18c-4a56-acb7-a785aea8941c",
+      "data": [
+        {
+          "text": "I do not see my card listed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e4ab8e97-6311-473c-8f09-558e763652cb",
+  "name": "order_card_2_card_not_present",
+  "auto": true,
+  "contexts": [
+    "ctx_order_card",
+    "ctx_oc_send_confirmation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "showicccontactdetails",
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_oc_card_selection",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_oc_send_confirmation",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Oh, that\u0027s strange. In that case I recommend you to call our Contact Centre. They will be happy to assist you further. You can reach them at +32 2 464 60 04 or by pressing the button below.\nCan I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

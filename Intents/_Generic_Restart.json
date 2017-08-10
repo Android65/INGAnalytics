@@ -1,0 +1,179 @@
+{
+  "userSays": [
+    {
+      "id": "befe2d47-864e-49b5-8e48-abca6d1ef9ae",
+      "data": [
+        {
+          "text": "cancel"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "513b2ade-fff5-49a7-89c9-97f4fede3683",
+      "data": [
+        {
+          "text": "reestart"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "913e9f50-b583-4f8b-89e0-da64eea95ce0",
+      "data": [
+        {
+          "text": "restart"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a9e1106e-6b45-47d0-b4b7-b7541f784b28",
+      "data": [
+        {
+          "text": "wake up"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ca271b89-bfd2-4c8d-869b-438d314fa538",
+      "data": [
+        {
+          "text": "resart"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1366dc26-d66b-4cd1-acd3-769f5c9096dd",
+      "data": [
+        {
+          "text": "restar"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6f8edc10-006d-4e80-ac62-cc4be05d92ce",
+      "data": [
+        {
+          "text": "Restart"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "93237dd2-d6ea-41a8-bf8e-a015d81d717c",
+      "data": [
+        {
+          "text": "stop"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c79387f6-c6f4-4048-bdc6-a25250e249f0",
+      "data": [
+        {
+          "text": "menu"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "938784d7-47aa-42bc-9b4c-5592a11a2385",
+      "data": [
+        {
+          "text": "reset"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f296aa6e-8a3d-4e4e-9cb3-29aa7d6fe266",
+      "data": [
+        {
+          "text": "go",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " back"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "af0c885c-eaba-4d59-9425-cfdcbea3945e",
+      "data": [
+        {
+          "text": "Let us start again."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "248ac1de-4e41-40ed-b328-1090eb14894a",
+      "data": [
+        {
+          "text": "Go",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " back to the beginning"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "672866f3-81d3-407d-9b40-a04e8f579281",
+  "name": "_Generic_Restart",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "resetsmscontexts",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Very well. I can answer questions related to ING bank cards. How can I help?",
+            "Alright $firstName! Let me help you with card related questions, then! Just ask me.",
+            "Let\u0027s start again. I will do my best to reply to your card related questions. How can I help you?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

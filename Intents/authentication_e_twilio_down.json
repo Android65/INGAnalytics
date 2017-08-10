@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "9be3316f-bc45-481d-9370-62e571c05d47",
+  "name": "authentication_e_twilio_down",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hmm, it seems I cannot send you an SMS at this time. My apologies! Why don\u0027t you try calling my human colleagues?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "smsauth_twilio_down"
+    }
+  ]
+}

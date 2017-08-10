@@ -1,0 +1,32 @@
+{
+  "userSays": [],
+  "id": "f17f6103-dd92-4213-be5b-3a0f3c79cf6b",
+  "name": "authentication_0_birthdate_Fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_sms_authentication",
+    "ctx_sa_birthdate"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Please provide me with your birthdate.",
+            "What is your date of birth please.",
+            "In order to identify you, could you give me your birthdate?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

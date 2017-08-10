@@ -1,0 +1,200 @@
+{
+  "userSays": [
+    {
+      "id": "8991f037-d6af-44e5-a97e-2def2a4a912a",
+      "data": [
+        {
+          "text": "that would be all milady"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0bff7e9c-972c-41c3-8505-1bb7e426e486",
+      "data": [
+        {
+          "text": "cheers, thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4903ccf1-f80a-4416-8791-419c6008f53b",
+      "data": [
+        {
+          "text": "cool, thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5dbb95e2-547f-403e-8deb-96cc3b611817",
+      "data": [
+        {
+          "text": "ok, thanks, bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d811b4cd-6cca-4ed4-9718-537edc7d5f8d",
+      "data": [
+        {
+          "text": "kk, thx, bb"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1dde5e23-685b-49aa-9a24-ae15419cf983",
+      "data": [
+        {
+          "text": "no, not this time."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b1c25a6a-0b26-4d65-b398-da89aa0c4d14",
+      "data": [
+        {
+          "text": "bye bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "150abdbc-cfaa-4e77-8fc4-ab123831ea18",
+      "data": [
+        {
+          "text": "No thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "baf1dbd7-e83f-4e70-9e11-73cfa1b8cee0",
+      "data": [
+        {
+          "text": "that\u0027s all"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7303a12e-b5a6-4e96-ae66-6b122cfdf0bc",
+      "data": [
+        {
+          "text": "You rock  - enjoy holidays - pg out 😎😎😎"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d7518f5c-e6c5-4872-8d25-2665c316c7f6",
+      "data": [
+        {
+          "text": "bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "80ccdce8-4709-4e07-9dcf-d7e21eaa0648",
+      "data": [
+        {
+          "text": "nope, that was it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bd4bb132-b6c0-46b0-8aa3-0b130e5da22a",
+      "data": [
+        {
+          "text": "Once is ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "8e47c8b1-f314-43d4-8414-ca50275f42ec",
+      "data": [
+        {
+          "text": "leave",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " me alone"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9f0dc7bd-4037-4287-b3d2-d445be6cff86",
+      "data": [
+        {
+          "text": "nope",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ", that was it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "80b53c3a-b1fc-425c-baea-104d9366efaf",
+      "data": [
+        {
+          "text": "See you later."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4db3121a-23be-492a-ae6e-d9fe2d11f277",
+  "name": "_Generic_Farewell",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I hope I helped you further. Be welcome to come back next time.",
+            "Be welcome to come back next time, then!",
+            "I hope I helped you further, see you next time."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

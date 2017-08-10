@@ -1,0 +1,156 @@
+{
+  "userSays": [
+    {
+      "id": "3f02f5c1-2dac-45cd-92bf-477973c9dadf",
+      "data": [
+        {
+          "text": "I don\u0027t understand what is this "
+        },
+        {
+          "text": "mister cash",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " logo on my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fd3fca6a-be0c-4eba-9aa3-46a5e1aa5148",
+      "data": [
+        {
+          "text": "what\u0027s the "
+        },
+        {
+          "text": "bancontact",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " stuff on my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5f5f00b9-7131-4e88-942a-3847e2cc4dc9",
+      "data": [
+        {
+          "text": "What is the "
+        },
+        {
+          "text": "bancontact",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " function?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "71e224d0-1bbe-4314-988f-2f262ab645ad",
+      "data": [
+        {
+          "text": "What does it mean the "
+        },
+        {
+          "text": "bancontact",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " thing?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "168a7a1f-54f7-412c-95b7-afd389e41d1d",
+      "data": [
+        {
+          "text": "What is the "
+        },
+        {
+          "text": "mister cash",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " function?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "318b3dcd-e268-419b-930d-9640d2e00c25",
+      "data": [
+        {
+          "text": "What is the "
+        },
+        {
+          "text": "bancontact",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": true
+        },
+        {
+          "text": " sign on my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "871de522-2636-4d73-97c6-c77a18e21a95",
+  "name": "bancontact_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Bancontact / Mister cash function allows your card to be used for electronic purchases! You can find more information here: https://www.ing.be/en/retail/bancontact\nCan I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

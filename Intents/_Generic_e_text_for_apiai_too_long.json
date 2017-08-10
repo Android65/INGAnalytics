@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "6f13f168-c62e-477b-b7ad-efb70f5372b4",
+  "name": "_Generic_e_text_for_apiai_too_long",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Whoa, that\u0027s a lot of text. Could you make it a bit shorter? More than 256 characters is too much for me to understand :-( Thanks!"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "generic_text_for_apiai_too_long"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "userSays": [
+    {
+      "id": "559e4986-b765-4218-b209-fd512e856390",
+      "data": [
+        {
+          "text": "The GUID identifier of the selected card is: "
+        },
+        {
+          "text": "d16374a4-6eef-48fc-aaff-97266b80e33c",
+          "alias": "cardGUID",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c4a42c3c-1b9c-4a17-a95e-5f272c4b12f4",
+  "name": "unblock_card_ry_4_card_selected",
+  "auto": true,
+  "contexts": [
+    "ctx_unblock_card_ry",
+    "ctx_uc_card_selection"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ctx_unblock_card_ry",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_uc_card_selection",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_uc_ry_final_confirmation",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.any",
+          "name": "cardGUID",
+          "value": "$cardGUID",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Ok, I can reset the number of remaining attempts for the card you selected to 3. Can you confirm that this is what you want me to do?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

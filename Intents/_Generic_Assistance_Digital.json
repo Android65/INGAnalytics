@@ -1,0 +1,146 @@
+{
+  "userSays": [
+    {
+      "id": "0cadfaa2-7288-41a1-b679-25f1c68d835c",
+      "data": [
+        {
+          "text": "FAQ"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ce0986aa-4b1a-4a20-b749-5ca9e5ffd99e",
+      "data": [
+        {
+          "text": "Do you have some frequently asked questions?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "335511e6-1311-435d-a310-6c841549e7ed",
+      "data": [
+        {
+          "text": "Should i check the website"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "50a1dfd1-b95e-4a64-b187-4127498819e0",
+      "data": [
+        {
+          "text": "Online",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " help would be OK."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5ff8fea5-a1c4-478d-8d28-52f3848b607a",
+      "data": [
+        {
+          "text": "Do you have "
+        },
+        {
+          "text": "FAQs",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cc01a815-e098-47e5-bc12-6d2c2742c43e",
+      "data": [
+        {
+          "text": "Where to find the "
+        },
+        {
+          "text": "FAQs",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f2a4298b-9d74-4de4-b1a4-0da321caf5ac",
+      "data": [
+        {
+          "text": "I want "
+        },
+        {
+          "text": "online",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " help."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "806866f6-1fee-4ea7-8c5d-8bbc0071dc5e",
+      "data": [
+        {
+          "text": "Where to find "
+        },
+        {
+          "text": "online",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " help?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7302873f-7dbf-4fb3-b60e-3ee3232c588b",
+  "name": "_Generic_Assistance_Digital",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "You can get online help via our website www.ing.be \u003e Contact \u003e FAQ (https://www.ing.be/en/retail/faq).",
+            "Surf to our website www.ing.be and click on Contact \u003e FAQ for online help: https://www.ing.be/en/retail/faq."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 250000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,272 @@
+{
+  "userSays": [
+    {
+      "id": "8376a463-dabc-465a-bcae-4f061f46abe7",
+      "data": [
+        {
+          "text": "What do you know about the "
+        },
+        {
+          "text": "Lion Assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "7795a82a-5a3d-4b5f-b9aa-5ad740dd1b99",
+      "data": [
+        {
+          "text": "I want to find the general conditions of my insurance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8ac91979-2338-45bb-9c94-c778822aa2d4",
+      "data": [
+        {
+          "text": "I do not know if this is covered by my "
+        },
+        {
+          "text": "assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1ef460fb-065d-4847-a6df-bdb8ac8e4184",
+      "data": [
+        {
+          "text": "I am looking for the general conditions of the "
+        },
+        {
+          "text": "ING Lion Assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "147dd38c-b73d-40cb-8305-a1856725e883",
+      "data": [
+        {
+          "text": "I need the general terms and conditions for the "
+        },
+        {
+          "text": "assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a0949666-0e6d-4bbf-ab44-de4d24d48ecf",
+      "data": [
+        {
+          "text": "Do you have a description of the incidents covered by the "
+        },
+        {
+          "text": "assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0bb1c2ad-c7db-4c91-8e22-a34ce6e40092",
+      "data": [
+        {
+          "text": "Who can apply for an "
+        },
+        {
+          "text": "assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ca83a4ca-95ae-414d-915d-3960e0ceff55",
+      "data": [
+        {
+          "text": "Who can benefit from my "
+        },
+        {
+          "text": "travel insurance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a9ac32b5-423e-4765-9bf2-30ef8225dc82",
+      "data": [
+        {
+          "text": "What does "
+        },
+        {
+          "text": "ING Lion Assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": false
+        },
+        {
+          "text": " cover?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "00d8f00d-1e69-4442-818b-e5e5fe3654fe",
+      "data": [
+        {
+          "text": "What does my "
+        },
+        {
+          "text": "assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": false
+        },
+        {
+          "text": " covers ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f50340de-5072-4b6c-8990-98d11bc87fbd",
+      "data": [
+        {
+          "text": "Do you know the conditions for a "
+        },
+        {
+          "text": "lion assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "72a80bf2-e472-4ed4-8efd-43937b3c9959",
+      "data": [
+        {
+          "text": "Where can I find the conditions of my "
+        },
+        {
+          "text": "assistance",
+          "alias": "Assistance_Product_Name",
+          "meta": "@Assistance_Product_Name",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5f75188d-1755-45c2-a6a9-5d3433070938",
+      "data": [
+        {
+          "text": "What are the special conditions of my Visa assistance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a658fa0d-867d-4af8-a4da-761c775aecda",
+      "data": [
+        {
+          "text": "What are the general conditions of my lion assistance ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "16098019-1233-4ba9-8978-2210cb27bb9e",
+  "name": "_Generic_Assistance_INGAssistance_conditions",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Assistance_Product_Name",
+          "name": "Assistance_Product_Name",
+          "value": "$Assistance_Product_Name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "If you need generic information you can consult our general condition using this link https://www.ing.be/static/legacy/SiteCollectionDocuments/generalconditions_lionassistance_yearly_en.pdf\nIf you have a specific question I recommend you contact the ING Assist\u0027Line at +32 2 550 06 00. They are available for your call 24/7. Do you have other questions?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

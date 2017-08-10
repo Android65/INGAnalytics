@@ -1,0 +1,166 @@
+{
+  "userSays": [
+    {
+      "id": "bd08e14b-3c49-4296-949f-e7ca08c754c5",
+      "data": [
+        {
+          "text": "Where can I get my card statement?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "61fea5d8-822b-4f30-8005-dcd74a040d78",
+      "data": [
+        {
+          "text": "how much money i have there?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bd026ab2-1095-4604-afc1-ba7a7e6b5cb3",
+      "data": [
+        {
+          "text": "do you know how much do I have?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4d52cea4-45e5-4b18-a830-6834686a9273",
+      "data": [
+        {
+          "text": "can you tell me my balance?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1a3d6924-dcfc-4120-bfc1-a4fe802debe3",
+      "data": [
+        {
+          "text": "give me balance of my cards"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cc87d0b4-6768-4d4b-88ae-40d53cba3276",
+      "data": [
+        {
+          "text": "want to know balance of this"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "10199b51-d351-425a-8365-2ab14a8edd97",
+      "data": [
+        {
+          "text": "show me balance of that card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2329d5b1-2e69-4c9b-84eb-cdb59d374854",
+      "data": [
+        {
+          "text": "can you give me my balance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7389c105-4c96-4523-b685-cb5f134f6d2a",
+      "data": [
+        {
+          "text": "how much money do I have there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e64d67a3-ed87-49b7-8971-61327727275e",
+      "data": [
+        {
+          "text": "what\u0027s my balance?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "58590215-19a9-4d24-a4c1-ef86fbfa756d",
+      "data": [
+        {
+          "text": "how much do I have?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9703084c-0545-470e-8e48-89c164225045",
+      "data": [
+        {
+          "text": "what is my balance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6d970854-2bba-4767-a1a3-f635732e31f6",
+      "data": [
+        {
+          "text": "balance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b447225f-d70a-40cc-a9a1-9c9589f939cf",
+  "name": "balance_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I cannot tell you your balance for security reasons. A quick way to check it would be to install our application Smart’Banking and to activate the option “quick balance check without having to log in”. You can also use Home’bank or just visit my human colleagues. Can I help you with other questions?",
+            "I\u0027m still learning how to answer balance queries. In the meantime, you can check it out using your mobile app, Home\u0027Bank or just visiting my human colleagues. My trainers are working hard on it. Can I help you with other questions?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

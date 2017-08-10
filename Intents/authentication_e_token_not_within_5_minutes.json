@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "f7f4801b-dba5-4caa-9bf8-460b27490797",
+  "name": "authentication_e_token_not_within_5_minutes",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Unfortunately, you need to enter the SMS token within 5 minutes of its generation. Could you try asking me what you wanted again?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "smsauth_token_not_within_5_minutes"
+    }
+  ]
+}

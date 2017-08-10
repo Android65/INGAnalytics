@@ -1,0 +1,104 @@
+{
+  "userSays": [
+    {
+      "id": "f80c3804-bfbf-4137-bc77-c8904ce32936",
+      "data": [
+        {
+          "text": "I want a "
+        },
+        {
+          "text": "replacement",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "fe205c83-8496-4c79-99bf-3785fa6046ee",
+      "data": [
+        {
+          "text": "I need to change an old card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "8be52b74-781d-409e-9897-033b1817844f",
+      "data": [
+        {
+          "text": "I want to replace an existing card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fa0135fc-6a41-4661-a028-2d11fecf23bc",
+      "data": [
+        {
+          "text": "I need a "
+        },
+        {
+          "text": "replacement",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e03859ef-6fd1-4e0f-bd8b-03f59589387a",
+  "name": "order_card_0e_replacement",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:orderreplacementcard",
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_oc_replace_extra",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Card_Status_Type",
+          "name": "Card_Status_Type",
+          "value": "$Card_Status_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

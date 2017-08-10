@@ -1,0 +1,99 @@
+{
+  "userSays": [
+    {
+      "id": "3492fbd8-6b31-49cb-ae54-935b711d8fab",
+      "data": [
+        {
+          "text": "You worship someone?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f31cd65d-d932-4a0a-98c2-47eb1bcc97eb",
+      "data": [
+        {
+          "text": "Do you worship someone?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e262cb93-0868-40d5-9ae2-bf9869804e5c",
+      "data": [
+        {
+          "text": "Do you believe in god?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "558126b2-69cf-4096-ac57-5778a4d266e5",
+      "data": [
+        {
+          "text": "Do you think God exists?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "84c57049-bcd1-4e95-abe2-c6aa038d7c9e",
+      "data": [
+        {
+          "text": "Do you have some religion?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "166d43ef-a613-4db0-a0e3-2efec42e64d8",
+      "data": [
+        {
+          "text": "Are you religious?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "11ee8482-c302-493f-b3e0-6e1c06eb6215",
+      "data": [
+        {
+          "text": "Do you believe god exists?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "16c3492e-d152-48f2-ba90-aa6969d6ffa2",
+  "name": "_Generic_God",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I only believe in cards and happy ING clients :-) How can I help?",
+            "I don\u0027t really worship anything, except cards :-) How can I help you with them?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

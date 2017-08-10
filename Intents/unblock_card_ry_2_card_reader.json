@@ -1,0 +1,134 @@
+{
+  "userSays": [
+    {
+      "id": "270fe389-2aa4-4ff6-a1e7-e47e662f713d",
+      "data": [
+        {
+          "text": "When using my computer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "21185dee-ee30-44ec-b401-7a3650bd1da9",
+      "data": [
+        {
+          "text": "when using my pc"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "51a9c9d9-b1a2-48a9-a3a7-580aa08ce8bf",
+      "data": [
+        {
+          "text": "On my pc"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "75a94961-bc82-4989-b868-3bbdedd56938",
+      "data": [
+        {
+          "text": "At my computer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "92c65d22-c0ba-40e9-bf15-1d551bc7f657",
+      "data": [
+        {
+          "text": "when using  "
+        },
+        {
+          "text": "home\u0027bank",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d8a64bfa-80af-4ee4-9dbf-0863ed908ba4",
+      "data": [
+        {
+          "text": "at home"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3814ba31-c0e2-4946-89b0-f33b854f1606",
+      "data": [
+        {
+          "text": "card reader"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d828af00-b7cf-4768-aa82-e4e02bc710a0",
+      "data": [
+        {
+          "text": "ING card reader"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1b4a4908-114c-4c9d-8ac1-e392990a9314",
+  "name": "unblock_card_ry_2_card_reader",
+  "auto": true,
+  "contexts": [
+    "ctx_uc_how_blocked",
+    "ctx_unblock_card_ry"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_uc_how_blocked",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "ctx_unblock_card_ry",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "OK. Go to a cash dispenser and use your card with the correct code. Your card will then be unblocked. Is there anything else I can do for you?",
+            "Then you just need to go to a cash dispenser and use your card with the correct code. The card will be unblocked immediately :-) Can I do anything else for  you?",
+            "In this case, you need to go to a cash dispenser. After using your card with the correct code in the ATM, your card will be unblocked. Do you have any other questions for me ?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

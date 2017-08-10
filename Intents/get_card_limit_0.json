@@ -1,0 +1,438 @@
+{
+  "userSays": [
+    {
+      "id": "7f99ebe2-e155-4045-9e73-b9534e4b69ef",
+      "data": [
+        {
+          "text": "can I go minus with my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aae6e720-bf35-4110-b07c-365de1d7504d",
+      "data": [
+        {
+          "text": "Can I go to minus with my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1e54a05a-7b93-47a3-b088-685ffe18f6c5",
+      "data": [
+        {
+          "text": " I need to have negative balance with my "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": ", is it possible?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9c301532-8896-4947-9e92-0e6982c59050",
+      "data": [
+        {
+          "text": "Can I go to negative balance with my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "bad42c81-a142-4a1d-b446-0fac3f475bf9",
+      "data": [
+        {
+          "text": "What is my card limit ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6398bfd9-404e-4f85-81b6-d1210843a770",
+      "data": [
+        {
+          "text": "can you tell me how much can I spend with my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ce30e6e8-1027-4561-8939-fbe2082b80bd",
+      "data": [
+        {
+          "text": "what\u0027s the spending limit of my "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4d021004-0d23-4855-b614-256bbc986b44",
+      "data": [
+        {
+          "text": "how much can I spend with my "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "78205be0-5001-48ab-b550-4c6c68390e8f",
+      "data": [
+        {
+          "text": "how much can I spend with my "
+        },
+        {
+          "text": "VISA",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "75c8750a-3524-4df6-a96a-ff646fe34c5e",
+      "data": [
+        {
+          "text": "how much can I withdraw using my "
+        },
+        {
+          "text": "VISA",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e6623497-1d00-458a-b1fa-c9dfed1e26be",
+      "data": [
+        {
+          "text": "How much money I can withdraw with my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "55b8a318-ade3-4e01-98df-9842aa5a4b05",
+      "data": [
+        {
+          "text": "I want to know how much money I can take out of ATM"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7d86578c-fb0a-42e7-8013-5842ab8a21a1",
+      "data": [
+        {
+          "text": "can I withdraw how much actually?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "173c3abc-0a35-433e-b912-dced9d24e399",
+      "data": [
+        {
+          "text": "what\u0027s the withdrawal limit?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1a7bc3ea-32a4-490e-ba1f-c200e17dd123",
+      "data": [
+        {
+          "text": "is there a limit on my withdrawal?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d993a88-7e1b-40c0-b464-bd0c410dfd6d",
+      "data": [
+        {
+          "text": "how much can I withdraw?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cebe68cf-2db2-480f-ab8c-095f6cd2ebb7",
+      "data": [
+        {
+          "text": "what is my limit?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d7353e2-6646-450f-a645-758e2a1424b5",
+      "data": [
+        {
+          "text": "What is limit of my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "87011629-ada1-4647-8de5-fddebe66c6e3",
+      "data": [
+        {
+          "text": "what\u0027s my limit?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "2994d106-fbc1-4661-8712-3c84b305c758",
+      "data": [
+        {
+          "text": "What\u0027s my "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card limit?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "6bec08c0-dd68-4475-a78d-4500302dc6b4",
+      "data": [
+        {
+          "text": "I want to know the limit of my "
+        },
+        {
+          "text": "ING Card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "283a0115-4052-41bc-8bd1-38882efe15bc",
+      "data": [
+        {
+          "text": "How much can I spend with my "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1926072-e6d9-4481-b96d-6b4a2ac1d957",
+      "data": [
+        {
+          "text": "Marie",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        },
+        {
+          "text": ", what is the limit on my "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "10184b02-c050-47bc-a80e-fe92760bc7ff",
+      "data": [
+        {
+          "text": "what\u0027s the maximum I can spend with my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1c2f3e3e-74f7-4425-a705-0cba9c4b2b95",
+      "data": [
+        {
+          "text": "what is the maximum amount I can spend with my "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1322546b-365e-41e8-8a57-1f65f32f0e54",
+      "data": [
+        {
+          "text": "What is the limit of my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "84e0dcef-dc97-4a51-9049-c2dcd16ba216",
+      "data": [
+        {
+          "text": "how can I get my card limit?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b669eb7c-a8d5-4bac-9edd-11d8f1dd5cf5",
+      "data": [
+        {
+          "text": "what is the current card limit?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d10d0c98-7182-4ec8-9fdf-8cd189ec9c1f",
+      "data": [
+        {
+          "text": "I want know the current limit of my card."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2408a659-4a52-4387-b1dd-758fe5d6eecd",
+  "name": "get_card_limit_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "showicccontactdetails",
+      "affectedContexts": [
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        },
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sorry, I am not yet able to answer questions about card limits. You can call my human colleagues to answer that question. You can reach them at +32 2 464 60 04 or by pressing the button below.\nCan I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

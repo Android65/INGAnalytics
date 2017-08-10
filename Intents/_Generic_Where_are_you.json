@@ -1,0 +1,99 @@
+{
+  "userSays": [
+    {
+      "id": "76ddddbf-ab8b-4211-aa6e-8f6295f89d85",
+      "data": [
+        {
+          "text": "where do you live currently?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a3f182e5-31b0-4817-9cae-5d329dd9cfd9",
+      "data": [
+        {
+          "text": "where are you now?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b47bd6b1-525d-478c-aced-f381dd5c2f0e",
+      "data": [
+        {
+          "text": "What\u0027s your location?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6b769cae-6b50-4c5a-ae91-27b85a7540c9",
+      "data": [
+        {
+          "text": "Where do you live?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "03f1eecf-474b-488e-b8c6-4db0f70d4ee9",
+      "data": [
+        {
+          "text": "Where are you located?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "54e29234-b0e9-411a-a6a8-ef9829e6b76a",
+      "data": [
+        {
+          "text": "In which country are you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c03d8aab-82bf-411b-bcb3-49aaeb6fdec6",
+      "data": [
+        {
+          "text": "Where are you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "981b7d8b-8ed7-4116-9fcb-04bebf859d0d",
+  "name": "_Generic_Where_are_you",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I live in the orange world of bits and bytes :-) How can I help you with your cards?",
+            "I live in an orange virtual world :-) Can I help you with cards?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

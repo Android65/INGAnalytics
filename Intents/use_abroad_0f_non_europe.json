@@ -1,0 +1,471 @@
+{
+  "userSays": [
+    {
+      "id": "74d58976-1c5c-42ee-8b21-52bb75248536",
+      "data": [
+        {
+          "text": "🇺🇸"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b305e718-788b-4e11-893b-80bd6ca67b10",
+      "data": [
+        {
+          "text": "Can I use my card in "
+        },
+        {
+          "text": "China",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "3cf4d3a6-c67c-43f5-b21a-7c05e3672194",
+      "data": [
+        {
+          "text": "I would like to use my card in the "
+        },
+        {
+          "text": "US",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "86a1c26a-91aa-4cea-8236-8a83c98c183b",
+      "data": [
+        {
+          "text": "I want to use my card in "
+        },
+        {
+          "text": "Peru",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "323f675f-6294-41d7-a6e3-eb3914ecb2bb",
+      "data": [
+        {
+          "text": "I am traveling to "
+        },
+        {
+          "text": "Peru",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": ", will my card function there?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "08ac136f-01e5-4c71-8c00-767fd0509c30",
+      "data": [
+        {
+          "text": "I\u0027m going to "
+        },
+        {
+          "text": "Japan",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": ". Can you activate my card to use it there?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "19ebc83c-489a-4ad8-9728-49ef23454933",
+      "data": [
+        {
+          "text": "I\u0027m in "
+        },
+        {
+          "text": "Peru",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": " but my card does not work."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7c662195-c2fb-4cf2-8001-f3bf339983c0",
+      "data": [
+        {
+          "text": "If my card does not work in "
+        },
+        {
+          "text": "Japan",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": ", can you activate it?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5b3315ba-731a-4564-805d-c89613356931",
+      "data": [
+        {
+          "text": "Can you open my card for "
+        },
+        {
+          "text": "Peru",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "150ec65e-97e7-40df-b6ec-d45617c4fb01",
+      "data": [
+        {
+          "text": "Can I take money with my card in "
+        },
+        {
+          "text": "Bangladesh",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a7039c2e-0314-469a-b8bb-548f7297e2a5",
+      "data": [
+        {
+          "text": "Can I have money from the machines in "
+        },
+        {
+          "text": "Mexico",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "05ecaff7-b42a-440f-af9d-ee451a71bcac",
+      "data": [
+        {
+          "text": "can I use my card in "
+        },
+        {
+          "text": "Japan",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "631edb30-6eb4-469c-9555-7a52da1b8526",
+      "data": [
+        {
+          "text": "I will be travelling "
+        },
+        {
+          "text": "outside of Europe",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": true
+        },
+        {
+          "text": ", would I be able to pay there ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1bc58892-3a27-4c52-80ac-245f5c0ca54d",
+      "data": [
+        {
+          "text": "I\u0027m going to "
+        },
+        {
+          "text": "Cuba",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": " and I would like to use my card over there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a23004c9-73ae-49ea-a34b-b8f3d259b111",
+      "data": [
+        {
+          "text": "\n I am going to "
+        },
+        {
+          "text": "Cuba",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": true
+        },
+        {
+          "text": " and would like to withdraw money over there."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0827f655-5351-467f-8097-42fe95e5c32d",
+      "data": [
+        {
+          "text": "Can I withdraw money in "
+        },
+        {
+          "text": "Thailand",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a8cfddf9-7b94-44f7-aae4-4059971006e7",
+      "data": [
+        {
+          "text": "I\u0027m going to "
+        },
+        {
+          "text": "senegal",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d93b4d61-8151-4f47-a208-988764fb743c",
+      "data": [
+        {
+          "text": "I need a card to go to the "
+        },
+        {
+          "text": "United States",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5c14867a-4d97-4665-bebe-3219325f5342",
+      "data": [
+        {
+          "text": "I leaving for "
+        },
+        {
+          "text": "Marocco",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "tomorrow",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": " and I would like to activate my card."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9dea2b74-d5d4-41d5-a922-71222e638cae",
+      "data": [
+        {
+          "text": "I am planning a trip to the "
+        },
+        {
+          "text": "US",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": " and I would like to know if my card will be active there."
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "7d7f4944-b364-4aef-9a7a-0d858ae18cea",
+      "data": [
+        {
+          "text": "I want to activate my card for "
+        },
+        {
+          "text": "USA",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": ", please do it for me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "411ab6a0-503b-4e03-ad45-206342f69070",
+      "data": [
+        {
+          "text": "My card does not seem to function in "
+        },
+        {
+          "text": "Egypt",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": ". Can you guys help me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "9503f89f-7ad6-4d4b-9365-203790f77df3",
+  "name": "use_abroad_0f_non_europe",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ua_card_type",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_ua_f",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@UA_Countries_Non_Europe",
+          "name": "UA_Countries_Non_Europe",
+          "value": "$UA_Countries_Non_Europe",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Credit",
+            "Debit"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "I understood that you want to use a card outside of Europe. Are we talking about a credit or debit card?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

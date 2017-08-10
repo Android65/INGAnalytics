@@ -1,0 +1,57 @@
+{
+  "userSays": [
+    {
+      "id": "073c2132-f7d6-410e-8931-c5743943f851",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "80063e26-5707-4c73-aa0e-96403e0fc48c",
+  "name": "order_card_5_ry_final_confirmation_no",
+  "auto": true,
+  "contexts": [
+    "ctx_unblock_card_ry",
+    "ctx_uc_ry_final_confirmation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "showicccontactdetails",
+      "affectedContexts": [
+        {
+          "name": "ctx_unblock_card_ry",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_uc_ry_final_confirmation",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok, no problem! If I messed up somewhere, don\u0027t hesitate to call my colleagues at the ICC contact centre at +322 464 60 04\n\nCan I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,268 @@
+{
+  "userSays": [
+    {
+      "id": "26074628-f492-4e4a-a3d2-3d6090635415",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "f630d325-a260-45a9-9b44-689f1de49a3c",
+      "data": [
+        {
+          "text": "end of conversation"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "07ea6096-a4e3-47e2-a3ba-202982929aea",
+      "data": [
+        {
+          "text": "no further questions, thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0a22a7df-4e0a-460d-885c-afc62548982d",
+      "data": [
+        {
+          "text": "not for now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7ee5e0cd-7c26-49d2-95a6-73b913d64cbc",
+      "data": [
+        {
+          "text": "no questions, thx"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "74aca7d4-6434-4d54-b19c-9230d8e0fd1f",
+      "data": [
+        {
+          "text": "no more questions, thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aa127366-61e3-40ef-85e5-d882c75b46bc",
+      "data": [
+        {
+          "text": "no, I don\u0027t have any more questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4255aa8a-d35a-46b1-b7e5-07397a7dedda",
+      "data": [
+        {
+          "text": "no, have a good day"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6e74608c-c660-4346-9ba3-a6945bf73e98",
+      "data": [
+        {
+          "text": "ok, thanks, bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "71b27a55-050b-442a-88a3-f26975b6f0ba",
+      "data": [
+        {
+          "text": "thx, bb"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9003b960-bcda-4b67-8fef-8daf885c00c0",
+      "data": [
+        {
+          "text": "k, thx bb"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "413f624a-a7a0-4fe7-bfc1-56b051057956",
+      "data": [
+        {
+          "text": "bye thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9bc993f5-86c9-4abe-a858-77f5e54e0b1f",
+      "data": [
+        {
+          "text": "bye bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b6bd564-5ba8-40d3-bd88-2d00172ff9f5",
+      "data": [
+        {
+          "text": "I have no questions anymore. Thank you."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "781cf988-e071-475a-a524-84b88c51cf57",
+      "data": [
+        {
+          "text": "No thank you. You have helped me a lot."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "17cf1ad9-04a7-4bd0-9b72-73ccfd0785eb",
+      "data": [
+        {
+          "text": "no thank you."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be9cfba4-6c0f-4e8c-92ff-b6f11a0b6854",
+      "data": [
+        {
+          "text": "see you later"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9a0cf637-606f-449d-b2da-b3e70e96fc56",
+      "data": [
+        {
+          "text": "leave me alone"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e0d3a531-d7fb-4190-8f64-06ebb6f60018",
+      "data": [
+        {
+          "text": "bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5b3762df-1565-43e1-b43b-d42d041d2d57",
+      "data": [
+        {
+          "text": " nope, that was it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d7d996ca-bf66-4ef6-9821-e0481d2dad96",
+      "data": [
+        {
+          "text": "That\u0027s all"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d3dbddd7-cb8c-49ca-9f31-c709413248be",
+      "data": [
+        {
+          "text": "No thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "0eb6598a-a47f-47d8-b36d-1a971536d83c",
+  "name": "_Generic_End_Of_Conversation_Confirmed",
+  "auto": true,
+  "contexts": [
+    "ctx_end_of_conversation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:nps_score",
+      "affectedContexts": [
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Alright! I wish you an excellent day! See you soon!",
+            "Ok $firstName! Have a great day and talk to you soon!",
+            "No problem $firstName! I\u0027ll be there if you happend to have other questions ;) See you soon!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

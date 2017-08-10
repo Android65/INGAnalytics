@@ -1,0 +1,156 @@
+{
+  "userSays": [
+    {
+      "id": "d0479787-9b13-4019-b8e2-775fa67ad9af",
+      "data": [
+        {
+          "text": "Credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "92c21ce6-570a-4a92-ad68-a334d2df7b7a",
+      "data": [
+        {
+          "text": "my "
+        },
+        {
+          "text": "credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2f0dd31e-5e12-436c-b923-d41e4535b6a6",
+      "data": [
+        {
+          "text": "a credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": "!!!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "19e3ac18-c868-4b01-a09c-599b80607cec",
+      "data": [
+        {
+          "text": "A "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "6af309a9-69a4-4ede-b187-ce4910c9d633",
+      "data": [
+        {
+          "text": "Black",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b4b9d97c-f085-4277-abf1-9841b1d9f034",
+      "data": [
+        {
+          "text": "Gray",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "94b645b6-4ef5-40c8-b304-34b2d0801d61",
+      "data": [
+        {
+          "text": "Credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5ea716e6-a181-48d8-b66e-ac5b1c321294",
+  "name": "card_stop_2_cardtype_credit",
+  "auto": true,
+  "contexts": [
+    "ctx_card_stop",
+    "ctx_cs_card_type"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_card_stop",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_cs_card_type",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "After having blocked your card via Card Stop, please go to the nearest police station for an official police report.\nIn order to contest the transactions, you need to fill in the form on www.mijnkaart.be. If you have questions about the form or the transactions themselves, please contact Atos Worldline at +32 2 205 85 85.\n\nIs there anything else I can do for you?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

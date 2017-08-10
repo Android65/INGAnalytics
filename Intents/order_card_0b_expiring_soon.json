@@ -1,0 +1,266 @@
+{
+  "userSays": [
+    {
+      "id": "f592481e-60b2-44ff-ba77-60d6f1a05b78",
+      "data": [
+        {
+          "text": "My card will soon "
+        },
+        {
+          "text": "expire",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " and I want a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " one"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3029eeb0-a2df-4843-a5b4-c27a39be453d",
+      "data": [
+        {
+          "text": "I\u0027m nearing an expiration date of my card, can I get a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " one, please?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "73ec68c2-eb50-4131-b690-19c247000138",
+      "data": [
+        {
+          "text": "Expiry date of my card is coming, I need "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5f5d98b1-744e-4433-8a08-7a4df738b45f",
+      "data": [
+        {
+          "text": "Old card "
+        },
+        {
+          "text": "expiring",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ", need "
+        },
+        {
+          "text": "new",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " one"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "27e7ebc9-0ef5-4d90-a8d8-65026745acf1",
+      "data": [
+        {
+          "text": "Please order "
+        },
+        {
+          "text": "new",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card for me, as the old one "
+        },
+        {
+          "text": "expires",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dee1c9b2-e531-41e7-acd6-3a6039f59f26",
+      "data": [
+        {
+          "text": "My old card is "
+        },
+        {
+          "text": "expiring",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ", I need "
+        },
+        {
+          "text": "new",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5f4f718e-b928-438c-8ad7-5bfaaa2de3e6",
+      "data": [
+        {
+          "text": "I need "
+        },
+        {
+          "text": "new",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card, because my old will "
+        },
+        {
+          "text": "expire",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ". Can you help?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aa456c42-1143-43cd-a337-4dc2ab7dc1b8",
+      "data": [
+        {
+          "text": "My card is "
+        },
+        {
+          "text": "expiring",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " soon, can you help me order a "
+        },
+        {
+          "text": "new",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " one"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "52217904-42c5-4780-8371-bd552a36e7d0",
+      "data": [
+        {
+          "text": "My card is about to "
+        },
+        {
+          "text": "expire",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ", what should I do?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d611a257-6f40-4dc0-b13e-1f8b8a302c14",
+  "name": "order_card_0b_expiring_soon",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:ordercardexpiring",
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_oc_clarification",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Card_Status_Type",
+          "name": "Card_Status_Type",
+          "value": "$Card_Status_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Card_Activation_Reason",
+          "name": "Card_Activation_Reason",
+          "value": "$Card_Activation_Reason",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "If your card is expiring, you should have a received a letter with more instructions automatically. If not, I can help you order a new card immediately. Just select the card you want me to replace from the list below."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "ordercardexpiring"
+    }
+  ]
+}

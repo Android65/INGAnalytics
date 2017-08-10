@@ -1,0 +1,169 @@
+{
+  "userSays": [
+    {
+      "id": "2fef76cf-3376-40e7-bfd5-8a32f311457d",
+      "data": [
+        {
+          "text": "do you have info on cards?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9daa7f8f-7ffc-48ec-a71e-2f41fff63d2d",
+      "data": [
+        {
+          "text": "Which "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " cards does ing offer?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0c5811e6-0e07-4c88-8217-d1ad095fec1d",
+      "data": [
+        {
+          "text": "Which",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": true
+        },
+        {
+          "text": " cards does ing offer?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "71e1f932-e4be-436f-8f41-08e787250352",
+      "data": [
+        {
+          "text": "Does ING offer "
+        },
+        {
+          "text": "credit",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " cards?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b56e077-91fd-4ae5-a411-d34de9c9244a",
+      "data": [
+        {
+          "text": "Does ING offer "
+        },
+        {
+          "text": "debit",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " cards?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3d880dfc-07ad-4be1-875d-cd8b4ecf0aeb",
+      "data": [
+        {
+          "text": "Where can I find the "
+        },
+        {
+          "text": "ING Cards",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " offering?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f1a4aae6-26a2-448e-934d-552f0d2bfb25",
+      "data": [
+        {
+          "text": "Which cards does ing offer?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "986af1ae-9d93-4d57-9250-3a96c2b2538d",
+      "data": [
+        {
+          "text": "Which type of cards?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f078656d-8d67-4662-b1fc-8a5ffd54e4f2",
+  "name": "info_card_offering",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "ING offers a set of debit cards, linked to your current account. See ING website \u003e Daily Banking (https://www.ing.be/en/retail/daily-banking/current-accounts-and-their-cards). We also offer different credit cards, like Visa and MasterCard (https://www.ing.be/en/retail/daily-banking/credit-cards)"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

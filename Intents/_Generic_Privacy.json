@@ -1,0 +1,172 @@
+{
+  "userSays": [
+    {
+      "id": "ed3b0682-e551-407c-9959-4182b1a64975",
+      "data": [
+        {
+          "text": "how can you access my personal info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2db82733-318f-479c-9526-fe6379a602cb",
+      "data": [
+        {
+          "text": "how am I sure this is ING"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "efeada24-33f0-4cc8-8c32-49b3ea6b58ac",
+      "data": [
+        {
+          "text": "how can I know how to trust this ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d7bec245-dae7-430f-bbec-d574fe4bb8cb",
+      "data": [
+        {
+          "text": "can I trust this ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9a03788e-7a98-4972-9cdb-417402b23b03",
+      "data": [
+        {
+          "text": "is it safe to work via facebook ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9207e4ef-dcad-451d-9409-f2ee32db39cc",
+      "data": [
+        {
+          "text": "How can I be certain that this is "
+        },
+        {
+          "text": "ING",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "65b42f56-4918-4305-ac20-d4e5db8801c5",
+      "data": [
+        {
+          "text": "Are you sure it is safe for me via this channel ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "2337bc20-d82f-480b-b844-aed30ba104aa",
+      "data": [
+        {
+          "text": "Is this safe ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "16e79037-4a59-4529-84be-821f814f548f",
+      "data": [
+        {
+          "text": "What about privacy of my personal data"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8de05aeb-b652-447e-b3e9-da477cb16819",
+      "data": [
+        {
+          "text": "How is my personal information protected"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a82756fe-65d9-4ef1-a4ae-a0a1b726a0f3",
+      "data": [
+        {
+          "text": "Does facebook see my data"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d187496-b023-428c-be7a-a4d25b5ef4a5",
+      "data": [
+        {
+          "text": "Is my privacy being respected"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4c3d9307-e1be-4a79-97b4-44bb7cfc6c29",
+  "name": "_Generic_Privacy",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "showicccontactdetails",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        },
+        {
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "That is a very good question $firstName ! We made absolutely sure that your privacy is respected. We will never ask you personal details about your account or pincode. All the info that we show you is always partly masked, so you are the only one who recognizes that info. If you feel uncomfortable to continue I recommend you to call our ING contact centre at the +32 2 464 60 04.",
+            "That is a very good question ! We made absolutely sure that your privacy is respected. We will never ask you personal details about your account or pincode. All the info that we show you is always partly masked, so you are the only one who recognizes that info. If you feel uncomfortable to continue I recommend you to call our ING contact centre at the +32 2 464 60 04."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

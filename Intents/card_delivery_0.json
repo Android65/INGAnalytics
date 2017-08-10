@@ -1,0 +1,818 @@
+{
+  "userSays": [
+    {
+      "id": "02c5ccaa-2227-4cbe-9140-7b2b8ef800a6",
+      "data": [
+        {
+          "text": "When will my card be delivered"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2eb98922-994b-4861-891e-1656bb624145",
+      "data": [
+        {
+          "text": "I need info on my card delivery"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9ecd0663-8da2-49ad-b153-91db56c2a630",
+      "data": [
+        {
+          "text": "How long do I have to wait for my "
+        },
+        {
+          "text": "credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3ff7833d-9dc3-4e36-8186-427575c18a9d",
+      "data": [
+        {
+          "text": "where is my "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "88b5f87e-caeb-414b-a815-1f350a06ec5c",
+      "data": [
+        {
+          "text": "where is my "
+        },
+        {
+          "text": "credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ebc4164b-382b-4f10-a229-4fd0b6f34b00",
+      "data": [
+        {
+          "text": "I received a message saying I\u0027m going to receive a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card, where is she ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4d37a101-2821-47ef-a6f6-200287141e63",
+      "data": [
+        {
+          "text": "Can you help me? I requested a "
+        },
+        {
+          "text": "Visa",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "ten days ago",
+          "alias": "date",
+          "meta": "@sys.date",
+          "userDefined": false
+        },
+        {
+          "text": " and it still hasn\u0027t arrived yet."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "def5933a-2afa-467a-bd06-2ed39be0ce1b",
+      "data": [
+        {
+          "text": "Can you tell me when am I get my card ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "17eb2718-1699-497d-a6d9-e9049c596160",
+      "data": [
+        {
+          "text": "I did not received my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ad85cb4b-d2a0-4da5-91f2-5e9a4e790e44",
+      "data": [
+        {
+          "text": "Where is my card ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f8f40aa0-97f7-4e9a-806a-66aca7eaff0d",
+      "data": [
+        {
+          "text": "I was supposed to receive my card 5 days ago."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "21125e2d-c638-4014-9f55-59e76dbd2300",
+      "data": [
+        {
+          "text": "Is there any problem with the sending of my card ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4de6e663-771c-4418-aceb-7119c354964f",
+      "data": [
+        {
+          "text": "where are you sending my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "72078419-e454-46d1-a42e-380873a8dc9d",
+      "data": [
+        {
+          "text": "do you know where is my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "fa1ddfc1-ca8f-4035-b80b-eb273c917f5d",
+      "data": [
+        {
+          "text": "do you know where my card is?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "41af7073-48df-4685-bee0-ae644f2afac7",
+      "data": [
+        {
+          "text": "Why does it take so long to receive my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2665c0a5-0db6-4435-8d4a-c4b99e111195",
+      "data": [
+        {
+          "text": "Is it normal I still haven\u0027t received my "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0a3d45e0-bf47-43df-9481-f93df617950e",
+      "data": [
+        {
+          "text": "When was my card sent to me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "937dd86e-22e0-46b1-92da-6c9ec5b21857",
+      "data": [
+        {
+          "text": "You sent me a letter about new card, but nothing arrived yet ☹"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "811db0e5-efad-4afc-8c25-86bdae137c91",
+      "data": [
+        {
+          "text": "I have a ltter that my card should come, but I haven\u0027t received anything yet"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1e092c4f-2ceb-4c9c-ba94-372b5952644d",
+      "data": [
+        {
+          "text": "I haven\u0027t received my card now"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9286cd00-3a9d-4932-ad2a-940c71ecb28e",
+      "data": [
+        {
+          "text": "I received a letter by post that my card should be sent, but it didn\u0027t arrive!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3de1734f-2cc9-4883-89f5-e6ca40d86e18",
+      "data": [
+        {
+          "text": "hello, my wife received a letter that a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card will be sent, but it is not yet there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "71e0f059-6f22-472a-80c4-5cfa54486bf0",
+      "data": [
+        {
+          "text": "MY card did NOT arrive! Trace it pls."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c98df1ec-fcca-4b65-93a4-d58783051f9d",
+      "data": [
+        {
+          "text": "Can you trace my card, please?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e20c1c92-4d80-4b43-8659-1620f268464b",
+      "data": [
+        {
+          "text": "I order my ew card, a "
+        },
+        {
+          "text": "mastercard",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": ", and I haven\u0027t received it yet, can you trace it?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "a0b40300-f26b-4f9c-98b2-e64c9367d916",
+      "data": [
+        {
+          "text": "I haven\u0027t received my "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": ", when i will review it?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1b6a2be9-6b6d-4c48-8389-1c0d11b919c1",
+      "data": [
+        {
+          "text": "I haven\u0027t received my "
+        },
+        {
+          "text": "VISA",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": ", when will it arrive?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "8257b0b4-0ee4-4cf2-b3e1-57eba81f6ad1",
+      "data": [
+        {
+          "text": "I didn\u0027t receive my card yet, where is it?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "39f3ca8e-2fb8-4968-8e98-f3b56392f2c7",
+      "data": [
+        {
+          "text": "I wanted to know status of my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d3b4fec6-ee98-4533-851d-0dc909009c8a",
+      "data": [
+        {
+          "text": "I wanted to know where is my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f926d68-56de-4230-a634-93ab11e7f367",
+      "data": [
+        {
+          "text": "I ordered my new "
+        },
+        {
+          "text": "creditcard",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": true
+        },
+        {
+          "text": " and I haven\u0027t received it yet. Can you trace it?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b52189f9-8b57-4f13-ac41-242baedb9352",
+      "data": [
+        {
+          "text": "I haven\u0027t received my card yet. Do you know when I will receive it?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8d19960f-bd34-459c-8e93-8aa249eed1aa",
+      "data": [
+        {
+          "text": "When did u send card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b4f8a777-1c08-4411-9535-b5d75491eaec",
+      "data": [
+        {
+          "text": "When did you send card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9a0cac04-ac26-4126-b7bd-7350322a2723",
+      "data": [
+        {
+          "text": "i have ordered a new card, where is it?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "71e10f67-eef4-4a41-b4fe-8edc6c2ac733",
+      "data": [
+        {
+          "text": "when will I receive my new card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1bec8e41-b9f5-4582-abad-0c42524f8ab4",
+      "data": [
+        {
+          "text": "When will I have my "
+        },
+        {
+          "text": "new",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "fdb12b3f-0194-46c8-8367-28962614f102",
+      "data": [
+        {
+          "text": "What is the status of my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9703382b-b4eb-48fb-bfd6-67419428d0c0",
+      "data": [
+        {
+          "text": "What is the status of my "
+        },
+        {
+          "text": "new",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4845a1cb-5d5b-4467-97af-18c72e14fbce",
+      "data": [
+        {
+          "text": "I have to receive a "
+        },
+        {
+          "text": "new",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "60237602-0116-41ca-b616-ff0c2a362244",
+      "data": [
+        {
+          "text": "Where have you send my "
+        },
+        {
+          "text": "new",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4a4d743c-2a50-428b-b64b-40357ffef37f",
+      "data": [
+        {
+          "text": "Where will my "
+        },
+        {
+          "text": "new",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " card be send to?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "de9ce39d-4c89-42aa-93d2-61cfe7589ca6",
+      "data": [
+        {
+          "text": "To what address has my card been sent?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d1822fcf-3795-4c05-b2f7-fe61fda7bc5b",
+      "data": [
+        {
+          "text": "To what address was my card sent?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b1a661d-3c80-44c7-a5d2-dac0bb8914cf",
+      "data": [
+        {
+          "text": "How long does it take to send my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "05879ec0-5b3f-42e3-8178-0669a09c0199",
+      "data": [
+        {
+          "text": "Where will I receive my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e44ab4a0-e398-44fc-9e9c-467bde2d0c5a",
+      "data": [
+        {
+          "text": "When will my card arrive?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3b9e80ee-d60f-4b1c-a7e7-30dff661ac75",
+      "data": [
+        {
+          "text": "I\u0027m waiting for my card to arrive"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "18cb436e-5d14-4527-bebd-6cf55a8fc57b",
+      "data": [
+        {
+          "text": "I\u0027m waiting for the delivery of my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4db2c2d5-0258-4d77-a5d6-eeb5dc454f78",
+      "data": [
+        {
+          "text": "I ordered a bank card and I do not know where it is"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3f228021-2126-4077-94ae-731e6cc93ed7",
+      "data": [
+        {
+          "text": "Where is my "
+        },
+        {
+          "text": "new",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " bank card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a7101622-857b-4f56-8e6e-e6df3678d4fd",
+      "data": [
+        {
+          "text": "When was my card sent by post?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8b0099c4-d4d9-4733-ae7c-75f76d4c088a",
+      "data": [
+        {
+          "text": "Is my card already sent by post?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "25d95b7a-2d02-4801-af07-d962334a6bd6",
+      "data": [
+        {
+          "text": "Can you check the whereabouts of my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "16e83f3f-2a12-4bb7-a096-1ce0ced5eaee",
+      "data": [
+        {
+          "text": "I am expecting my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "693b6f22-e8c7-4363-a3b5-ce527178dc37",
+      "data": [
+        {
+          "text": "My card did not arrive"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "017281d1-932c-4905-a996-3d86d26b5d3f",
+      "data": [
+        {
+          "text": "Hello, where is my card? I did not receive it."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "73122373-117b-4f31-8ae6-8978355f771a",
+      "data": [
+        {
+          "text": "I did not receive my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "e8f51996-06e8-4191-967e-907dfad2f200",
+  "name": "card_delivery_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ctx_card_delivery",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_cd_confirmation_initial",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Card_Status_Type",
+          "name": "Card_Status_Type",
+          "value": "$Card_Status_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "I understand that you are looking forward to receive a card from us. This typically takes about ten days. If you like, I can check the delivery status of your card, but for this I will need to authenticate you. Do you want to proceed?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

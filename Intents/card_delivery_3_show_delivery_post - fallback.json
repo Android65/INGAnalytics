@@ -1,0 +1,41 @@
+{
+  "userSays": [],
+  "id": "46fbdc66-cd89-4528-94c3-36e9b67127e0",
+  "parentId": "c6d043eb-e2d0-4b17-a4ca-cb2c2f450b77",
+  "rootParentId": "c6d043eb-e2d0-4b17-a4ca-cb2c2f450b77",
+  "name": "card_delivery_3_show_delivery_post - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_card_delivery",
+    "ctx_cd_address_prompt"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Please answer yes or no"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

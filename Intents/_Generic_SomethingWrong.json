@@ -1,0 +1,68 @@
+{
+  "userSays": [
+    {
+      "id": "6e062453-430c-42b3-9835-67bc0639970e",
+      "data": [
+        {
+          "text": "I am not happy with this response"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "342d1414-1a74-4e28-825d-bc71d5eb8aaf",
+      "data": [
+        {
+          "text": "You gave me the wrong answers"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef576526-dd1a-4ad7-9520-94bc650e4156",
+      "data": [
+        {
+          "text": "This is not what I want"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "91d5d880-b547-4765-9c5b-289f1280659c",
+      "data": [
+        {
+          "text": "Something went wrong"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a3b72308-0762-4597-99ba-83f3b7ab5356",
+  "name": "_Generic_SomethingWrong",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "humantakeoverrequest",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Okay, this has been logged and forwarded to my human overlords, they will use this information to make me smarter in the future :-)"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

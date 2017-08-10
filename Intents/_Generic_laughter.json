@@ -1,0 +1,190 @@
+{
+  "userSays": [
+    {
+      "id": "e6076344-4622-4842-a193-53880c92ec90",
+      "data": [
+        {
+          "text": "☺))"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "12f1f260-9c06-4910-a138-11763efb4b44",
+      "data": [
+        {
+          "text": "☺)"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "66196801-6536-4f76-926b-36fbcea8b0f7",
+      "data": [
+        {
+          "text": "😃D"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6fa2aea9-0f1b-4abd-a712-fb28ac999cab",
+      "data": [
+        {
+          "text": ":DD"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e6abe5e4-6f57-498f-bd10-e343924edae5",
+      "data": [
+        {
+          "text": "chacha"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5a606720-8de8-44b2-ad89-3731bbc6d337",
+      "data": [
+        {
+          "text": "hihi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a8c4d1cf-5369-4c2a-9818-7e607edaa363",
+      "data": [
+        {
+          "text": "haha"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4a92ac77-543c-4c6d-9537-8e88e181e920",
+      "data": [
+        {
+          "text": "hehe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f7e98750-69ac-44ce-a9ba-43dfb86317bf",
+      "data": [
+        {
+          "text": "LOL!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fb6a8b98-b9fc-4f2c-a6c6-dfda0da56355",
+      "data": [
+        {
+          "text": "lol"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1b1a078-b728-4e57-b356-5bcaf7d12868",
+      "data": [
+        {
+          "text": "hehehe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ffb17ae9-ccff-4b09-b9aa-ffa8dfe13424",
+      "data": [
+        {
+          "text": "hahahahh"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "991ba075-7579-4c91-9dfe-2beab6e007de",
+      "data": [
+        {
+          "text": "ahahaha"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9fe3b02a-d673-4d14-bef5-314cc44627f2",
+      "data": [
+        {
+          "text": "hahaha"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "887b8c95-43d0-4e3a-ae7e-b6640e4e589b",
+      "data": [
+        {
+          "text": "☺"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "109a08fa-865d-4c44-9319-0809b3806b09",
+      "data": [
+        {
+          "text": ":D"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f188693c-0270-4fe8-81f7-a86032d95a97",
+  "name": "_Generic_laughter",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            ":D",
+            ":-)"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

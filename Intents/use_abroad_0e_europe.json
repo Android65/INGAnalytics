@@ -1,0 +1,223 @@
+{
+  "userSays": [
+    {
+      "id": "d87917fa-d247-4e80-a868-f9f4cfd7059a",
+      "data": [
+        {
+          "text": "I am travelling to "
+        },
+        {
+          "text": "France",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        },
+        {
+          "text": ", will my card function there?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "15903a9c-64f5-48d2-b588-2d67228312e6",
+      "data": [
+        {
+          "text": "I am going to "
+        },
+        {
+          "text": "Germany",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        },
+        {
+          "text": ". Can you activate my card to use it there?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d96508b2-a028-486d-839b-c2ed83bd33ba",
+      "data": [
+        {
+          "text": "If my card does not work in "
+        },
+        {
+          "text": "Germany",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        },
+        {
+          "text": ", can you activate it?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ce7f5cb5-adf5-46b3-9048-7947ebe8cedf",
+      "data": [
+        {
+          "text": "Can you open my card for "
+        },
+        {
+          "text": "France",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b25653bd-cbda-46a5-a0e6-9942157b4013",
+      "data": [
+        {
+          "text": "I would like to go to "
+        },
+        {
+          "text": "Portugal",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        },
+        {
+          "text": ". Can I work with my card there?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9dcfa374-cad8-4f22-a809-ea7d120bbe60",
+      "data": [
+        {
+          "text": "I\u0027m in "
+        },
+        {
+          "text": "France",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        },
+        {
+          "text": ", but my card "
+        },
+        {
+          "text": "doesn\u0027t work",
+          "alias": "Card_Activation_Reason_Renewal",
+          "meta": "@Card_Activation_Reason_Renewal",
+          "userDefined": false
+        },
+        {
+          "text": "!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "99c39abc-e891-4043-b777-73ca604f0630",
+      "data": [
+        {
+          "text": "I go to "
+        },
+        {
+          "text": "Spain",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ef8bd32c-7a35-478e-aa47-649b968c86b8",
+      "data": [
+        {
+          "text": "I\u0027m in "
+        },
+        {
+          "text": "Italy",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        },
+        {
+          "text": " and my card is not working!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6cb1acf5-c0b3-4360-a31b-ba39eac7a492",
+      "data": [
+        {
+          "text": "Why can\u0027t I use my card in "
+        },
+        {
+          "text": "Austria",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        },
+        {
+          "text": " ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "92db2ac7-2440-44fe-bee0-86254a79d264",
+  "name": "use_abroad_0e_europe",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Card_Activation_Reason_Renewal",
+          "name": "Card_Activation_Reason_Renewal",
+          "value": "$Card_Activation_Reason_Renewal",
+          "isList": false
+        },
+        {
+          "dataType": "@UA_Countries_Europe",
+          "name": "UA_Countries_Europe",
+          "value": "$UA_Countries_Europe",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Okay, I understood you are going to a location inside Europe. If that is the case then both your credit- and debit cards should work automatically. If there are any issues please contact the ING Contact Centre at +32 2 464 60 04. Can I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

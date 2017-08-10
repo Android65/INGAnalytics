@@ -1,0 +1,83 @@
+{
+  "userSays": [
+    {
+      "id": "36459ee8-bf5e-474e-aca3-419ec00f77f2",
+      "data": [
+        {
+          "text": "send another one please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "04c8700d-594c-4a44-a8cf-cdf0550d29f8",
+      "data": [
+        {
+          "text": "can you send me the token again?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "196ad9e1-645c-4d1a-b60b-be11eb50dcaa",
+      "data": [
+        {
+          "text": "send token again"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5daf261c-f5f9-4004-b3c1-55413fbd39f8",
+      "data": [
+        {
+          "text": "Resend"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2a0e48a4-4eb4-4b07-803c-39173a7e2d25",
+      "data": [
+        {
+          "text": "Can you re-send the token again?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "de3faf6d-ac6f-4bb5-9e12-e089345e5184",
+  "name": "authentication_1_sms_token_resend",
+  "auto": true,
+  "contexts": [
+    "ctx_sa_smstoken",
+    "ctx_sms_authentication"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "resetsmscontexts",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Unfortunately I cannot do that. I invite you to contact the ING Contact Centre via 02 464 60 04. My colleagues will be happy to help you. :-)"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

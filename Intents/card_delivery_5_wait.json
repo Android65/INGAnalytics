@@ -1,0 +1,86 @@
+{
+  "userSays": [
+    {
+      "id": "6d5f5a3e-e2a5-4fdb-a02b-77339bfb142d",
+      "data": [
+        {
+          "text": "waiting is fine"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "916451b2-0d0a-427e-982d-cb76e0f383c8",
+      "data": [
+        {
+          "text": "I\u0027ll wait"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2e7c55c3-f960-406b-bef2-296368fcbbea",
+      "data": [
+        {
+          "text": "wait"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6b230260-9840-4ae3-8c90-0c3cc5c637f6",
+      "data": [
+        {
+          "text": "I will wait a bit longer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "bde83408-dd34-40bc-a6ee-6648f2698ac0",
+  "name": "card_delivery_5_wait",
+  "auto": true,
+  "contexts": [
+    "ctx_card_delivery",
+    "ctx_cd_wait_branch_icc"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_card_delivery",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "ctx_cd_wait_branch_icc",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok, feel free to ask me again in a few days if your card still hasn\u0027t arrived. Can I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

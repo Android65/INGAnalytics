@@ -1,0 +1,161 @@
+{
+  "userSays": [
+    {
+      "id": "71d6d16a-a88d-48e8-b894-a10139e75901",
+      "data": [
+        {
+          "text": "Can I get money from the atm in "
+        },
+        {
+          "text": "Austria",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        },
+        {
+          "text": " using my "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a15c9211-ee0a-45ba-91fc-8cd1c39d6893",
+      "data": [
+        {
+          "text": "Will my "
+        },
+        {
+          "text": "maestro",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card work in "
+        },
+        {
+          "text": "Germany",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7cc4e423-9806-4fcc-9a49-0e45bfa042ba",
+      "data": [
+        {
+          "text": "Can I use my "
+        },
+        {
+          "text": "meastro",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": true
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "switzerland",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "43ae16a9-58f1-4e69-a78f-e9098b1ec519",
+      "data": [
+        {
+          "text": "I want to use my "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "France",
+          "alias": "UA_Countries_Europe",
+          "meta": "@UA_Countries_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "66c0ddeb-4e8d-450a-a21d-11c5c3c65198",
+  "name": "use_abroad_0c_debit_europe",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:useabroadeurope",
+      "affectedContexts": [
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ua_country",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@UA_Countries_Europe",
+          "name": "UA_Countries_Europe",
+          "value": "$UA_Countries_Europe",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

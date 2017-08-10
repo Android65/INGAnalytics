@@ -1,0 +1,39 @@
+{
+  "userSays": [],
+  "id": "5c8c2540-c673-4244-bc20-f6d1ad1a002f",
+  "name": "activate_card_2_first_card - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_activate_card",
+    "ctx_ac_pin"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Please answer yes or no"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

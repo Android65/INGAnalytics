@@ -1,0 +1,118 @@
+{
+  "userSays": [
+    {
+      "id": "2e4b33d6-09c2-49b7-9f7e-4ce7c2859827",
+      "data": [
+        {
+          "text": "I want to choose the picture on my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7062f1ef-0485-466f-90bd-0becda2bf6b7",
+      "data": [
+        {
+          "text": "I want a dog picture on my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bc7cba3a-972f-44a5-b3de-281c3deca239",
+      "data": [
+        {
+          "text": "Can I add picture on my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "af9dfc5b-9693-4ef9-88ce-b138df6aaf04",
+      "data": [
+        {
+          "text": "I don\u0027t like the "
+        },
+        {
+          "text": "orange",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " color of my card, can I replace it with a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " one?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "21cd429b-933f-40eb-bb22-4d7f55e4b782",
+      "data": [
+        {
+          "text": "Choose picture on bank card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "47b8b4e0-fcaf-457c-bc61-34c762d30682",
+      "data": [
+        {
+          "text": "Can I choose a picture for my bank card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "cbc3f483-4f1c-49b7-80d1-ab3d8600d6d9",
+  "name": "_Generic_Card_Personalization",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "dataType": "@Debit_Card_Type",
+          "name": "Debit_Card_Type",
+          "value": "$Debit_Card_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Card_Status_Type",
+          "name": "Card_Status_Type",
+          "value": "$Card_Status_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Unfortunately not. Our ING Lion would be too sad if he was replaced on a bank card ;-)"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

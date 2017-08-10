@@ -1,0 +1,145 @@
+{
+  "userSays": [
+    {
+      "id": "864cc12e-0d2e-4e6d-a69b-18143a41059a",
+      "data": [
+        {
+          "text": "give me another one"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3e475483-5cff-4f4f-8742-27469aa77d9d",
+      "data": [
+        {
+          "text": "Another one"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2ca55fa1-935b-441e-9692-f3f5a57f86e6",
+      "data": [
+        {
+          "text": "Tell me another joke"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "36e87452-a1aa-4fae-a61f-46d32079a6fd",
+      "data": [
+        {
+          "text": "give me another joke"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "629d68c3-4d3d-4096-a93a-d1372766327c",
+      "data": [
+        {
+          "text": "Give me a joke"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "8a85e918-40eb-40bb-a87d-05fc92e1b667",
+      "data": [
+        {
+          "text": "Please tell me a joke."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ae8abdec-59e0-4fa5-800a-d14116550208",
+      "data": [
+        {
+          "text": "Can you tell a joke too?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8bf8808a-cc81-40ee-8ceb-22cb67a628ee",
+      "data": [
+        {
+          "text": "tell me a funny story!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b9cce3a4-30b7-4621-a101-43c2a4a9a3c1",
+      "data": [
+        {
+          "text": "Do you know jokes?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "967a65c6-f54d-4b60-9999-c91ebfa60db7",
+      "data": [
+        {
+          "text": "tell me a joke!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cef52698-0073-4d94-9213-cf3851d12934",
+      "data": [
+        {
+          "text": "are you funny?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "11232955-bd1c-4c1a-b3b4-98c7c89aef5b",
+  "name": "_Generic_Joke",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "What\u0027s a robot\u0027s favourite music genre? Heavy metal!",
+            "01010111 01101111 01110010 01101011 01101001 01101110 01100111 00100000 01100011 01100001 01110010 01100100 01110011  :DD",
+            "What\u0027s a robot\u0027s favourite book? Harry Potter and the Goblet of Wire!",
+            "Why did the robot marry his fiancée? He couldn’t resistor!",
+            "What do you call a pirate robot? Arrrrr2D2!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,121 @@
+{
+  "userSays": [
+    {
+      "id": "6864b2a7-8508-4d38-987d-4b37f99d1ef4",
+      "data": [
+        {
+          "text": "No it\u0027s not safe at all"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "f2869aec-9e9a-43be-a0a6-6e1c2de92b97",
+      "data": [
+        {
+          "text": "Yes it is"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "68ee4e76-14fe-42f7-86ad-7501a2be7664",
+      "data": [
+        {
+          "text": "I don\u0027t know"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d1290d15-55dc-4cab-b127-fe4f5fcba28f",
+      "data": [
+        {
+          "text": "Disagree"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8c8add92-0ee7-4dd4-b5d5-caf52340c4b5",
+      "data": [
+        {
+          "text": "Agree"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6ff14870-531b-40f1-ad07-74676fc8fecd",
+      "data": [
+        {
+          "text": "Strongly disagree"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2a525bff-7544-4fc8-8fc4-8839b269fb5b",
+      "data": [
+        {
+          "text": "Strongly agree"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "88bbdf99-a8c5-459d-bcdd-f76922b33ba1",
+  "name": "_NPS_score_3",
+  "auto": true,
+  "contexts": [
+    "ctx_nps",
+    "ctx_nps_2"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "endofconversationconfirmed",
+      "affectedContexts": [
+        {
+          "name": "ctx_nps",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_nps_2",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Great, thanks! I wish you an excellent day $firstName! See you soon!",
+            "Great, thanks! Have a great day $firstName! Talk to you soon!",
+            "Great, thanks! Have a great day! Talk to you soon!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

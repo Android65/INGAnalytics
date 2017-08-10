@@ -1,0 +1,331 @@
+{
+  "userSays": [
+    {
+      "id": "f5021d1c-fd0c-4ef9-983f-248b19efd6e5",
+      "data": [
+        {
+          "text": "my pin was erased"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f5a12115-2eb3-4843-b693-f41d30c2c497",
+      "data": [
+        {
+          "text": "I\u0027ve received my pin code by SMS but was erased"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "5d8266d1-4411-4244-b0ad-05f3cbdcb5a1",
+      "data": [
+        {
+          "text": "I\u0027ve erased my SMS with my pin code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "137e0cb3-612d-4e6b-a692-28d284d1316b",
+      "data": [
+        {
+          "text": "Erased SMS"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3869c2b4-4ae8-4b3d-b1c0-25377b255045",
+      "data": [
+        {
+          "text": "SMS erased"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "98067234-bd21-49b1-b699-016965aa958d",
+      "data": [
+        {
+          "text": "I\u0027ve received my pin code by SMS but it was erased"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f8adf931-eb0a-47b2-a9e3-f89ff6b1d51a",
+      "data": [
+        {
+          "text": "Erased"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "de8a8599-c24f-4543-99ac-01fe7b4d2da3",
+      "data": [
+        {
+          "text": "PIN erased"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "18c14889-548d-4288-9669-2d1645dcbda1",
+      "data": [
+        {
+          "text": "My pin code was deleted when I received it as sms"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "35c69391-3fc1-46a3-a6f7-379bc60b5501",
+      "data": [
+        {
+          "text": "The pin was erased from my "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1225695-f7b6-4e4a-8be7-f9ebe02e6308",
+      "data": [
+        {
+          "text": "I received my pin code, but it was erased from my "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fce64f5d-a918-4edd-8174-57bb22e63361",
+      "data": [
+        {
+          "text": "It was already erased"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b5bc7d08-400a-454b-8cce-e2efa48b076e",
+      "data": [
+        {
+          "text": "The message was erased"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a5608a1b-b6a5-428a-bc57-3da68d42e1d8",
+      "data": [
+        {
+          "text": "The sms with the code disapeared"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d5f5a6bb-39f2-4452-898e-08c457c48822",
+      "data": [
+        {
+          "text": "I don\u0027t have the sms anymore"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "618c1cb8-d9a7-4e0b-a3cc-6aa1160df795",
+      "data": [
+        {
+          "text": "You deleted my code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6d58b657-a3cb-4cd7-a183-2e7277ebcd8a",
+      "data": [
+        {
+          "text": "My code was deleted."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "266ea736-1b7b-43a0-9328-ab6b0956a02c",
+      "data": [
+        {
+          "text": "The SMS was erased from my "
+        },
+        {
+          "text": "phone",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": ".."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7c86ab2e-77f6-46ab-8299-3f3703d2fccf",
+      "data": [
+        {
+          "text": "I removed the SMS from my "
+        },
+        {
+          "text": "phone",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "001c177e-3d32-447a-970e-6bed43492e82",
+      "data": [
+        {
+          "text": "I deleted that SMS"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5ac70343-562b-4be6-85b8-967095ff4d29",
+      "data": [
+        {
+          "text": "The SMS with my pin code was erased."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "08e45852-39bf-4661-a58b-1a2d57459b1d",
+      "data": [
+        {
+          "text": "Why is my pin no longer on my "
+        },
+        {
+          "text": "phone",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "893d58fb-ec09-4b40-bbf5-7f78223d68f9",
+      "data": [
+        {
+          "text": "SMS was erased from my mobile phone "
+        },
+        {
+          "text": "after 2 days before",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " I was able to use it and I want to do the process again."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "2dc40ee5-1d81-4819-af1b-82eac4d43270",
+  "name": "pin_by_sms_2_sms_erased",
+  "auto": true,
+  "contexts": [
+    "ctx_pin_by_sms",
+    "ctx_sms_reason"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ctx_pin_by_sms",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "ctx_sms_reason",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@AssistanceType",
+          "name": "AssistanceType",
+          "value": "$AssistanceType",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "For security reasons the SMS we send is erased after 2 working days. I recommend you to go to an ING branch of your choice in order to choose a new one. Do you need anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "smserased"
+    }
+  ]
+}

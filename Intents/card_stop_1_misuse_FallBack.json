@@ -1,0 +1,33 @@
+{
+  "userSays": [],
+  "id": "e1a0e8f9-70cf-408f-9b8b-abb811d99870",
+  "name": "card_stop_1_misuse_FallBack",
+  "auto": false,
+  "contexts": [
+    "ctx_card_stop",
+    "ctx_cs_misuse"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Do you see suspicious transactions on your account?",
+            "Do you see transactions on your account that you did not initiate yourself?",
+            "Has there been fraud with your card in the meantime?",
+            "Did someone else use your card in the meantime?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

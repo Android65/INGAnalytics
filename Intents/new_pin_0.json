@@ -1,0 +1,224 @@
+{
+  "userSays": [
+    {
+      "id": "56e511cd-8a01-4307-889b-25fbf0a18c2a",
+      "data": [
+        {
+          "text": "How can I choose a different PIN"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "d7408f3a-7be3-4514-bef6-f5a484d7df55",
+      "data": [
+        {
+          "text": "how can i have the pin of this card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "63760fc2-3791-4edd-ad0e-9a9d5f9a0db1",
+      "data": [
+        {
+          "text": "Give me my PIN code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d0fd7169-9b4d-4dfa-9726-77ec43f4be97",
+      "data": [
+        {
+          "text": "Hello "
+        },
+        {
+          "text": "Marie",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        },
+        {
+          "text": ", I will need a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " PIN"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "10cb5844-1cff-477a-a156-6bf997d886cd",
+      "data": [
+        {
+          "text": "I need to reset my PIN"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b55eaec7-1d79-45ae-8c3e-643b0cbd856a",
+      "data": [
+        {
+          "text": "reset my PIN"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "83aa0c84-b52c-4af7-a6ba-e79f546f4f92",
+      "data": [
+        {
+          "text": "I\u0027ve "
+        },
+        {
+          "text": "lost",
+          "alias": "Card_Actication_Reason_Replace",
+          "meta": "@Card_Actication_Reason_Replace",
+          "userDefined": false
+        },
+        {
+          "text": " my PIN"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "7e2dea17-114f-416b-977e-faf7eac62117",
+      "data": [
+        {
+          "text": "Give me a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " pin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "536c0ddd-f661-4602-a428-4532e29576f4",
+      "data": [
+        {
+          "text": "I need another PIN"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "673044b7-46fe-45e9-b7cf-a978767483f9",
+      "data": [
+        {
+          "text": "Where can I change my PIN"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee0d565c-5282-4d69-bb75-9e8f41a2c12b",
+      "data": [
+        {
+          "text": "I need a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " PIN"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e32c6ff3-ad46-4e75-ac67-382080565b27",
+  "name": "new_pin_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_np_init",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_newpin",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Card_Status_Type",
+          "name": "Card_Status_Type",
+          "value": "$Card_Status_Type",
+          "isList": false
+        },
+        {
+          "dataType": "@Card_Actication_Reason_Replace",
+          "name": "Card_Actication_Reason_Replace",
+          "value": "$Card_Actication_Reason_Replace",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Modify PIN",
+            "Blocked",
+            "New card"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "I understand you would like to have a new PIN code for your card. Can you tell me the reason?  Do you want to modify your existing pin code? Did you blocked your card ? Or do you need to receive your pin code via SMS for a new card?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

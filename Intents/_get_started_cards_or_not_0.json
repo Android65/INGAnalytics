@@ -1,0 +1,65 @@
+{
+  "userSays": [
+    {
+      "id": "f6363301-f1f1-4408-8010-1d91d3405ff8",
+      "data": [
+        {
+          "text": "__get_started__"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "85d80da1-d1cf-424c-87fb-be5051e9db55",
+  "name": "_get_started_cards_or_not_0",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_get_started",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "_start_cards_or_not-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Hello $firstName! My name is Marie, pleasure meeting you! Before we start, is your question about cards?",
+            "Hello! My name is Marie, pleasure meeting you! Before we start, is your question about cards?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

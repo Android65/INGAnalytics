@@ -1,0 +1,107 @@
+{
+  "userSays": [
+    {
+      "id": "352cd04f-3305-4673-91be-5c831d92606a",
+      "data": [
+        {
+          "text": "What about cards"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "74fa90bc-2071-4bba-a277-713c95b1030e",
+      "data": [
+        {
+          "text": "What can you say about card offering?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1db862fb-4146-4fda-8771-a242e34366b9",
+      "data": [
+        {
+          "text": "I need advice on cards"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "339db3d5-87dd-4d20-8b70-d60a7962b190",
+      "data": [
+        {
+          "text": "Info on card products"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f951ad53-35ff-4d5e-a665-337a9241c91c",
+      "data": [
+        {
+          "text": "Info on cards"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cce00a26-a27f-4b34-8f4a-918c574bb4e3",
+      "data": [
+        {
+          "text": "I would like to have information on cards products."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f50c5c16-9022-4b8f-adae-4e507969d8fc",
+  "name": "Generic_Advice_1_Test",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Ctx_Advice",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Debit card",
+            "Credit card"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Do you want to know more about debit cards or credit cards?",
+            "I can help you with that.  Do you need information on debit cards or credit cards?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

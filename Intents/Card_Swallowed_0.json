@@ -1,0 +1,97 @@
+{
+  "userSays": [
+    {
+      "id": "cae997f0-0f37-44a6-aff2-47f7f3dd702f",
+      "data": [
+        {
+          "text": "No it has been swallowed sorry"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "908358b5-f0df-465f-bc7e-d107910abb67",
+      "data": [
+        {
+          "text": "No sorry it has been swallowed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "402252ec-00ac-485e-95e4-9afe7a7abbba",
+      "data": [
+        {
+          "text": "swallowed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ca02da17-bf84-4606-8823-8c99fba35e58",
+      "data": [
+        {
+          "text": "My card has been swallowed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4b494399-c9bc-4b65-86de-0d6d7aa7dd6b",
+      "data": [
+        {
+          "text": "My card is blocked in the machine. I cannot get it back."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f961ea52-4a34-4b7e-87f6-3cfa24c7ae89",
+      "data": [
+        {
+          "text": "I am at a ATM and the card is blocked in the machine. I cannot get it back."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6260db73-6c56-4712-91f8-d244019c0b2c",
+      "data": [
+        {
+          "text": "The machine swallowed my card."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f958c132-6f53-4900-9475-e74b1051b60a",
+  "name": "Card_Swallowed_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I recommend you to block your card by contacting Card Stop at +32 70 344 344. A new card will be automatically created and sent to your contact address."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

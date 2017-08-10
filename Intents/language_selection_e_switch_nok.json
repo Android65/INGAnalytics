@@ -1,0 +1,35 @@
+{
+  "userSays": [],
+  "id": "b67b88d0-ad4c-4a24-81d6-67a373378028",
+  "name": "language_selection_e_switch_nok",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "language",
+          "value": "#language_selection_switch_nok.language"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Unfortunately, I cannot speak $language yet. As I learn, hope I will know it! In the meanwhile, let\u0027s talk in English! How can I help you?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "language_selection_switch_nok"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "1cc804bc-17a6-44bc-83da-648c86b8269a",
+  "name": "unblock_card_e_reset_pin_attempts_confirmation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Very well! The number of attempts for the card you selected will be reset within one working day."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "unblock_card_reset_pin_attempts_confirmation"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "userSays": [
+    {
+      "id": "1fb8eced-b71d-421d-9f50-89c59fe2754f",
+      "data": [
+        {
+          "text": "I want another card for my account"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3ffc5153-a4b9-416b-819c-a186e23d7417",
+      "data": [
+        {
+          "text": "I need a duplicate card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e5373b97-4d94-42fa-9d25-9cd78ab60b90",
+      "data": [
+        {
+          "text": "I need an extra card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d650a750-786f-46ae-bcd3-29b88eeedb6a",
+      "data": [
+        {
+          "text": "I want to order an extra card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "74a38e24-e388-498c-9f8f-4e702d5d9fd6",
+  "name": "order_card_0d_extra",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:orderextracard",
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_oc_replace_extra",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

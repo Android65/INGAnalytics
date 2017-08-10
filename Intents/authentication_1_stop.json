@@ -1,0 +1,129 @@
+{
+  "userSays": [
+    {
+      "id": "81b9cf3e-13d3-4e64-a80e-d58bcc43a858",
+      "data": [
+        {
+          "text": "reset"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "66895b0a-daf1-4dca-813e-3e8ed6382877",
+      "data": [
+        {
+          "text": "restart"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aff37270-719b-4940-a9a1-259d6eed57cf",
+      "data": [
+        {
+          "text": "no authentication please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "af7f087f-2f2c-44ed-b966-0f305d336bf3",
+      "data": [
+        {
+          "text": "don\u0027t!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5a8ec140-f240-4a7a-acb9-99c86f02c6b8",
+      "data": [
+        {
+          "text": "no!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "20992fb4-4bf8-4a50-b678-2287c62168be",
+      "data": [
+        {
+          "text": "I don\u0027t want this"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b8d54e4a-a978-4f2c-80d5-f648537852f7",
+      "data": [
+        {
+          "text": "cancel"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9f1a82dc-e727-4e88-acc1-21ffa8d2348f",
+      "data": [
+        {
+          "text": "STOP!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "55012258-5def-4510-b921-affc087bdb8e",
+      "data": [
+        {
+          "text": "stop"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d8e64bf0-8f82-4345-a050-2a47b8029114",
+  "name": "authentication_1_stop",
+  "auto": true,
+  "contexts": [
+    "ctx_sa_smstoken",
+    "ctx_sms_authentication"
+  ],
+  "responses": [
+    {
+      "resetContexts": true,
+      "action": "resetsmscontexts",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Very well $firstName, I\u0027ll stop authenticating you right away. Feel free to ask me anything else about cards.",
+            "Very well, I\u0027ll stop authenticating you right away. Feel free to ask me anything else about cards."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

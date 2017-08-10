@@ -1,0 +1,43 @@
+{
+  "userSays": [],
+  "id": "267e5324-5331-419e-b32e-9eb49efb098f",
+  "parentId": "9083ae1d-0615-4d82-a84f-913075942175",
+  "rootParentId": "9083ae1d-0615-4d82-a84f-913075942175",
+  "name": "new_pin_1_reset - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_np_pinknown",
+    "ctx_newpin"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Please select either \"Yes\" if you remember your pin number, or \"No\" if you don\u0027t."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

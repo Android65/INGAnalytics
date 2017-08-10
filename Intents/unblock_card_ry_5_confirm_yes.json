@@ -1,0 +1,57 @@
+{
+  "userSays": [
+    {
+      "id": "693678ec-4bd1-40a1-8588-9f1e849fabfb",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c1352fce-0ded-4311-be41-991f76af458d",
+  "name": "unblock_card_ry_5_confirm_yes",
+  "auto": true,
+  "contexts": [
+    "ctx_uc_ry_final_confirmation",
+    "ctx_use_abroad"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "resetpincodeattempts",
+      "affectedContexts": [
+        {
+          "name": "ctx_uc_ry_final_confirmation",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Great! I have created a request to reset your remaining attempts to 3. Keep in mind that this can take about 24 hours. \n\nIs there anything else I can help you with?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

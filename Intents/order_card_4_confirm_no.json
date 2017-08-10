@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "821e0a49-88cf-4484-a9bf-c51668e50832",
+      "data": [
+        {
+          "text": "that is not what I want"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7cf0e013-3357-4328-bac7-e0702274490e",
+      "data": [
+        {
+          "text": "No that is not correct"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9c71facc-844c-4c1a-b68b-e07cb453bb70",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "89f8fa17-3a14-40b8-8c46-ab16a026f439",
+  "name": "order_card_4_confirm_no",
+  "auto": true,
+  "contexts": [
+    "ctx_order_card",
+    "ctx_oc_final_confirmation"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "showicccontactdetails",
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_oc_final_confirmation",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok, no problem. If I messed up somewhere, don\u0027t hesitate to contact one of my colleagues at the ICC contact centre at +322 464 60 04\n\nCan I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

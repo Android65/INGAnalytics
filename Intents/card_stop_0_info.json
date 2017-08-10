@@ -1,0 +1,106 @@
+{
+  "userSays": [
+    {
+      "id": "ba64d25a-0165-4aa0-8046-da09117c27e1",
+      "data": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "call",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " Card Stop. Can you give me the number?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "31707332-a85a-4962-b952-5984a4aeb550",
+      "data": [
+        {
+          "text": "I need to call Card Stop."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8f04914a-0e7e-42c5-956b-1cf6d9e989ec",
+      "data": [
+        {
+          "text": "can you give me the number of card stop please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "5425ce76-03b9-4865-9c55-832adb080775",
+      "data": [
+        {
+          "text": "card stop number"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d2ffae5e-bbbc-4fed-b039-42c202f2b40b",
+      "data": [
+        {
+          "text": "Number of card stop please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "fed2145b-c903-49c1-9f52-a343a7a030f0",
+  "name": "card_stop_0_info",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "title": "Card Stop",
+          "imageUrl": "https://www.ing.be/Assets/Images/CardStop.png",
+          "buttons": [
+            {
+              "text": "+32 70 344 344"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Call Card Stop immediately when your card is stolen or lost at +32 70 344 344!\nCan I help you with anything else?",
+            "You can call Card Stop at +32 70 344 344! Do this immediately when your card is stolen or lost.\nCan I help you with anything else?",
+            "The number of Card Stop is +32 70 344 344!  For more info see https://www.ing.be/en/retail/cardstop\nCan I help you with anything else?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

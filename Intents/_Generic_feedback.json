@@ -1,0 +1,67 @@
+{
+  "userSays": [
+    {
+      "id": "fa22f469-84c9-4bab-ab82-8f583734baf7",
+      "data": [
+        {
+          "text": "Can I suggest some changes?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b3d0ad89-020b-48e9-b897-1b61ba4e26e7",
+      "data": [
+        {
+          "text": "How can I make suggestions to your makers?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "db0742d5-8562-424f-b93b-f7ecc10e9a75",
+      "data": [
+        {
+          "text": "How do I give feedback"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3d68956a-c8ef-4b58-af97-7380bb7adefb",
+      "data": [
+        {
+          "text": "I want to give feedback"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "60edf02c-4795-45e4-af31-39e8c3e39cd1",
+  "name": "_Generic_feedback",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "If you want to provice feedback in order to improve my behaviour, you can send a mail to chatbot@ing.be or type \"something went wrong\" if I do something unexpected. Thank you for wanting to improve my behaviour :)"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

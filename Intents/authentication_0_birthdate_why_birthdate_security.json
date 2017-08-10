@@ -1,0 +1,223 @@
+{
+  "userSays": [
+    {
+      "id": "4046f9e9-f006-40e2-8c8c-1d0bfe8dbf7a",
+      "data": [
+        {
+          "text": "can I trust you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7f9bb3b1-65e4-489f-aae0-96bfac190ea7",
+      "data": [
+        {
+          "text": "why should I do this?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0e47949a-ef5c-4a84-8f66-86bb98882ae5",
+      "data": [
+        {
+          "text": "why do you need this personal info?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "88d68b12-5821-4de1-8838-dc485c807864",
+      "data": [
+        {
+          "text": "but why?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ac472ecc-4d37-4476-a002-b336b980a82c",
+      "data": [
+        {
+          "text": "why?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0e3f9816-2284-47a9-8de3-28c76672909b",
+      "data": [
+        {
+          "text": "I\u0027m not so sure of giving this away!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "76a07011-08d8-4cc3-8398-d0f8453307aa",
+      "data": [
+        {
+          "text": "Do I really need to give this?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9093aaa5-076e-4e53-974e-5a9cf7f68233",
+      "data": [
+        {
+          "text": "Why do I need to give this to you?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cb8a5ba3-0fba-4d83-94ed-23d4afb97ad8",
+      "data": [
+        {
+          "text": "Why should I share this?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "91a0dc7e-e03e-48d2-b4f6-5eb283c500a7",
+      "data": [
+        {
+          "text": "Are you going to send this info somewhere?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b82c0831-26b3-459b-a6e2-917429b90266",
+      "data": [
+        {
+          "text": "Can I trust this?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f21e55fd-65cd-484c-8907-a48bfc67fd24",
+      "data": [
+        {
+          "text": "How can I trust this?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "95ced4f7-b31c-4753-ab10-9fae83a0befd",
+      "data": [
+        {
+          "text": "Is this secure?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ac0bf1dc-670a-4704-b18a-5470003dfb23",
+      "data": [
+        {
+          "text": "Is security ensured?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "51eae113-1b60-433b-973a-6cca9f6748cb",
+      "data": [
+        {
+          "text": "What is the security?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "79fb6192-2973-4cec-b5e9-1fe942a75daa",
+      "data": [
+        {
+          "text": "Why do I need to give you my birthday?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d5464734-2379-49c9-89d1-3717b2e098f5",
+      "data": [
+        {
+          "text": "Why do you need my birthdate?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "720a7093-fb3b-4a6a-875c-6bd6f44deeb9",
+      "data": [
+        {
+          "text": "Wait, is this secure?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4075d9f6-c5d7-4513-bf96-c87d7182a318",
+  "name": "authentication_0_birthdate_why_birthdate_security",
+  "auto": true,
+  "contexts": [
+    "ctx_sa_birthdate",
+    "ctx_sms_authentication"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_sa_birthdate",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_sms_authentication",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Good question! I only need your birthday to identify you in our systems and will transmit this information securely. I will never ask any other detail -- as you know, you should never give out your account details, passwords, PINs etc. over the internet. So, if you\u0027d like to continue, please give me your birthdate."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 750000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,62 @@
+{
+  "userSays": [
+    {
+      "id": "11304554-1656-44cc-9f07-7baaa329b56c",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "829f318f-d031-41b5-9ce4-5fd5e915348b",
+  "name": "unblock_card_rn_5_confirm_yes",
+  "auto": true,
+  "contexts": [
+    "ctx_uc_final_confirmation",
+    "ctx_unblock_card_rn"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sendpincodetolegaladdress",
+      "affectedContexts": [
+        {
+          "name": "ctx_uc_final_confirmation",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_unblock_card_rn",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "name": "cardGUID",
+          "value": "#ctx_unblock_card_rn.cardGUID"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "**Middleman responds**"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

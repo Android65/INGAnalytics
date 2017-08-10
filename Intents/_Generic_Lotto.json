@@ -1,0 +1,89 @@
+{
+  "userSays": [
+    {
+      "id": "ef6f44f0-520f-4e4a-ac2d-d5d3cb210353",
+      "data": [
+        {
+          "text": "What\u0027s the Lotto winning combination?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c8f368f1-4a05-41a1-af5c-40fe862e3f10",
+      "data": [
+        {
+          "text": "Do you have Euromillion numbers?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "71806620-92fd-458b-81ac-8a21466e9ac0",
+      "data": [
+        {
+          "text": "What are the Lotto numbers?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e51786ea-9314-416c-9ce2-4fca7b8e5f92",
+      "data": [
+        {
+          "text": "I want to play Lotto"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2a1cdbb8-2c8f-4235-bf90-38fac86bde92",
+      "data": [
+        {
+          "text": "Do you have the lotto numbers?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dc02e09b-55f6-41e1-b03e-29bd35c94b47",
+      "data": [
+        {
+          "text": "Can you give me the winning numbers of the lotto?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "9cc6b030-16fd-401f-8d37-0858f658ae8a",
+  "name": "_Generic_Lotto",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Unfortunately I don\u0027t have a crystal ball. My guess is as good as yours :-) Do you need any help with your ING bank card?",
+            "I can\u0027t tell you the Lotto numbers. It is my secret, sorry. :-) Can I help you with cards instead?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "690f6618-b860-444c-b0cd-a1a5071637fd",
+  "name": "authentication_e_confirmation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ok, I\u0027m on it, please hold."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "smsauth_confirmation"
+    }
+  ]
+}

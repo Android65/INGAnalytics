@@ -1,0 +1,79 @@
+{
+  "userSays": [
+    {
+      "id": "578869ab-6177-4d20-b71f-d5cf2ae19aab",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "340baca0-e86f-470f-a438-17483930b575",
+      "data": [
+        {
+          "text": "No I am not"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b2f1b430-8a81-46ef-918b-a960efa836f7",
+      "data": [
+        {
+          "text": "I\u0027m not a customer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7d7d9061-5615-44f2-b4cc-97a47e8d025b",
+  "name": "order_card_1_nocustomer",
+  "auto": true,
+  "contexts": [
+    "ctx_order_card",
+    "ctx_oc_clarification"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_order_card",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_oc_clarification",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Only ING customers can order an ING bank card. Therefore you can open a free account ING Lion Account by going to www.ing.be/lionaccount.\nCan I help you with anything else?",
+            "You need to be an ING customer to order a bank card. You can become one by opening a free ING Lion account via our website. To do so, please go to www.ing.be/lionaccount.\nCan I help you with anything else?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

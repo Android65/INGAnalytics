@@ -1,0 +1,39 @@
+{
+  "userSays": [],
+  "id": "cf1888dd-4b4e-4961-984e-0008798bf26a",
+  "name": "card_delivery_0 - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_card_delivery",
+    "ctx_cd_confirmation_initial"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Please answer yes, or no if you do not want to proceed."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

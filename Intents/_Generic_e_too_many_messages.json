@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "c7da1ef3-d1e4-4fb8-b638-a1e612552985",
+  "name": "_Generic_e_too_many_messages",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Whoa, You\u0027re sending a lot of messages, really. That\u0027s pretty strange. I\u0027ll block this conversation for 1h. Try again then."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "generic_too_many_messages"
+    }
+  ]
+}

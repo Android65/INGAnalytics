@@ -1,0 +1,136 @@
+{
+  "userSays": [
+    {
+      "id": "e5c1e31c-71b3-4b21-bfa4-504547567e79",
+      "data": [
+        {
+          "text": "I am in a foreign country"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "cea10e5c-2830-4b16-96f3-5a471b7f42b7",
+      "data": [
+        {
+          "text": "I am not in "
+        },
+        {
+          "text": "Belgium",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "8f6b043e-dc47-492d-a665-f886d4489dfd",
+      "data": [
+        {
+          "text": "I am out of "
+        },
+        {
+          "text": "Belgium",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8e5bfe70-d7f4-41ea-88f0-62999075aca0",
+      "data": [
+        {
+          "text": "I am abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "00978fca-c95a-416d-b579-13d8ad99079c",
+      "data": [
+        {
+          "text": "I am not in the country"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "886a44f7-ed60-4cc0-a2fc-eb34496b14b9",
+      "data": [
+        {
+          "text": "I am on holidays"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c09eceac-5e84-47ec-a171-153988125d6d",
+      "data": [
+        {
+          "text": "I am on vacation"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3a8cc67b-a311-4d31-9c7d-ab37631b5ca1",
+      "data": [
+        {
+          "text": "I am travelling"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9e65ce63-176e-4b5a-908e-cc5d53eff405",
+      "data": [
+        {
+          "text": "I am currently abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a0e2377e-3cfa-4b49-8a14-69574ab95fd1",
+  "name": "_Generic_Abroad",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_generic_abroad",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hope you\u0027re having fun over there. And what can I do for you?",
+            "I see! And what can I do for you?",
+            "Lovely to see you traveling the world! Can I do anything for you?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

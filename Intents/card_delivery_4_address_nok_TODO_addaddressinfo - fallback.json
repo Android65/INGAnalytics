@@ -1,0 +1,42 @@
+{
+  "userSays": [],
+  "id": "860df4ef-e935-44df-8d19-4c021153035f",
+  "parentId": "c66b27b6-a61a-45f9-941c-f54ca48fdb8b",
+  "rootParentId": "c66b27b6-a61a-45f9-941c-f54ca48fdb8b",
+  "name": "card_delivery_4_address_nok_TODO_addaddressinfo - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_cd_wait_branch_icc",
+    "ctx_card_delivery",
+    "ctx_cd_address_nok"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Call ICC",
+            "Send to branch"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Please select one of the two following options:"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

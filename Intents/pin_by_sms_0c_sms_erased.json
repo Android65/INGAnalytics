@@ -1,0 +1,210 @@
+{
+  "userSays": [
+    {
+      "id": "139a264d-15b4-4bc6-89ac-a3d2db5e8923",
+      "data": [
+        {
+          "text": "SMS was erased from my mobile "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "after 2 days",
+          "alias": "date-period",
+          "meta": "@sys.date-period",
+          "userDefined": false
+        },
+        {
+          "text": " before I was able to use it and I want to do the process again."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dbd802e8-21a7-4db9-b470-bf55b7331e70",
+      "data": [
+        {
+          "text": "Why is my pin no longer on my "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e631bb1a-a506-4630-9e12-8379f3f8a1b4",
+      "data": [
+        {
+          "text": "The SMS with my pin code was erased."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "71c70e8b-c723-4bb0-8cae-9bf72b2abad0",
+      "data": [
+        {
+          "text": "The SMS was erased from my "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": ".."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6c35a773-adb9-4217-89b2-0b2e93ee2780",
+      "data": [
+        {
+          "text": "The sms with the code disapeared"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "0c13f770-b5b9-4f25-8286-46a0215c5f86",
+      "data": [
+        {
+          "text": "I received my pin code, but it was erased from my "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e5710670-2bd6-4011-b9d9-8a43aa7fffd9",
+      "data": [
+        {
+          "text": "The pin was erased from my "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0abc02e0-d328-468f-abee-0603d43a0e03",
+      "data": [
+        {
+          "text": "My pin code was deleted when I received it as sms"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cac19f82-2cd0-4f53-9c8d-6f876c04fb45",
+      "data": [
+        {
+          "text": "I\u0027ve received my pin code by SMS but it was erased"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d965603-76ef-4500-9561-502ffb5c7acc",
+      "data": [
+        {
+          "text": "I\u0027ve erased my SMS with my pin code"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "15f6d3b9-ea8a-435b-b65b-7644f00a8d27",
+      "data": [
+        {
+          "text": "I\u0027ve received my pin code by SMS but was erased"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e138e881-af66-4dc6-86de-c40d3811e63c",
+  "name": "pin_by_sms_0c_sms_erased",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:smserased",
+      "affectedContexts": [
+        {
+          "name": "ctx_pin_by_sms",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_sms_reason",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@AssistanceType",
+          "name": "AssistanceType",
+          "value": "$AssistanceType",
+          "isList": false
+        },
+        {
+          "dataType": "@sys.date-period",
+          "name": "date-period",
+          "value": "$date-period",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

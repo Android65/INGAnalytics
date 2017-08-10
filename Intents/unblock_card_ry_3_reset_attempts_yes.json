@@ -1,0 +1,61 @@
+{
+  "userSays": [
+    {
+      "id": "70d9a8a6-30a7-4299-9382-1cd22ecf00e1",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "fb6441f6-c835-4d8e-b102-ff51e1e99653",
+  "name": "unblock_card_ry_3_reset_attempts_yes",
+  "auto": true,
+  "contexts": [
+    "ctx_uc_reset",
+    "ctx_unblock_card_ry"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "activecardlist",
+      "affectedContexts": [
+        {
+          "name": "ctx_uc_reset",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_uc_card_selection",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "ctx_unblock_card_ry",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "For which card would you like to reset the PIN code attempts?",
+            "Can you please select the card where you want to reset the PIN?",
+            "Please choose your card. I will then reset the PIN code attempts for the card selected."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

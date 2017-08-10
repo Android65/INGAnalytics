@@ -1,0 +1,95 @@
+{
+  "userSays": [
+    {
+      "id": "34b1a456-3382-4603-aff0-d81b7f4efae8",
+      "data": [
+        {
+          "text": "do you have info on cards"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "58779f70-bdb3-4162-9926-fa556239f664",
+      "data": [
+        {
+          "text": "I need advice"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "3bcbbbee-875f-459c-82d9-a20b63955fa1",
+      "data": [
+        {
+          "text": "I need more info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6c4a21cf-6a08-4807-801e-63b219ac4357",
+      "data": [
+        {
+          "text": "I need advice on cards"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "e12e366e-665a-4237-823d-e4ead8f6c5fc",
+      "data": [
+        {
+          "text": "I want a card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c236495b-52e3-4fac-b6d0-dbe1c5d8cec4",
+      "data": [
+        {
+          "text": "Hello, I need advice on cards\n."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a38d2503-38f6-4271-a6c3-739c9f246bb1",
+  "name": "Generic_Advice_0_Test",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "Ctx_Advice",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hello, I \u0027ll do my best to assist you. Can you be more specific :-) E.g: Info on our card products (Debit or credit), Are you going abroad with your card…?",
+            "Hi! Pleasure to talk to you. Did you have a more specific question in mind? I can answer questions regarding debit and credit cards. What can I do for you?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

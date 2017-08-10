@@ -1,0 +1,109 @@
+{
+  "userSays": [
+    {
+      "id": "57d72efe-3dfe-422b-8c0f-4a51ab0df6f8",
+      "data": [
+        {
+          "text": "that is not what I wanted"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fc29b80b-9558-422e-876a-6c38ff2b5bc3",
+      "data": [
+        {
+          "text": "no thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "457a319b-de7d-492f-a7cb-fb69749794fb",
+      "data": [
+        {
+          "text": "I don\u0027t want to proceed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bb41a808-3aac-4143-9917-10d85b3bf848",
+      "data": [
+        {
+          "text": "I do not"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f163aefb-700b-4cb7-a84d-a46d6769d1db",
+      "data": [
+        {
+          "text": "nope"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d9586c19-accd-48ce-859b-6b17602ce527",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "fd0e52f9-97b9-495c-bfce-61f4fe71f6ef",
+  "name": "card_delivery_1_no",
+  "auto": true,
+  "contexts": [
+    "ctx_card_delivery",
+    "ctx_cd_confirmation_initial"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "showicccontactdetails",
+      "affectedContexts": [
+        {
+          "name": "ctx_card_delivery",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_cd_confirmation_initial",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Okay, if you do not feel comfortable authenticating through me, or if I have misunderstood your question, do no hesitate to contact the ING Contact Centre at +32 2 464 60 04.\n\nIs there anything else I can help you with?"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

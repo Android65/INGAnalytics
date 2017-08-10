@@ -1,0 +1,102 @@
+{
+  "userSays": [
+    {
+      "id": "b66f6398-089b-4768-982a-fc864fe47576",
+      "data": [
+        {
+          "text": "ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1b61c3dd-de92-4038-b82f-c74217439e8b",
+      "data": [
+        {
+          "text": "okay"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1a6c344-3a61-4386-975c-da168bee9767",
+      "data": [
+        {
+          "text": "please do"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dfe8de69-9a9e-416b-871d-f58ef22bbf57",
+      "data": [
+        {
+          "text": "yes please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f792d562-9b08-4292-9cbe-eb1e3c609fee",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7d00c3eb-0307-458b-9ff8-889a735fb64f",
+  "name": "info_charges_abroad_3_non_eurozone_activate",
+  "auto": true,
+  "contexts": [
+    "ctx_ica_activate",
+    "ctx_info_charges_abroad"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:useabroadnoneurope",
+      "affectedContexts": [
+        {
+          "name": "ctx_ica_activate",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_info_charges_abroad",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ua_country",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,93 @@
+{
+  "userSays": [
+    {
+      "id": "3b42fecf-d4a7-42de-b3d5-57b6e9e1a45c",
+      "data": [
+        {
+          "text": "Activate "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "453bb41a-b103-4ccc-b50d-27359ee0984c",
+      "data": [
+        {
+          "text": "activate"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4be8fdce-47f8-44b7-bbbb-f7716f96f866",
+      "data": [
+        {
+          "text": "I want to activate my card abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    }
+  ],
+  "id": "d3893ee0-11d1-4483-b25a-a6dea770b58b",
+  "name": "activate_card_2_abroad_activate",
+  "auto": true,
+  "contexts": [
+    "ctx_activate_card",
+    "ctx_ac_abroad"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:activateabroad",
+      "affectedContexts": [
+        {
+          "name": "ctx_activate_card",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "ctx_ac_abroad",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_ac_location",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Card_Status_Type",
+          "name": "Card_Status_Type",
+          "value": "$Card_Status_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": ""
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

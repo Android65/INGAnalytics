@@ -1,7 +1,52 @@
 {
   "userSays": [
     {
-      "id": "ae0be8c7-a337-4819-83a7-f21f2846919e",
+      "id": "78a8cd1e-3a37-42e1-9ad5-1cfbb3c3d31f",
+      "data": [
+        {
+          "text": "ING does not know my mobile "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        },
+        {
+          "text": " number"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "38c45b3d-401b-4a96-a146-e8059723d993",
+      "data": [
+        {
+          "text": "I don\u0027t have mobile"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cbdc8d0c-3274-4f56-af36-30e0c453650f",
+      "data": [
+        {
+          "text": "I don\u0027t have a mobile "
+        },
+        {
+          "text": "phone",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a55d2c4c-76b7-435e-b75e-c432842e8cb4",
       "data": [
         {
           "text": "My smartphone is back home"
@@ -11,7 +56,7 @@
       "count": 0
     },
     {
-      "id": "c85954cd-1c31-4d3b-8679-a2d49558e4b9",
+      "id": "b185ae7c-2a38-48e0-b039-569536d9dbec",
       "data": [
         {
           "text": "My "
@@ -36,7 +81,7 @@
       "count": 0
     },
     {
-      "id": "4af859d0-fa71-466b-80f9-77af1beb1106",
+      "id": "1eb18c4a-a529-4066-9803-9dc47a8d4a5c",
       "data": [
         {
           "text": "but I don\u0027t have my "
@@ -52,7 +97,7 @@
       "count": 0
     },
     {
-      "id": "e653e567-0117-43b2-920a-4608a1c5f9f5",
+      "id": "0f7f54eb-e550-4162-816d-174afbfcab40",
       "data": [
         {
           "text": "The authentication was refused"
@@ -62,7 +107,7 @@
       "count": 0
     },
     {
-      "id": "96b3905c-a0d3-4cfe-a6f5-afe80672a21e",
+      "id": "341728af-6d4b-444a-88de-ee5f856363c2",
       "data": [
         {
           "text": "I don\u0027t have my "

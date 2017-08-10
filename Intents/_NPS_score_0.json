@@ -1,16 +1,5 @@
 {
-  "userSays": [
-    {
-      "id": "ac6297a0-99e4-44d7-be8d-90bd99e9d1e7",
-      "data": [
-        {
-          "text": "?"
-        }
-      ],
-      "isTemplate": false,
-      "count": 0
-    }
-  ],
+  "userSays": [],
   "id": "c6028093-515e-4cd0-a43f-cce2c7f7fe54",
   "name": "_NPS_score_0",
   "auto": true,

@@ -1,6 +1,25 @@
 {
   "userSays": [
     {
+      "id": "974d93c1-b077-4a19-9472-67e980c3ca56",
+      "data": [
+        {
+          "text": "I\u0027m in "
+        },
+        {
+          "text": "Canada",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": " but I can\u0027t retrieve money."
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
       "id": "74d58976-1c5c-42ee-8b21-52bb75248536",
       "data": [
         {

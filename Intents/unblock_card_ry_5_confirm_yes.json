@@ -16,7 +16,7 @@
   "auto": true,
   "contexts": [
     "ctx_uc_ry_final_confirmation",
-    "ctx_use_abroad"
+    "ctx_unblock_card_ry"
   ],
   "responses": [
     {
@@ -29,21 +29,26 @@
           "lifespan": 0
         },
         {
-          "name": "ctx_use_abroad",
-          "parameters": {},
-          "lifespan": 0
-        },
-        {
           "name": "ctx_end_of_conversation",
           "parameters": {},
           "lifespan": 1
+        },
+        {
+          "name": "ctx_unblock_card_ry",
+          "parameters": {},
+          "lifespan": 0
         }
       ],
-      "parameters": [],
+      "parameters": [
+        {
+          "name": "cardGUID",
+          "value": "#ctx_unblock_card_ry.cardGUID"
+        }
+      ],
       "messages": [
         {
           "type": 0,
-          "speech": "Great! I have created a request to reset your remaining attempts to 3. Keep in mind that this can take about 24 hours. \n\nIs there anything else I can help you with?"
+          "speech": "Great! I have created a request to reset your remaining attempts to 3. Keep in mind that this can take up to two working days. \n\nIs there anything else I can help you with?"
         }
       ],
       "defaultResponsePlatforms": {}

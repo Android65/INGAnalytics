@@ -178,6 +178,7 @@
   "responses": [
     {
       "resetContexts": false,
+      "action": "endofconversationconfirmed",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
@@ -189,7 +190,8 @@
             "I hope I helped you further, see you next time."
           ]
         }
-      ]
+      ],
+      "defaultResponsePlatforms": {}
     }
   ],
   "priority": 500000,

@@ -79,6 +79,10 @@
           "dataType": "@sys.given-name",
           "name": "firstName",
           "value": "#user_context.firstName"
+        },
+        {
+          "name": "cardGUID",
+          "value": "#ctx_card_delivery.cardGUID"
         }
       ],
       "messages": [

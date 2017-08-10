@@ -69,7 +69,7 @@
         },
         {
           "type": 0,
-          "speech": "My system tells me that this is your delivery address: $address .\nIs this correct?"
+          "speech": "My system tells me that this is your delivery address: $address.\nIs this correct?"
         }
       ],
       "defaultResponsePlatforms": {}

@@ -147,22 +147,19 @@
           "platform": "facebook",
           "title": "",
           "replies": [
-            "Strongly disagree",
             "Disagree",
             "I don\u0027t know",
-            "Agree",
-            "Strongly agree"
+            "Agree"
           ]
         },
         {
           "type": 0,
-          "speech": [
-            "Last question! What do you think about the following statement: \"It\u0027s safe to ask a digital assistant on Facebook Messenger questions about financial products or services.\"?",
-            ""
-          ]
+          "speech": "Last question! What do you think about the following statement: \"It\u0027s safe to ask a digital assistant on Facebook Messenger questions about financial products or services.\"?"
         }
       ],
-      "defaultResponsePlatforms": {}
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
     }
   ],
   "priority": 500000,

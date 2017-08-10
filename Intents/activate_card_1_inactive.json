@@ -56,12 +56,17 @@
         {
           "name": "ctx_activate_card",
           "parameters": {},
-          "lifespan": 5
+          "lifespan": 0
         },
         {
           "name": "ctx_ac_reason",
           "parameters": {},
           "lifespan": 0
+        },
+        {
+          "name": "ctx_inactive_card",
+          "parameters": {},
+          "lifespan": 1
         }
       ],
       "parameters": [],

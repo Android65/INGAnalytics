@@ -1,7 +1,27 @@
 {
   "userSays": [
     {
-      "id": "add355a4-80e2-47b4-9f25-a490b5e2607f",
+      "id": "15bbb245-3a43-4d07-af38-cecaad180bb1",
+      "data": [
+        {
+          "text": "can you block one of my cards?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "849e1fbf-0f1b-47aa-a765-e131aa56c60e",
+      "data": [
+        {
+          "text": "can you block one of those cards for me ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "92244935-0cde-491c-899c-820cb58fa91a",
       "data": [
         {
           "text": "what do i do if i "

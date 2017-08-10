@@ -183,7 +183,7 @@
         },
         {
           "type": 0,
-          "speech": "If you urgently need to use this card, I would advise you to go to the ING branch of your choice during opening hours. My colleagues there can activate your card immediately. \nHowever, if it is not too urgent, I can reset your number of remaining attempts to three. Would you like me do to this? Please keep in mind that I will need to authenticate you first"
+          "speech": "If you urgently need to use this card, I would advise you to go to the ING branch of your choice during opening hours. My colleagues there can activate your card immediately. \n\nHowever, if it is not too urgent, I can reset your number of remaining attempts to 3. Please keep in mind that this can take up to 2 working days.\n\nWould you like me do to this? Please keep in mind that I will need to authenticate you first."
         }
       ],
       "defaultResponsePlatforms": {

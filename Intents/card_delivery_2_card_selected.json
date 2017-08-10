@@ -8,7 +8,7 @@
         },
         {
           "text": "d16374a4-6eef-48fc-aaff-97266b80e33c",
-          "alias": "cardGuid",
+          "alias": "cardGUID",
           "meta": "@sys.any",
           "userDefined": true
         }
@@ -43,8 +43,8 @@
       "parameters": [
         {
           "dataType": "@sys.any",
-          "name": "cardGuid",
-          "value": "$cardGuid",
+          "name": "cardGUID",
+          "value": "$cardGUID",
           "isList": false
         }
       ],

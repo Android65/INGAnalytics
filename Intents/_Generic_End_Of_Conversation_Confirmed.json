@@ -1,6 +1,68 @@
 {
   "userSays": [
     {
+      "id": "59b18d54-3e9c-4b02-8e1f-9dc4b53dba19",
+      "data": [
+        {
+          "text": "Ok thank you! I\u0027ll get back to you when I need to"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "722933e8-fb47-4cd4-a4f6-088655d0b48b",
+      "data": [
+        {
+          "text": "No questions, thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1465b5a-cbb5-431d-8797-d8c4bae9c751",
+      "data": [
+        {
+          "text": "no problem, close the conversation"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1dd55c4f-d1a6-44fc-8c05-54ab4420a533",
+      "data": [
+        {
+          "text": "yes, close the conversation "
+        },
+        {
+          "text": "marie",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "34eaed6b-7e49-4cc5-ae7b-6a8fa1abbe2c",
+      "data": [
+        {
+          "text": "you can close "
+        },
+        {
+          "text": "marie",
+          "alias": "given-name",
+          "meta": "@sys.given-name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
       "id": "26074628-f492-4e4a-a3d2-3d6090635415",
       "data": [
         {
@@ -243,6 +305,12 @@
           "dataType": "@sys.given-name",
           "name": "firstName",
           "value": "#user_context.firstName"
+        },
+        {
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
         }
       ],
       "messages": [

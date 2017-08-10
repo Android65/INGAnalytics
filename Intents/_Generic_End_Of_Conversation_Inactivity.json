@@ -21,7 +21,7 @@
           "speech": [
             "I haven\u0027t heard from you in a while $firstName, so I\u0027ll close this chat fairly soon. Just get back to me when convenient ;)",
             "I haven\u0027t heard from you in a while, so I\u0027ll close this chat fairly soon. Just get back to me when convenient ;)",
-            "I haven\u0027t heard back from you since some time $firstName, so I\u0027ll close this chat quite soon. Feel free to get back to me when convenient ;)"
+            "I haven\u0027t heard from you since some time $firstName, so I\u0027ll close this chat quite soon. Feel free to get back to me when convenient ;)"
           ]
         }
       ],

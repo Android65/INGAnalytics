@@ -200,7 +200,7 @@
             "Typically, you need to activate your debit card first before using it in $UA_Countries_Non_Europe. I can request this activation for you, but keep in mind that I will need to authenticate you to do this. Do you want to proceed?",
             "Debit cards in $UA_Countries_Non_Europe need to be activated before they can be used. I can request this activation for you, but keep in mind that I will need to authenticate you to do this. Do you want to proceed?",
             "The Maestro function on your card needs to be activated in $UA_Countries_Non_Europe in order to use it. I can request this activation for you, but keep in mind that I will need to authenticate you to do this. Do you want to proceed?",
-            "The Maestro function on your card needs to be activated in in order to use it outside Europe. I can request this activation for you, but keep in mind that I will need to authenticate you to do this. Do you want to proceed?"
+            "The Maestro function on your card needs to be activated in order to use it outside Europe. I can request this activation for you, but keep in mind that I will need to authenticate you to do this. Do you want to proceed?"
           ]
         }
       ],

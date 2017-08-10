@@ -802,7 +802,7 @@
         },
         {
           "type": 0,
-          "speech": "I understand that you are looking forward to receive a card from us. This typically takes about ten days. If you like, I can check the delivery status of your card, but for this I will need to authenticate you. Do you want to proceed?"
+          "speech": "I understand that you are looking forward to receive a card from us. This can take up to ten days. If you like, I can check the delivery status of your card, but for this I will need to authenticate you. Do you want to proceed?"
         }
       ],
       "defaultResponsePlatforms": {

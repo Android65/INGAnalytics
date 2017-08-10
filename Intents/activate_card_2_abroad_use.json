@@ -56,12 +56,17 @@
         {
           "name": "ctx_activate_card",
           "parameters": {},
-          "lifespan": 5
+          "lifespan": 0
         },
         {
           "name": "ctx_ac_abroad",
           "parameters": {},
           "lifespan": 0
+        },
+        {
+          "name": "ctx_use_abroad",
+          "parameters": {},
+          "lifespan": 1
         }
       ],
       "parameters": [],

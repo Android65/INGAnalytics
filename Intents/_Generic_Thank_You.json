@@ -1,6 +1,26 @@
 {
   "userSays": [
     {
+      "id": "1e759eb6-009a-4d68-a326-390f04cc6d81",
+      "data": [
+        {
+          "text": "// * UNSUPPORTED MESSAGE FORMAT RECEIVED * //"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "20718275-1227-4a84-8ff5-20405a9e2afd",
+      "data": [
+        {
+          "text": "thumbs up"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
       "id": "5ef690fc-06c3-4447-aaf9-d1a59030bf82",
       "data": [
         {
@@ -29,16 +49,6 @@
       ],
       "isTemplate": false,
       "count": 1
-    },
-    {
-      "id": "6c1e18ce-6d34-4841-9a7e-8cbe26c9f955",
-      "data": [
-        {
-          "text": "// * UNSUPPORTED MESSAGE FORMAT RECEIVED * //"
-        }
-      ],
-      "isTemplate": false,
-      "count": 0
     },
     {
       "id": "bcfe014c-2e3f-4276-87ca-0d509cd082bf",
@@ -362,9 +372,9 @@
           "type": 0,
           "speech": [
             "Happy when you\u0027re happy $firstName :-) Can I help you with something else?",
-            "Perfect $firstName!  Is there anything else I can do for you?",
+            "Perfect $firstName! Is there anything else I can do for you?",
             "Awesome $firstName! What else can I do for you?",
-            "No problem $firstName, s there anything else I can help you with?",
+            "No problem $firstName, is there anything else I can help you with?",
             "Awesome! What else can I do for you?"
           ]
         }

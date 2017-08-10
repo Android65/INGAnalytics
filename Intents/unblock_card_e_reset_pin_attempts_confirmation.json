@@ -12,7 +12,7 @@
       "messages": [
         {
           "type": 0,
-          "speech": "Very well! The number of attempts for the card you selected will be reset within one working day."
+          "speech": "Very well! The number of attempts for the card you selected will be reset within 2 working days."
         }
       ],
       "defaultResponsePlatforms": {}

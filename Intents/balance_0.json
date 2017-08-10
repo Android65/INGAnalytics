@@ -1,6 +1,46 @@
 {
   "userSays": [
     {
+      "id": "62f9130e-c0b0-47ce-a7e9-e47966b3383f",
+      "data": [
+        {
+          "text": "does my account have money on it?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "85c7bca5-3a57-492a-a1dd-558fe695826f",
+      "data": [
+        {
+          "text": "do i have money?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8f974cab-4cbc-440f-96ee-0eee4e377548",
+      "data": [
+        {
+          "text": "do i have money on my account?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "81d5a4a4-524b-46e0-bfe4-cb1572d14314",
+      "data": [
+        {
+          "text": "how much money is there on my bank account?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
       "id": "bd08e14b-3c49-4296-949f-e7ca08c754c5",
       "data": [
         {

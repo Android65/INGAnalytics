@@ -460,9 +460,9 @@
         {
           "type": 0,
           "speech": [
-            "Hi, I can help you with questions and requests about ING bank cards. I\u0027m the perfect help if you need to activate your card or if you are in need of a new card for example. More details on the conditions: ing.be/marie",
-            "Hi $firstName, I can help you with questions and requests about ING bank cards. You can ask me about your card delivery or activation and I\u0027ll do my best to help if you have any issues abroad. More details on the conditions: ing.be/marie",
-            "Greetings $firstName! I can help you with questions and requests about ING bank cards. If you have questions regarding your PIN by SMS for example, I\u0027m your best friend ;-) More details on the conditions: ing.be/marie"
+            "Hi, I can help you with questions and requests about ING bank cards. I\u0027m the perfect help if you need to activate your card or if you are in need of a new card for example. More details on the terms and conditions: ing.be/marie",
+            "Hi $firstName, I can help you with questions and requests about ING bank cards. You can ask me about your card delivery or activation and I\u0027ll do my best to help if you have any issues abroad. More details on the terms and conditions: ing.be/marie",
+            "Greetings $firstName! I can help you with questions and requests about ING bank cards. If you have questions regarding your PIN by SMS for example, I\u0027m your best friend ;-). More details on the terms and conditions: ing.be/marie"
           ]
         }
       ],

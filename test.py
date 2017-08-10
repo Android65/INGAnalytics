@@ -3,15 +3,22 @@ import json
 import csv
 
 #This file contains a lot of helper methods that I mostly use to search intents, it has nothing to do with Analytics
+#These methods are for testing purposes only, so don't judge the code quality ;)
 
 
 def findEvents():
-    for filename in os.listdir("C:\\Users\\demeyde\\Desktop\\ING\\Analytics\\Intents"):
+    for filename in os.listdir("C:\\Users\\demeyde\\Documents\\Craftworkz\\INGAnalytics\\Intents"):
         if "fallback" in filename.lower() or "_Generic" in filename or not any(i.isdigit() for i in filename):
             continue
-        with open("C:\\Users\\demeyde\\Desktop\\ING\\Analytics\\Intents\\"+filename,"r",encoding='utf8') as file:
+        with open("C:\\Users\\demeyde\\Documents\\Craftworkz\\INGAnalytics\\Intents\\"+filename,"r",encoding='utf8') as file:
+            jsondict = json.load(file)
             try:
-                jsondict = json.load(file)
+                events = jsondict["events"]
+                print(events[0]["name"])
+                print(filename)
+                print("--------------------")
+            except:
+                continue
 
 def contextToUseCase(contextnamelist):
     usecaselist = []
@@ -46,7 +53,7 @@ def checkContexts():
     for filename in os.listdir("C:\\Users\\demeyde\\Desktop\\ING\\Analytics\\Intents"):
         if "fallback" in filename.lower() or "_Generic" in filename or not any(i.isdigit() for i in filename):
             continue
-        with open("C:\\Users\\demeyde\\Desktop\\ING\\Analytics\\Intents\\"+filename,"r",encoding='utf8') as file:
+        with open("C:\\Users\\demeyde\\Documents\\Craftworkz\\INGAnalytics\\Intents\\"+filename,"r",encoding='utf8') as file:
             try:
                 jsondict = json.load(file)
             except Exception as e:
@@ -226,19 +233,18 @@ def getIntentsWithActions():
                 else:
                     continue
 
-def checkReplies():
-    for filename in os.listdir("C:\\Users\\demeyde\\Desktop\\ING\\Analytics\\Intents"):
+def checkReplies(utterance):
+    for filename in os.listdir("C:\\Users\\demeyde\\Documents\\Craftworkz\\INGAnalytics\\Intents"):
         intentname = filename.split(".")[0]
-        with open("C:\\Users\\demeyde\\Desktop\\ING\\Analytics\\Intents\\"+filename,"r", encoding='utf8') as file:
+        with open("C:\\Users\\demeyde\\Documents\\Craftworkz\\INGAnalytics\\Intents\\"+filename,"r", encoding='utf8') as file:
             jsondict = json.load(file)
             messagedict = jsondict["responses"][0]["messages"]
             for reply in messagedict:
                 try:
                     #print(reply["speech"])
-                    if "help" in reply["speech"].lower():
-                        if "generic" in intentname.lower():
-                            print(intentname)
-                            print(reply["speech"])
+                    if utterance in reply["speech"]:
+                        print(intentname)
+                        print(reply["speech"])
                 except: pass
 
 
@@ -247,9 +253,9 @@ def findIntentJumps():
     actiondict = {}
     #Build intentname,event dict
     eventdict = {}
-    for filename in os.listdir("C:\\Users\\demeyde\\Desktop\\ING\\Analytics\\Intents"):
+    for filename in os.listdir("C:\\Users\\demeyde\\Documents\\Craftworkz\\INGAnalytics\\Intents"):
         intentname = filename.split(".")[0]
-        with open("C:\\Users\\demeyde\\Desktop\\ING\\Analytics\\Intents\\"+filename,"r", encoding='utf8') as file:
+        with open("C:\\Users\\demeyde\\Documents\\Craftworkz\\INGAnalytics\\Intents\\"+filename,"r", encoding='utf8') as file:
             jsondict = json.load(file)
             messagedictlow = jsondict["responses"][0]
             messagedict = jsondict["responses"][0]["messages"]
@@ -298,11 +304,11 @@ def categorizeIntents(self):
         finaldict[usecase] = {"ContextName": context, "Intents":
             {"Start": [], "Intermediate": [], "End": [], "Fallback": [], "Jump": []}}
 
-    for filename in os.listdir("C:\\Users\\demeyde\\Desktop\\ING\\Analytics\\Intents"):
+    for filename in os.listdir("C:\\Users\\demeyde\\Documents\\Craftworkz\\INGAnalytics\\Intents"):
         intentname = filename.split(".")[0]
 
         # Open the file
-        with open("C:\\Users\\demeyde\\Desktop\\ING\\Analytics\\Intents\\" + filename, "r",
+        with open("C:\\Users\\demeyde\\Documents\\Craftworkz\\INGAnalytics\\Intents" + filename, "r",
                   encoding='utf8') as file:
             hasinput = True
             hasoutput = True
@@ -363,12 +369,6 @@ def categorizeIntents(self):
                                                       contextname=incontext, category="Jump")
     return finaldict
 
-def testOSwalk():
-    for root,dirs,files in os.walk("C:\\Users\\demeyde\\Desktop\\ING\\Analytics"):
-        print(root)
-        print(dirs)
-        print(files)
-        print("-----------------------------")
-
-
-testOSwalk()
+#utt = "Are you sure?"
+#checkReplies(utt)
+findEvents()

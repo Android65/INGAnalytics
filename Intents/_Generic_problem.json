@@ -1,7 +1,27 @@
 {
   "userSays": [
     {
-      "id": "c67285b1-423e-4c66-9957-ce072022624c",
+      "id": "928de244-2fa5-4077-903a-1aba6bb49be0",
+      "data": [
+        {
+          "text": "please help me, I have a problem"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f84d2a84-ffe6-4b28-a1db-25fe863bbb79",
+      "data": [
+        {
+          "text": "can you help me?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "424a2307-d360-4f4b-ad6b-87686336cd4f",
       "data": [
         {
           "text": "My card does not work anymore"
@@ -11,7 +31,7 @@
       "count": 1
     },
     {
-      "id": "6c8b6254-b04f-46d0-819b-57e2da61a40d",
+      "id": "db21dcc4-953c-4053-ab5e-aff22d0b59b3",
       "data": [
         {
           "text": "My card starts to malfunction"
@@ -21,7 +41,7 @@
       "count": 0
     },
     {
-      "id": "7be733e7-452e-4516-bc00-08687997dd89",
+      "id": "9a540fd9-8bda-4f5a-af1c-993ec0dd3219",
       "data": [
         {
           "text": "My card is malfunctioning"
@@ -31,7 +51,7 @@
       "count": 1
     },
     {
-      "id": "b94a1748-7d9e-4815-864b-b61debe27e82",
+      "id": "d6a6835f-5033-42b1-a6a5-3111ecb073c3",
       "data": [
         {
           "text": "My card "
@@ -50,7 +70,7 @@
       "count": 1
     },
     {
-      "id": "40481870-3eaf-43bc-aab8-c5a593aa08bd",
+      "id": "ffb0a784-68eb-42af-85bb-fcd97156256f",
       "data": [
         {
           "text": "I have a "
@@ -69,7 +89,7 @@
       "count": 1
     },
     {
-      "id": "644602c2-eef1-49cc-9e94-42f3a72df08a",
+      "id": "c2c2df23-6f48-4b7d-ab39-58585e4e8e90",
       "data": [
         {
           "text": "I was out last night and my card was in jeans and I "

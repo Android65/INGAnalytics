@@ -1,0 +1,4 @@
+HOeveel mensen zeggen no initieel
+hoeveel no bij authenticatie
+Sentiment bij use case
+NPS score

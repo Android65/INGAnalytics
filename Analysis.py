@@ -1,7 +1,4 @@
 from collections import Counter
-import networkx as nx
-import plotly.offline as po
-from plotly.graph_objs import *
 import os
 import time
 import json
@@ -273,7 +270,6 @@ class Analysis:
                         finaldict = self.addToUseCaseDict(usecasedict=finaldict, intentname=intentname,
                                                      contextname=incontext,
                                                      category="Jump")
-        print(finaldict)
         return finaldict
 
 
@@ -312,7 +308,7 @@ class Analysis:
             print(person.fName)
             print(person.lName)
             print("-------------------")
-
+'''
     def cleanNetworkEdges(self,intentlist):
         for index, item in enumerate(intentlist):
             if "Generic" in item:
@@ -431,7 +427,7 @@ class Analysis:
         pos = nx.spring_layout(G,pos=initPosition)
         self.visualizeNetwork(G,pos)
 
-
+'''
 
 
 

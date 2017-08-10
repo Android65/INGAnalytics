@@ -121,7 +121,7 @@ class Analysis:
         templist = []
         for conversation in self.conversationlist:
             conversation.utteranceList.sort(key=lambda x: x.timeStamp, reverse=False)
-            if conversation.utteranceList[0].intentName == "Default Fallback Intent":
+            if conversation.utteranceList[0].intentName == "Default_Fallback_Intent":
                 timestamp = time.localtime(int(conversation.utteranceList[0].timeStamp / 1000))
                 prevStamp = time.strftime('%Y-%m-%d %H:%M:%S', timestamp)
                 templist.append([conversation.id, prevStamp, "None", "None", "None", conversation.utteranceList[0].inputUtt])
@@ -130,7 +130,7 @@ class Analysis:
                 timestamp = time.localtime(int(prevUtt.timeStamp / 1000))
                 prevStamp = time.strftime('%Y-%m-%d %H:%M:%S', timestamp)
                 currUtt = conversation.utteranceList[i + 1]
-                if "Default Fallback" in currUtt.intentName:
+                if "Default_Fallback_Intent" in currUtt.intentName:
                     templist.append([conversation.id,prevStamp,prevUtt.inputUtt,prevUtt.intentName,str(prevUtt.replyUtt),currUtt.inputUtt,currUtt.intentName])
         templist.sort(key = lambda x: x[CONVERSATIONIDINDEX])
         for element in templist:
@@ -155,6 +155,7 @@ class Analysis:
                 for usecase in intentDict:
                     entryintents = intentDict[usecase]["Intents"]["Start"]
                     exitintents = intentDict[usecase]["Intents"]["End"]
+                    exitintents.extend(intentDict[usecase]["Intents"]["Jump"])
                     if not set(intentList).isdisjoint(entryintents):
                         newstamp = time.strftime('%Y-%m-%d %H:%M:%S',
                                                  time.localtime(conversation.firstUttTime / 1000))
@@ -204,12 +205,13 @@ class Analysis:
             finaldict[usecase] = {"ContextName": context, "Intents":
                 {"Start": [], "Intermediate": [], "End": [], "Fallback": [], "Jump": []}}
 
-        for filename in os.listdir("C:\\Users\\demeyde\\Desktop\\ING\\Analytics\\Intents"):
+        dir = os.getcwd()
+        intentdir = os.path.join(dir,"Intents")
+        for filename in os.listdir(intentdir):
             intentname = filename.split(".")[0]
 
             # Open the file
-            with open("C:\\Users\\demeyde\\Desktop\\ING\\Analytics\\Intents\\" + filename, "r",
-                      encoding='utf8') as file:
+            with open(os.path.join(intentdir,filename), "r", encoding='utf8') as file:
                 hasinput = True
                 hasoutput = True
                 jsondict = json.load(file)
@@ -271,6 +273,7 @@ class Analysis:
                         finaldict = self.addToUseCaseDict(usecasedict=finaldict, intentname=intentname,
                                                      contextname=incontext,
                                                      category="Jump")
+        print(finaldict)
         return finaldict
 
 

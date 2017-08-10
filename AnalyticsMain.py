@@ -5,8 +5,8 @@ from Person import Person
 from Analysis import Analysis
 import re
 
-
-DEBUG = True
+STARTDATE = 20170808
+DEBUG = False
 '''
 Person
     ID
@@ -16,7 +16,8 @@ Person
 Conversation
     [Utterance]
 '''
-
+dir = os.getcwd()
+LOGDIR = "T:\\Marie\\Log\\Production\\MiddleMan_IN"
 
 def checkAndAdd(personList,newPerson):
     for persons in personList:
@@ -35,7 +36,9 @@ def buildIntentDict():
     intentList = []
     #This loop builds a set of use cases and a list of intents
     #The json files in the folder are provided by exporting Marie from api.ai and copying the intent json files into the Intents folder
-    for filename in os.listdir("C:\\Users\\demeyde\\Desktop\\ING\\Analytics\\Intents"):
+    dir = os.getcwd()
+    folderdir = os.path.join(dir,"Intents")
+    for filename in os.listdir(folderdir):
         #We don't add tests
         if filename[0] == "_" and filename[1] == "_":
             continue
@@ -46,7 +49,7 @@ def buildIntentDict():
         group = re.split('(\D+)', intentname)[1].strip("_")
         #Since there are a lot of different Generic use cases, we bundle them all in one.
         group = "Generic" if "Generic" in group else group
-        group = "unblock_card" if ("rn" in group or "ry" in group) else group
+        group = "unblock_card" if ("_rn" in group or "_ry" in group) else group
         useCase.add(group)
 
     #This loop builds the intent dictionary. There is probably a better way to build the dict in the previous loop, but the performance loss is minimal
@@ -68,24 +71,32 @@ if not DEBUG:
     personList = []
 
     #Returns all filenames in the folder
-    count = len(os.listdir("C:\\Users\\demeyde\\Desktop\\ING\\Analytics\\JSON"))
+    count = sum(len(files) for r,d,files in os.walk(LOGDIR))
+    print(count)
     current = 1
-    for filename in os.listdir("C:\\Users\\demeyde\\Desktop\\ING\\Analytics\\JSON"):
-        print(filename)
-        #Discards non json files
-        if ".json" not in filename:
+    for root,dir,files in os.walk(LOGDIR):
+        try:
+            if int(root[-8:]) < STARTDATE:
+                continue
+        except:
             continue
-        with open("C:\\Users\\demeyde\\Desktop\\ING\\Analytics\\JSON\\"+filename,"rb") as data_file:
-            data = json.load(data_file)
-            for key,element in data.items():
-                personList = checkAndAdd(personList,element)
-        current += 1
-        print("Progress:"+str((current*100/count))+"%")
+        for filename in files:
+            #Discards non json files
+            if ".txt" not in filename:
+                continue
+            with open(os.path.join(root,filename),"rb") as data_file:
+                data = json.load(data_file)
+                for key,element in data.items():
+                    personList = checkAndAdd(personList,element)
+            current += 1
+            print("Progress:"+str((current*100/count))+"%")
     pickle.dump(personList,open("personlist.pickle","wb"))
 
 
 #For analysis, we build a list on three different levels: Persons,Conversations and Utterances
-else:
+go = input("Press Enter if you want to analyse")
+if go == "": DEBUG = True
+if DEBUG:
     personList = pickle.load(open("personList.pickle","rb"))
     conversationList = []
     utteranceList = []
@@ -105,19 +116,3 @@ else:
     #a.getFallbackConversations()
     #a.getFailedConversations()
     #a.buildGraph()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

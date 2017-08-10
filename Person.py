@@ -32,6 +32,9 @@ class Person:
                     self.parseMessageDict(messageDict)
 
     def parseMessageDict(self,messageDict):
+        #Discard marie message
+        if "back to me when convenient" in messageDict["text"]:
+            return
         # Make a new conversation if there is none yet
         if self.convList == []:
             conv = Conversation()

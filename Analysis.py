@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from collections import Counter
 import os
 import time
@@ -7,6 +8,7 @@ from openpyxl.compat import range
 from openpyxl.styles import NamedStyle, builtins, Alignment
 from openpyxl.worksheet.filters import SortCondition
 import openpyxl.utils as util
+import csv
 
 
 
@@ -72,22 +74,27 @@ class Analysis:
         wb1.append(Headers)
         templist = []
         #Format data and add to temporary list, for sorting later
-        for person in self.personlist:
-            for conversation in person.convList:
-                for utterance in conversation.utteranceList:
-                    #Format Timestamp
-                    newstamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(utterance.timeStamp/1000))
-                    #Format name
-                    name = self.formatName(person.fName,person.lName)
-                    #Format replies
-                    replies = ""
-                    for x in utterance.replyUtt: replies += (x)
-                    replies = replies.replace("\r","").replace("\n","")
-                    #Format input utterance
-                    inpututt = utterance.inputUtt.replace("\n","").replace("\r","")
-                    #Write Line
-                    templist.append([newstamp,name,conversation.id,inpututt,utterance.intentName,replies,
-                                utterance.intentScore,utterance.sentimentScore,person.id])
+        with open('conversations.csv', 'w') as csvfile:
+            writer = csv.writer(csvfile, delimiter=';', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            for person in self.personlist:
+                for conversation in person.convList:
+                    for utterance in conversation.utteranceList:
+                        #Format Timestamp
+                        newstamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(utterance.timeStamp/1000))
+                        #Format name
+                        name = self.formatName(person.fName,person.lName)
+                        #Format replies
+                        replies = ""
+                        for x in utterance.replyUtt: replies += (x)
+                        replies = replies.replace("\r","").replace("\n","")
+                        #Format input utterance
+                        inpututt = utterance.inputUtt.replace("\n","").replace("\r","")
+                        #Write Line
+                        writelist = [newstamp,name,conversation.id,inpututt,utterance.intentName,replies,
+                                    utterance.intentScore,utterance.sentimentScore,person.id]
+                        templist.append(writelist)
+                        #writer.writerow(writelist)
+                        
 
 
         #Sort entries by conversation ID
@@ -116,19 +123,23 @@ class Analysis:
         CONVERSATIONIDINDEX = 0
         wb1.append(Headers)
         templist = []
-        for conversation in self.conversationlist:
-            conversation.utteranceList.sort(key=lambda x: x.timeStamp, reverse=False)
-            if conversation.utteranceList[0].intentName == "Default_Fallback_Intent":
-                timestamp = time.localtime(int(conversation.utteranceList[0].timeStamp / 1000))
-                prevStamp = time.strftime('%Y-%m-%d %H:%M:%S', timestamp)
-                templist.append([conversation.id, prevStamp, "None", "None", "None", conversation.utteranceList[0].inputUtt])
-            for i in range(len(conversation.utteranceList) - 1):
-                prevUtt = conversation.utteranceList[i]
-                timestamp = time.localtime(int(prevUtt.timeStamp / 1000))
-                prevStamp = time.strftime('%Y-%m-%d %H:%M:%S', timestamp)
-                currUtt = conversation.utteranceList[i + 1]
-                if "Default_Fallback_Intent" in currUtt.intentName:
-                    templist.append([conversation.id,prevStamp,prevUtt.inputUtt,prevUtt.intentName,str(prevUtt.replyUtt),currUtt.inputUtt,currUtt.intentName])
+        with open('fallback.csv', 'w') as csvfile:
+            writer = csv.writer(csvfile, delimiter=';', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            for conversation in self.conversationlist:
+                conversation.utteranceList.sort(key=lambda x: x.timeStamp, reverse=False)
+                if conversation.utteranceList[0].intentName == "Default_Fallback_Intent":
+                    timestamp = time.localtime(int(conversation.utteranceList[0].timeStamp / 1000))
+                    prevStamp = time.strftime('%Y-%m-%d %H:%M:%S', timestamp)
+                    templist.append([conversation.id, prevStamp, "None", "None", "None", conversation.utteranceList[0].inputUtt])
+                for i in range(len(conversation.utteranceList) - 1):
+                    prevUtt = conversation.utteranceList[i]
+                    timestamp = time.localtime(int(prevUtt.timeStamp / 1000))
+                    prevStamp = time.strftime('%Y-%m-%d %H:%M:%S', timestamp)
+                    currUtt = conversation.utteranceList[i + 1]
+                    if "Default_Fallback_Intent" in currUtt.intentName:
+                        writelist = [conversation.id,prevStamp,prevUtt.inputUtt,prevUtt.intentName,str(prevUtt.replyUtt),currUtt.inputUtt,currUtt.intentName]
+                        templist.append(writelist)
+                        #writer.writerow(writelist)
         templist.sort(key = lambda x: x[CONVERSATIONIDINDEX])
         for element in templist:
             wb1.append(element)
@@ -143,26 +154,31 @@ class Analysis:
         wb1.append(Headers)
         templist = []
         intentDict = self.categorizeIntents()
-        for person in self.personlist:
-            for conversation in person.convList:
-                conversation.utteranceList.sort(key=lambda x: x.timeStamp, reverse=False)
-                intentList = []
-                for utterance in conversation.utteranceList:
-                    intentList.append(utterance.intentName)
-                for usecase in intentDict:
-                    entryintents = intentDict[usecase]["Intents"]["Start"]
-                    exitintents = intentDict[usecase]["Intents"]["End"]
-                    exitintents.extend(intentDict[usecase]["Intents"]["Jump"])
-                    if not set(intentList).isdisjoint(entryintents):
-                        newstamp = time.strftime('%Y-%m-%d %H:%M:%S',
-                                                 time.localtime(conversation.firstUttTime / 1000))
-                        name = self.formatName(person.fName, person.lName)
-                        if not set(intentList).isdisjoint(exitintents):
-                            templist.append([usecase,conversation.id, newstamp, name, person.id, "Succes",
-                                        ", ".join(list(set(intentList) & set(exitintents)))])
-                        else:
-                            templist.append(
-                                [usecase, conversation.id, newstamp, name, person.id, "Fail",conversation.exitIntent])
+        with open('failed.csv', 'w') as csvfile:
+            writer = csv.writer(csvfile, delimiter=';', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            for person in self.personlist:
+                for conversation in person.convList:
+                    conversation.utteranceList.sort(key=lambda x: x.timeStamp, reverse=False)
+                    intentList = []
+                    for utterance in conversation.utteranceList:
+                        intentList.append(utterance.intentName)
+                    for usecase in intentDict:
+                        entryintents = intentDict[usecase]["Intents"]["Start"]
+                        exitintents = intentDict[usecase]["Intents"]["End"]
+                        exitintents.extend(intentDict[usecase]["Intents"]["Jump"])
+                        if not set(intentList).isdisjoint(entryintents):
+                            newstamp = time.strftime('%Y-%m-%d %H:%M:%S',
+                                                    time.localtime(conversation.firstUttTime / 1000))
+                            name = self.formatName(person.fName, person.lName)
+                            if not set(intentList).isdisjoint(exitintents):
+                                writelist = [usecase,conversation.id, newstamp, name, person.id, "Succes",
+                                            ", ".join(list(set(intentList) & set(exitintents)))]
+                                templist.append(writelist)
+                                #writer.writerow(writelist)
+                            else:
+                                writelist = [usecase, conversation.id, newstamp, name, person.id, "Fail",conversation.exitIntent]
+                                templist.append(writelist)
+                                #writer.writerow(writelist)
 
         #Sort list by conversation ID
         templist.sort(key=lambda x: x[CONVERSATIONIDINDEX])

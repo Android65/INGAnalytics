@@ -1,34 +1,28 @@
 {
   "userSays": [
     {
-      "id": "ea760cfa-c698-43f3-9eee-a3cc1aaad2e1",
+      "id": "07b654a9-c752-43ff-b4ad-7c27f73e4290",
       "data": [
         {
-          "text": "No"
+          "text": "@sys.any"
         }
       ],
-      "isTemplate": false,
+      "isTemplate": true,
       "count": 0
     }
   ],
-  "id": "d36a1a43-93c4-41e9-b12e-4578fbf4e702",
-  "name": "card_stop_1_misuse_no",
+  "id": "c7a2f5eb-5471-4856-a17a-d8c98b286534",
+  "name": "_Generic_Scope_Beyond_Cards_1_Suggestion",
   "auto": true,
   "contexts": [
-    "ctx_card_stop",
-    "ctx_cs_misuse"
+    "ctx_scope_beyond_cards"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "ctx_card_stop",
-          "parameters": {},
-          "lifespan": 0
-        },
-        {
-          "name": "ctx_cs_misuse",
+          "name": "ctx_scope_beyond_cards",
           "parameters": {},
           "lifespan": 0
         },
@@ -38,15 +32,17 @@
           "lifespan": 1
         }
       ],
-      "parameters": [],
+      "parameters": [
+        {
+          "dataType": "@sys.given-name",
+          "name": "firstName",
+          "value": "#user_context.firstName"
+        }
+      ],
       "messages": [
         {
           "type": 0,
-          "speech": "That is good. Just call Card Stop at +32 70 344 344 then and they will take care of everything. Is there anything else I can do for   you?"
-        },
-        {
-          "type": 0,
-          "speech": []
+          "speech": "Thank for the suggestion, $firstName ! My tutors will do their best to teach me. Can I do something else at the moment that is related to cards?"
         }
       ],
       "defaultResponsePlatforms": {}

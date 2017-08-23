@@ -1,0 +1,30 @@
+{
+  "userSays": [],
+  "id": "5c80cba5-8f0f-4aa0-a53c-1b0ae2766dfc",
+  "name": "use_abroad_3_activate_yes - fallback",
+  "auto": false,
+  "contexts": [
+    "ctx_use_abroad",
+    "ctx_ua_card_selection"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "activecardlist",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Please select one of the cards below. Unfortunately, I can only handle one card at a time."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

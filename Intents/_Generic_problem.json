@@ -1,7 +1,27 @@
 {
   "userSays": [
     {
-      "id": "3a211a2f-ff3a-42eb-83ea-8519eaf39dc2",
+      "id": "879e4c9e-3f89-4c49-9e3d-55695a3bc3f9",
+      "data": [
+        {
+          "text": "My bankcard does not work in all stores"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c4c592cb-d50a-4c1a-9116-eda79f3565a7",
+      "data": [
+        {
+          "text": "My card does not work in an atm"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "98b3420b-bd06-4ca6-82e1-dac3196d3370",
       "data": [
         {
           "text": "please help me, I have a problem"
@@ -11,7 +31,7 @@
       "count": 0
     },
     {
-      "id": "50704865-25b5-40c9-a7bc-41890492b1c8",
+      "id": "e53735cc-00e5-41cd-ac68-7b1f31a83c2a",
       "data": [
         {
           "text": "can you help me?"

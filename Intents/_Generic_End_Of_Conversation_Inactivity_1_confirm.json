@@ -1,0 +1,166 @@
+{
+  "userSays": [
+    {
+      "id": "75583232-40ae-4c59-9a2d-826c3a84642d",
+      "data": [
+        {
+          "text": "No questions, thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "397152ef-d39e-43ca-a195-57b9a2fd6eaf",
+      "data": [
+        {
+          "text": "may our paths cross again"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "60bd225b-efc5-478e-a5c3-af2b550090c6",
+      "data": [
+        {
+          "text": "I\u0027ll miss you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a81bede1-1d04-46ea-bf83-7e1fa955948e",
+      "data": [
+        {
+          "text": "never mind"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dbdb0270-270b-429f-854b-35f289ee45d9",
+      "data": [
+        {
+          "text": "go to sleep"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be0ee36a-f415-45a1-bf7a-f2968982de3a",
+      "data": [
+        {
+          "text": "fine for me"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a70e5d2e-07b5-409a-a97f-22163d098c85",
+      "data": [
+        {
+          "text": "bye"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cf1539fc-4a93-4bf8-a1cf-c789e374999b",
+      "data": [
+        {
+          "text": "fine"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "11d2900c-43a9-4e49-b936-5e03b01b6f2a",
+      "data": [
+        {
+          "text": "okay"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7588f782-e783-43ec-aaef-81be8ba2ab68",
+      "data": [
+        {
+          "text": "ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a4808d87-d75a-4830-a7fc-532cf8a94a06",
+      "data": [
+        {
+          "text": "close"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a09964fc-65c0-49a3-892f-546e9dc8cbf7",
+      "data": [
+        {
+          "text": "close it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0d171b86-16c1-4730-bd1e-47672ec20930",
+      "data": [
+        {
+          "text": "You can close it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "7324a95c-1686-4a2c-bb19-fc6db44262c1",
+  "name": "_Generic_End_Of_Conversation_Inactivity_1_confirm",
+  "auto": true,
+  "contexts": [
+    "ctx_closing"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "endofconversationconfirmed",
+      "affectedContexts": [
+        {
+          "name": "ctx_closing",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "See you later! :-)"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,69 +1,59 @@
 {
   "userSays": [
     {
-      "id": "6d5f5a3e-e2a5-4fdb-a02b-77339bfb142d",
+      "id": "ab4f4431-01a3-4cd2-b0af-006dbe2c877b",
       "data": [
         {
-          "text": "waiting is fine"
+          "text": "That is not necessary"
         }
       ],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "916451b2-0d0a-427e-982d-cb76e0f383c8",
+      "id": "34e3e624-82d6-46f9-9f81-5d06e88a44af",
       "data": [
         {
-          "text": "I\u0027ll wait"
+          "text": "no thank you"
         }
       ],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "2e7c55c3-f960-406b-bef2-296368fcbbea",
+      "id": "e0fe1c18-8e53-44f4-8a55-6b53c6cd0376",
       "data": [
         {
-          "text": "wait"
-        }
-      ],
-      "isTemplate": false,
-      "count": 0
-    },
-    {
-      "id": "6b230260-9840-4ae3-8c90-0c3cc5c637f6",
-      "data": [
-        {
-          "text": "I will wait a bit longer"
+          "text": "No"
         }
       ],
       "isTemplate": false,
       "count": 0
     }
   ],
-  "id": "bde83408-dd34-40bc-a6ee-6648f2698ac0",
-  "name": "card_delivery_5_wait",
+  "id": "f351f64b-7b1a-4137-972a-a0e05e3bd9a4",
+  "name": "_get_started_cards_or_not_2_no_nohuman",
   "auto": true,
   "contexts": [
-    "ctx_card_delivery",
-    "ctx_cd_wait_branch_icc"
+    "ctx_get_started",
+    "ctx_gs_human"
   ],
   "responses": [
     {
       "resetContexts": false,
       "affectedContexts": [
         {
-          "name": "ctx_card_delivery",
+          "name": "ctx_get_started",
           "parameters": {},
           "lifespan": 0
         },
         {
-          "name": "ctx_end_of_conversation",
+          "name": "ctx_gs",
           "parameters": {},
-          "lifespan": 1
+          "lifespan": 0
         },
         {
-          "name": "ctx_cd_wait_branch_icc",
+          "name": "ctx_gs_human",
           "parameters": {},
           "lifespan": 0
         }
@@ -72,7 +62,7 @@
       "messages": [
         {
           "type": 0,
-          "speech": "Ok, feel free to ask me again in a few days if your card still hasn\u0027t arrived. Can I help you with anything else?"
+          "speech": "Ok! No problem! Feel free to chat with me if you want, maybe I can help you with a card related problem you haven\u0027t even thought of yet ;-)"
         }
       ],
       "defaultResponsePlatforms": {}

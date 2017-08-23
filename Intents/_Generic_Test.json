@@ -1,0 +1,57 @@
+{
+  "userSays": [
+    {
+      "id": "6c6d644c-1224-4b93-90b6-1c50bcaebe93",
+      "data": [
+        {
+          "text": "I\u0027m testing you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f8e7ca83-8af7-40db-94d6-75700f40ac3d",
+      "data": [
+        {
+          "text": "Testing"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "05c7c07b-c7d7-4f5e-8578-c330f134cfc0",
+      "data": [
+        {
+          "text": "Test"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "f6224260-882d-47e7-86a1-21c57166877f",
+  "name": "_Generic_Test",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I\u0027m afraid I won\u0027t pass a Turing test, but I can help you with cards :-)\nJust ask me if you have any specific questions."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

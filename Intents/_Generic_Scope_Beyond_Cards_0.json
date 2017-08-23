@@ -1,0 +1,103 @@
+{
+  "userSays": [
+    {
+      "id": "4e180373-6c83-400b-b059-6be331d971a4",
+      "data": [
+        {
+          "text": "When will you learn other stuff"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c1feafed-1b64-44dd-8cc1-41b954310daa",
+      "data": [
+        {
+          "text": "Can you do something else than cards?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "6a5d2ce8-a1da-4425-91cd-4ae2b12591ec",
+      "data": [
+        {
+          "text": "What should I do with my non-card questions?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "df63bef6-5548-4f77-a8ce-ed476ed4150a",
+      "data": [
+        {
+          "text": "Why can\u0027t you answer questions that are not related to cards?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "604bbdf8-389b-4faf-bf94-417b982ae0ca",
+      "data": [
+        {
+          "text": "Do you know thing outside of the cards domain?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1cbb9ac2-f077-4161-bea3-7b88d3531a67",
+      "data": [
+        {
+          "text": "Do you have talents beyond card questions?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "639f13f5-61c2-4246-8646-d54d0ca1d9a2",
+      "data": [
+        {
+          "text": "Can you do anything else other than cards?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "a4568556-d9bd-401a-89ae-48f7eb95cae4",
+  "name": "_Generic_Scope_Beyond_Cards_0",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_scope_beyond_cards",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "At the moment I am only capable of answering card questions. However I\u0027m trying my best to learn new functionalities? \nWhat would you find useful to ask me in future?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

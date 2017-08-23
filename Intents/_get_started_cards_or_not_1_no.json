@@ -80,32 +80,38 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "humantakeoverrequest",
+      "action": "",
       "affectedContexts": [
         {
           "name": "ctx_get_started",
           "parameters": {},
-          "lifespan": 999
+          "lifespan": 5
         },
         {
-          "name": "_start_cards_or_not-followup",
+          "name": "ctx_gs_human",
           "parameters": {},
-          "lifespan": 999
-        },
-        {
-          "name": "_get_started_cards_or_not_1_no-followup",
-          "parameters": {},
-          "lifespan": 999
+          "lifespan": 3
         }
       ],
       "parameters": [],
       "messages": [
         {
+          "type": 2,
+          "platform": "facebook",
+          "title": "",
+          "replies": [
+            "Yes",
+            "No"
+          ]
+        },
+        {
           "type": 0,
-          "speech": "Ok! In that case, I\u0027ll ask some of my human colleagues to get back to you. They are available from Monday to Friday between 8 am and 10 pm and on Saturday between 9 am and 5 pm. Please hold on a bit."
+          "speech": "Ok! In that case, I\u0027m afraid I won\u0027t be able to help you. If you want, I can ask one of my human colleagues to get back to you. They are available from Monday to Friday between 8 am and 10 pm and on Saturday between 9 am and 5 pm. Do you want to be forwarded to a human operator?"
         }
       ],
-      "defaultResponsePlatforms": {}
+      "defaultResponsePlatforms": {
+        "facebook": true
+      }
     }
   ],
   "priority": 500000,

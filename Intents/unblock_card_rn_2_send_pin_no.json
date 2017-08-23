@@ -50,17 +50,22 @@
   ],
   "responses": [
     {
-      "resetContexts": true,
+      "resetContexts": false,
       "affectedContexts": [
         {
           "name": "ctx_uc_ask_send_pin",
           "parameters": {},
-          "lifespan": 5
+          "lifespan": 0
         },
         {
           "name": "ctx_unblock_card_rn",
           "parameters": {},
-          "lifespan": 5
+          "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
         }
       ],
       "parameters": [],
@@ -73,7 +78,8 @@
             "There is nothing more I can do at this level. Can I do anything else for you?"
           ]
         }
-      ]
+      ],
+      "defaultResponsePlatforms": {}
     }
   ],
   "priority": 500000,

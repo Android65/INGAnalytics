@@ -1,6 +1,22 @@
 {
   "userSays": [
     {
+      "id": "72dbaf2a-aae2-452c-b231-738da227fdac",
+      "data": [
+        {
+          "text": "My card has "
+        },
+        {
+          "text": "expired",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
       "id": "f592481e-60b2-44ff-ba77-60d6f1a05b78",
       "data": [
         {
@@ -224,7 +240,7 @@
           "lifespan": 5
         },
         {
-          "name": "ctx_oc_clarification",
+          "name": "ctx_oc_reason",
           "parameters": {},
           "lifespan": 1
         }
@@ -258,9 +274,5 @@
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [
-    {
-      "name": "ordercardexpiring"
-    }
-  ]
+  "events": []
 }

@@ -1,107 +1,110 @@
 {
   "userSays": [
     {
-      "id": "a01ffe5f-4a6e-4144-a8e4-f3bb0f0115fb",
+      "id": "d7ef4ffc-4043-41e4-977e-2578e4b10546",
       "data": [
         {
-          "text": "no"
+          "text": "Life is a "
+        },
+        {
+          "text": "journey",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "304493bb-0bf1-4c80-9510-e11cd0cd9b7f",
+      "data": [
+        {
+          "text": "never mind"
         }
       ],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "f754930c-a1d0-4b64-ae4a-6efd989ffee6",
+      "id": "917a7e20-e04b-47d6-8e63-c7b19b0159a9",
       "data": [
         {
-          "text": "don\u0027t do it"
+          "text": "Don\u0027t worry about it"
         }
       ],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "c0328fcf-b9be-4b9b-a1ed-5b34cfc119be",
+      "id": "baa26d34-3628-47c0-adef-9937f4a37269",
       "data": [
         {
-          "text": "definitely not"
+          "text": "fine"
         }
       ],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "25593e7e-9b8b-414d-8e80-92dd6619247f",
+      "id": "5df15a6b-1f89-49cc-9326-9051656cc684",
       "data": [
         {
-          "text": "not really"
+          "text": "That\u0027s fine"
         }
       ],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "535290b3-88f1-4a4b-9f23-3ca42ea0e040",
+      "id": "6ae27bdc-0af3-40f9-88e6-457d8f5d3645",
       "data": [
         {
-          "text": "thanks but no"
+          "text": "Get smarter soon"
         }
       ],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "3a643634-9cbf-4ac8-b813-c555e04a8cbd",
+      "id": "944fda93-b6e7-4d1d-b16e-357e55f1d8df",
       "data": [
         {
-          "text": "not interested"
+          "text": "No worries"
         }
       ],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "f6b6920e-668b-4982-9651-1dd2b3213f88",
+      "id": "5522a959-e89f-49db-b9c1-8598bd326fd2",
       "data": [
         {
-          "text": "I don\u0027t think so"
+          "text": "Okay"
         }
       ],
       "isTemplate": false,
       "count": 0
     },
     {
-      "id": "bece4ee1-da70-4ef2-a67f-6a853fa125e9",
+      "id": "40e13c95-ae7d-417d-bc4d-962859fe3279",
       "data": [
         {
-          "text": "I disagree"
-        }
-      ],
-      "isTemplate": false,
-      "count": 0
-    },
-    {
-      "id": "a48131d9-68d7-4328-bb5e-b612b249cc0d",
-      "data": [
-        {
-          "text": "I don\u0027t want that"
+          "text": "No problem"
         }
       ],
       "isTemplate": false,
       "count": 0
     }
   ],
-  "id": "8976792c-12c2-4c7c-b61f-977887c33019",
-  "name": "contactless_1_no",
+  "id": "afbafc05-887c-4454-a071-a42d01f14d18",
+  "name": "Default_Fallback_1_No_Problem",
   "auto": true,
   "contexts": [
-    "ctx_contactless",
-    "ctx_cl_order_new"
+    "ctx_default_fallback"
   ],
   "responses": [
     {
       "resetContexts": false,
-      "action": "",
       "affectedContexts": [
         {
           "name": "ctx_end_of_conversation",
@@ -109,29 +112,19 @@
           "lifespan": 1
         },
         {
-          "name": "ctx_cl_order_new",
+          "name": "ctx_default_fallback",
           "parameters": {},
           "lifespan": 0
         }
       ],
-      "parameters": [
-        {
-          "name": "firstName",
-          "value": "#user_context.firstName"
-        }
-      ],
+      "parameters": [],
       "messages": [
         {
           "type": 0,
-          "speech": [
-            "Allright $firstName. Can I help you with something else?",
-            "Ok, I won\u0027t do it. Can I help you with something else?"
-          ]
+          "speech": "Thank you for your understanding :-)\nIs there anything else I can help you with?"
         }
       ],
-      "defaultResponsePlatforms": {
-        "facebook": true
-      }
+      "defaultResponsePlatforms": {}
     }
   ],
   "priority": 500000,

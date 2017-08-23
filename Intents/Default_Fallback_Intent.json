@@ -6,9 +6,15 @@
   "contexts": [],
   "responses": [
     {
-      "resetContexts": true,
+      "resetContexts": false,
       "action": "defaultfallbackintent",
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "ctx_default_fallback",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
       "parameters": [],
       "messages": [
         {

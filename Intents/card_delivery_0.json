@@ -1,6 +1,24 @@
 {
   "userSays": [
     {
+      "id": "3dfb9e49-8019-4ab2-9e54-f6c755471a96",
+      "data": [
+        {
+          "text": "Where is the card "
+        },
+        {
+          "text": "6703 1234 1234 1234 1",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
       "id": "02c5ccaa-2227-4cbe-9140-7b2b8ef800a6",
       "data": [
         {
@@ -135,11 +153,11 @@
       "id": "17eb2718-1699-497d-a6d9-e9049c596160",
       "data": [
         {
-          "text": "I did not received my card"
+          "text": "I did not receive my card"
         }
       ],
       "isTemplate": false,
-      "count": 0
+      "count": 1
     },
     {
       "id": "ad85cb4b-d2a0-4da5-91f2-5e9a4e790e44",
@@ -732,16 +750,6 @@
       ],
       "isTemplate": false,
       "count": 0
-    },
-    {
-      "id": "73122373-117b-4f31-8ae6-8978355f771a",
-      "data": [
-        {
-          "text": "I did not receive my card"
-        }
-      ],
-      "isTemplate": false,
-      "count": 1
     }
   ],
   "id": "e8f51996-06e8-4191-967e-907dfad2f200",

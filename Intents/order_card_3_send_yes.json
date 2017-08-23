@@ -21,7 +21,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "ordercard",
+      "action": "",
       "affectedContexts": [
         {
           "name": "ctx_order_card",

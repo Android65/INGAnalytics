@@ -1,7 +1,27 @@
 {
   "userSays": [
     {
-      "id": "9349b3b8-9b26-4b13-a870-3af9a2f3cbc9",
+      "id": "d035eb95-62b7-4b6d-b01c-8211f71862f9",
+      "data": [
+        {
+          "text": "Not much I guess"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "0b9dd57e-4e9c-488e-88c3-f2cf1908ee55",
+      "data": [
+        {
+          "text": "I am good like that"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "faac6303-27ba-44d7-ba47-f107822a3fcd",
       "data": [
         {
           "text": "Ok thank you! I\u0027ll get back to you when I need to"
@@ -60,17 +80,7 @@
         }
       ],
       "isTemplate": false,
-      "count": 0
-    },
-    {
-      "id": "26074628-f492-4e4a-a3d2-3d6090635415",
-      "data": [
-        {
-          "text": "No"
-        }
-      ],
-      "isTemplate": false,
-      "count": 2
+      "count": 1
     },
     {
       "id": "f630d325-a260-45a9-9b44-689f1de49a3c",
@@ -203,6 +213,16 @@
       "count": 0
     },
     {
+      "id": "26074628-f492-4e4a-a3d2-3d6090635415",
+      "data": [
+        {
+          "text": "No"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
       "id": "781cf988-e071-475a-a524-84b88c51cf57",
       "data": [
         {
@@ -328,7 +348,7 @@
       }
     }
   ],
-  "priority": 500000,
+  "priority": 750000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,

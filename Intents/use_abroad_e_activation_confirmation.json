@@ -3,19 +3,11 @@
   "id": "b0024a4a-80d3-4fa9-8f80-868544c168e9",
   "name": "use_abroad_e_activation_confirmation",
   "auto": true,
-  "contexts": [
-    "ctx_use_abroad"
-  ],
+  "contexts": [],
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [
-        {
-          "name": "ctx_use_abroad",
-          "parameters": {},
-          "lifespan": 5
-        }
-      ],
+      "affectedContexts": [],
       "parameters": [
         {
           "name": "startDate",

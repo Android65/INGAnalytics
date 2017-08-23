@@ -1,7 +1,7 @@
 {
   "userSays": [
     {
-      "id": "4a0d8f98-a8e5-4b95-9ede-b5c9fe26e8f3",
+      "id": "7e09a62d-0d86-44c4-8072-7d92539c464a",
       "data": [
         {
           "text": "I\u0027m in "
@@ -14,16 +14,6 @@
         },
         {
           "text": " but I can\u0027t retrieve money."
-        }
-      ],
-      "isTemplate": false,
-      "count": 0
-    },
-    {
-      "id": "74d58976-1c5c-42ee-8b21-52bb75248536",
-      "data": [
-        {
-          "text": "🇺🇸"
         }
       ],
       "isTemplate": false,
@@ -274,7 +264,7 @@
       "id": "a23004c9-73ae-49ea-a34b-b8f3d259b111",
       "data": [
         {
-          "text": "\n I am going to "
+          "text": "I am going to "
         },
         {
           "text": "Cuba",
@@ -303,22 +293,6 @@
         },
         {
           "text": "?"
-        }
-      ],
-      "isTemplate": false,
-      "count": 0
-    },
-    {
-      "id": "a8cfddf9-7b94-44f7-aae4-4059971006e7",
-      "data": [
-        {
-          "text": "I\u0027m going to "
-        },
-        {
-          "text": "senegal",
-          "alias": "UA_Countries_Non_Europe",
-          "meta": "@UA_Countries_Non_Europe",
-          "userDefined": false
         }
       ],
       "isTemplate": false,

@@ -1,0 +1,113 @@
+{
+  "userSays": [
+    {
+      "id": "1512ee23-2405-4b78-8a89-1a32ec409654",
+      "data": [
+        {
+          "text": "Has anybody wired me any money?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c94d3f1b-a754-49c0-bd44-68e068857150",
+      "data": [
+        {
+          "text": "Did I receive money?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9e9a42d5-9a56-44ce-83fa-92fc8263de72",
+      "data": [
+        {
+          "text": "Has anybody payed me recently?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aa6b69d3-b962-4ff1-8eb9-3fbf6e3a1ee2",
+      "data": [
+        {
+          "text": "Show me my payments"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f502d919-362a-4058-98db-bc8d752ab27b",
+      "data": [
+        {
+          "text": "What was my last payment?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "96483424-7e73-4359-9a7e-0f1f1deb8269",
+      "data": [
+        {
+          "text": "How many transactions do I have"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0416dd18-bcff-4e60-b24b-2bf6c2785bed",
+      "data": [
+        {
+          "text": "Can you give me an overview of my transactions?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "be34c04b-b021-45bb-95a1-590fc103a8c6",
+      "data": [
+        {
+          "text": "What was my last transaction?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "19b46653-bb22-412f-8e46-bd2d4ef517e8",
+  "name": "get_transaction_info",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I\u0027m still learning to give you transaction information. You can see your transactions in your smartbanking app.\nCan I help you with anything else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,6 +1,65 @@
 {
   "userSays": [
     {
+      "id": "589c058e-293b-410f-a5db-09303208d60c",
+      "data": [
+        {
+          "text": "Personalisation of my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "85599047-7a41-4846-b766-50cf46c22b42",
+      "data": [
+        {
+          "text": "I want to personalise my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "70cbda7c-9a7b-419e-aa19-364bcdb62e37",
+      "data": [
+        {
+          "text": "Personalization of my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "2d664bd3-7f09-41c2-a1e3-044f298d632c",
+      "data": [
+        {
+          "text": "Can I personalize my card?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "70dace5d-442c-45e4-99dd-317c20128ebd",
+      "data": [
+        {
+          "text": "Can I personalize my "
+        },
+        {
+          "text": "debit card",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
       "id": "2e4b33d6-09c2-49b7-9f7e-4ce7c2859827",
       "data": [
         {

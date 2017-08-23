@@ -26,12 +26,17 @@
         {
           "name": "ctx_use_abroad",
           "parameters": {},
-          "lifespan": 5
+          "lifespan": 0
         },
         {
           "name": "ctx_ua_final_confirmation",
           "parameters": {},
           "lifespan": 0
+        },
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 3
         }
       ],
       "parameters": [

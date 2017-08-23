@@ -1,10 +1,70 @@
 {
   "userSays": [
     {
-      "id": "d0039ebb-0011-4d2f-bf40-4ce8bc4a90d2",
+      "id": "19596957-4777-42e3-9997-d460a34ad674",
       "data": [
         {
-          "text": "// * UNSUPPORTED MESSAGE FORMAT RECEIVED * //"
+          "text": "good one"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9681cad5-7f25-40b2-ab33-2c330d6f53f2",
+      "data": [
+        {
+          "text": "hahah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b4ed0f9b-4067-413d-84a0-9955054cd3fc",
+      "data": [
+        {
+          "text": "haha"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da7a05ee-a9d9-4fc8-9146-a423124f3066",
+      "data": [
+        {
+          "text": "hahahahah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "661c1c5d-cbbd-4476-b232-c3ffd41fd769",
+      "data": [
+        {
+          "text": "lol"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "597882f6-9192-443c-9fe4-3830bb786fc8",
+      "data": [
+        {
+          "text": "That\u0027s funny"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3efad585-e8fb-4d82-b4c2-1c9f9c73660b",
+      "data": [
+        {
+          "text": "Yep, thank you Marie"
         }
       ],
       "isTemplate": false,
@@ -29,26 +89,6 @@
       ],
       "isTemplate": false,
       "count": 0
-    },
-    {
-      "id": "90f63578-fb39-41d9-8213-42c1909193a8",
-      "data": [
-        {
-          "text": "0☺"
-        }
-      ],
-      "isTemplate": false,
-      "count": 0
-    },
-    {
-      "id": "bcef0697-86a7-42b4-9ea7-3066fb3e4cca",
-      "data": [
-        {
-          "text": "😗"
-        }
-      ],
-      "isTemplate": false,
-      "count": 1
     },
     {
       "id": "bcfe014c-2e3f-4276-87ca-0d509cd082bf",
@@ -95,16 +135,6 @@
       "data": [
         {
           "text": "😉"
-        }
-      ],
-      "isTemplate": false,
-      "count": 1
-    },
-    {
-      "id": "3aa5aa0e-d71f-425c-832f-090df45fe81a",
-      "data": [
-        {
-          "text": "☺"
         }
       ],
       "isTemplate": false,

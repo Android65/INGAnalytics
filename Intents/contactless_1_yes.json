@@ -102,13 +102,11 @@
     }
   ],
   "id": "904d21e6-772c-498b-b3c8-ecdb767d09a2",
-  "parentId": "c467eb85-9bc3-4445-b521-3e5f4e35977d",
-  "rootParentId": "c467eb85-9bc3-4445-b521-3e5f4e35977d",
   "name": "contactless_1_yes",
   "auto": true,
   "contexts": [
-    "contactless_0-followup",
-    "ctx_contactless"
+    "ctx_contactless",
+    "ctx_cl_order_new"
   ],
   "responses": [
     {
@@ -124,6 +122,11 @@
           "name": "ctx_oc_clarification",
           "parameters": {},
           "lifespan": 1
+        },
+        {
+          "name": "ctx_cl_order_new",
+          "parameters": {},
+          "lifespan": 0
         }
       ],
       "parameters": [],

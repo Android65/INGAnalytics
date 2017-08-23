@@ -1,6 +1,26 @@
 {
   "userSays": [
     {
+      "id": "88ca57e3-cc02-49f0-8366-2108d64c9854",
+      "data": [
+        {
+          "text": "Replacing"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c456bb09-000f-4793-a030-945220619e38",
+      "data": [
+        {
+          "text": "Replacing an existing card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
       "id": "f80c3804-bfbf-4137-bc77-c8904ce32936",
       "data": [
         {

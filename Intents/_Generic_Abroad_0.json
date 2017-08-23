@@ -1,6 +1,46 @@
 {
   "userSays": [
     {
+      "id": "d723b92a-ab4f-4531-82f2-f8a0a6737a2d",
+      "data": [
+        {
+          "text": "I travel to "
+        },
+        {
+          "text": "Italy",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bf73164d-2b47-49bb-a947-201cc4fd1729",
+      "data": [
+        {
+          "text": "I\u0027m travelling to "
+        },
+        {
+          "text": "Italy",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f6d06f43-1806-466b-bd21-04dce1f16ecc",
+      "data": [
+        {
+          "text": "I am going abroad"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
       "id": "e5c1e31c-71b3-4b21-bfa4-504547567e79",
       "data": [
         {
@@ -102,7 +142,7 @@
     }
   ],
   "id": "a0e2377e-3cfa-4b49-8a14-69574ab95fd1",
-  "name": "_Generic_Abroad",
+  "name": "_Generic_Abroad_0",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -125,7 +165,8 @@
             "Lovely to see you traveling the world! Can I do anything for you?"
           ]
         }
-      ]
+      ],
+      "defaultResponsePlatforms": {}
     }
   ],
   "priority": 500000,

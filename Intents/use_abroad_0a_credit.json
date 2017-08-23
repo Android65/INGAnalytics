@@ -1,6 +1,50 @@
 {
   "userSays": [
     {
+      "id": "ae9551ac-9962-4145-a1b7-324b589fbfe4",
+      "data": [
+        {
+          "text": "DO I need to activate my "
+        },
+        {
+          "text": "credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "ca464c66-cbdf-494d-9566-0b81e907e4fb",
+      "data": [
+        {
+          "text": "Do I need to activate my "
+        },
+        {
+          "text": "credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " when I am travelling in "
+        },
+        {
+          "text": "india",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
       "id": "fb562abe-2f63-4b5b-8b46-700fe12b7f7a",
       "data": [
         {

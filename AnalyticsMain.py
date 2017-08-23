@@ -6,7 +6,7 @@ from Analysis import Analysis
 import re
 
 STARTDATE = 20170808
-DEBUG = False
+DEBUG = True
 '''
 Person
     ID
@@ -75,13 +75,15 @@ if not DEBUG:
     print(count)
     current = 1
     for root,dir,files in os.walk(LOGDIR):
+        # This is a quick and hacky way to reject folders that are earlier than our start date, and to reject folders
+        # with a different kind of name
         try:
             if int(root[-8:]) < STARTDATE:
                 continue
         except:
             continue
         for filename in files:
-            #Discards non json files
+            #Discards non txt files
             if ".txt" not in filename:
                 continue
             with open(os.path.join(root,filename),"rb") as data_file:
@@ -94,8 +96,8 @@ if not DEBUG:
 
 
 #For analysis, we build a list on three different levels: Persons,Conversations and Utterances
-go = input("Press Enter if you want to analyse")
-if go == "": DEBUG = True
+#go = input("Press Enter if you want to analyse")
+#if go == "": DEBUG = True
 if DEBUG:
     personList = pickle.load(open("personList.pickle","rb"))
     conversationList = []

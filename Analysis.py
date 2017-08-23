@@ -130,7 +130,7 @@ class Analysis:
                 if conversation.utteranceList[0].intentName == "Default_Fallback_Intent":
                     timestamp = time.localtime(int(conversation.utteranceList[0].timeStamp / 1000))
                     prevStamp = time.strftime('%Y-%m-%d %H:%M:%S', timestamp)
-                    templist.append([conversation.id, prevStamp, "None", "None", "None", conversation.utteranceList[0].inputUtt])
+                    templist.append([conversation.id, prevStamp, "None", "None", "None", conversation.utteranceList[0].inputUtt,conversation.utteranceList[0].intentName])
                 for i in range(len(conversation.utteranceList) - 1):
                     prevUtt = conversation.utteranceList[i]
                     timestamp = time.localtime(int(prevUtt.timeStamp / 1000))
@@ -204,6 +204,70 @@ class Analysis:
             usecaselist.append(item[4:].replace("_", " ").capitalize())
         return usecaselist
 
+    def buildActionsAndEvents(self, actionDict, eventDict, intentname, jsondict):
+        # Build action and events dicts
+        try:
+            event = jsondict["events"][0]["name"]
+            if event in eventDict:
+                print("ERROR: EVENT OCCURS TWICE")
+                print(eventDict[event])
+                print(intentname)
+                print("END ERROR")
+            if event not in eventDict:
+                eventDict[event] = intentname
+        except:
+            pass
+        try:
+            action = jsondict["responses"][0]["action"]
+            if "fireevent:" in action:
+                action = action[10:]
+                # the [10:] is used to cut off the fireevent: part, leaving only the event that it connects to
+                if action not in actionDict:
+                    actionDict[action] = []
+                actionDict[action].append(intentname)
+        except Exception as e:
+            pass
+
+        return actionDict, eventDict
+
+    # This method is meant to correct the fact that jump destinations are not logged. Therefore, if an intent jumps to
+    # an exit intent, it should also be an exit intent
+    def correctInternalExitJumps(self,usecasedict,actiondict,eventdict):
+        #First we build a list of jumps. This list contains a ([From],To) tuple.
+        jumpTupleList = []
+        for eventname in set(actiondict).intersection(eventdict):
+            jumpTupleList.append((actiondict[eventname],eventdict[eventname]))
+        print(jumpTupleList)
+
+        # Now we go over all the jumps and check for internal jumps
+        for jumpTuple in jumpTupleList:
+            for usecase in usecasedict:
+                # If an intermediate intent jumps to an end intent, it becomes an end intent
+                if jumpTuple[1] in usecasedict[usecase]["Intents"]["End"] and not set(jumpTuple[0]).isdisjoint(usecasedict[usecase]["Intents"]["Intermediate"]):
+                    for element in jumpTuple[0]:
+                        if element in usecasedict[usecase]["Intents"]["Intermediate"]:
+                            usecasedict[usecase]["Intents"]["End"].append(element)
+                            usecasedict[usecase]["Intents"]["Intermediate"].remove(element)
+                # If a start intent jumps to an end intent, it also becomes an end intent
+                if jumpTuple[1] in usecasedict[usecase]["Intents"]["End"] and not set(jumpTuple[0]).isdisjoint(usecasedict[usecase]["Intents"]["Start"]):
+                    for element in jumpTuple[0]:
+                        if element in usecasedict[usecase]["Intents"]["Start"]:
+                            usecasedict[usecase]["Intents"]["End"].append(element)
+
+        print(usecasedict)
+        return usecasedict
+
+    def mergeOrderCardIntent(self,usecasedict):
+        rydict = usecasedict["Unblock card ry"]["Intents"]
+        rndict = usecasedict["Unblock card rn"]["Intents"]
+        #This merges unblock card ry and rn into unblock card
+        usecasedict["Unblock card"]["Intents"] = {key: value + rydict[key] + rndict[key] for key, value in usecasedict["Unblock card"]["Intents"].items()}
+        print("OKAY")
+        print(usecasedict)
+        return usecasedict
+
+
+
     def categorizeIntents(self):
         generalUseCaseContextList = ["ctx_activate_card", "ctx_sms_authentication", "ctx_card_delivery",
                                      "ctx_card_stop",
@@ -218,8 +282,13 @@ class Analysis:
             finaldict[usecase] = {"ContextName": context, "Intents":
                 {"Start": [], "Intermediate": [], "End": [], "Fallback": [], "Jump": []}}
 
+        # Additionally, we define two dicts: one holding all intents with events, and the other with actions. These are used to create the jump list
+        actionDict = {}
+        eventDict = {}
+
         dir = os.getcwd()
         intentdir = os.path.join(dir,"Intents")
+
         for filename in os.listdir(intentdir):
             intentname = filename.split(".")[0]
 
@@ -227,7 +296,11 @@ class Analysis:
             with open(os.path.join(intentdir,filename), "r", encoding='utf8') as file:
                 hasinput = True
                 hasoutput = True
+
                 jsondict = json.load(file)
+
+                #If a certain intent has an action or intent, add it to the relevant dicts
+                actionDict,eventDict = self.buildActionsAndEvents(actionDict, eventDict, intentname, jsondict)
 
                 # Define input and output contexts
                 outcontextsdict = jsondict["responses"][0]["affectedContexts"]
@@ -263,30 +336,34 @@ class Analysis:
                 if (not hasinput) and (not hasoutput):
                     continue
                 elif (not hasinput) and hasoutput:
-                    finaldict = self.addToUseCaseDict(usecasedict=finaldict, intentname=intentname, contextname=outcontext,
-                                                 category="Start")
+                    finaldict = self.addToUseCaseDict(usecasedict=finaldict, intentname=intentname,
+                                                      contextname=outcontext, category="Start")
                 elif hasinput and (not hasoutput):
                     if "fallback" in intentname.lower() and hasinput:
                         finaldict = self.addToUseCaseDict(usecasedict=finaldict, intentname=intentname,
-                                                     contextname=incontext,
-                                                     category="Fallback")
+                                                     contextname=incontext, category="Fallback")
                         continue
                     if "ctx_end_of_conversation" in outcontextslist:
                         finaldict = self.addToUseCaseDict(usecasedict=finaldict, intentname=intentname,
-                                                     contextname=incontext,
-                                                     category="End")
+                                                     contextname=incontext, category="End")
                     else:
-                        print("FUCK: " + intentname)
+                        print("EXIT INTENT WITHOUT END OF CONVERSATION: " + intentname)
                 elif hasinput and hasoutput:
                     if incontext == outcontext:
                         finaldict = self.addToUseCaseDict(usecasedict=finaldict, intentname=intentname,
-                                                     contextname=incontext,
-                                                     category="Intermediate")
+                                                     contextname=incontext, category="Intermediate")
                     else:
                         finaldict = self.addToUseCaseDict(usecasedict=finaldict, intentname=intentname,
-                                                     contextname=incontext,
-                                                     category="Jump")
+                                                     contextname=incontext, category="Jump")
+
+        # Here we correct the internal jumps to exit intents
+        finaldict = self.correctInternalExitJumps(finaldict,actionDict,eventDict)
+
+        # Finally, we merge the order card ry and rn into order card
+        finaldict = self.mergeOrderCardIntent(finaldict)
+
         return finaldict
+
 
 
     def countUsecases(self):

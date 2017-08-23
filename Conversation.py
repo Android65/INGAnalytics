@@ -29,7 +29,7 @@ class Conversation:
                 uttDict["intentName"] = "ERROR"
                 uttDict["type"] = "Incoming"
                 json.dump(uttDict, open("log.txt", 'a'),indent=2)
-                print("Fuck")
+                print("Intervention detected")
 
 
         self.lastUttTime = int(uttDict["timestamp"])

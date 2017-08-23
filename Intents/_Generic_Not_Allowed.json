@@ -1,0 +1,115 @@
+{
+  "userSays": [
+    {
+      "id": "f36d6a4d-28d8-42a5-a380-9cb942a6de7c",
+      "data": [
+        {
+          "text": "Can you give me my ING ID ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "acbddff0-8d3f-437f-aa16-06f6a90b5cd7",
+      "data": [
+        {
+          "text": "What is my address"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "39c510ea-9236-4bf4-afc4-5c73fff76757",
+      "data": [
+        {
+          "text": "What is the CVC code of my "
+        },
+        {
+          "text": "credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9626573d-a9be-4b96-8a67-28c7e0e0a82b",
+      "data": [
+        {
+          "text": "Can you give me my "
+        },
+        {
+          "text": "credit card",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " number"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bf5ac935-a44a-4618-bf8e-a6e2ed780401",
+      "data": [
+        {
+          "text": "Can you give me my expiration date"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a0f1c53e-554e-4ef2-828e-898f6b0f545c",
+      "data": [
+        {
+          "text": "I would like to know my number"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "cf1b7a56-e3c9-42db-9b64-98c71a5c81b0",
+  "name": "_Generic_Not_Allowed",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "ctx_end_of_conversation",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Infortunately I cannot give you this info. It is a bit too confidential to share over the internet :-). Can I help you with something else?"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

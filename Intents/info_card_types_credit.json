@@ -1,6 +1,16 @@
 {
   "userSays": [
     {
+      "id": "27078f8f-277f-46c1-9983-308a5ebb36c0",
+      "data": [
+        {
+          "text": "I want to know the price of an ING credit card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
       "id": "204b26be-6df6-4673-8432-168949474434",
       "data": [
         {
@@ -332,11 +342,12 @@
         {
           "type": 0,
           "speech": [
-            "ING Visa Classic, ING MasterCard Gold and ING Card are our three credit cards. \nFor more info see our ING website \u003e Day-to-day banking: https://www.ing.be/en/retail/daily-banking/credit-cards",
-            "For more information regarding our credit cards, please check out our website www.ing.be/creditcards"
+            "ING Visa Classic, ING MasterCard Gold and ING Card are our three credit cards. \nFor more info see our ING website \u003e Day-to-day banking: https://www.ing.be/en/retail/daily-banking/credit-cards/compare-our-cards?WT.ac\u003dCompareCards",
+            "For more information regarding our credit cards, please check out our website https://www.ing.be/en/retail/daily-banking/credit-cards/compare-our-cards?WT.ac\u003dCompareCards"
           ]
         }
-      ]
+      ],
+      "defaultResponsePlatforms": {}
     }
   ],
   "priority": 500000,

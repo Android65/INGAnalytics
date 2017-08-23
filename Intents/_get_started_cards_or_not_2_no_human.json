@@ -1,0 +1,108 @@
+{
+  "userSays": [
+    {
+      "id": "abb79795-ef2a-4c41-bebc-bfe53cbf1a01",
+      "data": [
+        {
+          "text": "yes please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "975b8c89-ad76-4bda-b93b-1401498d1d6b",
+      "data": [
+        {
+          "text": "human",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "1630ec63-806b-4f21-b03e-ab720edf795e",
+      "data": [
+        {
+          "text": "Yes I would like to talk to a "
+        },
+        {
+          "text": "human",
+          "alias": "AssistanceType",
+          "meta": "@AssistanceType",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6ebff92a-20c6-42ab-81e6-1d1caec56b81",
+      "data": [
+        {
+          "text": "Yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "dc99a7fd-271f-4829-885f-1cf70f99e057",
+  "name": "_get_started_cards_or_not_2_no_human",
+  "auto": true,
+  "contexts": [
+    "ctx_get_started",
+    "ctx_gs_human"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "humantakeoverrequest",
+      "affectedContexts": [
+        {
+          "name": "ctx_get_started",
+          "parameters": {},
+          "lifespan": 999
+        },
+        {
+          "name": "_start_cards_or_not-followup",
+          "parameters": {},
+          "lifespan": 999
+        },
+        {
+          "name": "_get_started_cards_or_not_1_no-followup",
+          "parameters": {},
+          "lifespan": 999
+        },
+        {
+          "name": "ctx_gs_human",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "dataType": "@AssistanceType",
+          "name": "AssistanceType",
+          "value": "$AssistanceType",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Okay, I have requested one of my human colleagues to help you. Please hold on."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

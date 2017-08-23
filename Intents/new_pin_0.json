@@ -1,6 +1,94 @@
 {
   "userSays": [
     {
+      "id": "bff04e84-300d-4ba0-becd-fbec1ffc8996",
+      "data": [
+        {
+          "text": "Can you change the pincode of my "
+        },
+        {
+          "text": "Visa",
+          "alias": "Credit_Card_Type",
+          "meta": "@Credit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5642a8f6-017b-4e2c-84c9-a5f42d139e90",
+      "data": [
+        {
+          "text": "Please send me a "
+        },
+        {
+          "text": "new",
+          "alias": "Card_Status_Type",
+          "meta": "@Card_Status_Type",
+          "userDefined": false
+        },
+        {
+          "text": " pincode"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da4a759d-975c-40d9-94e6-421bf6bff6b4",
+      "data": [
+        {
+          "text": "How do I reset the pin number on my banking card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "46a0280b-3575-4127-a0e0-1e65a6e43b58",
+      "data": [
+        {
+          "text": "bank card pin reset"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "db1e4b76-23bb-4afc-903a-85770a6b365e",
+      "data": [
+        {
+          "text": "reset pin on bank card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c76204cd-473d-4365-8115-533674cc2bf6",
+      "data": [
+        {
+          "text": "Can you tell me how I can reset the pin code of my bank card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6e49473a-ac33-4f22-ba1f-d24ff185dcee",
+      "data": [
+        {
+          "text": "Can you tell me how I can reset the pin code of my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
       "id": "56e511cd-8a01-4307-889b-25fbf0a18c2a",
       "data": [
         {
@@ -192,6 +280,12 @@
           "dataType": "@sys.given-name",
           "name": "given-name",
           "value": "$given-name",
+          "isList": false
+        },
+        {
+          "dataType": "@Credit_Card_Type",
+          "name": "Credit_Card_Type",
+          "value": "$Credit_Card_Type",
           "isList": false
         }
       ],

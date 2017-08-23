@@ -1,6 +1,67 @@
 {
   "userSays": [
     {
+      "id": "296f00f9-2ea3-4434-94bf-6711eca28b86",
+      "data": [
+        {
+          "text": "Contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "54806885-865a-4411-b4c3-d9dab5daa228",
+      "data": [
+        {
+          "text": "Contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b9d2cc92-16cb-44fa-a2a3-c0b27b915fb9",
+      "data": [
+        {
+          "text": "Have you ever heard about "
+        },
+        {
+          "text": "contactless",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        },
+        {
+          "text": " paying?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "10505263-c8ac-4ad2-816f-ddab8115f515",
+      "data": [
+        {
+          "text": "NFC",
+          "alias": "Card_Activation_Reason",
+          "meta": "@Card_Activation_Reason",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
       "id": "68ea4cfb-5288-4f16-b646-3957154306e2",
       "data": [
         {
@@ -326,7 +387,7 @@
           "lifespan": 5
         },
         {
-          "name": "contactless_0-followup",
+          "name": "ctx_cl_order_new",
           "parameters": {},
           "lifespan": 3
         }

@@ -1,6 +1,35 @@
 {
   "userSays": [
     {
+      "id": "c38856ef-a560-4e30-9887-bdb4b1cbcf63",
+      "data": [
+        {
+          "text": "Can I also ask about tariffs?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "2a7f274d-e2b2-4358-8f5f-2ab8faf688b4",
+      "data": [
+        {
+          "text": "When using a bank card in an atm in "
+        },
+        {
+          "text": "China",
+          "alias": "UA_Countries_Non_Europe",
+          "meta": "@UA_Countries_Non_Europe",
+          "userDefined": false
+        },
+        {
+          "text": " which one is cheapest?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
       "id": "cd80fc04-353b-45d0-b892-e6e2777e9868",
       "data": [
         {

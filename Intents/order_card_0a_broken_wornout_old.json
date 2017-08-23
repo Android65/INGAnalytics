@@ -1,6 +1,16 @@
 {
   "userSays": [
     {
+      "id": "62807d71-ca35-4175-9ffc-5b1a0652d3ba",
+      "data": [
+        {
+          "text": "My card does not work correctly. Could you send me a new one"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
       "id": "a4a41e52-b3b9-4ed2-90b9-7014c848c106",
       "data": [
         {

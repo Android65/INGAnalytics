@@ -1,0 +1,104 @@
+{
+  "userSays": [
+    {
+      "id": "4fc2ebef-7b0f-42a8-a278-3fbd50730153",
+      "data": [
+        {
+          "text": "activate my card"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "43148bca-a21a-46b2-9fcd-1ca3e8ecbe5d",
+      "data": [
+        {
+          "text": "Can I make "
+        },
+        {
+          "text": "payments",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " over there?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "74b8ee8d-c6be-4492-8da1-7305e2fc7bad",
+      "data": [
+        {
+          "text": "Will it be possible to pay there?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d7266de8-ad1d-48fa-891c-9010552f4b5a",
+      "data": [
+        {
+          "text": "Will my card work over there?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "11f1c290-84c5-4f0c-9187-d8547a34d2c1",
+      "data": [
+        {
+          "text": "Can I use my cards there?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c3fc1fc7-34f9-4a71-a605-ae222639a643",
+      "data": [
+        {
+          "text": "I want to use my cards there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ebbcede2-0f2c-46e1-85f1-551f18f91361",
+  "name": "_Generic_Abroad_1_Use_Cards",
+  "auto": true,
+  "contexts": [
+    "ctx_generic_abroad"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "fireevent:useabroad",
+      "affectedContexts": [
+        {
+          "name": "ctx_generic_abroad",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

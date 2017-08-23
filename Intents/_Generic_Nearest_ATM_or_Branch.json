@@ -1,7 +1,68 @@
 {
   "userSays": [
     {
-      "id": "63b34511-b709-41d4-a607-2fddf04cd009",
+      "id": "967a9d8a-f088-4eef-b57a-66514d081d78",
+      "data": [
+        {
+          "text": "Can you tell me the "
+        },
+        {
+          "text": "phone",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " number of my "
+        },
+        {
+          "text": "branch",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "766d4825-f328-4de1-97fb-de0b69dd48c2",
+      "data": [
+        {
+          "text": "Can you give me the telephone number of the ING office"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a1ba2f32-c971-4df5-9e53-07fa22acc886",
+      "data": [
+        {
+          "text": "Can you give me the number of my "
+        },
+        {
+          "text": "branch",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a1b92a49-75e0-48d7-9bb2-f7cd3ce8fb89",
+      "data": [
+        {
+          "text": "Can you look up the telephone number of the ING office?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "52324483-46dc-4ca0-86a2-2d8fd4e38312",
       "data": [
         {
           "text": "Where can I find an ATM"
@@ -11,15 +72,14 @@
       "count": 1
     },
     {
-      "id": "b19fcc33-81cc-4d9c-a157-9e24fd48dccb",
+      "id": "91da74d2-5540-4f13-b2d8-f59733a57dc0",
       "data": [
         {
           "text": "where can I find a "
         },
         {
           "text": "branch",
-          "alias": "AssistanceType",
-          "meta": "@AssistanceType",
+          "meta": "@sys.ignore",
           "userDefined": false
         }
       ],
@@ -282,14 +342,7 @@
     {
       "resetContexts": false,
       "affectedContexts": [],
-      "parameters": [
-        {
-          "dataType": "@AssistanceType",
-          "name": "AssistanceType",
-          "value": "$AssistanceType",
-          "isList": false
-        }
-      ],
+      "parameters": [],
       "messages": [
         {
           "type": 0,

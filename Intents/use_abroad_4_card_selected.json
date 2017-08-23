@@ -47,7 +47,7 @@
         {
           "name": "ctx_ua_final_confirmation",
           "parameters": {},
-          "lifespan": 5
+          "lifespan": 3
         }
       ],
       "parameters": [

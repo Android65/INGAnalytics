@@ -1,0 +1,47 @@
+{
+  "userSays": [
+    {
+      "id": "933d6ebf-a152-4de6-a57b-6e9fa2ac7cf7",
+      "data": [
+        {
+          "text": "I like disco"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "f9c5ecdd-4b7a-4837-9f95-32341c350971",
+      "data": [
+        {
+          "text": "Do you like disco?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c5ffb801-e5e9-40b0-92fc-7a5f4d4093e3",
+  "name": "_Generic_Disco",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I used to be a real disco queen, but now I settled down and I only answer questions about cards ;-)"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

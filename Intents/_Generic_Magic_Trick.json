@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "40fb5811-b1ff-4349-8cd2-09dae8632ab1",
+      "data": [
+        {
+          "text": "Where is the magic?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ab6db1e7-26db-4fb0-a553-0823461348cd",
+      "data": [
+        {
+          "text": "Can you do a magic trick"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fc48a9d6-1549-4f06-852f-a2a75ccc839d",
+      "data": [
+        {
+          "text": "Do you know any magic?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5b3d13a9-78e3-4795-89ea-ee71d80c2444",
+      "data": [
+        {
+          "text": "Can you do any tricks?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "42ebd33a-e5d5-45e8-afa5-a494722dde56",
+      "data": [
+        {
+          "text": "Do a magic trick"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "c76761be-5392-48b2-a388-7cba16fb2975",
+  "name": "_Generic_Magic_Trick",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I am a robot that is able to answer your questions 24/7. I AM the magic trick ;-)"
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,6 +1,96 @@
 {
   "userSays": [
     {
+      "id": "7a985608-aa0c-4bc0-8d69-fdbb1f13948b",
+      "data": [
+        {
+          "text": "It\u0027s okay"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cb9b13c0-04a2-4711-b3b0-645715932dba",
+      "data": [
+        {
+          "text": "U2"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "582ce3f1-bef4-4ad9-bcfd-042d5bd7efcb",
+      "data": [
+        {
+          "text": "I have no more questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "243522ea-f786-4176-8892-4533af868411",
+      "data": [
+        {
+          "text": "I have no questions"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "982bddac-b674-4ec8-8f31-8829a67193d8",
+      "data": [
+        {
+          "text": "I want to to stop this conversation"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "950c6343-880c-4642-8345-1bb12fb1983f",
+      "data": [
+        {
+          "text": "I want to close this conversation"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6d2d6146-1245-405b-97a0-6ecc38a608c9",
+      "data": [
+        {
+          "text": "No Marie you are simply perfect!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "ce03b014-35ce-45ee-bf47-ea7f9b4a38f3",
+      "data": [
+        {
+          "text": "I\u0027m good like that"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "22cf9fe0-a045-472e-ad9f-c4b049315a5b",
+      "data": [
+        {
+          "text": "You too!"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
       "id": "8991f037-d6af-44e5-a97e-2def2a4a912a",
       "data": [
         {
@@ -194,7 +284,7 @@
       "defaultResponsePlatforms": {}
     }
   ],
-  "priority": 500000,
+  "priority": 250000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,

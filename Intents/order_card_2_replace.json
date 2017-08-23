@@ -114,9 +114,5 @@
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
-  "events": [
-    {
-      "name": "orderreplacementcard"
-    }
-  ]
+  "events": []
 }

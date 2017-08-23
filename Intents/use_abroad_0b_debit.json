@@ -1,6 +1,27 @@
 {
   "userSays": [
     {
+      "id": "93bbda14-b66e-412b-b8f3-549c31c146da",
+      "data": [
+        {
+          "text": "maestro",
+          "alias": "Debit_Card_Type",
+          "meta": "@Debit_Card_Type",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "outside of Europe",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
       "id": "a03ca38f-7f84-4f45-a29d-68629ed80eef",
       "data": [
         {

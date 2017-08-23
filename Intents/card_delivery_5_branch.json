@@ -47,7 +47,7 @@
     }
   ],
   "id": "4a26a8f8-8efd-46dc-9cd3-63e0891b56c6",
-  "name": "card_delivery_5_branch_Timing_indication",
+  "name": "card_delivery_5_branch",
   "auto": true,
   "contexts": [
     "ctx_card_delivery",
@@ -61,7 +61,7 @@
         {
           "name": "ctx_card_delivery",
           "parameters": {},
-          "lifespan": 5
+          "lifespan": 0
         },
         {
           "name": "ctx_cd_wait_branch_icc",
@@ -69,9 +69,9 @@
           "lifespan": 0
         },
         {
-          "name": "ctx_end_",
+          "name": "ctx_end_of_conversation",
           "parameters": {},
-          "lifespan": 5
+          "lifespan": 3
         }
       ],
       "parameters": [

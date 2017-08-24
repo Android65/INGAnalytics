@@ -262,8 +262,7 @@ class Analysis:
         rndict = usecasedict["Unblock card rn"]["Intents"]
         #This merges unblock card ry and rn into unblock card
         usecasedict["Unblock card"]["Intents"] = {key: value + rydict[key] + rndict[key] for key, value in usecasedict["Unblock card"]["Intents"].items()}
-        print("OKAY")
-        print(usecasedict)
+    
         return usecasedict
 
 

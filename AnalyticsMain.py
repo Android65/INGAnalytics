@@ -4,9 +4,9 @@ import pickle
 from Person import Person
 from Analysis import Analysis
 import re
-from concurrent.futures import ThreadPoolExecutor
 
-STARTDATE = 20170808
+
+STARTDATE = 20170824
 DEBUG = False
 '''
 Person
@@ -75,25 +75,24 @@ if not DEBUG:
     count = sum(len(files) for r,d,files in os.walk(LOGDIR))
     print(count)
     current = 1
-    with ThreadPoolExecutor(max_workers=1) as tp:
-        for root,dir,files in os.walk(LOGDIR):
-            # This is a quick and hacky way to reject folders that are earlier than our start date, and to reject folders
-            # with a different kind of name
-            try:
-                if int(root[-8:]) < STARTDATE:
-                    continue
-            except:
+    for root,dir,files in os.walk(LOGDIR):
+        # This is a quick and hacky way to reject folders that are earlier than our start date, and to reject folders
+        # with a different kind of name
+        try:
+            if int(root[-8:]) < STARTDATE:
                 continue
-            for filename in files:
-                #Discards non txt files
-                if ".txt" not in filename:
-                    continue
-                with open(os.path.join(root,filename),"rb") as data_file:
-                    data = json.load(data_file)
-                    for key,element in data.items():
-                        personList = tp.submit(checkAndAdd, personList, element)
-                current += 1
-                print("Progress:"+str((current*100/count))+"%")
+        except:
+            continue
+        for filename in files:
+            #Discards non txt files
+            if ".txt" not in filename:
+                continue
+            with open(os.path.join(root,filename),"rb") as data_file:                    
+                data = json.load(data_file)
+                for key,element in data.items():
+                    personList = checkAndAdd(personList, element)
+            current += 1
+            print("Progress:"+str((current*100/count))+"%")
     pickle.dump(personList,open("personlist.pickle","wb"))
 
 

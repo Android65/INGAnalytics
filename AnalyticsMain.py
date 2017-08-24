@@ -7,7 +7,7 @@ import re
 from concurrent.futures import ThreadPoolExecutor
 
 STARTDATE = 20170808
-DEBUG = True
+DEBUG = False
 '''
 Person
     ID
@@ -100,6 +100,7 @@ if not DEBUG:
 #For analysis, we build a list on three different levels: Persons,Conversations and Utterances
 #go = input("Press Enter if you want to analyse")
 #if go == "": DEBUG = True
+DEBUG = True
 if DEBUG:
     personList = pickle.load(open("personList.pickle","rb"))
     conversationList = []

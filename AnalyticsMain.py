@@ -6,8 +6,8 @@ from Analysis import Analysis
 import re
 
 
-STARTDATE = 20170824
-DEBUG = False
+STARTDATE = 20170827
+DEBUG = True
 '''
 Person
     ID

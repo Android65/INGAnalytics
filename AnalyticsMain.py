@@ -5,8 +5,8 @@ from Person import Person
 from Analysis import Analysis
 import re
 
-STARTDATE = 20170827
-DEBUG = False
+STARTDATE = 20170830
+DEBUG = True
 '''
 Person
     ID
@@ -28,8 +28,9 @@ def checkAndAdd(personList,newPerson):
             except Exception as e:
                 print("-----------------------------")
                 print("ERROR")
-                print("Exception: "+ e)
-                print("Json:" + newPerson)
+                print("Exception: "+ str(e))
+                print("Json:")
+                print(newPerson)
                 print("-----------------------------")
     # If the person is not already in the list add him by calling the Person constructor and passing the user parameters
     try:
@@ -37,8 +38,9 @@ def checkAndAdd(personList,newPerson):
     except Exception as e:
         print("-----------------------------")
         print("ERROR")
-        print("Exception: " + e)
-        print("Json:" + newPerson)
+        print("Exception: "+ str(e))
+        print("Json:")
+        print(newPerson)
         print("-----------------------------")
 
     return personList

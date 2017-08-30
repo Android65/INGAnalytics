@@ -35,9 +35,9 @@ class Analysis:
 
     def checkDate(self,uttTimeEpoch):
         pattern = '%Y%m%d'
-        minEpoch = int(time.mktime(time.strptime(self.startDate, pattern)))
+        minEpoch = int(time.mktime(time.strptime(str(self.startDate), pattern)))
         #Returns True if the date is after the start date
-        return True if minEpoch<uttTimeEpoch else False
+        return True if minEpoch*1000<uttTimeEpoch else False
 
     def save(self):
         self.wb.save("Test.xlsx")
@@ -86,8 +86,8 @@ class Analysis:
             for person in self.personlist:
                 for conversation in person.convList:
                     for utterance in conversation.utteranceList:
-                        if self.checkDate(utterance.timeStamp) is False:
-                            continue
+                        #if self.checkDate(utterance.timeStamp) is False:
+                        #    continue
                         #Format Timestamp
                         newstamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(utterance.timeStamp/1000))
                         print(newstamp)
@@ -138,8 +138,8 @@ class Analysis:
             for conversation in self.conversationlist:
                 conversation.utteranceList.sort(key=lambda x: x.timeStamp, reverse=False)
                 #Checks for start date
-                if self.checkDate(conversation.utteranceList[0].timeStamp) is False:
-                    continue
+                #if self.checkDate(conversation.utteranceList[0].timeStamp) is False:
+                #    continue
                 if conversation.utteranceList[0].intentName == "Default_Fallback_Intent":
                     timestamp = time.localtime(int(conversation.utteranceList[0].timeStamp / 1000))
                     prevStamp = time.strftime('%Y-%m-%d %H:%M:%S', timestamp)
@@ -173,8 +173,8 @@ class Analysis:
                 for conversation in person.convList:
                     conversation.utteranceList.sort(key=lambda x: x.timeStamp, reverse=False)
                     # Checks for start date
-                    if self.checkDate(conversation.utteranceList[0].timeStamp) is False:
-                        continue
+                    #if self.checkDate(conversation.utteranceList[0].timeStamp) is False:
+                    #    continue
                     intentList = []
                     for utterance in conversation.utteranceList:
                         intentList.append(utterance.intentName)
@@ -281,8 +281,6 @@ class Analysis:
     
         return usecasedict
 
-
-
     def categorizeIntents(self):
         generalUseCaseContextList = ["ctx_activate_card", "ctx_sms_authentication", "ctx_card_delivery",
                                      "ctx_card_stop",
@@ -379,43 +377,13 @@ class Analysis:
 
         return finaldict
 
-
-
-    def countUsecases(self):
-        pass
-
-    def countIntents(self):
-        pass
-
-    def countWrong(self):
-        pass
-
-    def analyseConversations(self):
-        pass
-
-    def getConvDurations(self):
-        pass
-
-    def getConvMessages(self):
-        pass
-
-    def getConvExits(self):
-        pass
-
-    def getExitPercentage(self,exits):
-        pass
-
-    def getTriggeredUsecases(self):
-        pass
-
-    def getFallbackConvs(self):
-        pass
-
     def getPersons(self):
         for person in self.personlist:
             print(person.fName)
             print(person.lName)
             print("-------------------")
+
+
 '''
     def cleanNetworkEdges(self,intentlist):
         for index, item in enumerate(intentlist):
@@ -536,13 +504,3 @@ class Analysis:
         self.visualizeNetwork(G,pos)
 
 '''
-
-
-
-
-
-
-
-
-
-    #TODO: method to get the number of users grouped by week,country,bot,language

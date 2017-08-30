@@ -34,7 +34,7 @@ class Analysis:
         return fName+" "+lName
 
     def checkDate(self,uttTimeEpoch):
-        pattern = '%d%m%Y'
+        pattern = '%Y%m%d'
         minEpoch = int(time.mktime(time.strptime(self.startDate, pattern)))
         #Returns True if the date is after the start date
         return True if minEpoch<uttTimeEpoch else False
@@ -89,7 +89,6 @@ class Analysis:
                         if self.checkDate(utterance.timeStamp) is False:
                             continue
                         #Format Timestamp
-                        print(utterance.timeStamp)
                         newstamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(utterance.timeStamp/1000))
                         print(newstamp)
                         #Format name

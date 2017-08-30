@@ -13,13 +13,14 @@ import csv
 
 
 class Analysis:
-    def __init__(self,personlist,conversationlist,utterancelist,usecasedict=None):
+    def __init__(self,personlist,conversationlist,utterancelist,startDate,usecasedict=None):
         self.personlist = personlist
         self.conversationlist = conversationlist
         self.utterancelist = utterancelist
         self.usecasedict = usecasedict
         self.wb = Workbook()
         self.conversationIDList = []
+        self.startDate = startDate
 
     #This bundles all Utterance analysis methods, this method will also generate the JSON file for the frontend
     def analyseUtterances(self):
@@ -31,6 +32,12 @@ class Analysis:
         fName = str(fName) if fName is not None else ""
         lName = str(lName) if lName is not None else ""
         return fName+" "+lName
+
+    def checkDate(self,uttTimeEpoch):
+        pattern = '%d%m%Y'
+        minEpoch = int(time.mktime(time.strptime(self.startDate, pattern)))
+        #Returns True if the date is after the start date
+        return True if minEpoch<uttTimeEpoch else False
 
     def save(self):
         self.wb.save("Test.xlsx")
@@ -79,8 +86,12 @@ class Analysis:
             for person in self.personlist:
                 for conversation in person.convList:
                     for utterance in conversation.utteranceList:
+                        if self.checkDate(utterance.timeStamp) is False:
+                            continue
                         #Format Timestamp
+                        print(utterance.timeStamp)
                         newstamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(utterance.timeStamp/1000))
+                        print(newstamp)
                         #Format name
                         name = self.formatName(person.fName,person.lName)
                         #Format replies
@@ -127,6 +138,9 @@ class Analysis:
             writer = csv.writer(csvfile, delimiter=';', quotechar='|', quoting=csv.QUOTE_MINIMAL)
             for conversation in self.conversationlist:
                 conversation.utteranceList.sort(key=lambda x: x.timeStamp, reverse=False)
+                #Checks for start date
+                if self.checkDate(conversation.utteranceList[0].timeStamp) is False:
+                    continue
                 if conversation.utteranceList[0].intentName == "Default_Fallback_Intent":
                     timestamp = time.localtime(int(conversation.utteranceList[0].timeStamp / 1000))
                     prevStamp = time.strftime('%Y-%m-%d %H:%M:%S', timestamp)
@@ -159,6 +173,9 @@ class Analysis:
             for person in self.personlist:
                 for conversation in person.convList:
                     conversation.utteranceList.sort(key=lambda x: x.timeStamp, reverse=False)
+                    # Checks for start date
+                    if self.checkDate(conversation.utteranceList[0].timeStamp) is False:
+                        continue
                     intentList = []
                     for utterance in conversation.utteranceList:
                         intentList.append(utterance.intentName)

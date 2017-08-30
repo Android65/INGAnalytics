@@ -5,9 +5,8 @@ from Person import Person
 from Analysis import Analysis
 import re
 
-
 STARTDATE = 20170827
-DEBUG = True
+DEBUG = False
 '''
 Person
     ID
@@ -23,10 +22,25 @@ LOGDIR = "T:\\Marie\\Log\\Production\\MiddleMan_IN"
 def checkAndAdd(personList,newPerson):
     for persons in personList:
         if newPerson["user"]["fbid"] == persons.id:
-            persons.parseConvDict(newPerson["messaging"])
-            return personList
+            try:
+                persons.parseConvDict(newPerson["messaging"])
+                return personList
+            except Exception as e:
+                print("-----------------------------")
+                print("ERROR")
+                print("Exception: "+ e)
+                print("Json:" + newPerson)
+                print("-----------------------------")
     # If the person is not already in the list add him by calling the Person constructor and passing the user parameters
-    personList.append(Person(convDict=newPerson["messaging"],personDict=newPerson["user"]))
+    try:
+        personList.append(Person(convDict=newPerson["messaging"],personDict=newPerson["user"]))
+    except Exception as e:
+        print("-----------------------------")
+        print("ERROR")
+        print("Exception: " + e)
+        print("Json:" + newPerson)
+        print("-----------------------------")
+
     return personList
 
 
@@ -75,6 +89,7 @@ if not DEBUG:
     count = sum(len(files) for r,d,files in os.walk(LOGDIR))
     print(count)
     current = 1
+
     for root,dir,files in os.walk(LOGDIR):
         # This is a quick and hacky way to reject folders that are earlier than our start date, and to reject folders
         # with a different kind of name
@@ -111,7 +126,7 @@ if DEBUG:
                 utteranceList.append(utterance)
 
     intentdict = buildIntentDict()
-    a = Analysis(personlist=personList,conversationlist=conversationList,utterancelist=utteranceList,usecasedict=intentdict)
+    a = Analysis(personlist=personList,conversationlist=conversationList,utterancelist=utteranceList,usecasedict=intentdict,startDate=STARTDATE)
     a.getConversationsExcel()
     a.getFallbackConversationsExcel()
     a.getFailedConversationsExcel()

@@ -19,7 +19,7 @@ class Analysis:
         self.utterancelist = utterancelist
         self.usecasedict = usecasedict
         self.wb = Workbook()
-        self.conversationIDList = []
+        self.conversationIDDict = {}
         self.startDate = startDate
 
     #This bundles all Utterance analysis methods, this method will also generate the JSON file for the frontend
@@ -86,8 +86,8 @@ class Analysis:
             for person in self.personlist:
                 for conversation in person.convList:
                     for utterance in conversation.utteranceList:
-                        #if self.checkDate(utterance.timeStamp) is False:
-                        #    continue
+                        if self.checkDate(utterance.timeStamp) is False:
+                            continue
                         #Format Timestamp
                         newstamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(utterance.timeStamp/1000))
                         print(newstamp)
@@ -110,11 +110,12 @@ class Analysis:
         #Sort entries by conversation ID
         templist.sort(key=lambda x: x[2])
         #Build Excel and list holding locations of each conversationID
-        convID = 0
+        convID = -1
         for idx,entry in enumerate(templist):
-            if entry[2] >= convID:
-                self.conversationIDList.append(idx+2)
-                convID += 1
+            if entry[2] > convID:
+                convID = entry[2]
+                self.conversationIDDict[convID] = idx+2
+
             wb1.append(entry)
         self.excelLayout(wb1,85)
 
@@ -123,7 +124,7 @@ class Analysis:
         for row in workbook.iter_rows(row_offset=1):
             if row[idlocation].value is None:
                 break
-            rowindex = self.conversationIDList[int(row[idlocation].value)]
+            rowindex = self.conversationIDDict[int(row[idlocation].value)]
             link = "Test.xlsx#Conversations!C" + str(rowindex)
             row[idlocation].hyperlink = (link)
 
@@ -253,7 +254,6 @@ class Analysis:
         jumpTupleList = []
         for eventname in set(actiondict).intersection(eventdict):
             jumpTupleList.append((actiondict[eventname],eventdict[eventname]))
-        print(jumpTupleList)
 
         # Now we go over all the jumps and check for internal jumps
         for jumpTuple in jumpTupleList:

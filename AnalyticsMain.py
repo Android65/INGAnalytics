@@ -5,7 +5,7 @@ from Person import Person
 from Analysis import Analysis
 import re
 
-STARTDATE = 20170830
+STARTDATE = 20170824
 DEBUG = True
 '''
 Person
@@ -105,9 +105,16 @@ if not DEBUG:
             if ".txt" not in filename:
                 continue
             with open(os.path.join(root,filename),"rb") as data_file:                    
+                try:
                 data = json.load(data_file)
                 for key,element in data.items():
                     personList = checkAndAdd(personList, element)
+                except Exception as e:
+                    print("----------------------------")
+                    print("ERROR")
+                    print(e)
+                    print(filename)
+                    print("----------------------------")
             current += 1
             print("Progress:"+str((current*100/count))+"%")
     pickle.dump(personList,open("personlist.pickle","wb"))

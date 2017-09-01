@@ -86,8 +86,8 @@ class Analysis:
             for person in self.personlist:
                 for conversation in person.convList:
                     for utterance in conversation.utteranceList:
-                        if self.checkDate(utterance.timeStamp) is False:
-                            continue
+                        #if self.checkDate(utterance.timeStamp) is False:
+                        #    continue
                         #Format Timestamp
                         newstamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(utterance.timeStamp/1000))
                         print(newstamp)

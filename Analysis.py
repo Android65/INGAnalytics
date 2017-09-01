@@ -86,11 +86,10 @@ class Analysis:
             for person in self.personlist:
                 for conversation in person.convList:
                     for utterance in conversation.utteranceList:
-                        #if self.checkDate(utterance.timeStamp) is False:
-                        #    continue
+                        if self.checkDate(utterance.timeStamp) is False:
+                            continue
                         #Format Timestamp
                         newstamp = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(utterance.timeStamp/1000))
-                        print(newstamp)
                         #Format name
                         name = self.formatName(person.fName,person.lName)
                         #Format replies
@@ -139,8 +138,8 @@ class Analysis:
             for conversation in self.conversationlist:
                 conversation.utteranceList.sort(key=lambda x: x.timeStamp, reverse=False)
                 #Checks for start date
-                #if self.checkDate(conversation.utteranceList[0].timeStamp) is False:
-                #    continue
+                if self.checkDate(conversation.utteranceList[0].timeStamp) is False:
+                    continue
                 if conversation.utteranceList[0].intentName == "Default_Fallback_Intent":
                     timestamp = time.localtime(int(conversation.utteranceList[0].timeStamp / 1000))
                     prevStamp = time.strftime('%Y-%m-%d %H:%M:%S', timestamp)
@@ -174,8 +173,8 @@ class Analysis:
                 for conversation in person.convList:
                     conversation.utteranceList.sort(key=lambda x: x.timeStamp, reverse=False)
                     # Checks for start date
-                    #if self.checkDate(conversation.utteranceList[0].timeStamp) is False:
-                    #    continue
+                    if self.checkDate(conversation.utteranceList[0].timeStamp) is False:
+                        continue
                     intentList = []
                     for utterance in conversation.utteranceList:
                         intentList.append(utterance.intentName)
@@ -270,7 +269,6 @@ class Analysis:
                         if element in usecasedict[usecase]["Intents"]["Start"]:
                             usecasedict[usecase]["Intents"]["End"].append(element)
 
-        print(usecasedict)
         return usecasedict
 
     def mergeOrderCardIntent(self,usecasedict):

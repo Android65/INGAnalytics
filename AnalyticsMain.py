@@ -5,8 +5,8 @@ from Person import Person
 from Analysis import Analysis
 import re
 
-STARTDATE = 20170824
-DEBUG = False
+STARTDATE = 20170829
+DEBUG = True
 '''
 Person
     ID
@@ -17,7 +17,8 @@ Conversation
     [Utterance]
 '''
 dir = os.getcwd()
-LOGDIR = "T:\\Marie\\Log\\Production\\MiddleMan_IN"
+LOGDIR = "C:\\Users\\demeyde\\Documents\\Craftworkz\\INGAnalytics\\Logs"
+#LOGDIR = "T:\\Marie\\Log\\Production\\MiddleMan_IN"
 
 def checkAndAdd(personList,newPerson):
     for persons in personList:
@@ -27,7 +28,7 @@ def checkAndAdd(personList,newPerson):
                 return personList
             except Exception as e:
                 print("-----------------------------")
-                print("ERROR")
+                print("ERROR PARSING JSON")
                 print("Exception: "+ str(e))
                 print("Json:")
                 print(newPerson)
@@ -37,7 +38,7 @@ def checkAndAdd(personList,newPerson):
         personList.append(Person(convDict=newPerson["messaging"],personDict=newPerson["user"]))
     except Exception as e:
         print("-----------------------------")
-        print("ERROR")
+        print("ERROR PARSING JSON")
         print("Exception: "+ str(e))
         print("Json:")
         print(newPerson)
@@ -111,7 +112,7 @@ if not DEBUG:
                         personList = checkAndAdd(personList, element)
             except Exception as e:
                 print("----------------------------")
-                print("ERROR")
+                print("ERROR LOADING FILE")
                 print(e)
                 print(filename)
                 print("----------------------------")
